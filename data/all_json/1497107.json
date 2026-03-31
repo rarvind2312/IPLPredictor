@@ -1,0 +1,5706 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-08-28",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "St Martin",
+    "dates": [
+      "2025-08-28"
+    ],
+    "event": {
+      "name": "CWC Challenge League",
+      "match_number": 26
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "officials": {
+      "match_referees": [
+        "GF Labrooy"
+      ],
+      "reserve_umpires": [
+        "M Prabhudesa"
+      ],
+      "umpires": [
+        "DH Mclean",
+        "M Jameson"
+      ]
+    },
+    "outcome": {
+      "winner": "Jersey",
+      "by": {
+        "runs": 160
+      }
+    },
+    "overs": 50,
+    "player_of_match": [
+      "AM Tribe"
+    ],
+    "players": {
+      "Jersey": [
+        "H Carlyon",
+        "NA Greenwood",
+        "AM Tribe",
+        "JAD Lawrenson",
+        "ZM Tribe",
+        "JW Jenner",
+        "JE Dunford",
+        "J Sumerauer",
+        "DG Blampied",
+        "CW Perchard",
+        "G Richardson"
+      ],
+      "Papua New Guinea": [
+        "S Bau",
+        "HGV Vare",
+        "V Guba",
+        "A Vala",
+        "Boio Ray",
+        "Patrick Nou",
+        "J Kila",
+        "D Ravu",
+        "A Nao",
+        "KV Morea",
+        "M Charlie"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Nao": "4d1ec7eb",
+        "A Vala": "72e60730",
+        "AM Tribe": "86f84b37",
+        "Boio Ray": "9cf15e95",
+        "CW Perchard": "9f998ed8",
+        "D Ravu": "053f3ce3",
+        "DG Blampied": "d8976cb7",
+        "DH Mclean": "281d4749",
+        "G Richardson": "5ca0e315",
+        "GF Labrooy": "8e088dbc",
+        "H Carlyon": "42bf1b7d",
+        "HGV Vare": "98299b67",
+        "J Kila": "d996ba33",
+        "J Sumerauer": "0b581ed6",
+        "JAD Lawrenson": "c810b349",
+        "JE Dunford": "89a7dd4a",
+        "JW Jenner": "32a8161e",
+        "KV Morea": "270bf7e2",
+        "M Charlie": "4631be71",
+        "M Jameson": "bdf1ffe3",
+        "M Prabhudesa": "c36bcd1e",
+        "NA Greenwood": "7ca68967",
+        "PB Gouge": "fe2432c4",
+        "Patrick Nou": "75657526",
+        "S Bau": "9a95bebb",
+        "V Guba": "bec6de25",
+        "ZM Tribe": "96fe3e9f"
+      }
+    },
+    "season": "2025",
+    "team_type": "international",
+    "teams": [
+      "Jersey",
+      "Papua New Guinea"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Papua New Guinea"
+    },
+    "venue": "Farmers Cricket Club Ground, St Martin"
+  },
+  "innings": [
+    {
+      "team": "Jersey",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "H Carlyon",
+              "bowler": "KV Morea",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Carlyon",
+              "bowler": "KV Morea",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Carlyon",
+              "bowler": "KV Morea",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Carlyon",
+              "bowler": "KV Morea",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Carlyon",
+                  "fielders": [
+                    {
+                      "name": "D Ravu"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "NA Greenwood",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NA Greenwood",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NA Greenwood",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NA Greenwood",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA Greenwood",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "NA Greenwood",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA Greenwood",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NA Greenwood",
+                  "fielders": [
+                    {
+                      "name": "S Bau"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JAD Lawrenson",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JAD Lawrenson",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JAD Lawrenson",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JAD Lawrenson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "JAD Lawrenson",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JAD Lawrenson",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JAD Lawrenson",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "ZM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ZM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ZM Tribe",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "JW Jenner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JW Jenner",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JW Jenner",
+                  "fielders": [
+                    {
+                      "name": "HGV Vare"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "A Nao",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "JE Dunford",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "JE Dunford",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "JE Dunford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Dunford",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JE Dunford",
+                  "fielders": [
+                    {
+                      "name": "Patrick Nou"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "J Sumerauer",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "J Sumerauer",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "J Sumerauer",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "J Sumerauer",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "KV Morea",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "J Sumerauer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Sumerauer",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "J Sumerauer",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Sumerauer",
+                  "fielders": [
+                    {
+                      "name": "KV Morea"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "DG Blampied",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Vala",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "A Vala",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "A Vala",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "A Nao",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "M Charlie",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "M Charlie",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "DG Blampied",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "DG Blampied",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DG Blampied",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DG Blampied",
+                  "fielders": [
+                    {
+                      "name": "HGV Vare"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CW Perchard",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CW Perchard",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CW Perchard",
+                  "fielders": [
+                    {
+                      "name": "HGV Vare"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 41,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "A Nao",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 42,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "D Ravu",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 43,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 44,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 45,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "S Bau",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Richardson",
+              "bowler": "S Bau",
+              "non_striker": "AM Tribe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 46,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 47,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "S Bau",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 48,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Tribe",
+              "bowler": "D Ravu",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 49,
+          "deliveries": [
+            {
+              "batter": "AM Tribe",
+              "bowler": "KV Morea",
+              "non_striker": "G Richardson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AM Tribe",
+                  "fielders": [
+                    {
+                      "name": "Boio Ray"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 40.1,
+          "to": 49.1,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Papua New Guinea",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "S Bau",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "J Sumerauer",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Bau",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HGV Vare",
+                  "fielders": [
+                    {
+                      "name": "J Sumerauer"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Vala",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Boio Ray",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "Patrick Nou",
+              "bowler": "CW Perchard",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "CW Perchard",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "CW Perchard",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "H Carlyon",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "H Carlyon",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Patrick Nou",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Patrick Nou",
+              "bowler": "G Richardson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Patrick Nou",
+                  "fielders": [
+                    {
+                      "name": "JW Jenner"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Kila",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Kila",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Kila",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Kila",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "J Sumerauer",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "J Sumerauer",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "G Richardson",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "G Richardson",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "DG Blampied",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "DG Blampied",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DG Blampied",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DG Blampied",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "DG Blampied",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "DG Blampied",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "NA Greenwood",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "NA Greenwood",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "NA Greenwood",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "NA Greenwood",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "NA Greenwood",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "NA Greenwood",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "DG Blampied",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DG Blampied",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DG Blampied",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DG Blampied",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "DG Blampied",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "V Guba",
+                  "fielders": [
+                    {
+                      "name": "AM Tribe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "A Nao",
+              "bowler": "DG Blampied",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "NA Greenwood",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "NA Greenwood",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Ravu",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "KV Morea",
+              "bowler": "NA Greenwood",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KV Morea",
+              "bowler": "NA Greenwood",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KV Morea",
+              "bowler": "NA Greenwood",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KV Morea",
+              "bowler": "NA Greenwood",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "A Nao",
+              "bowler": "DG Blampied",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "A Nao",
+              "bowler": "DG Blampied",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Nao",
+                  "fielders": [
+                    {
+                      "name": "PB Gouge",
+                      "substitute": true
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M Charlie",
+              "bowler": "DG Blampied",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Charlie",
+              "bowler": "DG Blampied",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Charlie",
+              "bowler": "DG Blampied",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Charlie",
+              "bowler": "DG Blampied",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "M Charlie",
+              "bowler": "NA Greenwood",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Charlie",
+              "bowler": "NA Greenwood",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Charlie",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.7,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 30.2,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 50,
+        "runs": 262
+      }
+    }
+  ]
+}

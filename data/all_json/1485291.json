@@ -1,0 +1,1849 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2025-05-16"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "group": "B"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "PS Jayaprakashdaran"
+      ],
+      "reserve_umpires": [
+        "BSP Fernando"
+      ],
+      "umpires": [
+        "LE Hannibal",
+        "UILD Wewage"
+      ]
+    },
+    "outcome": {
+      "winner": "Bloomfield Cricket and Athletic Club",
+      "by": {
+        "wickets": 7
+      }
+    },
+    "overs": 20,
+    "players": {
+      "Nugegoda Sports Welfare Club": [
+        "Pulindu Perera",
+        "Tillakaratne Sampath",
+        "NR Gunasekera",
+        "AK Perera",
+        "Kevin Perera",
+        "A Muthalib",
+        "ST Mendis",
+        "BGS Mendis",
+        "HGK Dilshan",
+        "AMCD Abeysinghe",
+        "Abdul Hakam"
+      ],
+      "Bloomfield Cricket and Athletic Club": [
+        "H Amarasinghe",
+        "RK Chandraguptha",
+        "J Liyanage",
+        "KPNM Karunanayake",
+        "LD Madushanka",
+        "M Premaratne",
+        "RS Fernando",
+        "EDBH Jayasinghe",
+        "D Samuditha",
+        "TN Guruge",
+        "JDF Vandersay"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Muthalib": "c08bdbbe",
+        "AK Perera": "c8ad0749",
+        "AMCD Abeysinghe": "49c271b5",
+        "Abdul Hakam": "de37954b",
+        "BGS Mendis": "29a1e487",
+        "BSP Fernando": "8a49883f",
+        "D Samuditha": "4770fcd4",
+        "EDBH Jayasinghe": "868345b5",
+        "H Amarasinghe": "4dac55a7",
+        "HGK Dilshan": "519a99ad",
+        "J Liyanage": "84212ffb",
+        "JDF Vandersay": "aceb7654",
+        "KPNM Karunanayake": "532cc5b8",
+        "Kevin Perera": "e88e6a14",
+        "LD Madushanka": "de063a39",
+        "LE Hannibal": "3c04e91a",
+        "M Premaratne": "7677ef70",
+        "NR Gunasekera": "88781812",
+        "PS Jayaprakashdaran": "5e6c7237",
+        "Pulindu Perera": "d33740d9",
+        "RK Chandraguptha": "f51ed6ad",
+        "RS Fernando": "24d72446",
+        "ST Mendis": "2a53d8a4",
+        "TN Guruge": "6adee1a9",
+        "Tillakaratne Sampath": "dc002962",
+        "UILD Wewage": "6a58b590"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Nugegoda Sports Welfare Club",
+      "Bloomfield Cricket and Athletic Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Bloomfield Cricket and Athletic Club"
+    },
+    "venue": "Colts Cricket Club Ground, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Nugegoda Sports Welfare Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "LD Madushanka",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "LD Madushanka",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Pulindu Perera",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "D Samuditha",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NR Gunasekera",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "AK Perera",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AK Perera",
+                  "fielders": [
+                    {
+                      "name": "KPNM Karunanayake"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "LD Madushanka",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "LD Madushanka",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "LD Madushanka",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "LD Madushanka",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Samuditha",
+              "extras": {
+                "legbyes": 4
+              },
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Kevin Perera",
+                  "fielders": [
+                    {
+                      "name": "TN Guruge"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Muthalib",
+                  "fielders": [
+                    {
+                      "name": "H Amarasinghe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "D Samuditha",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "ST Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "D Samuditha",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "D Samuditha",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "D Samuditha",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "ST Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "JDF Vandersay",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "JDF Vandersay",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "J Liyanage",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "J Liyanage",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "ST Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "JDF Vandersay",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Tillakaratne Sampath",
+                  "fielders": [
+                    {
+                      "name": "M Premaratne"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "ST Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "ST Mendis",
+              "bowler": "RS Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "RS Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ST Mendis",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ST Mendis",
+                  "fielders": [
+                    {
+                      "name": "JDF Vandersay"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HGK Dilshan",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGK Dilshan",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGK Dilshan",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HGK Dilshan",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "AMCD Abeysinghe",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "BGS Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "AMCD Abeysinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AMCD Abeysinghe",
+              "bowler": "JDF Vandersay",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AMCD Abeysinghe",
+              "bowler": "JDF Vandersay",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AMCD Abeysinghe",
+              "bowler": "JDF Vandersay",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "AMCD Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "JDF Vandersay",
+              "non_striker": "AMCD Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "AMCD Abeysinghe",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AMCD Abeysinghe",
+                  "fielders": [
+                    {
+                      "name": "TN Guruge"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Abdul Hakam",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Abdul Hakam",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "RS Fernando",
+              "non_striker": "Abdul Hakam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "RS Fernando",
+              "non_striker": "Abdul Hakam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdul Hakam",
+              "bowler": "RS Fernando",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "Abdul Hakam",
+              "bowler": "D Samuditha",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdul Hakam",
+              "bowler": "D Samuditha",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Abdul Hakam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Abdul Hakam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "D Samuditha",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "Abdul Hakam",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Abdul Hakam",
+              "bowler": "D Samuditha",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BGS Mendis",
+              "bowler": "D Samuditha",
+              "non_striker": "Abdul Hakam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdul Hakam",
+              "bowler": "D Samuditha",
+              "non_striker": "BGS Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "BGS Mendis",
+              "bowler": "RS Fernando",
+              "non_striker": "Abdul Hakam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BGS Mendis",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Bloomfield Cricket and Athletic Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "H Amarasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "H Amarasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Amarasinghe",
+                  "fielders": [
+                    {
+                      "name": "A Muthalib"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "J Liyanage",
+              "bowler": "Abdul Hakam",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "Abdul Hakam",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "Abdul Hakam",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "Abdul Hakam",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Liyanage",
+                  "fielders": [
+                    {
+                      "name": "A Muthalib"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Abdul Hakam",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Abdul Hakam",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Abdul Hakam",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Abdul Hakam",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Abdul Hakam",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Abdul Hakam",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Abdul Hakam",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Abdul Hakam",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Abdul Hakam",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "Abdul Hakam",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Abdul Hakam",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "Abdul Hakam",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "ST Mendis",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "non_boundary": true,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "ST Mendis",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "ST Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "ST Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "ST Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "ST Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "BGS Mendis",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "BGS Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "BGS Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RK Chandraguptha",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "LD Madushanka",
+              "bowler": "BGS Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LD Madushanka",
+              "bowler": "BGS Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LD Madushanka",
+              "bowler": "BGS Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "LD Madushanka",
+              "bowler": "ST Mendis",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 58
+      }
+    }
+  ]
+}

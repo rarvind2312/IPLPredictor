@@ -1,0 +1,2674 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Perth",
+    "dates": [
+      "2026-01-17"
+    ],
+    "event": {
+      "name": "Big Bash League",
+      "match_number": 39
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "David Johnston"
+      ],
+      "reserve_umpires": [
+        "ME Claydon"
+      ],
+      "tv_umpires": [
+        "Sharad Patel"
+      ],
+      "umpires": [
+        "MW Graham-Smith",
+        "SJ Nogajski"
+      ]
+    },
+    "outcome": {
+      "winner": "Perth Scorchers",
+      "by": {
+        "wickets": 6
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "JA Richardson"
+    ],
+    "players": {
+      "Melbourne Stars": [
+        "TF Rogers",
+        "SB Harper",
+        "JM Clarke",
+        "C Kellaway",
+        "MP Stoinis",
+        "HWR Cartwright",
+        "GJ Maxwell",
+        "TK Curran",
+        "MJ Swepson",
+        "Haris Rauf",
+        "PM Siddle"
+      ],
+      "Perth Scorchers": [
+        "MR Marsh",
+        "FH Allen",
+        "C Connolly",
+        "JP Inglis",
+        "AM Hardie",
+        "AJ Turner",
+        "LJ Evans",
+        "JA Richardson",
+        "L Holt",
+        "DA Payne",
+        "M Beardman"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AJ Turner": "ff1e12a0",
+        "AM Hardie": "d405c0d5",
+        "C Connolly": "fe366f34",
+        "C Kellaway": "60c28835",
+        "DA Payne": "6c79c098",
+        "David Johnston": "92cef862",
+        "FH Allen": "bf74b130",
+        "GJ Maxwell": "b681e71e",
+        "HWR Cartwright": "ab965cad",
+        "Haris Rauf": "24bb1c2f",
+        "JA Richardson": "1ee08e9a",
+        "JM Clarke": "2eca67f5",
+        "JP Inglis": "989889ff",
+        "L Holt": "21e1e7bd",
+        "LJ Evans": "1c513d54",
+        "M Beardman": "b5a12740",
+        "ME Claydon": "15101f12",
+        "MJ Swepson": "86b4bf88",
+        "MP Stoinis": "d9273ee7",
+        "MR Marsh": "3d8feaf8",
+        "MW Graham-Smith": "18aca3ce",
+        "PM Siddle": "bd93fea4",
+        "SB Harper": "a756e61a",
+        "SJ Nogajski": "9b3f9323",
+        "Sharad Patel": "8e6dd3ba",
+        "TF Rogers": "7f232d46",
+        "TK Curran": "e86754b2"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Melbourne Stars",
+      "Perth Scorchers"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Perth Scorchers"
+    },
+    "venue": "Perth Stadium"
+  },
+  "innings": [
+    {
+      "team": "Melbourne Stars",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "TF Rogers",
+              "bowler": "C Connolly",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "C Connolly",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "C Connolly",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "C Connolly",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TF Rogers",
+                  "fielders": [
+                    {
+                      "name": "M Beardman"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "C Connolly",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Clarke",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "C Connolly",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "C Connolly",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SB Harper",
+                  "fielders": [
+                    {
+                      "name": "L Holt"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "C Kellaway",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "JA Richardson",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "M Beardman",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "C Kellaway",
+              "bowler": "DA Payne",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "DA Payne",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "DA Payne",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "DA Payne",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "DA Payne",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "DA Payne",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "C Connolly",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "C Connolly",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "C Connolly",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "C Connolly",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "C Connolly",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "C Connolly",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "C Kellaway",
+              "bowler": "M Beardman",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "M Beardman",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "M Beardman",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "M Beardman",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "M Beardman",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "L Holt",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "L Holt",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "L Holt",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "L Holt",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "L Holt",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "L Holt",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "C Kellaway",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Kellaway",
+                  "fielders": [
+                    {
+                      "name": "JP Inglis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "C Connolly",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "C Connolly",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "C Connolly",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "C Connolly",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "C Connolly",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "C Connolly",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "M Beardman",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "M Beardman",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "M Beardman",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "AM Hardie",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "AM Hardie",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "DA Payne",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "DA Payne",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "DA Payne",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MP Stoinis",
+                  "fielders": [
+                    {
+                      "name": "JA Richardson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "DA Payne",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "DA Payne",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "DA Payne",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "DA Payne",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "DA Payne",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "M Beardman",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "M Beardman",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "M Beardman",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HWR Cartwright",
+                  "fielders": [
+                    {
+                      "name": "JP Inglis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TK Curran",
+              "bowler": "M Beardman",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "M Beardman",
+              "non_striker": "TK Curran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "M Beardman",
+              "non_striker": "TK Curran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "TK Curran",
+              "bowler": "DA Payne",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TK Curran",
+              "bowler": "DA Payne",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "TK Curran",
+              "bowler": "DA Payne",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TK Curran",
+              "bowler": "DA Payne",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TK Curran",
+                  "fielders": [
+                    {
+                      "name": "JA Richardson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MJ Swepson",
+              "bowler": "DA Payne",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Swepson",
+              "bowler": "DA Payne",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "JA Richardson",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "JA Richardson",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GJ Maxwell",
+                  "fielders": [
+                    {
+                      "name": "AM Hardie"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Haris Rauf",
+              "bowler": "JA Richardson",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Haris Rauf",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "JA Richardson",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "JA Richardson",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "JA Richardson",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "MJ Swepson",
+              "bowler": "DA Payne",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Swepson",
+              "bowler": "DA Payne",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Swepson",
+              "bowler": "DA Payne",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "DA Payne",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "DA Payne",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "DA Payne",
+              "non_striker": "MJ Swepson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "MJ Swepson",
+              "bowler": "JA Richardson",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MJ Swepson",
+              "bowler": "JA Richardson",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MJ Swepson",
+                  "fielders": [
+                    {
+                      "name": "JP Inglis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 15.1,
+          "to": 16.6,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Perth Scorchers",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MR Marsh",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MR Marsh",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MR Marsh",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MR Marsh",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "PM Siddle",
+              "non_striker": "MR Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MR Marsh",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "MR Marsh",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "MR Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "MR Marsh",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "MR Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MR Marsh",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "MR Marsh",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "MR Marsh",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MR Marsh",
+                  "fielders": [
+                    {
+                      "name": "GJ Maxwell"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Connolly",
+                  "fielders": [
+                    {
+                      "name": "HWR Cartwright"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "PM Siddle",
+              "non_striker": "JP Inglis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JP Inglis",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "JP Inglis",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JP Inglis",
+                  "fielders": [
+                    {
+                      "name": "SB Harper"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "Haris Rauf",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "Haris Rauf",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "MJ Swepson",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "MP Stoinis",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "MP Stoinis",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MP Stoinis",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "Haris Rauf",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "TK Curran",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "TK Curran",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "MJ Swepson",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "MJ Swepson",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "PM Siddle",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "PM Siddle",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "PM Siddle",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "Haris Rauf",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "Haris Rauf",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "Haris Rauf",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "Haris Rauf",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "PM Siddle",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "FH Allen",
+                  "fielders": [
+                    {
+                      "name": "GJ Maxwell"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "PM Siddle",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "PM Siddle",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "PM Siddle",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "PM Siddle",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "PM Siddle",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "AJ Turner",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "MJ Swepson",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "MJ Swepson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 131
+      }
+    }
+  ]
+}

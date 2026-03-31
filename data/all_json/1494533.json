@@ -1,0 +1,2326 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-11-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Adelaide",
+    "dates": [
+      "2025-11-14"
+    ],
+    "event": {
+      "name": "Women's Big Bash League",
+      "match_number": 8
+    },
+    "gender": "female",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SD Fry"
+      ],
+      "reserve_umpires": [
+        "K Miegel"
+      ],
+      "tv_umpires": [
+        "Eloise Sheridan"
+      ],
+      "umpires": [
+        "PR George",
+        "R Stewart"
+      ]
+    },
+    "outcome": {
+      "winner": "Melbourne Stars",
+      "by": {
+        "runs": 16
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "player_of_match": [
+      "MM Lanning"
+    ],
+    "players": {
+      "Melbourne Stars": [
+        "MM Lanning",
+        "R McKenna",
+        "AE Jones",
+        "A Sutherland",
+        "M Kapp",
+        "DR Gibson",
+        "KJ Garth",
+        "SK Moloney",
+        "G Prestwidge",
+        "ML Gibson",
+        "S Day"
+      ],
+      "Perth Scorchers": [
+        "BL Mooney",
+        "KM Mack",
+        "SFM Devine",
+        "FG Kemp",
+        "M Hinkley",
+        "PJ Scholfield",
+        "A King",
+        "CC Ainsworth",
+        "L Mills",
+        "AL Edgar",
+        "E Hoskin"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A King": "83558266",
+        "A Sutherland": "65d9b6b6",
+        "AE Jones": "b05e45e4",
+        "AL Edgar": "795ff893",
+        "BL Mooney": "52d1dbc8",
+        "CC Ainsworth": "4b69c598",
+        "DR Gibson": "d2763568",
+        "E Hoskin": "cd2ad878",
+        "Eloise Sheridan": "d8d43840",
+        "FG Kemp": "abc9f8a4",
+        "G Prestwidge": "c218e4e7",
+        "K Miegel": "fcef2064",
+        "KJ Garth": "0b69a844",
+        "KM Mack": "ef13bd20",
+        "L Mills": "c35a0b8a",
+        "M Hinkley": "3812165d",
+        "M Kapp": "63e3b6b3",
+        "ML Gibson": "27fa592f",
+        "MM Lanning": "27e003ce",
+        "PJ Scholfield": "588360ee",
+        "PR George": "b76e2583",
+        "R McKenna": "f7e41cd8",
+        "R Stewart": "818856af",
+        "S Day": "c3d27d76",
+        "SD Fry": "6b725ed1",
+        "SFM Devine": "de69af96",
+        "SK Moloney": "a0bc8dc1"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Melbourne Stars",
+      "Perth Scorchers"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Perth Scorchers"
+    },
+    "venue": "Karen Rolton Oval, Adelaide"
+  },
+  "innings": [
+    {
+      "team": "Melbourne Stars",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "E Hoskin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "E Hoskin",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "E Hoskin",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "E Hoskin",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "E Hoskin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "E Hoskin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "E Hoskin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "E Hoskin",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "E Hoskin",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "E Hoskin",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R McKenna",
+                  "fielders": [
+                    {
+                      "name": "KM Mack"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "AE Jones",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "AE Jones",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Mills",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Mills",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "CC Ainsworth",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "CC Ainsworth",
+              "non_striker": "AE Jones",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "AE Jones",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AE Jones",
+                  "fielders": [
+                    {
+                      "name": "BL Mooney"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "AL Edgar",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "SFM Devine",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "A King",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "A King",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "A Sutherland",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Mills",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Mills",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Sutherland",
+                  "fielders": [
+                    {
+                      "name": "M Hinkley"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M Kapp",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SFM Devine",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Mills",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Mills",
+              "non_striker": "M Kapp",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Kapp",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Kapp",
+                  "fielders": [
+                    {
+                      "name": "M Hinkley"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "DR Gibson",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "AL Edgar",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "AL Edgar",
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Mills",
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Mills",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 11.7,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Perth Scorchers",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "BL Mooney",
+              "bowler": "M Kapp",
+              "non_striker": "KM Mack",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BL Mooney",
+              "bowler": "M Kapp",
+              "non_striker": "KM Mack",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KM Mack",
+              "bowler": "M Kapp",
+              "non_striker": "BL Mooney",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KM Mack",
+              "bowler": "M Kapp",
+              "non_striker": "BL Mooney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BL Mooney",
+              "bowler": "M Kapp",
+              "non_striker": "KM Mack",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BL Mooney",
+              "bowler": "M Kapp",
+              "non_striker": "KM Mack",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "KM Mack",
+              "bowler": "KJ Garth",
+              "non_striker": "BL Mooney",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KM Mack",
+              "bowler": "KJ Garth",
+              "non_striker": "BL Mooney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BL Mooney",
+              "bowler": "KJ Garth",
+              "non_striker": "KM Mack",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KM Mack",
+              "bowler": "KJ Garth",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "BL Mooney",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BL Mooney",
+              "bowler": "KJ Garth",
+              "non_striker": "KM Mack",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BL Mooney",
+              "bowler": "KJ Garth",
+              "non_striker": "KM Mack",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BL Mooney",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "KM Mack",
+              "bowler": "M Kapp",
+              "non_striker": "SFM Devine",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KM Mack",
+              "bowler": "M Kapp",
+              "non_striker": "SFM Devine",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KM Mack",
+              "bowler": "M Kapp",
+              "non_striker": "SFM Devine",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KM Mack",
+                  "fielders": [
+                    {
+                      "name": "A Sutherland"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "FG Kemp",
+              "bowler": "M Kapp",
+              "non_striker": "SFM Devine",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SFM Devine",
+              "bowler": "M Kapp",
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FG Kemp",
+              "bowler": "M Kapp",
+              "non_striker": "SFM Devine",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "FG Kemp",
+              "bowler": "A Sutherland",
+              "non_striker": "SFM Devine",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SFM Devine",
+              "bowler": "A Sutherland",
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SFM Devine",
+              "bowler": "A Sutherland",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SFM Devine",
+              "bowler": "A Sutherland",
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SFM Devine",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "M Hinkley",
+              "bowler": "A Sutherland",
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hinkley",
+              "bowler": "A Sutherland",
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FG Kemp",
+              "bowler": "A Sutherland",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "M Hinkley",
+              "bowler": "ML Gibson",
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Hinkley",
+              "bowler": "ML Gibson",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "FG Kemp",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FG Kemp",
+              "bowler": "ML Gibson",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "FG Kemp",
+              "bowler": "ML Gibson",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "FG Kemp",
+                  "fielders": [
+                    {
+                      "name": "G Prestwidge"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "PJ Scholfield",
+              "bowler": "ML Gibson",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Hinkley",
+              "bowler": "ML Gibson",
+              "non_striker": "PJ Scholfield",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "PJ Scholfield",
+              "bowler": "R McKenna",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Hinkley",
+              "bowler": "R McKenna",
+              "non_striker": "PJ Scholfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PJ Scholfield",
+              "bowler": "R McKenna",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PJ Scholfield",
+              "bowler": "R McKenna",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PJ Scholfield",
+              "bowler": "R McKenna",
+              "non_striker": "M Hinkley",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Hinkley",
+              "bowler": "R McKenna",
+              "non_striker": "PJ Scholfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "M Hinkley",
+              "bowler": "S Day",
+              "non_striker": "PJ Scholfield",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Hinkley",
+                  "fielders": [
+                    {
+                      "name": "SK Moloney"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "A King",
+              "bowler": "S Day",
+              "non_striker": "PJ Scholfield",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A King",
+              "bowler": "S Day",
+              "non_striker": "PJ Scholfield",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A King",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "CC Ainsworth",
+              "bowler": "S Day",
+              "non_striker": "PJ Scholfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PJ Scholfield",
+              "bowler": "S Day",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "PJ Scholfield",
+              "bowler": "S Day",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PJ Scholfield",
+                  "fielders": [
+                    {
+                      "name": "DR Gibson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "CC Ainsworth",
+              "bowler": "A Sutherland",
+              "non_striker": "L Mills",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CC Ainsworth",
+              "bowler": "A Sutherland",
+              "non_striker": "L Mills",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Mills",
+              "bowler": "A Sutherland",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CC Ainsworth",
+              "bowler": "A Sutherland",
+              "non_striker": "L Mills",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Mills",
+              "bowler": "A Sutherland",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Mills",
+              "bowler": "A Sutherland",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "CC Ainsworth",
+              "bowler": "KJ Garth",
+              "non_striker": "L Mills",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Mills",
+              "bowler": "KJ Garth",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Mills",
+              "bowler": "KJ Garth",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CC Ainsworth",
+              "bowler": "KJ Garth",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "L Mills",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Mills",
+              "bowler": "KJ Garth",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Mills",
+              "bowler": "KJ Garth",
+              "non_striker": "CC Ainsworth",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Mills",
+                  "fielders": [
+                    {
+                      "name": "DR Gibson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 7.1,
+          "to": 7.6,
+          "type": "batting"
+        }
+      ],
+      "target": {
+        "overs": 9,
+        "runs": 95
+      }
+    }
+  ]
+}

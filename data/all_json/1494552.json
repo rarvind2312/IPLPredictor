@@ -1,0 +1,679 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-12-12",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Adelaide",
+    "dates": [
+      "2025-11-28"
+    ],
+    "event": {
+      "name": "Women's Big Bash League",
+      "match_number": 27
+    },
+    "gender": "female",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SJ Davis"
+      ],
+      "reserve_umpires": [
+        "K Miegel"
+      ],
+      "tv_umpires": [
+        "PR George"
+      ],
+      "umpires": [
+        "Eloise Sheridan",
+        "SE Dionysius"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 20,
+    "players": {
+      "Adelaide Strikers": [
+        "E Johnston",
+        "L Wolvaardt",
+        "M Penna",
+        "TM McGrath",
+        "TT Beaumont",
+        "BE Patterson",
+        "A Wellington",
+        "S Ecclestone",
+        "JL Barsby",
+        "T Saville",
+        "D Brown"
+      ],
+      "Sydney Thunder": [
+        "P Litchfield",
+        "G Voll",
+        "T Wilson",
+        "HC Knight",
+        "A Learoyd",
+        "L Harris",
+        "AC Jayangani",
+        "L Finn",
+        "T Peschel",
+        "S Ismail",
+        "SL Bates"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Learoyd": "1757bedf",
+        "A Wellington": "9b3bcca4",
+        "AC Jayangani": "ac56b5a7",
+        "BE Patterson": "7dfbcfff",
+        "D Brown": "2e81be88",
+        "E Johnston": "3785e30d",
+        "Eloise Sheridan": "d8d43840",
+        "G Voll": "5c30d455",
+        "HC Knight": "4ba0289e",
+        "JL Barsby": "47bcaf7a",
+        "K Miegel": "fcef2064",
+        "L Finn": "579e3965",
+        "L Harris": "36e2dc83",
+        "L Wolvaardt": "e60f81c9",
+        "M Penna": "36453b99",
+        "P Litchfield": "4e6ef14f",
+        "PR George": "b76e2583",
+        "S Ecclestone": "cdb82f1c",
+        "S Ismail": "108c4c09",
+        "SE Dionysius": "ac886e6f",
+        "SJ Davis": "bc71b0b2",
+        "SL Bates": "0816fb1e",
+        "T Peschel": "923402d8",
+        "T Saville": "2ef9bdcb",
+        "T Wilson": "32100b2d",
+        "TM McGrath": "ca5acfa4",
+        "TT Beaumont": "b2664905"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Adelaide Strikers",
+      "Sydney Thunder"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Sydney Thunder"
+    },
+    "venue": "Adelaide Oval"
+  },
+  "innings": [
+    {
+      "team": "Adelaide Strikers",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "E Johnston",
+              "bowler": "SL Bates",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "SL Bates",
+              "non_striker": "E Johnston",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "E Johnston",
+              "bowler": "SL Bates",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "SL Bates",
+              "non_striker": "E Johnston",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "SL Bates",
+              "non_striker": "E Johnston",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "SL Bates",
+              "non_striker": "E Johnston",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "E Johnston",
+              "bowler": "S Ismail",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "E Johnston",
+                  "fielders": [
+                    {
+                      "name": "HC Knight"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M Penna",
+              "bowler": "S Ismail",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "S Ismail",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "S Ismail",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Penna",
+              "bowler": "S Ismail",
+              "non_striker": "L Wolvaardt",
+              "review": {
+                "by": "Sydney Thunder",
+                "umpire": "Eloise Sheridan",
+                "batter": "M Penna",
+                "decision": "struck down",
+                "type": "wicket",
+                "umpires_call": true
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Penna",
+              "bowler": "S Ismail",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "AC Jayangani",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Penna",
+              "bowler": "AC Jayangani",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "AC Jayangani",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Penna",
+              "bowler": "AC Jayangani",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Penna",
+              "bowler": "AC Jayangani",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "AC Jayangani",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "L Finn",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "L Finn",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "L Finn",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Penna",
+              "bowler": "L Finn",
+              "non_striker": "L Wolvaardt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "L Finn",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Wolvaardt",
+                  "fielders": [
+                    {
+                      "name": "S Ismail"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TM McGrath",
+              "bowler": "L Finn",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "M Penna",
+              "bowler": "G Voll",
+              "non_striker": "TM McGrath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TM McGrath",
+              "bowler": "G Voll",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TM McGrath",
+              "bowler": "G Voll",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TM McGrath",
+              "bowler": "G Voll",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TM McGrath",
+              "bowler": "G Voll",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TM McGrath",
+              "bowler": "G Voll",
+              "non_striker": "M Penna",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Sydney Thunder",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Ecclestone",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Ecclestone",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Ecclestone",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Ecclestone",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Ecclestone",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "S Ecclestone",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "P Litchfield",
+              "bowler": "D Brown",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "D Brown",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "D Brown",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "D Brown",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "D Brown",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "D Brown",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "A Wellington",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Wellington",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Wellington",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Wellington",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Wellington",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 5,
+        "runs": 46
+      }
+    }
+  ]
+}

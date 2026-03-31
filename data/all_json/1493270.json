@@ -1,0 +1,2657 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-12",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Sydney",
+    "dates": [
+      "2026-01-12"
+    ],
+    "event": {
+      "name": "Big Bash League",
+      "match_number": 33
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "J Stainer"
+      ],
+      "reserve_umpires": [
+        "Sharad Patel"
+      ],
+      "tv_umpires": [
+        "Roberto Howard"
+      ],
+      "umpires": [
+        "SJ Nogajski",
+        "Troy Penman"
+      ]
+    },
+    "outcome": {
+      "winner": "Sydney Thunder",
+      "by": {
+        "wickets": 4
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "player_of_match": [
+      "CJ Green"
+    ],
+    "players": {
+      "Melbourne Renegades": [
+        "J Brown",
+        "TL Seifert",
+        "J Fraser-McGurk",
+        "Mohammad Rizwan",
+        "CP Jewell",
+        "Hassan Khan",
+        "W Sutherland",
+        "SM Elliott",
+        "GS Sandhu",
+        "JP Behrendorff",
+        "A Zampa"
+      ],
+      "Sydney Thunder": [
+        "S Konstas",
+        "M Gilkes",
+        "CT Bancroft",
+        "SW Billings",
+        "NJ Maddinson",
+        "DR Sams",
+        "DJ Willey",
+        "CJ Green",
+        "TD Andrews",
+        "R Hadley",
+        "WA Agar"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Zampa": "14f96089",
+        "CJ Green": "19b9f399",
+        "CP Jewell": "806c4e58",
+        "CT Bancroft": "399b0b94",
+        "DJ Willey": "7f048519",
+        "DR Sams": "caf69bf7",
+        "GS Sandhu": "1558d83b",
+        "Hassan Khan": "486065b3",
+        "J Brown": "647e7d44",
+        "J Fraser-McGurk": "9b6e1b3f",
+        "J Stainer": "fcd293d7",
+        "JP Behrendorff": "4933f499",
+        "M Gilkes": "d85b0f8b",
+        "Mohammad Rizwan": "2f26ac1a",
+        "NJ Maddinson": "44afbf2d",
+        "R Hadley": "15b39832",
+        "Roberto Howard": "eec90c4b",
+        "S Konstas": "3c34c9e1",
+        "SJ Nogajski": "9b3f9323",
+        "SM Elliott": "00cda8e4",
+        "SW Billings": "c16d4035",
+        "Sharad Patel": "8e6dd3ba",
+        "TD Andrews": "a0f612b6",
+        "TL Seifert": "4663bd23",
+        "Troy Penman": "0aa42c26",
+        "W Sutherland": "bc2d4f2e",
+        "WA Agar": "15de1f5d"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Melbourne Renegades",
+      "Sydney Thunder"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Sydney Thunder"
+    },
+    "venue": "Sydney Showground Stadium"
+  },
+  "innings": [
+    {
+      "team": "Melbourne Renegades",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "TD Andrews",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "J Brown",
+              "bowler": "DJ Willey",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DJ Willey",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DJ Willey",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "DJ Willey",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "DJ Willey",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "DJ Willey",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "DJ Willey",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "DJ Willey",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DJ Willey",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DJ Willey",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DJ Willey",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DJ Willey",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "DR Sams",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "DR Sams",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DR Sams",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "DR Sams",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DR Sams",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "DR Sams",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "R Hadley",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "R Hadley",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "R Hadley",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "R Hadley",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "R Hadley",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "R Hadley",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "WA Agar",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "WA Agar",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "WA Agar",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "WA Agar",
+              "non_striker": "J Brown",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Brown",
+              "bowler": "WA Agar",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Brown",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "WA Agar",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "CJ Green",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "CJ Green",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "CJ Green",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "CJ Green",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "CJ Green",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "CJ Green",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "TD Andrews",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "TD Andrews",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "TD Andrews",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "WA Agar",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Fraser-McGurk",
+                  "fielders": [
+                    {
+                      "name": "SW Billings"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "WA Agar",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "WA Agar",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "WA Agar",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "WA Agar",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TL Seifert",
+                  "fielders": [
+                    {
+                      "name": "DR Sams"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CP Jewell",
+                  "fielders": [
+                    {
+                      "name": "SW Billings"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "WA Agar",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "R Hadley",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "R Hadley",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "R Hadley",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "R Hadley",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "R Hadley",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "WA Agar",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "WA Agar",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "WA Agar",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DJ Willey",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DJ Willey",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DJ Willey",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DJ Willey",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "R Hadley",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Rizwan",
+              "bowler": "R Hadley",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "Mohammad Rizwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "Mohammad Rizwan",
+                  "kind": "retired out"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "DR Sams",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "W Sutherland",
+                  "fielders": [
+                    {
+                      "name": "DR Sams"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "DR Sams",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "R Hadley",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Hassan Khan",
+                  "fielders": [
+                    {
+                      "name": "DJ Willey"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "GS Sandhu",
+              "bowler": "R Hadley",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Elliott",
+              "bowler": "R Hadley",
+              "non_striker": "GS Sandhu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SM Elliott",
+              "bowler": "R Hadley",
+              "non_striker": "GS Sandhu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SM Elliott",
+                  "fielders": [
+                    {
+                      "name": "TD Andrews"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 15.1,
+          "to": 16.6,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Sydney Thunder",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "S Konstas",
+              "bowler": "JP Behrendorff",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "JP Behrendorff",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "JP Behrendorff",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "JP Behrendorff",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "JP Behrendorff",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "JP Behrendorff",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "M Gilkes",
+              "bowler": "GS Sandhu",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "GS Sandhu",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "GS Sandhu",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Gilkes",
+                  "fielders": [
+                    {
+                      "name": "W Sutherland"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "GS Sandhu",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "GS Sandhu",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "GS Sandhu",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "JP Behrendorff",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "S Konstas",
+              "bowler": "GS Sandhu",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "GS Sandhu",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "GS Sandhu",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "GS Sandhu",
+              "non_striker": "S Konstas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Konstas",
+              "bowler": "GS Sandhu",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Konstas",
+                  "fielders": [
+                    {
+                      "name": "J Fraser-McGurk"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "GS Sandhu",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "JP Behrendorff",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "JP Behrendorff",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JP Behrendorff",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "JP Behrendorff",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "JP Behrendorff",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "W Sutherland",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "W Sutherland",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "W Sutherland",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "W Sutherland",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "W Sutherland",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "W Sutherland",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "Hassan Khan",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Hassan Khan",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "Hassan Khan",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Hassan Khan",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "Hassan Khan",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Hassan Khan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Hassan Khan",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "SM Elliott",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "SM Elliott",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "SM Elliott",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "SM Elliott",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "SM Elliott",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "SM Elliott",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "A Zampa",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "A Zampa",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "A Zampa",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CT Bancroft",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "A Zampa",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "W Sutherland",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "W Sutherland",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "W Sutherland",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "W Sutherland",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "W Sutherland",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "W Sutherland",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "A Zampa",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "A Zampa",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "A Zampa",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "A Zampa",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SW Billings",
+                  "fielders": [
+                    {
+                      "name": "J Fraser-McGurk"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DR Sams",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DR Sams",
+                  "fielders": [
+                    {
+                      "name": "W Sutherland"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DJ Willey",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "GS Sandhu",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "GS Sandhu",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "GS Sandhu",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "A Zampa",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJ Willey",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DJ Willey",
+                  "fielders": [
+                    {
+                      "name": "J Fraser-McGurk"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "A Zampa",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "A Zampa",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "CJ Green",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "GS Sandhu",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "W Sutherland",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "W Sutherland",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "W Sutherland",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "W Sutherland",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "W Sutherland",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "W Sutherland",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "Hassan Khan",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "Hassan Khan",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 16,
+        "runs": 140
+      }
+    }
+  ]
+}

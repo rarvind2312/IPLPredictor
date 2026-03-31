@@ -1,0 +1,3121 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-02",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Brisbane",
+    "dates": [
+      "2025-12-27"
+    ],
+    "event": {
+      "name": "Big Bash League",
+      "match_number": 13
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "J Broadbent"
+      ],
+      "reserve_umpires": [
+        "MH Wessels"
+      ],
+      "tv_umpires": [
+        "SJ Nogajski"
+      ],
+      "umpires": [
+        "DM Koch",
+        "SE Dionysius"
+      ]
+    },
+    "outcome": {
+      "winner": "Brisbane Heat",
+      "by": {
+        "runs": 7
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "XC Bartlett"
+    ],
+    "players": {
+      "Brisbane Heat": [
+        "C Munro",
+        "JD Wildermuth",
+        "MT Renshaw",
+        "HD Weibgen",
+        "M Bryant",
+        "TP Alsop",
+        "JJ Peirson",
+        "XC Bartlett",
+        "Shaheen Shah Afridi",
+        "MP Kuhnemann",
+        "Thomas Balkin"
+      ],
+      "Adelaide Strikers": [
+        "MW Short",
+        "CA Lynn",
+        "MW Harvey",
+        "L Scott",
+        "HJ Manenti",
+        "J Overton",
+        "J Wadia",
+        "L Wood",
+        "HJ Nielsen",
+        "Hasan Ali",
+        "L Pope"
+      ]
+    },
+    "registry": {
+      "people": {
+        "C Munro": "af2c687b",
+        "CA Lynn": "45eda7c8",
+        "DM Koch": "6d10c034",
+        "HD Weibgen": "2535b30f",
+        "HJ Manenti": "0e56c514",
+        "HJ Nielsen": "0ea1455a",
+        "Hasan Ali": "2911de16",
+        "J Broadbent": "f3266bb5",
+        "J Overton": "59559bc2",
+        "J Wadia": "6ef38020",
+        "JD Wildermuth": "f1c61793",
+        "JJ Peirson": "2b55c3b4",
+        "JJS Sangha": "8e3cb0e9",
+        "L Haskett": "037429dc",
+        "L Pope": "616a8149",
+        "L Scott": "0ebb3444",
+        "L Wood": "65b6943c",
+        "M Bryant": "f32012f4",
+        "MH Wessels": "90f47cf2",
+        "MP Kuhnemann": "7b953689",
+        "MT Renshaw": "218d4d78",
+        "MW Harvey": "47dc9794",
+        "MW Short": "a90e53ec",
+        "SE Dionysius": "ac886e6f",
+        "SJ Nogajski": "9b3f9323",
+        "Shaheen Shah Afridi": "45a7e761",
+        "TP Alsop": "961b8ff1",
+        "Thomas Balkin": "61c4f340",
+        "XC Bartlett": "3b53243a"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Brisbane Heat",
+      "Adelaide Strikers"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Adelaide Strikers"
+    },
+    "venue": "Brisbane Cricket Ground, Woolloongabba, Brisbane"
+  },
+  "innings": [
+    {
+      "team": "Brisbane Heat",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "C Munro",
+              "bowler": "L Wood",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "L Wood",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Munro",
+              "bowler": "L Wood",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Munro",
+              "bowler": "L Wood",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "L Wood",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "L Wood",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "C Munro",
+              "bowler": "L Scott",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "L Scott",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JD Wildermuth",
+                  "fielders": [
+                    {
+                      "name": "Hasan Ali"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Scott",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Munro",
+              "bowler": "L Scott",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Scott",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Munro",
+              "bowler": "L Scott",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Wood",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Wood",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Wood",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Wood",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Wood",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Wood",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Wood",
+              "non_striker": "C Munro",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Munro",
+              "bowler": "L Wood",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Munro",
+              "bowler": "L Wood",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Munro",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Overton",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "J Overton",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Overton",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Overton",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Overton",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Overton",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Overton",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "Hasan Ali",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "Hasan Ali",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "Hasan Ali",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "Hasan Ali",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "Hasan Ali",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "Hasan Ali",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "Hasan Ali",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "HD Weibgen",
+              "bowler": "L Pope",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "L Pope",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "L Pope",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "L Pope",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "L Pope",
+              "non_striker": "HD Weibgen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "L Pope",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "HD Weibgen",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HD Weibgen",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HD Weibgen",
+                  "fielders": [
+                    {
+                      "name": "J Overton"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Wadia",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Wadia",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Wadia",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Wadia",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Wadia",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "J Wadia",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "M Bryant",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "MW Short",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MT Renshaw",
+                  "fielders": [
+                    {
+                      "name": "JJS Sangha",
+                      "substitute": true
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "TP Alsop",
+              "bowler": "L Pope",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Pope",
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Pope",
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "L Pope",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "L Pope",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Pope",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Pope",
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "TP Alsop",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "MW Short",
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "MW Short",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "TP Alsop",
+              "bowler": "Hasan Ali",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "Hasan Ali",
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "Hasan Ali",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "Hasan Ali",
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "Hasan Ali",
+              "non_striker": "TP Alsop",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "Hasan Ali",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "TP Alsop",
+              "bowler": "L Pope",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "L Pope",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Alsop",
+              "bowler": "L Pope",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TP Alsop",
+                  "fielders": [
+                    {
+                      "name": "J Wadia"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "L Pope",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Pope",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "L Pope",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Pope",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "M Bryant",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "J Overton",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "M Bryant",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "L Wood",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "JJ Peirson",
+              "bowler": "Hasan Ali",
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "Hasan Ali",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "M Bryant",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Bryant",
+                  "fielders": [
+                    {
+                      "name": "MW Short"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "XC Bartlett",
+              "bowler": "L Pope",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "L Pope",
+              "non_striker": "XC Bartlett",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "L Pope",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "L Pope",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "L Pope",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "L Pope",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "XC Bartlett",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "J Overton",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "XC Bartlett",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "J Overton",
+              "non_striker": "XC Bartlett",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "J Overton",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "XC Bartlett",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XC Bartlett",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "XC Bartlett",
+                  "fielders": [
+                    {
+                      "name": "MW Harvey"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Shaheen Shah Afridi",
+              "bowler": "Hasan Ali",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shaheen Shah Afridi",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shaheen Shah Afridi",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "Hasan Ali",
+              "non_striker": "Shaheen Shah Afridi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shaheen Shah Afridi",
+              "bowler": "Hasan Ali",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Shaheen Shah Afridi",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shaheen Shah Afridi",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Shaheen Shah Afridi",
+                  "fielders": [
+                    {
+                      "name": "HJ Nielsen"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MP Kuhnemann",
+              "bowler": "L Wood",
+              "non_striker": "JJ Peirson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "L Wood",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MP Kuhnemann",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJ Peirson",
+              "bowler": "L Wood",
+              "non_striker": "MP Kuhnemann",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "JJ Peirson",
+                  "fielders": [
+                    {
+                      "name": "MW Harvey"
+                    },
+                    {
+                      "name": "HJ Nielsen"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "Thomas Balkin",
+              "bowler": "L Wood",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "MP Kuhnemann",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Kuhnemann",
+              "bowler": "L Wood",
+              "non_striker": "Thomas Balkin",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.7,
+          "type": "mandatory"
+        },
+        {
+          "from": 14.1,
+          "to": 15.6,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Adelaide Strikers",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "CA Lynn",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "XC Bartlett",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "XC Bartlett",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "CA Lynn",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "CA Lynn",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "Thomas Balkin",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "CA Lynn",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CA Lynn",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Lynn",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "CA Lynn",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CA Lynn",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MW Harvey",
+                  "fielders": [
+                    {
+                      "name": "Thomas Balkin"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "L Scott",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Scott",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Scott",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "L Scott",
+              "bowler": "MT Renshaw",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Scott",
+              "bowler": "MT Renshaw",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Scott",
+              "bowler": "MT Renshaw",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MT Renshaw",
+              "non_striker": "L Scott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Scott",
+              "bowler": "MT Renshaw",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Scott",
+                  "fielders": [
+                    {
+                      "name": "XC Bartlett"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "MT Renshaw",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Thomas Balkin",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Thomas Balkin",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "JD Wildermuth",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "Shaheen Shah Afridi",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "HJ Manenti",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Manenti",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HJ Manenti",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "J Overton",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "XC Bartlett",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "XC Bartlett",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "XC Bartlett",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "J Overton",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Overton",
+                  "fielders": [
+                    {
+                      "name": "JJ Peirson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "JD Wildermuth",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "Thomas Balkin",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "Thomas Balkin",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "J Wadia",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "MW Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "MW Short",
+              "bowler": "XC Bartlett",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MW Short",
+              "bowler": "XC Bartlett",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MW Short",
+                  "fielders": [
+                    {
+                      "name": "L Haskett",
+                      "substitute": true
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "L Wood",
+              "bowler": "XC Bartlett",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "XC Bartlett",
+              "non_striker": "L Wood",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "XC Bartlett",
+              "non_striker": "L Wood",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Wood",
+              "bowler": "XC Bartlett",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "J Wadia",
+              "bowler": "JD Wildermuth",
+              "non_striker": "L Wood",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              },
+              "wickets": [
+                {
+                  "player_out": "L Wood",
+                  "fielders": [
+                    {
+                      "name": "HD Weibgen"
+                    },
+                    {
+                      "name": "JJ Peirson"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "HJ Nielsen",
+              "bowler": "JD Wildermuth",
+              "non_striker": "J Wadia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Wadia",
+              "bowler": "JD Wildermuth",
+              "non_striker": "HJ Nielsen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Wadia",
+                  "fielders": [
+                    {
+                      "name": "JJ Peirson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Hasan Ali",
+              "bowler": "JD Wildermuth",
+              "non_striker": "HJ Nielsen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Nielsen",
+              "bowler": "JD Wildermuth",
+              "non_striker": "Hasan Ali",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HJ Nielsen",
+              "bowler": "JD Wildermuth",
+              "non_striker": "Hasan Ali",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Hasan Ali",
+              "bowler": "Thomas Balkin",
+              "non_striker": "HJ Nielsen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Hasan Ali",
+                  "fielders": [
+                    {
+                      "name": "L Haskett",
+                      "substitute": true
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "L Pope",
+              "bowler": "Thomas Balkin",
+              "non_striker": "HJ Nielsen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Nielsen",
+              "bowler": "Thomas Balkin",
+              "non_striker": "L Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HJ Nielsen",
+              "bowler": "Thomas Balkin",
+              "non_striker": "L Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HJ Nielsen",
+              "bowler": "Thomas Balkin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "L Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HJ Nielsen",
+              "bowler": "Thomas Balkin",
+              "non_striker": "L Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HJ Nielsen",
+                  "fielders": [
+                    {
+                      "name": "JD Wildermuth"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 13.1,
+          "to": 14.6,
+          "type": "batting"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 180
+      }
+    }
+  ]
+}

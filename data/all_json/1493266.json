@@ -1,0 +1,2797 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-10",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Brisbane",
+    "dates": [
+      "2026-01-10"
+    ],
+    "event": {
+      "name": "Big Bash League",
+      "match_number": 29
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "Kepler Wessels"
+      ],
+      "reserve_umpires": [
+        "SE Dionysius"
+      ],
+      "tv_umpires": [
+        "GA Abood"
+      ],
+      "umpires": [
+        "BC Treloar",
+        "C Grant"
+      ]
+    },
+    "outcome": {
+      "winner": "Brisbane Heat",
+      "by": {
+        "wickets": 7
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "UT Khawaja"
+    ],
+    "players": {
+      "Sydney Thunder": [
+        "M Gilkes",
+        "DA Warner",
+        "CT Bancroft",
+        "SW Billings",
+        "NJ Maddinson",
+        "DR Sams",
+        "CJ Green",
+        "DJ Willey",
+        "T Sangha",
+        "R Hadley",
+        "WA Agar"
+      ],
+      "Brisbane Heat": [
+        "JD Wildermuth",
+        "UT Khawaja",
+        "NA McSweeney",
+        "MT Renshaw",
+        "M Bryant",
+        "M Labuschagne",
+        "JJ Peirson",
+        "XC Bartlett",
+        "MP Kuhnemann",
+        "Thomas Balkin",
+        "Zaman Khan"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BC Treloar": "f7e8ee52",
+        "C Grant": "876ed858",
+        "CJ Green": "19b9f399",
+        "CT Bancroft": "399b0b94",
+        "DA Warner": "dcce6f09",
+        "DJ Willey": "7f048519",
+        "DR Sams": "caf69bf7",
+        "GA Abood": "a4af5528",
+        "JD Wildermuth": "f1c61793",
+        "JJ Peirson": "2b55c3b4",
+        "Kepler Wessels": "3bedaff0",
+        "M Bryant": "f32012f4",
+        "M Gilkes": "d85b0f8b",
+        "M Labuschagne": "fa433be6",
+        "MP Kuhnemann": "7b953689",
+        "MT Renshaw": "218d4d78",
+        "NA McSweeney": "e94d2d50",
+        "NJ Maddinson": "44afbf2d",
+        "R Hadley": "15b39832",
+        "SE Dionysius": "ac886e6f",
+        "SW Billings": "c16d4035",
+        "T Sangha": "52c952d9",
+        "Thomas Balkin": "61c4f340",
+        "UT Khawaja": "331ea488",
+        "WA Agar": "15de1f5d",
+        "XC Bartlett": "3b53243a",
+        "Zaman Khan": "28392e11"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Sydney Thunder",
+      "Brisbane Heat"
+    ],
+    "toss": {
+      "decision": "bat",
+      "winner": "Sydney Thunder"
+    },
+    "venue": "Brisbane Cricket Ground, Woolloongabba, Brisbane"
+  },
+  "innings": [
+    {
+      "team": "Sydney Thunder",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "M Gilkes",
+              "bowler": "NA McSweeney",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "NA McSweeney",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "NA McSweeney",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "NA McSweeney",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "NA McSweeney",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "NA McSweeney",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "XC Bartlett",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "XC Bartlett",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "M Gilkes",
+              "bowler": "XC Bartlett",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "XC Bartlett",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "MT Renshaw",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "MT Renshaw",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Gilkes",
+                  "fielders": [
+                    {
+                      "name": "JD Wildermuth"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "MT Renshaw",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "Thomas Balkin",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "Thomas Balkin",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 2,
+                "extras": 1,
+                "total": 3
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "Thomas Balkin",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CT Bancroft",
+                  "fielders": [
+                    {
+                      "name": "XC Bartlett"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MT Renshaw",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "Thomas Balkin",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Thomas Balkin",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zaman Khan",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "M Labuschagne",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "M Labuschagne",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "M Labuschagne",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "M Labuschagne",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "M Labuschagne",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "M Labuschagne",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "XC Bartlett",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SW Billings",
+              "review": {
+                "by": "Brisbane Heat",
+                "umpire": "BC Treloar",
+                "batter": "DA Warner",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "XC Bartlett",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "XC Bartlett",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Zaman Khan",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "MP Kuhnemann",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "MT Renshaw",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MT Renshaw",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "DA Warner",
+                  "fielders": [
+                    {
+                      "name": "NA McSweeney"
+                    },
+                    {
+                      "name": "JJ Peirson"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MT Renshaw",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MT Renshaw",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "Thomas Balkin",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "Thomas Balkin",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "Thomas Balkin",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "MT Renshaw",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "MT Renshaw",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SW Billings",
+                  "fielders": [
+                    {
+                      "name": "JJ Peirson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DR Sams",
+              "bowler": "MT Renshaw",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "XC Bartlett",
+              "non_striker": "DR Sams",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "XC Bartlett",
+              "non_striker": "DR Sams",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DR Sams",
+              "bowler": "XC Bartlett",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "XC Bartlett",
+              "non_striker": "DR Sams",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DR Sams",
+              "bowler": "XC Bartlett",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DR Sams",
+                  "fielders": [
+                    {
+                      "name": "M Labuschagne"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "XC Bartlett",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NJ Maddinson",
+                  "fielders": [
+                    {
+                      "name": "MT Renshaw"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DJ Willey",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "MP Kuhnemann",
+              "non_striker": "DJ Willey",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 12.1,
+          "to": 13.7,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Brisbane Heat",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "R Hadley",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "R Hadley",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "R Hadley",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "R Hadley",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "R Hadley",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "R Hadley",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "DR Sams",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DR Sams",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DR Sams",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DR Sams",
+              "non_striker": "JD Wildermuth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JD Wildermuth",
+              "bowler": "DR Sams",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JD Wildermuth",
+                  "fielders": [
+                    {
+                      "name": "T Sangha"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "DR Sams",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "T Sangha",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "T Sangha",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "T Sangha",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "T Sangha",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "NA McSweeney",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NA McSweeney",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NA McSweeney",
+                  "fielders": [
+                    {
+                      "name": "DJ Willey"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "T Sangha",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "R Hadley",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "R Hadley",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "R Hadley",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "R Hadley",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "R Hadley",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "R Hadley",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "R Hadley",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DR Sams",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DR Sams",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DR Sams",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DR Sams",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DR Sams",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DR Sams",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DR Sams",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "CJ Green",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "CJ Green",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "DJ Willey",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DJ Willey",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 2,
+                "extras": 1,
+                "total": 3
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DJ Willey",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "T Sangha",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "T Sangha",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "T Sangha",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "T Sangha",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "UT Khawaja",
+              "bowler": "WA Agar",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "WA Agar",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MT Renshaw",
+              "bowler": "WA Agar",
+              "non_striker": "UT Khawaja",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UT Khawaja",
+              "bowler": "WA Agar",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "UT Khawaja",
+                  "fielders": [
+                    {
+                      "name": "DJ Willey"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "MT Renshaw",
+              "bowler": "DR Sams",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "M Bryant",
+              "review": {
+                "by": "Sydney Thunder",
+                "umpire": "C Grant",
+                "batter": "MT Renshaw",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Bryant",
+              "bowler": "DR Sams",
+              "non_striker": "MT Renshaw",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 16.1,
+          "to": 16.2,
+          "type": "batting"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 181
+      }
+    }
+  ]
+}

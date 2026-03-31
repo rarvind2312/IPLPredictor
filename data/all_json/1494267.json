@@ -1,0 +1,1934 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-07",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Cape Town",
+    "dates": [
+      "2026-01-06"
+    ],
+    "event": {
+      "name": "SA20",
+      "match_number": 15
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SB Lambson"
+      ],
+      "reserve_umpires": [
+        "W Wyngaard"
+      ],
+      "tv_umpires": [
+        "M Erasmus"
+      ],
+      "umpires": [
+        "AT Holdstock",
+        "A Jacobs"
+      ]
+    },
+    "outcome": {
+      "winner": "MI Cape Town",
+      "by": {
+        "wickets": 4
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "player_of_match": [
+      "N Pooran"
+    ],
+    "players": {
+      "Joburg Super Kings": [
+        "JM Vince",
+        "F du Plessis",
+        "D Forrester",
+        "M De Villiers",
+        "D Ferreira",
+        "Shubham Ranjane",
+        "PWA Mulder",
+        "AJ Hosein",
+        "P Subrayen",
+        "N Burger",
+        "RJ Gleeson"
+      ],
+      "MI Cape Town": [
+        "HE van der Dussen",
+        "RD Rickelton",
+        "N Pooran",
+        "RR Hendricks",
+        "GF Linde",
+        "JF Smith",
+        "Karim Janat",
+        "C Bosch",
+        "Rashid Khan",
+        "K Rabada",
+        "TA Boult"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Jacobs": "70d117de",
+        "AJ Hosein": "4d7f517e",
+        "AT Holdstock": "6fa3258c",
+        "C Bosch": "172dff15",
+        "D Ferreira": "f0af99a7",
+        "D Forrester": "23393635",
+        "F du Plessis": "3355b542",
+        "GF Linde": "e5437608",
+        "HE van der Dussen": "9948e262",
+        "JF Smith": "91cd48e0",
+        "JM Vince": "a15618fe",
+        "K Rabada": "e62dd25d",
+        "Karim Janat": "62175638",
+        "M De Villiers": "e9aaf862",
+        "M Erasmus": "15d3c895",
+        "N Burger": "465aa633",
+        "N Pooran": "3241e3fd",
+        "P Subrayen": "7ec9711d",
+        "PWA Mulder": "c96f6ac5",
+        "RD Rickelton": "e66732f8",
+        "RJ Gleeson": "402f8494",
+        "RR Hendricks": "b8cc58c9",
+        "Rashid Khan": "5f547c8b",
+        "SB Lambson": "4146063f",
+        "Shubham Ranjane": "6c7a68d0",
+        "TA Boult": "a818c1be",
+        "W Wyngaard": "5cafa9ed"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Joburg Super Kings",
+      "MI Cape Town"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "MI Cape Town"
+    },
+    "venue": "Newlands, Cape Town"
+  },
+  "innings": [
+    {
+      "team": "Joburg Super Kings",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "JM Vince",
+              "bowler": "TA Boult",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "TA Boult",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "TA Boult",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "TA Boult",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "TA Boult",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "TA Boult",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "K Rabada",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "K Rabada",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "K Rabada",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "K Rabada",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "K Rabada",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "K Rabada",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JM Vince",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Vince",
+                  "fielders": [
+                    {
+                      "name": "RR Hendricks"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "D Forrester",
+              "bowler": "C Bosch",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Forrester",
+                  "fielders": [
+                    {
+                      "name": "RD Rickelton"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "C Bosch",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "C Bosch",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "C Bosch",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "C Bosch",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "C Bosch",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "M De Villiers",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "GF Linde",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "GF Linde",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "GF Linde",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "GF Linde",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "GF Linde",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "TA Boult",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "TA Boult",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "TA Boult",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "TA Boult",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "TA Boult",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "TA Boult",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "Rashid Khan",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "F du Plessis",
+                  "fielders": [
+                    {
+                      "name": "RR Hendricks"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "D Ferreira",
+              "bowler": "K Rabada",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "K Rabada",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Ferreira",
+                  "fielders": [
+                    {
+                      "name": "RD Rickelton"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "K Rabada",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "K Rabada",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "K Rabada",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "K Rabada",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "K Rabada",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "K Rabada",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "Rashid Khan",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "Rashid Khan",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "Rashid Khan",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Rashid Khan",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "C Bosch",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "C Bosch",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "C Bosch",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "C Bosch",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "C Bosch",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M De Villiers",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "C Bosch",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 4,
+                "extras": 1,
+                "total": 5
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "C Bosch",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Rashid Khan",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Rashid Khan",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Rashid Khan",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PWA Mulder",
+                  "fielders": [
+                    {
+                      "name": "GF Linde"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "Rashid Khan",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Rashid Khan",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Rashid Khan",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "AJ Hosein",
+              "bowler": "C Bosch",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "C Bosch",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "C Bosch",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "C Bosch",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Shubham Ranjane",
+                  "fielders": [
+                    {
+                      "name": "Rashid Khan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "P Subrayen",
+              "bowler": "C Bosch",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "C Bosch",
+              "non_striker": "P Subrayen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "MI Cape Town",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "P Subrayen",
+              "non_striker": "RD Rickelton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RD Rickelton",
+              "bowler": "P Subrayen",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RD Rickelton",
+              "bowler": "P Subrayen",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "P Subrayen",
+              "non_striker": "RD Rickelton",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "P Subrayen",
+              "non_striker": "RD Rickelton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RD Rickelton",
+              "bowler": "P Subrayen",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "AJ Hosein",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "RD Rickelton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RD Rickelton",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RD Rickelton",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RD Rickelton",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RD Rickelton",
+                  "fielders": [
+                    {
+                      "name": "F du Plessis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "AJ Hosein",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "review": {
+                "by": "Joburg Super Kings",
+                "umpire": "A Jacobs",
+                "batter": "N Pooran",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "N Pooran",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "N Pooran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "N Pooran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "N Pooran",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "N Burger",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "N Burger",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "N Pooran",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "P Subrayen",
+              "non_striker": "N Pooran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "P Subrayen",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "P Subrayen",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "P Subrayen",
+              "non_striker": "N Pooran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "P Subrayen",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Pooran",
+              "bowler": "P Subrayen",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "N Pooran",
+              "bowler": "N Burger",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "N Pooran",
+                  "fielders": [
+                    {
+                      "name": "D Forrester"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RR Hendricks",
+              "bowler": "N Burger",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Hendricks",
+              "bowler": "N Burger",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "RR Hendricks",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "AJ Hosein",
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Hendricks",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "AJ Hosein",
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Hendricks",
+              "bowler": "AJ Hosein",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "AJ Hosein",
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "RJ Gleeson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "RJ Gleeson",
+              "non_striker": "RR Hendricks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Hendricks",
+              "bowler": "RJ Gleeson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Hendricks",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Hendricks",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "RR Hendricks",
+                  "fielders": [
+                    {
+                      "name": "M De Villiers"
+                    },
+                    {
+                      "name": "D Ferreira"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "GF Linde",
+              "bowler": "RJ Gleeson",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "RJ Gleeson",
+              "non_striker": "GF Linde",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "RJ Gleeson",
+              "non_striker": "GF Linde",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "PWA Mulder",
+              "non_striker": "GF Linde",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GF Linde",
+              "bowler": "PWA Mulder",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GF Linde",
+              "bowler": "PWA Mulder",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "GF Linde",
+              "bowler": "PWA Mulder",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "GF Linde",
+              "bowler": "PWA Mulder",
+              "non_striker": "HE van der Dussen",
+              "review": {
+                "by": "MI Cape Town",
+                "umpire": "AT Holdstock",
+                "batter": "GF Linde",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GF Linde",
+                  "fielders": [
+                    {
+                      "name": "D Ferreira"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JF Smith",
+              "bowler": "PWA Mulder",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "JF Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JF Smith",
+              "bowler": "N Burger",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "JF Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JF Smith",
+              "bowler": "N Burger",
+              "non_striker": "HE van der Dussen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JF Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "JF Smith",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HE van der Dussen",
+              "bowler": "N Burger",
+              "non_striker": "JF Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HE van der Dussen",
+                  "fielders": [
+                    {
+                      "name": "F du Plessis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "JF Smith",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Karim Janat",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JF Smith",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Karim Janat",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JF Smith",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Karim Janat",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JF Smith",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Karim Janat",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JF Smith",
+                  "fielders": [
+                    {
+                      "name": "JM Vince"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Bosch",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Karim Janat",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Karim Janat",
+              "bowler": "RJ Gleeson",
+              "non_striker": "C Bosch",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "C Bosch",
+              "bowler": "PWA Mulder",
+              "non_striker": "Karim Janat",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Karim Janat",
+              "bowler": "PWA Mulder",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Bosch",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Karim Janat",
+              "bowler": "PWA Mulder",
+              "non_striker": "C Bosch",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.4,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 12,
+        "runs": 128
+      }
+    }
+  ]
+}

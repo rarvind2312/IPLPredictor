@@ -1,0 +1,5309 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-08-11",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Katunayake",
+    "dates": [
+      "2024-07-30"
+    ],
+    "event": {
+      "name": "Major Clubs Limited Over Tournament",
+      "group": "A"
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "missing": [
+      {
+        "powerplays": {
+          "1": [
+            "mandatory",
+            "mandatory",
+            "mandatory"
+          ],
+          "2": [
+            "mandatory",
+            "mandatory",
+            "mandatory"
+          ]
+        }
+      }
+    ],
+    "officials": {
+      "match_referees": [
+        "CM Wickramasinghe"
+      ],
+      "umpires": [
+        "KADA Nanayakkara",
+        "BCN Amarasinghe"
+      ]
+    },
+    "outcome": {
+      "winner": "Negombo Cricket Club",
+      "by": {
+        "runs": 83
+      },
+      "method": "D/L"
+    },
+    "overs": 50,
+    "players": {
+      "Negombo Cricket Club": [
+        "EMDY Munaweera",
+        "K Wanniarachchi",
+        "SSL Vithanage",
+        "U Lakshan",
+        "TAM Siriwardana",
+        "HS Liyanage",
+        "PSU Fernando",
+        "KN Peiris",
+        "P Ushettige",
+        "WRC Fernando",
+        "K Sathsara"
+      ],
+      "Ragama Cricket Club": [
+        "G Senhas",
+        "C Gomez",
+        "S Gunathilaka",
+        "J Liyanage",
+        "R Gamage",
+        "R Jayasena",
+        "Pulina Tharanga",
+        "SMKS Senarathne",
+        "HGKD Dhanushka",
+        "PWS Dulshan",
+        "E Malinga"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BCN Amarasinghe": "ccd560d6",
+        "C Gomez": "a6a42dd2",
+        "CM Wickramasinghe": "21b4786b",
+        "E Malinga": "5750bcb4",
+        "EMDY Munaweera": "5a22d91c",
+        "G Senhas": "b146b897",
+        "HGKD Dhanushka": "dc46d46b",
+        "HS Liyanage": "8505bd55",
+        "J Liyanage": "84212ffb",
+        "K Sathsara": "385b443f",
+        "K Wanniarachchi": "03244b87",
+        "KADA Nanayakkara": "9ee551f5",
+        "KN Peiris": "d0cc2738",
+        "P Ushettige": "afd3365a",
+        "PSU Fernando": "dd43dd57",
+        "PWS Dulshan": "cd63866f",
+        "Pulina Tharanga": "28d7f469",
+        "R Gamage": "9a2f6db9",
+        "R Jayasena": "795ad3dc",
+        "S Gunathilaka": "f388129b",
+        "SMKS Senarathne": "19908ab9",
+        "SSL Vithanage": "68f9f389",
+        "TAM Siriwardana": "bf7842c9",
+        "U Lakshan": "bc0554d7",
+        "WRC Fernando": "d58358e9"
+      }
+    },
+    "season": "2024",
+    "team_type": "club",
+    "teams": [
+      "Negombo Cricket Club",
+      "Ragama Cricket Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Ragama Cricket Club"
+    },
+    "venue": "FTZ Sports Complex (Board of Investment), Katunayake"
+  },
+  "innings": [
+    {
+      "team": "Negombo Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "E Malinga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "E Malinga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "E Malinga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "E Malinga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "E Malinga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "E Malinga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "E Malinga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "J Liyanage",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "J Liyanage",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "extras": {
+                "byes": 2
+              },
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "K Wanniarachchi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Wanniarachchi",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "K Wanniarachchi",
+                  "fielders": [
+                    {
+                      "name": "G Senhas"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "SSL Vithanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "SSL Vithanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "SSL Vithanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "Pulina Tharanga",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "SSL Vithanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "SSL Vithanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "SSL Vithanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSL Vithanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SSL Vithanage",
+                  "fielders": [
+                    {
+                      "name": "J Liyanage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "U Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "U Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "U Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "U Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "U Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "U Lakshan",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "U Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "U Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "U Lakshan",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "U Lakshan",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "TAM Siriwardana",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "TAM Siriwardana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TAM Siriwardana",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TAM Siriwardana",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TAM Siriwardana",
+                  "fielders": [
+                    {
+                      "name": "J Liyanage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "EMDY Munaweera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "EMDY Munaweera",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "EMDY Munaweera",
+                  "fielders": [
+                    {
+                      "name": "R Jayasena"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "PSU Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "HGKD Dhanushka",
+              "extras": {
+                "wides": 3
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 3,
+                "total": 3
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "PSU Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "PSU Fernando",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSU Fernando",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PSU Fernando",
+                  "fielders": [
+                    {
+                      "name": "R Jayasena"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "KN Peiris",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "HGKD Dhanushka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "KN Peiris",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "extras": {
+                "wides": 3
+              },
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 3,
+                "total": 3
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "J Liyanage",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "J Liyanage",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 41,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "KN Peiris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KN Peiris",
+              "bowler": "SMKS Senarathne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KN Peiris",
+                  "fielders": [
+                    {
+                      "name": "HGKD Dhanushka"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 42,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "J Liyanage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "J Liyanage",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "J Liyanage",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "J Liyanage",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 43,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "E Malinga",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "E Malinga",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 44,
+          "deliveries": [
+            {
+              "batter": "P Ushettige",
+              "bowler": "J Liyanage",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "J Liyanage",
+              "non_striker": "P Ushettige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "J Liyanage",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "P Ushettige",
+              "bowler": "J Liyanage",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "team": "Ragama Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "WRC Fernando",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "WRC Fernando",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "G Senhas",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "C Gomez",
+              "bowler": "WRC Fernando",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "WRC Fernando",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "WRC Fernando",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "G Senhas",
+              "bowler": "P Ushettige",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "P Ushettige",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "P Ushettige",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "P Ushettige",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "P Ushettige",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Senhas",
+              "bowler": "P Ushettige",
+              "non_striker": "C Gomez",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Gomez",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Gomez",
+                  "fielders": [
+                    {
+                      "name": "HS Liyanage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "S Gunathilaka",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gunathilaka",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "G Senhas",
+              "bowler": "P Ushettige",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "G Senhas",
+                  "fielders": [
+                    {
+                      "name": "SSL Vithanage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "P Ushettige",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "P Ushettige",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "P Ushettige",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "P Ushettige",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "P Ushettige",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "J Liyanage",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gunathilaka",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "S Gunathilaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "S Gunathilaka",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gunathilaka",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Gunathilaka",
+                  "fielders": [
+                    {
+                      "name": "U Lakshan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "R Gamage",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Gamage",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Gamage",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Gamage",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "R Gamage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Gamage",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Gamage",
+                  "fielders": [
+                    {
+                      "name": "U Lakshan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "R Jayasena",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Jayasena",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Jayasena",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Jayasena",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Jayasena",
+                  "fielders": [
+                    {
+                      "name": "HS Liyanage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "J Liyanage",
+              "bowler": "P Ushettige",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "P Ushettige",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "K Sathsara",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "K Sathsara",
+              "non_striker": "Pulina Tharanga",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "K Sathsara",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Pulina Tharanga",
+              "bowler": "KN Peiris",
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Pulina Tharanga",
+                  "fielders": [
+                    {
+                      "name": "P Ushettige"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "J Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Liyanage",
+              "bowler": "KN Peiris",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Liyanage",
+                  "fielders": [
+                    {
+                      "name": "U Lakshan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "K Sathsara",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "K Sathsara",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "K Sathsara",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "K Sathsara",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "K Sathsara",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "SMKS Senarathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SMKS Senarathne",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SMKS Senarathne",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "PWS Dulshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "PWS Dulshan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "PWS Dulshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "K Sathsara",
+              "non_striker": "PWS Dulshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "K Sathsara",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "K Sathsara",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "KN Peiris",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "PWS Dulshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWS Dulshan",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PWS Dulshan",
+                  "fielders": [
+                    {
+                      "name": "PSU Fernando"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "KN Peiris",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "P Ushettige",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "TAM Siriwardana",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "TAM Siriwardana",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "TAM Siriwardana",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "TAM Siriwardana",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "TAM Siriwardana",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "E Malinga",
+              "bowler": "TAM Siriwardana",
+              "non_striker": "HGKD Dhanushka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "P Ushettige",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "P Ushettige",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGKD Dhanushka",
+              "bowler": "P Ushettige",
+              "non_striker": "E Malinga",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HGKD Dhanushka",
+                  "kind": "lbw"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "target": {
+        "overs": 32,
+        "runs": 169
+      }
+    }
+  ]
+}

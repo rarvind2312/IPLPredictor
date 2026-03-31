@@ -1,0 +1,2795 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-01",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Abu Dhabi",
+    "dates": [
+      "2025-12-27"
+    ],
+    "event": {
+      "name": "International League T20",
+      "match_number": 29
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SJA Taufel"
+      ],
+      "reserve_umpires": [
+        "Akbar Ali"
+      ],
+      "tv_umpires": [
+        "LS Reifer"
+      ],
+      "umpires": [
+        "MJ Saggers",
+        "WR Knights"
+      ]
+    },
+    "outcome": {
+      "winner": "MI Emirates",
+      "by": {
+        "wickets": 8
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "AM Ghazanfar"
+    ],
+    "players": {
+      "Dubai Capitals": [
+        "Waqar Salamkheil",
+        "Sediqullah Atal",
+        "Shayan Jahangir",
+        "JM Cox",
+        "JL du Plooy",
+        "R Powell",
+        "Mohammad Nabi",
+        "JDS Neesham",
+        "DJ Willey",
+        "SW Currie",
+        "Haider Ali",
+        "Muhammad Jawadullah"
+      ],
+      "MI Emirates": [
+        "Fazalhaq Farooqi",
+        "Waseem Muhammad",
+        "ADS Fletcher",
+        "T Banton",
+        "KA Pollard",
+        "SP Krishnamurthi",
+        "DR Mousley",
+        "R Shepherd",
+        "Shakib Al Hasan",
+        "AM Ghazanfar",
+        "Zahoor Khan",
+        "Arab Gul"
+      ]
+    },
+    "registry": {
+      "people": {
+        "ADS Fletcher": "1bae756b",
+        "AM Ghazanfar": "9ca68676",
+        "Akbar Ali": "e753931d",
+        "Arab Gul": "aed2b202",
+        "DJ Willey": "7f048519",
+        "DR Mousley": "876dbe2d",
+        "Fazalhaq Farooqi": "e9c7f0d0",
+        "Haider Ali": "dd572696",
+        "JDS Neesham": "9219eff0",
+        "JL du Plooy": "6e6fb538",
+        "JM Cox": "ff154ecd",
+        "KA Pollard": "a757b0d8",
+        "LS Reifer": "5dee559a",
+        "MJ Saggers": "402d5937",
+        "Mohammad Nabi": "62af8546",
+        "Muhammad Jawadullah": "098a757c",
+        "R Powell": "650d5e49",
+        "R Shepherd": "c5aef772",
+        "SJA Taufel": "4b43d5ac",
+        "SP Krishnamurthi": "3b8e7647",
+        "SW Currie": "c5f40e35",
+        "Sediqullah Atal": "3c28853f",
+        "Shakib Al Hasan": "7dc35884",
+        "Shayan Jahangir": "571e1d2a",
+        "T Banton": "25f7b7d6",
+        "WR Knights": "63cbf8d8",
+        "Waqar Salamkheil": "3f1066d0",
+        "Waseem Muhammad": "6f02fe2a",
+        "Zahoor Khan": "f0e293b0"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Dubai Capitals",
+      "MI Emirates"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "MI Emirates"
+    },
+    "venue": "Zayed Cricket Stadium, Abu Dhabi"
+  },
+  "innings": [
+    {
+      "team": "Dubai Capitals",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Shayan Jahangir",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Shayan Jahangir",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Shayan Jahangir",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Shayan Jahangir",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "R Shepherd",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "R Shepherd",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "R Shepherd",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "R Shepherd",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "R Shepherd",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "R Shepherd",
+              "non_striker": "Shayan Jahangir",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "R Shepherd",
+              "non_striker": "Shayan Jahangir",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Shayan Jahangir",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Shayan Jahangir",
+                  "fielders": [
+                    {
+                      "name": "DR Mousley"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Sediqullah Atal",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sediqullah Atal",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Sediqullah Atal",
+                  "fielders": [
+                    {
+                      "name": "Waseem Muhammad"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JL du Plooy",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "JL du Plooy",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL du Plooy",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JL du Plooy",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL du Plooy",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JL du Plooy",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL du Plooy",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "DR Mousley",
+              "non_striker": "JL du Plooy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "DR Mousley",
+              "non_striker": "JL du Plooy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JL du Plooy",
+                  "fielders": [
+                    {
+                      "name": "T Banton"
+                    },
+                    {
+                      "name": "Arab Gul"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "R Powell",
+              "bowler": "DR Mousley",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Powell",
+              "bowler": "DR Mousley",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Powell",
+              "bowler": "DR Mousley",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Powell",
+              "bowler": "DR Mousley",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Powell",
+                  "fielders": [
+                    {
+                      "name": "T Banton"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "review": {
+                "by": "Dubai Capitals",
+                "umpire": "MJ Saggers",
+                "batter": "JM Cox",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Cox",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Shakib Al Hasan",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "DR Mousley",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "DR Mousley",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "DR Mousley",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "DR Mousley",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "DR Mousley",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "DR Mousley",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "JDS Neesham",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "JDS Neesham",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JDS Neesham",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JDS Neesham",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "DJ Willey",
+              "bowler": "AM Ghazanfar",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "DJ Willey",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DJ Willey",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DJ Willey",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "SW Currie",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "review": {
+                "by": "Dubai Capitals",
+                "umpire": "WR Knights",
+                "batter": "SW Currie",
+                "decision": "upheld",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "AM Ghazanfar",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "SW Currie",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Arab Gul",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "SW Currie",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SW Currie",
+              "bowler": "Arab Gul",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "SW Currie",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "review": {
+                "by": "MI Emirates",
+                "umpire": "WR Knights",
+                "batter": "SW Currie",
+                "decision": "upheld",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SW Currie",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "Haider Ali",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Haider Ali",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Haider Ali",
+              "bowler": "Fazalhaq Farooqi",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Haider Ali",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Haider Ali",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Haider Ali",
+              "bowler": "Fazalhaq Farooqi",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Haider Ali",
+              "bowler": "Fazalhaq Farooqi",
+              "non_striker": "Mohammad Nabi",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Zahoor Khan",
+              "non_striker": "Haider Ali",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Zahoor Khan",
+              "non_striker": "Haider Ali",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Zahoor Khan",
+              "non_striker": "Haider Ali",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Zahoor Khan",
+              "non_striker": "Haider Ali",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Zahoor Khan",
+              "non_striker": "Haider Ali",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Mohammad Nabi",
+              "bowler": "Zahoor Khan",
+              "non_striker": "Haider Ali",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "MI Emirates",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "DJ Willey",
+              "non_striker": "ADS Fletcher",
+              "replacements": {
+                "match": [
+                  {
+                    "in": "ADS Fletcher",
+                    "out": "Fazalhaq Farooqi",
+                    "team": "MI Emirates",
+                    "reason": "impact_player"
+                  },
+                  {
+                    "in": "Waqar Salamkheil",
+                    "out": "R Powell",
+                    "team": "Dubai Capitals",
+                    "reason": "impact_player"
+                  }
+                ]
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "DJ Willey",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "DJ Willey",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "DJ Willey",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "DJ Willey",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "DJ Willey",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "DJ Willey",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "DJ Willey",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "DJ Willey",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "DJ Willey",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "DJ Willey",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "DJ Willey",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "Waseem Muhammad",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Waseem Muhammad",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "review": {
+                "by": "Dubai Capitals",
+                "umpire": "WR Knights",
+                "batter": "Waseem Muhammad",
+                "decision": "upheld",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Waseem Muhammad",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "T Banton",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Haider Ali",
+              "non_striker": "ADS Fletcher",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Haider Ali",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ADS Fletcher",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ADS Fletcher",
+                  "fielders": [
+                    {
+                      "name": "Shayan Jahangir"
+                    },
+                    {
+                      "name": "Muhammad Jawadullah"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "T Banton",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Mohammad Nabi",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "T Banton",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "T Banton",
+              "bowler": "SW Currie",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "SW Currie",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "SW Currie",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "SW Currie",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "SW Currie",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "SW Currie",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Waqar Salamkheil",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "T Banton",
+              "bowler": "SW Currie",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "SW Currie",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "SW Currie",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "SW Currie",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "SW Currie",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "SW Currie",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "KA Pollard",
+              "bowler": "Muhammad Jawadullah",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Muhammad Jawadullah",
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Pollard",
+              "bowler": "Muhammad Jawadullah",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "T Banton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Banton",
+              "bowler": "Muhammad Jawadullah",
+              "non_striker": "KA Pollard",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.7,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 123
+      }
+    }
+  ]
+}

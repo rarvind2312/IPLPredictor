@@ -1,0 +1,2785 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2025-05-25"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "group": "A"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "PS Jayaprakashdaran"
+      ],
+      "reserve_umpires": [
+        "PSR Fonseka"
+      ],
+      "umpires": [
+        "RMPJ Rambukwella",
+        "RD Kottahachchi"
+      ]
+    },
+    "outcome": {
+      "winner": "Panadura Sports Club",
+      "by": {
+        "wickets": 2
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "players": {
+      "Kurunegala Youth Cricket Club": [
+        "Lakvin Abeysinghe",
+        "LK Fransisco",
+        "G Weerasinghe",
+        "R Madushanka",
+        "KBAK Basnayake",
+        "C Nimesh",
+        "DT Wijesinghe",
+        "UA Morais",
+        "WVD Seneviratne",
+        "A Premaratne",
+        "DS Tillakaratne"
+      ],
+      "Panadura Sports Club": [
+        "BOP Fernando",
+        "VS Halambage",
+        "JE Jayakodyge",
+        "S Malshan",
+        "MADI Hemantha",
+        "NT Gamage",
+        "Kanchana de Livera",
+        "N Vimukthi",
+        "V Lahiru",
+        "Senitha Halambage",
+        "KDA Manoj"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Premaratne": "5584885b",
+        "BOP Fernando": "1d048deb",
+        "C Nimesh": "b4ac9264",
+        "DS Tillakaratne": "e797eb3b",
+        "DT Wijesinghe": "32ef8b08",
+        "G Weerasinghe": "77f60c02",
+        "JE Jayakodyge": "782ca295",
+        "KBAK Basnayake": "212b6afa",
+        "KDA Manoj": "361c920a",
+        "Kanchana de Livera": "05464bcd",
+        "LK Fransisco": "48076638",
+        "Lakvin Abeysinghe": "15ec4a6c",
+        "MADI Hemantha": "58431ca0",
+        "N Vimukthi": "b215a7be",
+        "NT Gamage": "f66b8839",
+        "PS Jayaprakashdaran": "5e6c7237",
+        "PSR Fonseka": "8fd2cea5",
+        "R Madushanka": "a45a92b0",
+        "RD Kottahachchi": "92e41d14",
+        "RMPJ Rambukwella": "13fa6ffc",
+        "S Dangamuwa": "0538bbaa",
+        "S Malshan": "68581793",
+        "Senitha Halambage": "eab6aa30",
+        "UA Morais": "192c4855",
+        "V Lahiru": "26cd5968",
+        "VS Halambage": "9531d48f",
+        "WVD Seneviratne": "a822c6fb"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Kurunegala Youth Cricket Club",
+      "Panadura Sports Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Panadura Sports Club"
+    },
+    "venue": "Colombo Cricket Club Ground"
+  },
+  "innings": [
+    {
+      "team": "Kurunegala Youth Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "KDA Manoj",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "KDA Manoj",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "NT Gamage",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "N Vimukthi",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "N Vimukthi",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "N Vimukthi",
+              "non_striker": "Lakvin Abeysinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "N Vimukthi",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "N Vimukthi",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "N Vimukthi",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "Lakvin Abeysinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Lakvin Abeysinghe",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "G Weerasinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "G Weerasinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Weerasinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "G Weerasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "G Weerasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "LK Fransisco",
+              "bowler": "MADI Hemantha",
+              "non_striker": "G Weerasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "MADI Hemantha",
+              "non_striker": "G Weerasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Weerasinghe",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "G Weerasinghe",
+                  "fielders": [
+                    {
+                      "name": "KDA Manoj"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "MADI Hemantha",
+              "non_striker": "R Madushanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "R Madushanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "MADI Hemantha",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "R Madushanka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "R Madushanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "R Madushanka",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "R Madushanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Madushanka",
+              "bowler": "NT Gamage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "R Madushanka",
+              "bowler": "VS Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Madushanka",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "KBAK Basnayake",
+              "bowler": "VS Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "VS Halambage",
+              "non_striker": "KBAK Basnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "VS Halambage",
+              "non_striker": "KBAK Basnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KBAK Basnayake",
+              "bowler": "VS Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KBAK Basnayake",
+              "bowler": "VS Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "KBAK Basnayake",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "KBAK Basnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "KBAK Basnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KBAK Basnayake",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KBAK Basnayake",
+                  "fielders": [
+                    {
+                      "name": "JE Jayakodyge"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Nimesh",
+              "bowler": "KDA Manoj",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Nimesh",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "C Nimesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Nimesh",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "C Nimesh",
+              "bowler": "VS Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "VS Halambage",
+              "non_striker": "C Nimesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Nimesh",
+              "bowler": "VS Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Nimesh",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "DT Wijesinghe",
+              "bowler": "VS Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "VS Halambage",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "DT Wijesinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "VS Halambage",
+              "non_striker": "DT Wijesinghe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "VS Halambage",
+              "non_striker": "DT Wijesinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "DT Wijesinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DT Wijesinghe",
+              "bowler": "KDA Manoj",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "DT Wijesinghe",
+                  "kind": "retired hurt"
+                }
+              ]
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "KDA Manoj",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "KDA Manoj",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "UA Morais",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "Senitha Halambage",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "Senitha Halambage",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "Senitha Halambage",
+              "non_striker": "LK Fransisco",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Fransisco",
+              "bowler": "NT Gamage",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LK Fransisco",
+                  "fielders": [
+                    {
+                      "name": "KDA Manoj"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "WVD Seneviratne",
+              "bowler": "NT Gamage",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "NT Gamage",
+              "non_striker": "WVD Seneviratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "NT Gamage",
+              "non_striker": "WVD Seneviratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "UA Morais",
+              "bowler": "MADI Hemantha",
+              "non_striker": "WVD Seneviratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WVD Seneviratne",
+              "bowler": "MADI Hemantha",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "WVD Seneviratne",
+                  "fielders": [
+                    {
+                      "name": "S Malshan"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "A Premaratne",
+              "bowler": "MADI Hemantha",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "A Premaratne",
+                  "fielders": [
+                    {
+                      "name": "S Malshan"
+                    },
+                    {
+                      "name": "Kanchana de Livera"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "MADI Hemantha",
+              "non_striker": "DS Tillakaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UA Morais",
+              "bowler": "MADI Hemantha",
+              "non_striker": "DS Tillakaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DS Tillakaratne",
+              "bowler": "MADI Hemantha",
+              "non_striker": "UA Morais",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Panadura Sports Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "DS Tillakaratne",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "VS Halambage",
+                  "fielders": [
+                    {
+                      "name": "LK Fransisco"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "G Weerasinghe",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "G Weerasinghe",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "G Weerasinghe",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "G Weerasinghe",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "G Weerasinghe",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "G Weerasinghe",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "WVD Seneviratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "G Weerasinghe",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "G Weerasinghe",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "G Weerasinghe",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "G Weerasinghe",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "G Weerasinghe",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "G Weerasinghe",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "A Premaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "A Premaratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "A Premaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "A Premaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "A Premaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "A Premaratne",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "UA Morais",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "UA Morais",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "C Nimesh",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "C Nimesh",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "C Nimesh",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "UA Morais",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "UA Morais",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BOP Fernando",
+                  "fielders": [
+                    {
+                      "name": "KBAK Basnayake"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "S Malshan",
+              "bowler": "UA Morais",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "S Malshan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "S Malshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "S Malshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Malshan",
+              "bowler": "C Nimesh",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "S Malshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Malshan",
+              "bowler": "C Nimesh",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "S Malshan",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Malshan",
+                  "fielders": [
+                    {
+                      "name": "LK Fransisco"
+                    },
+                    {
+                      "name": "G Weerasinghe"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "C Nimesh",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "MADI Hemantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "MADI Hemantha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "MADI Hemantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "C Nimesh",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "C Nimesh",
+              "non_striker": "MADI Hemantha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "MADI Hemantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MADI Hemantha",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MADI Hemantha",
+                  "fielders": [
+                    {
+                      "name": "KBAK Basnayake"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "NT Gamage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "JE Jayakodyge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "JE Jayakodyge",
+              "bowler": "A Premaratne",
+              "non_striker": "NT Gamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JE Jayakodyge",
+                  "fielders": [
+                    {
+                      "name": "KBAK Basnayake"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "A Premaratne",
+              "non_striker": "NT Gamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "A Premaratne",
+              "non_striker": "NT Gamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "A Premaratne",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "NT Gamage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "A Premaratne",
+              "non_striker": "NT Gamage",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "A Premaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "A Premaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "NT Gamage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "NT Gamage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "DS Tillakaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "NT Gamage",
+              "bowler": "A Premaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "A Premaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NT Gamage",
+              "bowler": "A Premaratne",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "NT Gamage",
+                  "fielders": [
+                    {
+                      "name": "LK Fransisco"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "A Premaratne",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "A Premaratne",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Kanchana de Livera",
+                  "fielders": [
+                    {
+                      "name": "LK Fransisco"
+                    },
+                    {
+                      "name": "A Premaratne"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "N Vimukthi",
+              "bowler": "A Premaratne",
+              "non_striker": "V Lahiru",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "N Vimukthi",
+              "bowler": "UA Morais",
+              "non_striker": "V Lahiru",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Vimukthi",
+              "bowler": "UA Morais",
+              "non_striker": "V Lahiru",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Lahiru",
+              "bowler": "UA Morais",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Lahiru",
+              "bowler": "UA Morais",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Vimukthi",
+              "bowler": "UA Morais",
+              "non_striker": "V Lahiru",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "V Lahiru",
+              "bowler": "UA Morais",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "V Lahiru",
+              "bowler": "A Premaratne",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "V Lahiru",
+                  "fielders": [
+                    {
+                      "name": "S Dangamuwa",
+                      "substitute": true
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "A Premaratne",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Vimukthi",
+              "bowler": "A Premaratne",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "A Premaratne",
+              "non_striker": "N Vimukthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 4.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 18,
+        "runs": 162
+      }
+    }
+  ]
+}

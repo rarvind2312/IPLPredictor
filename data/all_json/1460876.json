@@ -1,0 +1,2947 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-25",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Leicester",
+    "dates": [
+      "2025-07-18"
+    ],
+    "event": {
+      "name": "Vitality Blast Men",
+      "group": "North"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "JJ Whitaker"
+      ],
+      "umpires": [
+        "Naeem Ashraf",
+        "SJ O'Shaughnessy"
+      ]
+    },
+    "outcome": {
+      "winner": "Yorkshire",
+      "by": {
+        "wickets": 2
+      }
+    },
+    "overs": 20,
+    "players": {
+      "Leicestershire": [
+        "RK Patel",
+        "SG Budinger",
+        "Shan Masood",
+        "Rehan Ahmed",
+        "OB Cox",
+        "LPJ Kimber",
+        "LV van Beek",
+        "IG Holland",
+        "TAR Scriven",
+        "JF Thomas",
+        "J Hull"
+      ],
+      "Yorkshire": [
+        "W Luxton",
+        "DJ Malan",
+        "JH Wharton",
+        "Abdullah Shafique",
+        "HG Duke",
+        "ML Revis",
+        "W Sutherland",
+        "JA Thompson",
+        "ME Milnes",
+        "JA Chohan",
+        "D Moriarty"
+      ]
+    },
+    "registry": {
+      "people": {
+        "Abdullah Shafique": "fc2fffb5",
+        "D Moriarty": "6ea2710f",
+        "DJ Malan": "ad9c32a2",
+        "HG Duke": "443b47a6",
+        "IG Holland": "4167f30b",
+        "J Hull": "1cc0a83d",
+        "JA Chohan": "58be5e46",
+        "JA Thompson": "1d2f290a",
+        "JF Thomas": "bdd4bc21",
+        "JH Wharton": "42a5c1c7",
+        "JJ Whitaker": "4ea85016",
+        "LPJ Kimber": "9f812582",
+        "LV van Beek": "782fb776",
+        "ME Milnes": "3dcd1e8d",
+        "ML Revis": "28217d89",
+        "Naeem Ashraf": "1866938c",
+        "OB Cox": "324a6ee1",
+        "RK Patel": "4531f249",
+        "Rehan Ahmed": "0ecb4de6",
+        "SG Budinger": "bfc60227",
+        "SJ O'Shaughnessy": "4d4fdf4a",
+        "Shan Masood": "6843a783",
+        "TAR Scriven": "ac3c3cab",
+        "W Luxton": "c15fb753",
+        "W Sutherland": "bc2d4f2e"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Leicestershire",
+      "Yorkshire"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Yorkshire"
+    },
+    "venue": "Grace Road, Leicester"
+  },
+  "innings": [
+    {
+      "team": "Leicestershire",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "RK Patel",
+              "bowler": "ME Milnes",
+              "non_striker": "SG Budinger",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Patel",
+              "bowler": "ME Milnes",
+              "non_striker": "SG Budinger",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SG Budinger",
+              "bowler": "ME Milnes",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SG Budinger",
+              "bowler": "ME Milnes",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SG Budinger",
+              "bowler": "ME Milnes",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SG Budinger",
+              "bowler": "ME Milnes",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "RK Patel",
+              "bowler": "D Moriarty",
+              "non_striker": "SG Budinger",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Patel",
+              "bowler": "D Moriarty",
+              "non_striker": "SG Budinger",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SG Budinger",
+              "bowler": "D Moriarty",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SG Budinger",
+                  "fielders": [
+                    {
+                      "name": "JA Thompson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "D Moriarty",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Patel",
+              "bowler": "D Moriarty",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Patel",
+              "bowler": "D Moriarty",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "Shan Masood",
+              "bowler": "W Sutherland",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Patel",
+              "bowler": "W Sutherland",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "W Sutherland",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "W Sutherland",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "W Sutherland",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "W Sutherland",
+              "non_striker": "RK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "RK Patel",
+              "bowler": "D Moriarty",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Patel",
+              "bowler": "D Moriarty",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RK Patel",
+                  "fielders": [
+                    {
+                      "name": "JH Wharton"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "D Moriarty",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "D Moriarty",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "D Moriarty",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "D Moriarty",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "ME Milnes",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "ME Milnes",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "ME Milnes",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "ME Milnes",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shan Masood",
+              "bowler": "ME Milnes",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "ME Milnes",
+              "non_striker": "Shan Masood",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Shan Masood",
+              "bowler": "W Sutherland",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Shan Masood",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "W Sutherland",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "W Sutherland",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "W Sutherland",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "W Sutherland",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "W Sutherland",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "W Sutherland",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Thompson",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Thompson",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Thompson",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "OB Cox",
+              "bowler": "D Moriarty",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "D Moriarty",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "D Moriarty",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "D Moriarty",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "D Moriarty",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "D Moriarty",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "ML Revis",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "ML Revis",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "ML Revis",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "ML Revis",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "ML Revis",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "ML Revis",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "Rehan Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Rehan Ahmed",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Rehan Ahmed",
+                  "fielders": [
+                    {
+                      "name": "W Luxton"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "JA Thompson",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "OB Cox",
+              "bowler": "D Moriarty",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "D Moriarty",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "D Moriarty",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "D Moriarty",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "D Moriarty",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "D Moriarty",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "JA Chohan",
+              "non_striker": "OB Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "OB Cox",
+              "bowler": "W Sutherland",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OB Cox",
+              "bowler": "W Sutherland",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "OB Cox",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "LV van Beek",
+              "bowler": "W Sutherland",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "W Sutherland",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "W Sutherland",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "W Sutherland",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LV van Beek",
+              "bowler": "W Sutherland",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "LV van Beek",
+              "bowler": "ME Milnes",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LV van Beek",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "IG Holland",
+              "bowler": "ME Milnes",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "IG Holland",
+              "bowler": "ME Milnes",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "IG Holland",
+                  "fielders": [
+                    {
+                      "name": "DJ Malan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TAR Scriven",
+              "bowler": "ME Milnes",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "ME Milnes",
+              "non_striker": "TAR Scriven",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TAR Scriven",
+              "bowler": "ME Milnes",
+              "non_striker": "LPJ Kimber",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TAR Scriven",
+                  "fielders": [
+                    {
+                      "name": "W Sutherland"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "LPJ Kimber",
+              "bowler": "JA Thompson",
+              "non_striker": "JF Thomas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LPJ Kimber",
+                  "fielders": [
+                    {
+                      "name": "HG Duke"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Hull",
+              "bowler": "JA Thompson",
+              "non_striker": "JF Thomas",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Hull",
+              "bowler": "JA Thompson",
+              "non_striker": "JF Thomas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Hull",
+              "bowler": "JA Thompson",
+              "non_striker": "JF Thomas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JF Thomas",
+              "bowler": "JA Thompson",
+              "non_striker": "J Hull",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JF Thomas",
+              "bowler": "JA Thompson",
+              "non_striker": "J Hull",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "JF Thomas",
+              "bowler": "W Sutherland",
+              "non_striker": "J Hull",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JF Thomas",
+              "bowler": "W Sutherland",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "J Hull",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JF Thomas",
+              "bowler": "W Sutherland",
+              "non_striker": "J Hull",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JF Thomas",
+              "bowler": "W Sutherland",
+              "non_striker": "J Hull",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Hull",
+              "bowler": "W Sutherland",
+              "non_striker": "JF Thomas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Hull",
+              "bowler": "W Sutherland",
+              "non_striker": "JF Thomas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Hull",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.7,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Yorkshire",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "W Luxton",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Luxton",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Luxton",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "W Luxton",
+                  "fielders": [
+                    {
+                      "name": "Rehan Ahmed"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "DJ Malan",
+              "bowler": "J Hull",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "J Hull",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "J Hull",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "J Hull",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "J Hull",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "J Hull",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "DJ Malan",
+              "bowler": "LV van Beek",
+              "non_striker": "JH Wharton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "LV van Beek",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "LV van Beek",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "LV van Beek",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "LV van Beek",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JH Wharton",
+              "bowler": "LV van Beek",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JH Wharton",
+                  "fielders": [
+                    {
+                      "name": "Rehan Ahmed"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "IG Holland",
+              "non_striker": "DJ Malan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJ Malan",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DJ Malan",
+                  "fielders": [
+                    {
+                      "name": "Shan Masood"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HG Duke",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "non_striker": "HG Duke",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HG Duke",
+              "bowler": "LV van Beek",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HG Duke",
+              "bowler": "LV van Beek",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HG Duke",
+                  "fielders": [
+                    {
+                      "name": "Rehan Ahmed"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "LV van Beek",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "IG Holland",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "IG Holland",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "IG Holland",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "IG Holland",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "TAR Scriven",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "TAR Scriven",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "JF Thomas",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "JF Thomas",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "JF Thomas",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "JF Thomas",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "JF Thomas",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "JF Thomas",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "TAR Scriven",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "TAR Scriven",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "TAR Scriven",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "J Hull",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "J Hull",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "J Hull",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "J Hull",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "J Hull",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "J Hull",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "TAR Scriven",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "TAR Scriven",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "TAR Scriven",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "LV van Beek",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "LV van Beek",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "LV van Beek",
+              "non_striker": "Abdullah Shafique",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "LV van Beek",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Abdullah Shafique",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Abdullah Shafique",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "ML Revis",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "Rehan Ahmed",
+              "non_striker": "ML Revis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "ML Revis",
+              "bowler": "J Hull",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ML Revis",
+                  "fielders": [
+                    {
+                      "name": "RK Patel"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "J Hull",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "J Hull",
+              "non_striker": "JA Thompson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "J Hull",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "J Hull",
+              "non_striker": "JA Thompson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "J Hull",
+              "non_striker": "JA Thompson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "JA Thompson",
+              "bowler": "LV van Beek",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "LV van Beek",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "LV van Beek",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "LV van Beek",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "LV van Beek",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "LV van Beek",
+              "non_striker": "JA Thompson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "LV van Beek",
+              "non_striker": "JA Thompson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "W Sutherland",
+                  "fielders": [
+                    {
+                      "name": "OB Cox"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ME Milnes",
+              "bowler": "LV van Beek",
+              "non_striker": "JA Thompson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "JA Thompson",
+              "bowler": "J Hull",
+              "non_striker": "ME Milnes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "J Hull",
+              "non_striker": "ME Milnes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JA Thompson",
+              "bowler": "J Hull",
+              "non_striker": "ME Milnes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JA Thompson",
+                  "fielders": [
+                    {
+                      "name": "LV van Beek"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JA Chohan",
+              "bowler": "J Hull",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "ME Milnes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ME Milnes",
+              "bowler": "J Hull",
+              "non_striker": "JA Chohan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "ME Milnes",
+              "bowler": "J Hull",
+              "non_striker": "JA Chohan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3358 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-09-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Perth",
+    "dates": [
+      "2023-10-09"
+    ],
+    "event": {
+      "name": "The Marsh Cup",
+      "match_number": 9
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "officials": {
+      "match_referees": [
+        "RL Parry"
+      ],
+      "umpires": [
+        "GA Abood",
+        "SAJ Craig"
+      ]
+    },
+    "outcome": {
+      "winner": "Western Australia",
+      "by": {
+        "wickets": 6
+      }
+    },
+    "overs": 50,
+    "player_of_match": [
+      "JP Behrendorff"
+    ],
+    "players": {
+      "Victoria": [
+        "TF Rogers",
+        "SB Harper",
+        "C Kellaway",
+        "PSP Handscomb",
+        "J Merlo",
+        "J Seymour",
+        "W Sutherland",
+        "SM Elliott",
+        "F O'Neill",
+        "T Murphy",
+        "PM Siddle"
+      ],
+      "Western Australia": [
+        "JR Philippe",
+        "DJM Short",
+        "CT Bancroft",
+        "SM Whiteman",
+        "AM Hardie",
+        "AJ Turner",
+        "NR Hobson",
+        "JA Richardson",
+        "AJ Tye",
+        "JP Behrendorff",
+        "LR Morris"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AJ Turner": "ff1e12a0",
+        "AJ Tye": "7c7d63a2",
+        "AM Hardie": "d405c0d5",
+        "C Kellaway": "60c28835",
+        "CT Bancroft": "399b0b94",
+        "DJM Short": "1a156c88",
+        "F O'Neill": "39d608d4",
+        "GA Abood": "a4af5528",
+        "J Merlo": "02ba80a0",
+        "J Seymour": "cb54a1d6",
+        "JA Richardson": "1ee08e9a",
+        "JP Behrendorff": "4933f499",
+        "JR Philippe": "39086549",
+        "LR Morris": "b08e58e2",
+        "NR Hobson": "4312e0fd",
+        "PM Siddle": "bd93fea4",
+        "PSP Handscomb": "ada15e88",
+        "RL Parry": "86d151dc",
+        "SAJ Craig": "689f2eed",
+        "SB Harper": "a756e61a",
+        "SM Elliott": "00cda8e4",
+        "SM Whiteman": "f4427cc6",
+        "T Murphy": "ac2e7ec0",
+        "TF Rogers": "7f232d46",
+        "W Sutherland": "bc2d4f2e"
+      }
+    },
+    "season": "2023/24",
+    "team_type": "club",
+    "teams": [
+      "Victoria",
+      "Western Australia"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Western Australia"
+    },
+    "venue": "Western Australia Cricket Association Ground, Perth"
+  },
+  "innings": [
+    {
+      "team": "Victoria",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "TF Rogers",
+              "bowler": "JA Richardson",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JA Richardson",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "SB Harper",
+              "bowler": "JP Behrendorff",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JP Behrendorff",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JP Behrendorff",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JP Behrendorff",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "TF Rogers",
+              "bowler": "JA Richardson",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JA Richardson",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SB Harper",
+                  "fielders": [
+                    {
+                      "name": "AJ Tye"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "non_boundary": true,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "JP Behrendorff",
+              "non_striker": "C Kellaway",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TF Rogers",
+                  "kind": "lbw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "C Kellaway",
+              "bowler": "JA Richardson",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Kellaway",
+                  "fielders": [
+                    {
+                      "name": "JR Philippe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JA Richardson",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JA Richardson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JA Richardson",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JA Richardson",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JA Richardson",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JA Richardson",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Merlo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Merlo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "J Merlo",
+              "bowler": "LR Morris",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "LR Morris",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "LR Morris",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "LR Morris",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "LR Morris",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "LR Morris",
+              "non_striker": "J Merlo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Merlo",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Merlo",
+                  "fielders": [
+                    {
+                      "name": "DJM Short"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "J Seymour",
+              "bowler": "LR Morris",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PSP Handscomb",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JP Behrendorff",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "J Seymour",
+              "bowler": "LR Morris",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "LR Morris",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "LR Morris",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "LR Morris",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "LR Morris",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "LR Morris",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "W Sutherland",
+              "bowler": "JA Richardson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JA Richardson",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "JA Richardson",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 5,
+                "extras": 0,
+                "total": 5
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "W Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "W Sutherland",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "W Sutherland",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "W Sutherland",
+                  "fielders": [
+                    {
+                      "name": "CT Bancroft"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SM Elliott",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "JA Richardson",
+              "non_striker": "SM Elliott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "SM Elliott",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Elliott",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Elliott",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Elliott",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Elliott",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SM Elliott",
+                  "fielders": [
+                    {
+                      "name": "JR Philippe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "J Seymour",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "J Seymour",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "AJ Tye",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Seymour",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Seymour",
+                  "fielders": [
+                    {
+                      "name": "NR Hobson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "LR Morris",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "LR Morris",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "LR Morris",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "LR Morris",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "LR Morris",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "LR Morris",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "T Murphy",
+                  "fielders": [
+                    {
+                      "name": "AM Hardie"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "LR Morris",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "LR Morris",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "LR Morris",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "F O'Neill",
+                  "fielders": [
+                    {
+                      "name": "JR Philippe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.7,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 21.1,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Western Australia",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "PM Siddle",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JR Philippe",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "PM Siddle",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "F O'Neill",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CT Bancroft",
+                  "fielders": [
+                    {
+                      "name": "J Merlo"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "non_boundary": true,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DJM Short",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "W Sutherland",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "W Sutherland",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "SM Whiteman",
+              "bowler": "T Murphy",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "T Murphy",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "T Murphy",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "T Murphy",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Whiteman",
+              "bowler": "T Murphy",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "SM Whiteman",
+              "bowler": "SM Elliott",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AM Hardie",
+                  "fielders": [
+                    {
+                      "name": "SB Harper"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "SM Elliott",
+              "non_striker": "SM Whiteman",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 23.4,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 50,
+        "runs": 108
+      }
+    }
+  ]
+}

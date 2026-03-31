@@ -1,0 +1,944 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-08-11",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Panadura",
+    "dates": [
+      "2024-06-10"
+    ],
+    "event": {
+      "name": "Major Clubs Limited Over Tournament",
+      "group": "A"
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "missing": [
+      {
+        "powerplays": {
+          "1": [
+            "mandatory",
+            "mandatory",
+            "mandatory"
+          ]
+        }
+      }
+    ],
+    "officials": {
+      "match_referees": [
+        "BCMS Mendis"
+      ],
+      "umpires": [
+        "SWC Sanjeewa",
+        "RMPJ Rambukwella"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 50,
+    "players": {
+      "Bloomfield Cricket and Athletic Club": [
+        "RK Chandraguptha",
+        "H Boyagoda",
+        "ALKL Abeyrathne",
+        "A Wanninayake",
+        "LD Madushanka",
+        "S Nanayakkare",
+        "KPNM Karunanayake",
+        "JDF Vandersay",
+        "RS Fernando",
+        "S Jayathilake",
+        "I Wijesundera"
+      ],
+      "Panadura Sports Club": [
+        "N Vimukthi",
+        "BOP Fernando",
+        "MI Slaza",
+        "KGA Sampath",
+        "P Asanka",
+        "L Dawatage",
+        "HM Kapurubandara",
+        "VS Halambage",
+        "Y Avishka",
+        "V Lahiru",
+        "G Malkan"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Wanninayake": "13ef4457",
+        "ALKL Abeyrathne": "ee3a3a7f",
+        "BCMS Mendis": "e3f6e4ac",
+        "BOP Fernando": "1d048deb",
+        "G Malkan": "0c79cd0e",
+        "H Boyagoda": "648e673c",
+        "HM Kapurubandara": "64c88fab",
+        "I Wijesundera": "be620896",
+        "JDF Vandersay": "aceb7654",
+        "KGA Sampath": "014196ed",
+        "KPNM Karunanayake": "532cc5b8",
+        "L Dawatage": "75e72109",
+        "LD Madushanka": "de063a39",
+        "MI Slaza": "df6e41bc",
+        "N Vimukthi": "b215a7be",
+        "P Asanka": "9c6ad3ac",
+        "RK Chandraguptha": "f51ed6ad",
+        "RMPJ Rambukwella": "13fa6ffc",
+        "RS Fernando": "24d72446",
+        "S Jayathilake": "6ba6ca1f",
+        "S Nanayakkare": "1b2016bc",
+        "SWC Sanjeewa": "2a8fc965",
+        "V Lahiru": "26cd5968",
+        "VS Halambage": "9531d48f",
+        "Y Avishka": "c226b4b6"
+      }
+    },
+    "season": "2024",
+    "team_type": "club",
+    "teams": [
+      "Bloomfield Cricket and Athletic Club",
+      "Panadura Sports Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Panadura Sports Club"
+    },
+    "venue": "Panadura Esplanade"
+  },
+  "innings": [
+    {
+      "team": "Bloomfield Cricket and Athletic Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "P Asanka",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "P Asanka",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "P Asanka",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "P Asanka",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "P Asanka",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "P Asanka",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "H Boyagoda",
+              "bowler": "P Asanka",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "P Asanka",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "P Asanka",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "P Asanka",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "P Asanka",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "P Asanka",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "N Vimukthi",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "N Vimukthi",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "N Vimukthi",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "N Vimukthi",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "N Vimukthi",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "N Vimukthi",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "N Vimukthi",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "H Boyagoda",
+              "bowler": "MI Slaza",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "MI Slaza",
+              "extras": {
+                "byes": 4
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "MI Slaza",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "MI Slaza",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "MI Slaza",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "MI Slaza",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "KGA Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "KGA Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "KGA Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "VS Halambage",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 1,
+                "total": 5
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "H Boyagoda",
+              "bowler": "KGA Sampath",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RK Chandraguptha",
+                  "fielders": [
+                    {
+                      "name": "G Malkan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "KGA Sampath",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "V Lahiru",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "V Lahiru",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ALKL Abeyrathne",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "A Wanninayake",
+              "bowler": "V Lahiru",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Wanninayake",
+              "bowler": "V Lahiru",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Wanninayake",
+              "bowler": "V Lahiru",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "V Lahiru",
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "A Wanninayake",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "VS Halambage",
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Wanninayake",
+              "bowler": "VS Halambage",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "H Boyagoda",
+              "bowler": "V Lahiru",
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "V Lahiru",
+              "non_striker": "A Wanninayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

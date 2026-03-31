@@ -1,0 +1,6764 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-22",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2025-07-17"
+    ],
+    "event": {
+      "name": "Major Clubs Limited Over Tournament",
+      "group": "A"
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "officials": {
+      "match_referees": [
+        "GF Labrooy"
+      ],
+      "reserve_umpires": [
+        "CM Hathurusingha"
+      ],
+      "umpires": [
+        "D Sanjeewa",
+        "PSR Fonseka"
+      ]
+    },
+    "outcome": {
+      "winner": "Police Sports Club",
+      "by": {
+        "wickets": 6
+      }
+    },
+    "overs": 50,
+    "players": {
+      "Ace Capital Cricket Club": [
+        "T Rajapakse",
+        "TSB Ekanayake",
+        "SN Gunasinghe",
+        "V Silva",
+        "R Silva",
+        "HS Liyanage",
+        "R de Silva",
+        "D Hemananda",
+        "A Wijewardhana",
+        "T Mathew",
+        "RJKTD Ranatunga"
+      ],
+      "Police Sports Club": [
+        "D Induwara",
+        "N Balasooriya",
+        "HMCB Jayathilake",
+        "MJM Fernando",
+        "KNA Bandara",
+        "PARP Perera",
+        "DS Thilakaratne",
+        "R Hirushan",
+        "NN Fernando",
+        "WACP Wijelath",
+        "M Chanthuka"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Wijewardhana": "fe504053",
+        "CM Hathurusingha": "dfbd1b29",
+        "D Hemananda": "92189c3e",
+        "D Induwara": "7f280989",
+        "D Sanjeewa": "f7257752",
+        "DS Thilakaratne": "a2198010",
+        "GF Labrooy": "8e088dbc",
+        "HMCB Jayathilake": "f8fa8b1c",
+        "HS Liyanage": "8505bd55",
+        "KNA Bandara": "585dda5d",
+        "M Chanthuka": "9adac4a2",
+        "MJM Fernando": "13e093b4",
+        "N Balasooriya": "e57312fb",
+        "NN Fernando": "bd386d09",
+        "PARP Perera": "5f75a7c5",
+        "PSR Fonseka": "8fd2cea5",
+        "R Hirushan": "aa9980cb",
+        "R Silva": "1117e543",
+        "R de Silva": "0d6ab15a",
+        "RJKTD Ranatunga": "dadb0634",
+        "SN Gunasinghe": "45cd90b2",
+        "T Mathew": "c13e8df5",
+        "T Rajapakse": "11687cd7",
+        "TSB Ekanayake": "395a2e0f",
+        "V Silva": "4f782bfb",
+        "WACP Wijelath": "b7e98f01"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Ace Capital Cricket Club",
+      "Police Sports Club"
+    ],
+    "toss": {
+      "uncontested": true,
+      "decision": "field",
+      "winner": "Police Sports Club"
+    },
+    "venue": "Police Park Ground, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Ace Capital Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "T Rajapakse",
+              "bowler": "NN Fernando",
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "NN Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "NN Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "NN Fernando",
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "NN Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "NN Fernando",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "NN Fernando",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "NN Fernando",
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "NN Fernando",
+              "non_striker": "TSB Ekanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TSB Ekanayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TSB Ekanayake",
+                  "fielders": [
+                    {
+                      "name": "MJM Fernando"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "SN Gunasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SN Gunasinghe",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SN Gunasinghe",
+                  "fielders": [
+                    {
+                      "name": "N Balasooriya"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "T Rajapakse",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Rajapakse",
+              "bowler": "WACP Wijelath",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "T Rajapakse",
+                  "fielders": [
+                    {
+                      "name": "KNA Bandara"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "WACP Wijelath",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "WACP Wijelath",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "WACP Wijelath",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "WACP Wijelath",
+              "non_striker": "R Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "R Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Silva",
+                  "fielders": [
+                    {
+                      "name": "D Induwara"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "V Silva",
+              "bowler": "NN Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "NN Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "V Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "V Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "V Silva",
+                  "fielders": [
+                    {
+                      "name": "R Hirushan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "NN Fernando",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "NN Fernando",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "M Chanthuka",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "M Chanthuka",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "R Hirushan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "R Hirushan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "R Hirushan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "R Hirushan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "R Hirushan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "R Hirushan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "R Hirushan",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "R Hirushan",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "PARP Perera",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "PARP Perera",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 41,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 42,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 43,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 44,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 45,
+          "deliveries": [
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "HS Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HS Liyanage",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HS Liyanage",
+                  "fielders": [
+                    {
+                      "name": "KNA Bandara"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 46,
+          "deliveries": [
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 47,
+          "deliveries": [
+            {
+              "batter": "D Hemananda",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "DS Thilakaratne",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 48,
+          "deliveries": [
+            {
+              "batter": "D Hemananda",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "N Balasooriya",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "N Balasooriya",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 49,
+          "deliveries": [
+            {
+              "batter": "D Hemananda",
+              "bowler": "WACP Wijelath",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "WACP Wijelath",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "WACP Wijelath",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "WACP Wijelath",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R de Silva",
+              "bowler": "WACP Wijelath",
+              "non_striker": "D Hemananda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Hemananda",
+              "bowler": "WACP Wijelath",
+              "non_striker": "R de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 40.1,
+          "to": 49.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Police Sports Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "V Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "V Silva",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "N Balasooriya",
+                  "fielders": [
+                    {
+                      "name": "R de Silva"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HMCB Jayathilake",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "T Mathew",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "T Mathew",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "R de Silva",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "R de Silva",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "R de Silva",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "R de Silva",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "TSB Ekanayake",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "D Hemananda",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "MJM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "D Hemananda",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJM Fernando",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MJM Fernando",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "D Induwara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Induwara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Induwara",
+                  "fielders": [
+                    {
+                      "name": "SN Gunasinghe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "A Wijewardhana",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "A Wijewardhana",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "A Wijewardhana",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "RJKTD Ranatunga",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 41,
+          "deliveries": [
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 42,
+          "deliveries": [
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 43,
+          "deliveries": [
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "T Mathew",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 44,
+          "deliveries": [
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PARP Perera",
+              "bowler": "R de Silva",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNA Bandara",
+              "bowler": "R de Silva",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 45,
+          "deliveries": [
+            {
+              "batter": "PARP Perera",
+              "bowler": "T Mathew",
+              "non_striker": "KNA Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 40.1,
+          "to": 45.1,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 50,
+        "runs": 212
+      }
+    }
+  ]
+}

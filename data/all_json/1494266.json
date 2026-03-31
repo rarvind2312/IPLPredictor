@@ -1,0 +1,2638 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-05",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Centurion",
+    "dates": [
+      "2026-01-05"
+    ],
+    "event": {
+      "name": "SA20",
+      "match_number": 14
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "CD Isaacs"
+      ],
+      "reserve_umpires": [
+        "ID Blackwell"
+      ],
+      "tv_umpires": [
+        "Lauren Agenbag"
+      ],
+      "umpires": [
+        "A Steenkamp",
+        "DJ Smith"
+      ]
+    },
+    "outcome": {
+      "winner": "Sunrisers Eastern Cape",
+      "by": {
+        "wickets": 10
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "Q de Kock"
+    ],
+    "players": {
+      "Pretoria Capitals": [
+        "C Esterhuizen",
+        "B Parsons",
+        "SD Hope",
+        "WJ Lubbe",
+        "D Brevis",
+        "SE Rutherford",
+        "AD Russell",
+        "KA Maharaj",
+        "LB Williams",
+        "TS Mills",
+        "L Ngidi"
+      ],
+      "Sunrisers Eastern Cape": [
+        "Q de Kock",
+        "JM Bairstow",
+        "MP Breetzke",
+        "J Hermann",
+        "T Stubbs",
+        "M Jansen",
+        "S Muthusamy",
+        "L Gregory",
+        "A Nortje",
+        "AF Milne",
+        "L Sipamla"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Nortje": "acdc62f5",
+        "A Steenkamp": "89c62cf5",
+        "AD Russell": "bbd41817",
+        "AF Milne": "350bb1b1",
+        "B Parsons": "fc60e81a",
+        "C Esterhuizen": "ef9acbcc",
+        "CD Isaacs": "c0215bbd",
+        "D Brevis": "844e79d1",
+        "DJ Smith": "d17bec15",
+        "ID Blackwell": "818e8bf2",
+        "J Hermann": "e87aeca2",
+        "JM Bairstow": "abb83e27",
+        "KA Maharaj": "0b60eb09",
+        "L Gregory": "06c2de82",
+        "L Ngidi": "f834dcfc",
+        "L Sipamla": "f892fcf9",
+        "LB Williams": "a1d95bd8",
+        "Lauren Agenbag": "40849abd",
+        "M Jansen": "81c36ee9",
+        "MP Breetzke": "35f173a0",
+        "Q de Kock": "372455c4",
+        "S Muthusamy": "7dfb8890",
+        "SD Hope": "1fc6ef83",
+        "SE Rutherford": "d014d5ac",
+        "T Stubbs": "85b3fab2",
+        "TS Mills": "245c97cb",
+        "WJ Lubbe": "10f42013"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Pretoria Capitals",
+      "Sunrisers Eastern Cape"
+    ],
+    "toss": {
+      "decision": "bat",
+      "winner": "Pretoria Capitals"
+    },
+    "venue": "SuperSport Park, Centurion"
+  },
+  "innings": [
+    {
+      "team": "Pretoria Capitals",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AF Milne",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "AF Milne",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "AF Milne",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "L Sipamla",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "L Sipamla",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "L Sipamla",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "L Sipamla",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "B Parsons",
+                  "fielders": [
+                    {
+                      "name": "T Stubbs"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "L Sipamla",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Sipamla",
+              "non_striker": "SD Hope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "SD Hope",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SD Hope",
+                  "fielders": [
+                    {
+                      "name": "Q de Kock"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "AF Milne",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Sipamla",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "L Sipamla",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Sipamla",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Sipamla",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Sipamla",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "L Sipamla",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "S Muthusamy",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "S Muthusamy",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "S Muthusamy",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "A Nortje",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "A Nortje",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "A Nortje",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "A Nortje",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "A Nortje",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "A Nortje",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "S Muthusamy",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "S Muthusamy",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "WJ Lubbe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WJ Lubbe",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "WJ Lubbe",
+                  "fielders": [
+                    {
+                      "name": "T Stubbs"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "M Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "M Jansen",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "L Gregory",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "D Brevis",
+              "bowler": "A Nortje",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "A Nortje",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "A Nortje",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Esterhuizen",
+                  "fielders": [
+                    {
+                      "name": "J Hermann"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "A Nortje",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "A Nortje",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "A Nortje",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "L Gregory",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "L Gregory",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "L Gregory",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "SE Rutherford",
+              "bowler": "A Nortje",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "A Nortje",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "A Nortje",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Brevis",
+                  "fielders": [
+                    {
+                      "name": "MP Breetzke"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AD Russell",
+              "bowler": "A Nortje",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AD Russell",
+              "bowler": "A Nortje",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AD Russell",
+              "bowler": "A Nortje",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "non_striker": "AD Russell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AD Russell",
+              "bowler": "AF Milne",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AD Russell",
+                  "fielders": [
+                    {
+                      "name": "Q de Kock"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "AF Milne",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "non_striker": "KA Maharaj",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "AF Milne",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "AF Milne",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "KA Maharaj",
+              "bowler": "A Nortje",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "A Nortje",
+              "non_striker": "KA Maharaj",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "A Nortje",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "A Nortje",
+              "non_striker": "KA Maharaj",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "A Nortje",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "A Nortje",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "A Nortje",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KA Maharaj",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "AF Milne",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LB Williams",
+              "bowler": "AF Milne",
+              "non_striker": "SE Rutherford",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "SE Rutherford",
+              "bowler": "M Jansen",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "M Jansen",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "M Jansen",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "M Jansen",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "M Jansen",
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SE Rutherford",
+              "bowler": "M Jansen",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LB Williams",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Sunrisers Eastern Cape",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "extras": {
+                "legbyes": 4
+              },
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "extras": {
+                "byes": 4
+              },
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "LB Williams",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "LB Williams",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "AD Russell",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "AD Russell",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "AD Russell",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "AD Russell",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "AD Russell",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "AD Russell",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "AD Russell",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "Q de Kock",
+              "bowler": "LB Williams",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "LB Williams",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "LB Williams",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "Q de Kock",
+              "bowler": "KA Maharaj",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "KA Maharaj",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "KA Maharaj",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "KA Maharaj",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "LB Williams",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "LB Williams",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "LB Williams",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "KA Maharaj",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "KA Maharaj",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "KA Maharaj",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "WJ Lubbe",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "WJ Lubbe",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "WJ Lubbe",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "WJ Lubbe",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "WJ Lubbe",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "WJ Lubbe",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "KA Maharaj",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "TS Mills",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Bairstow",
+              "bowler": "L Ngidi",
+              "non_striker": "Q de Kock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "L Ngidi",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Q de Kock",
+              "bowler": "TS Mills",
+              "non_striker": "JM Bairstow",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.7,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 177
+      }
+    }
+  ]
+}

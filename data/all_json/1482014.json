@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-07",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Lauderhill",
+    "dates": [
+      "2025-07-02"
+    ],
+    "event": {
+      "name": "Major League Cricket",
+      "match_number": 23
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "JJ Crowe"
+      ],
+      "reserve_umpires": [
+        "BV Taylor"
+      ],
+      "tv_umpires": [
+        "M Erasmus"
+      ],
+      "umpires": [
+        "R Samuels",
+        "WR Knights"
+      ]
+    },
+    "outcome": {
+      "winner": "Texas Super Kings",
+      "by": {
+        "runs": 43
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "D Ferreira"
+    ],
+    "players": {
+      "Texas Super Kings": [
+        "MP Stoinis",
+        "DJ Mitchell",
+        "Shubham Ranjane",
+        "D Ferreira",
+        "SK Patel",
+        "SR Mukkamalla",
+        "CP Savage",
+        "AJ Hosein",
+        "Noor Ahmad",
+        "Zia-ul-Haq",
+        "N Burger"
+      ],
+      "Washington Freedom": [
+        "MJ Owen",
+        "R Ravindra",
+        "GJ Maxwell",
+        "GD Phillips",
+        "AGS Gous",
+        "AJ Pienaar",
+        "J Edwards",
+        "Mukhtar Ahmed",
+        "IG Holland",
+        "SN Netravalkar",
+        "LH Ferguson"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AGS Gous": "d1305df0",
+        "AJ Hosein": "4d7f517e",
+        "AJ Pienaar": "647a48da",
+        "BV Taylor": "99760152",
+        "CP Savage": "a55e0360",
+        "D Ferreira": "f0af99a7",
+        "DJ Mitchell": "eade4650",
+        "GD Phillips": "9a46c4e5",
+        "GJ Maxwell": "b681e71e",
+        "IG Holland": "4167f30b",
+        "J Edwards": "f787e0eb",
+        "JJ Crowe": "2e760301",
+        "LH Ferguson": "2f9d0389",
+        "M Erasmus": "15d3c895",
+        "MJ Owen": "f2c936d7",
+        "MP Stoinis": "d9273ee7",
+        "Mukhtar Ahmed": "456f6d99",
+        "N Burger": "465aa633",
+        "Noor Ahmad": "efc04be7",
+        "R Ravindra": "ba5e1069",
+        "R Samuels": "8a8bc9f6",
+        "SK Patel": "f93b43dd",
+        "SN Netravalkar": "c8a3f688",
+        "SR Mukkamalla": "156d0ea2",
+        "Shubham Ranjane": "6c7a68d0",
+        "WR Knights": "63cbf8d8",
+        "Zia-ul-Haq": "99c81226"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Texas Super Kings",
+      "Washington Freedom"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Washington Freedom"
+    },
+    "venue": "Central Broward Regional Park Stadium Turf Ground, Lauderhill"
+  },
+  "innings": [
+    {
+      "team": "Texas Super Kings",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "SN Netravalkar",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "SN Netravalkar",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MP Stoinis",
+                  "fielders": [
+                    {
+                      "name": "AGS Gous"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "SN Netravalkar",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "SN Netravalkar",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJ Mitchell",
+              "bowler": "SN Netravalkar",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "SN Netravalkar",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "J Edwards",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJ Mitchell",
+              "bowler": "J Edwards",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "J Edwards",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "J Edwards",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "J Edwards",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "J Edwards",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DJ Mitchell",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DJ Mitchell",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "MJ Owen",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "MJ Owen",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJ Mitchell",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "MJ Owen",
+              "non_striker": "DJ Mitchell",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              },
+              "wickets": [
+                {
+                  "player_out": "DJ Mitchell",
+                  "kind": "retired out"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "D Ferreira",
+              "bowler": "SN Netravalkar",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "SN Netravalkar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "SN Netravalkar",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "SN Netravalkar",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "SN Netravalkar",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "SN Netravalkar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "SN Netravalkar",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "SN Netravalkar",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "D Ferreira",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "MJ Owen",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Washington Freedom",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MJ Owen",
+              "bowler": "N Burger",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "N Burger",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "N Burger",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "N Burger",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "N Burger",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "N Burger",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Ravindra",
+                  "fielders": [
+                    {
+                      "name": "SK Patel"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "N Burger",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GJ Maxwell",
+                  "fielders": [
+                    {
+                      "name": "AJ Hosein"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "MJ Owen",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MJ Owen",
+                  "fielders": [
+                    {
+                      "name": "Zia-ul-Haq"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "Noor Ahmad",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "Noor Ahmad",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "AGS Gous",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "AJ Hosein",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "AJ Hosein",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "AJ Hosein",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "Noor Ahmad",
+              "non_striker": "GD Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AGS Gous",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Pienaar",
+              "bowler": "Noor Ahmad",
+              "non_striker": "GD Phillips",
+              "review": {
+                "by": "Texas Super Kings",
+                "umpire": "WR Knights",
+                "batter": "AJ Pienaar",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AJ Pienaar",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AJ Pienaar",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Noor Ahmad",
+              "non_striker": "AJ Pienaar",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 5,
+        "runs": 88
+      }
+    }
+  ]
+}

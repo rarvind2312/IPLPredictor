@@ -1,0 +1,2558 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2025-06-05"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "group": "A"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "M Jayasena"
+      ],
+      "reserve_umpires": [
+        "V Prasad"
+      ],
+      "umpires": [
+        "KADA Nanayakkara",
+        "RMPJ Rambukwella"
+      ]
+    },
+    "outcome": {
+      "winner": "Nondescripts Cricket Club",
+      "by": {
+        "wickets": 4
+      }
+    },
+    "overs": 20,
+    "players": {
+      "Moors Sports Club": [
+        "BOL Mendis",
+        "Ravishan de Silva",
+        "S Samarawickrama",
+        "L Abeyratne",
+        "S Gimhan",
+        "RTM Mendis",
+        "UVS Fernando",
+        "M Tharupathi",
+        "SA Fernando",
+        "P Jayawickrama",
+        "D Kumarasingha"
+      ],
+      "Nondescripts Cricket Club": [
+        "N Dickwella",
+        "G Senhas",
+        "K Mishara",
+        "J Shashen",
+        "SSD Arachchige",
+        "C Karunaratne",
+        "Kaveen Bandara",
+        "RS Sayer",
+        "S Nishshanka",
+        "L Embuldeniya",
+        "PVD Chameera"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BOL Mendis": "9614d123",
+        "C Karunaratne": "fb3e0d39",
+        "D Kumarasingha": "334360c4",
+        "G Senhas": "b146b897",
+        "J Shashen": "39b615aa",
+        "K Mishara": "65cebd5d",
+        "KADA Nanayakkara": "9ee551f5",
+        "Kaveen Bandara": "fccb94c3",
+        "L Abeyratne": "4ff4e5a1",
+        "L Embuldeniya": "b54b66b3",
+        "M Jayasena": "fa87f32f",
+        "M Tharupathi": "ec0b9258",
+        "N Dickwella": "45963d9e",
+        "P Jayawickrama": "b7d1eadd",
+        "PVD Chameera": "327b58d3",
+        "RMPJ Rambukwella": "13fa6ffc",
+        "RS Sayer": "b01544ff",
+        "RTM Mendis": "1be67d37",
+        "Ravishan de Silva": "dad30a05",
+        "S Gimhan": "81acb5f5",
+        "S Nishshanka": "b46554ed",
+        "S Samarawickrama": "9ab2914d",
+        "SA Fernando": "49fb57d4",
+        "SSD Arachchige": "c05f9d20",
+        "UVS Fernando": "7625e5df",
+        "V Prasad": "6ea27248"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Moors Sports Club",
+      "Nondescripts Cricket Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Nondescripts Cricket Club"
+    },
+    "venue": "P Sara Oval, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Moors Sports Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "BOL Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "Ravishan de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "Ravishan de Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "Ravishan de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "Ravishan de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Ravishan de Silva",
+              "bowler": "C Karunaratne",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "Ravishan de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Ravishan de Silva",
+              "bowler": "S Nishshanka",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Ravishan de Silva",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "S Nishshanka",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "S Nishshanka",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Samarawickrama",
+                  "fielders": [
+                    {
+                      "name": "L Embuldeniya"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "S Nishshanka",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "L Abeyratne",
+              "bowler": "C Karunaratne",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "C Karunaratne",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "C Karunaratne",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "C Karunaratne",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "L Abeyratne",
+              "bowler": "S Nishshanka",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "S Nishshanka",
+              "non_striker": "BOL Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BOL Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BOL Mendis",
+                  "fielders": [
+                    {
+                      "name": "C Karunaratne"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "S Nishshanka",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "S Nishshanka",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "L Abeyratne",
+              "bowler": "SSD Arachchige",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "SSD Arachchige",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "SSD Arachchige",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "SSD Arachchige",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "SSD Arachchige",
+              "non_striker": "L Abeyratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Abeyratne",
+              "bowler": "SSD Arachchige",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "L Abeyratne",
+              "bowler": "S Nishshanka",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Abeyratne",
+                  "fielders": [
+                    {
+                      "name": "C Karunaratne"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "PVD Chameera",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "PVD Chameera",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "S Gimhan",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "RS Sayer",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "RS Sayer",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "RS Sayer",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "RTM Mendis",
+              "bowler": "RS Sayer",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "RS Sayer",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "RTM Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "C Karunaratne",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "C Karunaratne",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "RTM Mendis",
+              "bowler": "SSD Arachchige",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "S Gimhan",
+                  "fielders": [
+                    {
+                      "name": "N Dickwella"
+                    },
+                    {
+                      "name": "J Shashen"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "SSD Arachchige",
+              "non_striker": "UVS Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "UVS Fernando",
+              "bowler": "SSD Arachchige",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UVS Fernando",
+              "bowler": "SSD Arachchige",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "UVS Fernando",
+              "bowler": "SSD Arachchige",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "SSD Arachchige",
+              "non_striker": "UVS Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "UVS Fernando",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "UVS Fernando",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "UVS Fernando",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "M Tharupathi",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "M Tharupathi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Tharupathi",
+                  "fielders": [
+                    {
+                      "name": "Kaveen Bandara"
+                    },
+                    {
+                      "name": "L Embuldeniya"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "L Embuldeniya",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "SA Fernando",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "RS Sayer",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "RS Sayer",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "RS Sayer",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "RS Sayer",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "SA Fernando",
+              "bowler": "S Nishshanka",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "S Nishshanka",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RTM Mendis",
+                  "fielders": [
+                    {
+                      "name": "SSD Arachchige"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "P Jayawickrama",
+              "bowler": "S Nishshanka",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "non_boundary": true,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Jayawickrama",
+              "bowler": "S Nishshanka",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "S Nishshanka",
+              "non_striker": "P Jayawickrama",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "P Jayawickrama",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "P Jayawickrama",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Jayawickrama",
+              "bowler": "PVD Chameera",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "P Jayawickrama",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "D Kumarasingha",
+              "bowler": "PVD Chameera",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SA Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "D Kumarasingha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kumarasingha",
+              "bowler": "PVD Chameera",
+              "non_striker": "SA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Kumarasingha",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Nondescripts Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "G Senhas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "G Senhas",
+                  "fielders": [
+                    {
+                      "name": "UVS Fernando"
+                    },
+                    {
+                      "name": "M Tharupathi"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "P Jayawickrama",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "P Jayawickrama",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "SA Fernando",
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "K Mishara",
+                  "fielders": [
+                    {
+                      "name": "SA Fernando"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "SA Fernando",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "SA Fernando",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "SA Fernando",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "SA Fernando",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "SA Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "P Jayawickrama",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "P Jayawickrama",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "RTM Mendis",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "RTM Mendis",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "RTM Mendis",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "RTM Mendis",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "RTM Mendis",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "RTM Mendis",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "D Kumarasingha",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "D Kumarasingha",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "D Kumarasingha",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "D Kumarasingha",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "N Dickwella",
+                  "fielders": [
+                    {
+                      "name": "RTM Mendis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "D Kumarasingha",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "D Kumarasingha",
+              "non_striker": "SSD Arachchige",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "D Kumarasingha",
+              "non_striker": "SSD Arachchige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "J Shashen",
+              "bowler": "SA Fernando",
+              "non_striker": "SSD Arachchige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "SA Fernando",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "SA Fernando",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "SA Fernando",
+              "non_striker": "J Shashen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "SA Fernando",
+              "non_striker": "SSD Arachchige",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Shashen",
+              "bowler": "SA Fernando",
+              "non_striker": "SSD Arachchige",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Shashen",
+                  "fielders": [
+                    {
+                      "name": "M Tharupathi"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "P Jayawickrama",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "P Jayawickrama",
+              "non_striker": "SSD Arachchige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "P Jayawickrama",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "P Jayawickrama",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "P Jayawickrama",
+              "non_striker": "SSD Arachchige",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "P Jayawickrama",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SSD Arachchige",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SSD Arachchige",
+                  "fielders": [
+                    {
+                      "name": "BOL Mendis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "M Tharupathi",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "M Tharupathi",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "C Karunaratne",
+              "bowler": "D Kumarasingha",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "D Kumarasingha",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "D Kumarasingha",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "D Kumarasingha",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "D Kumarasingha",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "D Kumarasingha",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "M Tharupathi",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "M Tharupathi",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "C Karunaratne",
+              "bowler": "P Jayawickrama",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "P Jayawickrama",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "P Jayawickrama",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kaveen Bandara",
+              "bowler": "P Jayawickrama",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "P Jayawickrama",
+              "non_striker": "Kaveen Bandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Kaveen Bandara",
+                  "fielders": [
+                    {
+                      "name": "RTM Mendis"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "RS Sayer",
+              "bowler": "P Jayawickrama",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "RS Sayer",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "RS Sayer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "RS Sayer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "RS Sayer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RS Sayer",
+              "bowler": "RTM Mendis",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Karunaratne",
+              "bowler": "RTM Mendis",
+              "non_striker": "RS Sayer",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "RS Sayer",
+              "bowler": "M Tharupathi",
+              "non_striker": "C Karunaratne",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 115
+      }
+    }
+  ]
+}

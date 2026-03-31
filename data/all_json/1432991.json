@@ -1,0 +1,1387 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2024-06-28"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "stage": "Final"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "WC Labrooy"
+      ],
+      "reserve_umpires": [
+        "KADA Nanayakkara"
+      ],
+      "umpires": [
+        "IC Soysa",
+        "RMPJ Rambukwella"
+      ]
+    },
+    "outcome": {
+      "winner": "Nondescripts Cricket Club",
+      "by": {
+        "wickets": 8
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "L Embuldeniya"
+    ],
+    "players": {
+      "Bloomfield Cricket and Athletic Club": [
+        "H Amarasinghe",
+        "H Boyagoda",
+        "RK Chandraguptha",
+        "KPNM Karunanayake",
+        "ALKL Abeyrathne",
+        "TN Guruge",
+        "LD Madushanka",
+        "RS Fernando",
+        "JDF Vandersay",
+        "I Wijesundera",
+        "S Nanayakkare"
+      ],
+      "Nondescripts Cricket Club": [
+        "P Nissanka",
+        "N Dickwella",
+        "LU Igalagamage",
+        "K Mishara",
+        "SSD Arachchige",
+        "C Karunaratne",
+        "Kaveen Bandara",
+        "C Gunasekara",
+        "PVD Chameera",
+        "L Embuldeniya",
+        "M Pathirana"
+      ]
+    },
+    "registry": {
+      "people": {
+        "ALKL Abeyrathne": "ee3a3a7f",
+        "C Gunasekara": "dff2050b",
+        "C Karunaratne": "fb3e0d39",
+        "H Amarasinghe": "4dac55a7",
+        "H Boyagoda": "648e673c",
+        "I Wijesundera": "be620896",
+        "IC Soysa": "717a7971",
+        "JDF Vandersay": "aceb7654",
+        "K Mishara": "65cebd5d",
+        "KADA Nanayakkara": "9ee551f5",
+        "KPNM Karunanayake": "532cc5b8",
+        "Kaveen Bandara": "fccb94c3",
+        "L Embuldeniya": "b54b66b3",
+        "LD Madushanka": "de063a39",
+        "LU Igalagamage": "07b6c3c1",
+        "M Pathirana": "64839cb3",
+        "N Dickwella": "45963d9e",
+        "P Nissanka": "8ee36b18",
+        "PVD Chameera": "327b58d3",
+        "RK Chandraguptha": "f51ed6ad",
+        "RMPJ Rambukwella": "13fa6ffc",
+        "RS Fernando": "24d72446",
+        "S Nanayakkare": "1b2016bc",
+        "SSD Arachchige": "c05f9d20",
+        "TN Guruge": "6adee1a9",
+        "WC Labrooy": "29d4e29b"
+      }
+    },
+    "season": "2024",
+    "team_type": "club",
+    "teams": [
+      "Bloomfield Cricket and Athletic Club",
+      "Nondescripts Cricket Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Nondescripts Cricket Club"
+    },
+    "venue": "P Sara Oval, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Bloomfield Cricket and Athletic Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Amarasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Amarasinghe",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Amarasinghe",
+                  "fielders": [
+                    {
+                      "name": "N Dickwella"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Karunaratne",
+              "non_striker": "RK Chandraguptha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "RK Chandraguptha",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RK Chandraguptha",
+                  "fielders": [
+                    {
+                      "name": "N Dickwella"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Gunasekara",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Karunaratne",
+              "non_striker": "KPNM Karunanayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KPNM Karunanayake",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KPNM Karunanayake",
+                  "fielders": [
+                    {
+                      "name": "N Dickwella"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Gunasekara",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Gunasekara",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Gunasekara",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Gunasekara",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Karunaratne",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Karunaratne",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "C Karunaratne",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Karunaratne",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Karunaratne",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "C Karunaratne",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "H Boyagoda",
+              "bowler": "PVD Chameera",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "PVD Chameera",
+              "non_striker": "H Boyagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Boyagoda",
+              "bowler": "PVD Chameera",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Boyagoda",
+                  "fielders": [
+                    {
+                      "name": "N Dickwella"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TN Guruge",
+              "bowler": "PVD Chameera",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TN Guruge",
+              "bowler": "PVD Chameera",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TN Guruge",
+              "bowler": "PVD Chameera",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TN Guruge",
+              "bowler": "PVD Chameera",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "L Embuldeniya",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TN Guruge",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "L Embuldeniya",
+              "non_striker": "TN Guruge",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "L Embuldeniya",
+              "non_striker": "TN Guruge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TN Guruge",
+              "bowler": "L Embuldeniya",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TN Guruge",
+              "bowler": "L Embuldeniya",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TN Guruge",
+                  "fielders": [
+                    {
+                      "name": "N Dickwella"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "LD Madushanka",
+              "bowler": "L Embuldeniya",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LD Madushanka",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "RS Fernando",
+              "bowler": "L Embuldeniya",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "PVD Chameera",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "PVD Chameera",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "PVD Chameera",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "PVD Chameera",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RS Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RS Fernando",
+              "bowler": "PVD Chameera",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RS Fernando",
+              "bowler": "L Embuldeniya",
+              "non_striker": "ALKL Abeyrathne",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ALKL Abeyrathne",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ALKL Abeyrathne",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "JDF Vandersay",
+              "bowler": "L Embuldeniya",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JDF Vandersay",
+              "bowler": "M Pathirana",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JDF Vandersay",
+              "bowler": "M Pathirana",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JDF Vandersay",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "I Wijesundera",
+              "bowler": "M Pathirana",
+              "non_striker": "RS Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RS Fernando",
+              "bowler": "M Pathirana",
+              "non_striker": "I Wijesundera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RS Fernando",
+              "bowler": "M Pathirana",
+              "non_striker": "I Wijesundera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RS Fernando",
+              "bowler": "M Pathirana",
+              "non_striker": "I Wijesundera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RS Fernando",
+                  "fielders": [
+                    {
+                      "name": "N Dickwella"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "I Wijesundera",
+              "bowler": "SSD Arachchige",
+              "non_striker": "S Nanayakkare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "I Wijesundera",
+                  "fielders": [
+                    {
+                      "name": "C Karunaratne"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.7,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Nondescripts Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "P Nissanka",
+              "bowler": "S Nanayakkare",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "S Nanayakkare",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "S Nanayakkare",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "S Nanayakkare",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "S Nanayakkare",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "S Nanayakkare",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "RS Fernando",
+              "non_striker": "P Nissanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "RS Fernando",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "P Nissanka",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "RS Fernando",
+              "non_striker": "P Nissanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "RS Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Nissanka",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "P Nissanka",
+                  "fielders": [
+                    {
+                      "name": "TN Guruge"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "LD Madushanka",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "LD Madushanka",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "LD Madushanka",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "LD Madushanka",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "LD Madushanka",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "LD Madushanka",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "LD Madushanka",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "LU Igalagamage",
+              "bowler": "JDF Vandersay",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LU Igalagamage",
+              "bowler": "JDF Vandersay",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "non_striker": "LU Igalagamage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "LU Igalagamage",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LU Igalagamage",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LU Igalagamage",
+                  "fielders": [
+                    {
+                      "name": "H Amarasinghe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "RS Fernando",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "JDF Vandersay",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "K Mishara",
+              "bowler": "JDF Vandersay",
+              "non_striker": "N Dickwella",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Dickwella",
+              "bowler": "JDF Vandersay",
+              "non_striker": "K Mishara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 55
+      }
+    }
+  ]
+}

@@ -1,0 +1,1857 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2025-05-25"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "group": "A"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "WC Labrooy"
+      ],
+      "reserve_umpires": [
+        "JWHD Boteju"
+      ],
+      "umpires": [
+        "Ranganath Prasanna",
+        "RR Wimalasiri"
+      ]
+    },
+    "outcome": {
+      "winner": "Moors Sports Club",
+      "by": {
+        "runs": 11
+      }
+    },
+    "overs": 20,
+    "players": {
+      "Moors Sports Club": [
+        "J Perera",
+        "S de Livera",
+        "S Samarawickrama",
+        "DPS Sooriyabandara",
+        "M Tharupathi",
+        "RTM Mendis",
+        "RMMP Rathnayake",
+        "SA Fernando",
+        "P Jayawickrama",
+        "G Sanketh",
+        "UVS Fernando"
+      ],
+      "Colombo Cricket Club": [
+        "KNM Fernando",
+        "L Croospulle",
+        "DM de Silva",
+        "P Rathnayake",
+        "GS Dinusha",
+        "I Udana",
+        "S Kosala",
+        "C Wijesinghe",
+        "PC de Silva",
+        "MVT Fernando",
+        "PADLR Sandakan"
+      ]
+    },
+    "registry": {
+      "people": {
+        "C Wijesinghe": "0a2d45b0",
+        "DM de Silva": "7d608e12",
+        "DPS Sooriyabandara": "cc17536f",
+        "G Sanketh": "40db4769",
+        "GS Dinusha": "4bbfddd5",
+        "I Udana": "ac5ae4af",
+        "J Perera": "0e0d4577",
+        "JWHD Boteju": "7934d6fb",
+        "KNM Fernando": "d2a2bb1a",
+        "L Croospulle": "e30c9b2d",
+        "M Tharupathi": "ec0b9258",
+        "MVT Fernando": "5eef2118",
+        "P Jayawickrama": "b7d1eadd",
+        "P Rathnayake": "c1fdfb46",
+        "PADLR Sandakan": "79aad751",
+        "PC de Silva": "b40ee8a8",
+        "RMMP Rathnayake": "afe830a2",
+        "RR Wimalasiri": "4950c8db",
+        "RTM Mendis": "1be67d37",
+        "Ranganath Prasanna": "9fc85271",
+        "S Kosala": "b4411c29",
+        "S Samarawickrama": "9ab2914d",
+        "S de Livera": "77708937",
+        "SA Fernando": "49fb57d4",
+        "UVS Fernando": "7625e5df",
+        "WC Labrooy": "29d4e29b"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Moors Sports Club",
+      "Colombo Cricket Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Colombo Cricket Club"
+    },
+    "venue": "Sinhalese Sports Club Ground, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Moors Sports Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "J Perera",
+              "bowler": "MVT Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Perera",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Perera",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Perera",
+              "bowler": "MVT Fernando",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "MVT Fernando",
+              "non_striker": "J Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Perera",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Perera",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "J Perera",
+              "bowler": "I Udana",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Perera",
+              "bowler": "I Udana",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Perera",
+              "bowler": "I Udana",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Perera",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "I Udana",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "I Udana",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "I Udana",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "MVT Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "MVT Fernando",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "MVT Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "MVT Fernando",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "MVT Fernando",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "MVT Fernando",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PC de Silva",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "non_striker": "S Samarawickrama",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Samarawickrama",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Samarawickrama",
+                  "fielders": [
+                    {
+                      "name": "KNM Fernando"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PADLR Sandakan",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "PC de Silva",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "PC de Silva",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "S de Livera",
+              "bowler": "C Wijesinghe",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "C Wijesinghe",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "C Wijesinghe",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "C Wijesinghe",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "C Wijesinghe",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "C Wijesinghe",
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "I Udana",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "I Udana",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "S de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Livera",
+              "bowler": "I Udana",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S de Livera",
+                  "fielders": [
+                    {
+                      "name": "I Udana"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "I Udana",
+              "non_striker": "M Tharupathi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Tharupathi",
+              "bowler": "I Udana",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Tharupathi",
+              "bowler": "I Udana",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "I Udana",
+              "non_striker": "M Tharupathi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "M Tharupathi",
+              "bowler": "C Wijesinghe",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "M Tharupathi",
+              "bowler": "C Wijesinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Tharupathi",
+              "bowler": "C Wijesinghe",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Tharupathi",
+                  "fielders": [
+                    {
+                      "name": "PADLR Sandakan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RTM Mendis",
+              "bowler": "C Wijesinghe",
+              "non_striker": "DPS Sooriyabandara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "C Wijesinghe",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "C Wijesinghe",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DPS Sooriyabandara",
+              "bowler": "C Wijesinghe",
+              "non_striker": "RTM Mendis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DPS Sooriyabandara",
+                  "kind": "caught and bowled"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 2.9,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Colombo Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "SA Fernando",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "SA Fernando",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "SA Fernando",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "SA Fernando",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "SA Fernando",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "SA Fernando",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Croospulle",
+                  "fielders": [
+                    {
+                      "name": "RTM Mendis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "RMMP Rathnayake",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "RMMP Rathnayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "P Jayawickrama",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KNM Fernando",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "P Rathnayake",
+              "bowler": "P Jayawickrama",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Rathnayake",
+              "bowler": "P Jayawickrama",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Rathnayake",
+              "bowler": "P Jayawickrama",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "P Rathnayake",
+              "bowler": "P Jayawickrama",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "P Jayawickrama",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "P Rathnayake",
+              "bowler": "M Tharupathi",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "M Tharupathi",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "M Tharupathi",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Rathnayake",
+              "bowler": "M Tharupathi",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "M Tharupathi",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "M Tharupathi",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "DM de Silva",
+              "bowler": "P Jayawickrama",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "P Rathnayake",
+              "bowler": "P Jayawickrama",
+              "non_striker": "DM de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "P Jayawickrama",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "P Jayawickrama",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DM de Silva",
+              "bowler": "P Jayawickrama",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DM de Silva",
+                  "fielders": [
+                    {
+                      "name": "M Tharupathi"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "P Jayawickrama",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "P Jayawickrama",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "P Rathnayake",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "RTM Mendis",
+              "non_striker": "P Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Rathnayake",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "P Rathnayake",
+                  "fielders": [
+                    {
+                      "name": "S Samarawickrama"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "I Udana",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "I Udana",
+                  "fielders": [
+                    {
+                      "name": "J Perera"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "RTM Mendis",
+              "non_striker": "S Kosala",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "GS Dinusha",
+              "bowler": "P Jayawickrama",
+              "non_striker": "S Kosala",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "P Jayawickrama",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "P Jayawickrama",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "P Jayawickrama",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "P Jayawickrama",
+              "non_striker": "S Kosala",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "P Jayawickrama",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "GS Dinusha",
+              "bowler": "RTM Mendis",
+              "non_striker": "S Kosala",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "RTM Mendis",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "GS Dinusha",
+              "bowler": "G Sanketh",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "S Kosala",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Kosala",
+              "bowler": "G Sanketh",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Kosala",
+                  "fielders": [
+                    {
+                      "name": "RTM Mendis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Wijesinghe",
+              "bowler": "G Sanketh",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Wijesinghe",
+              "bowler": "G Sanketh",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "G Sanketh",
+              "non_striker": "C Wijesinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Wijesinghe",
+              "bowler": "G Sanketh",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Wijesinghe",
+                  "fielders": [
+                    {
+                      "name": "S Samarawickrama"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "GS Dinusha",
+              "bowler": "SA Fernando",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "SA Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "SA Fernando",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "SA Fernando",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "SA Fernando",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "SA Fernando",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "SA Fernando",
+              "non_striker": "GS Dinusha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GS Dinusha",
+              "bowler": "SA Fernando",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "GS Dinusha",
+                  "fielders": [
+                    {
+                      "name": "RTM Mendis"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "SA Fernando",
+              "non_striker": "MVT Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 2.7,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 11,
+        "runs": 112
+      }
+    }
+  ]
+}

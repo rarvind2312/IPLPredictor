@@ -1,0 +1,2940 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-07",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Lauderhill",
+    "dates": [
+      "2025-07-05"
+    ],
+    "event": {
+      "name": "Major League Cricket",
+      "match_number": 28
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SJA Taufel"
+      ],
+      "reserve_umpires": [
+        "Vijaya Mallela"
+      ],
+      "tv_umpires": [
+        "P Wilson"
+      ],
+      "umpires": [
+        "Jermaine Lindo",
+        "LS Reifer"
+      ]
+    },
+    "outcome": {
+      "winner": "Texas Super Kings",
+      "by": {
+        "runs": 51
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "F du Plessis"
+    ],
+    "players": {
+      "Texas Super Kings": [
+        "SK Patel",
+        "F du Plessis",
+        "SR Mukkamalla",
+        "Shubham Ranjane",
+        "D Ferreira",
+        "MP Stoinis",
+        "CP Savage",
+        "AJ Hosein",
+        "AF Milne",
+        "Noor Ahmad",
+        "Zia-ul-Haq"
+      ],
+      "Seattle Orcas": [
+        "KR Mayers",
+        "DA Warner",
+        "Shayan Jahangir",
+        "Aaron Jones",
+        "SO Hetmyer",
+        "H Klaasen",
+        "Sikandar Raza",
+        "Harmeet Singh",
+        "BC Fortuin",
+        "CJ Gannon",
+        "Jasdeep Singh"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AF Milne": "350bb1b1",
+        "AJ Hosein": "4d7f517e",
+        "Aaron Jones": "17aa4f1d",
+        "BC Fortuin": "9a2fc964",
+        "CJ Gannon": "519c30cb",
+        "CP Savage": "a55e0360",
+        "D Ferreira": "f0af99a7",
+        "DA Warner": "dcce6f09",
+        "F du Plessis": "3355b542",
+        "H Klaasen": "235c2bb6",
+        "Harmeet Singh": "0bf15e52",
+        "Jasdeep Singh": "5ec41cd7",
+        "Jermaine Lindo": "1154bf4f",
+        "KR Mayers": "73c18486",
+        "LS Reifer": "5dee559a",
+        "MP Stoinis": "d9273ee7",
+        "Noor Ahmad": "efc04be7",
+        "P Wilson": "68304a36",
+        "SJA Taufel": "4b43d5ac",
+        "SK Patel": "f93b43dd",
+        "SO Hetmyer": "48a1d7b7",
+        "SR Mukkamalla": "156d0ea2",
+        "Shayan Jahangir": "571e1d2a",
+        "Shubham Ranjane": "6c7a68d0",
+        "Sikandar Raza": "26d041c4",
+        "Vijaya Mallela": "85b6244a",
+        "Zia-ul-Haq": "99c81226"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Texas Super Kings",
+      "Seattle Orcas"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Seattle Orcas"
+    },
+    "venue": "Central Broward Regional Park Stadium Turf Ground, Lauderhill"
+  },
+  "innings": [
+    {
+      "team": "Texas Super Kings",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "SK Patel",
+              "bowler": "Sikandar Raza",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Sikandar Raza",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Sikandar Raza",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Sikandar Raza",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Sikandar Raza",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Sikandar Raza",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "SK Patel",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "SK Patel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SK Patel",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SK Patel",
+                  "fielders": [
+                    {
+                      "name": "SO Hetmyer"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SR Mukkamalla",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SR Mukkamalla",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SR Mukkamalla",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SR Mukkamalla",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SR Mukkamalla",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SR Mukkamalla",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "SR Mukkamalla",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "SR Mukkamalla",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SR Mukkamalla",
+                  "fielders": [
+                    {
+                      "name": "Sikandar Raza"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "CJ Gannon",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "CJ Gannon",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "CJ Gannon",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "CJ Gannon",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "CJ Gannon",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Harmeet Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Harmeet Singh",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "BC Fortuin",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "BC Fortuin",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Jasdeep Singh",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KR Mayers",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "F du Plessis",
+              "review": {
+                "by": "Seattle Orcas",
+                "umpire": "LS Reifer",
+                "batter": "Shubham Ranjane",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "KR Mayers",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              },
+              "wickets": [
+                {
+                  "player_out": "F du Plessis",
+                  "kind": "retired out"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "CJ Gannon",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "CJ Gannon",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Ferreira",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "CJ Gannon",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Seattle Orcas",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "KR Mayers",
+              "bowler": "AF Milne",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "AF Milne",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "AF Milne",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "AF Milne",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Zia-ul-Haq",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "KR Mayers",
+              "bowler": "D Ferreira",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "D Ferreira",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "D Ferreira",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "D Ferreira",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "D Ferreira",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "D Ferreira",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "KR Mayers",
+              "bowler": "AF Milne",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DA Warner",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shayan Jahangir",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Shayan Jahangir",
+                  "fielders": [
+                    {
+                      "name": "Zia-ul-Haq"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "AF Milne",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "KR Mayers",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "review": {
+                "by": "Texas Super Kings",
+                "umpire": "LS Reifer",
+                "batter": "KR Mayers",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Noor Ahmad",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "Aaron Jones",
+              "bowler": "MP Stoinis",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "MP Stoinis",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "MP Stoinis",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "MP Stoinis",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "MP Stoinis",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "MP Stoinis",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "KR Mayers",
+              "bowler": "AJ Hosein",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "AJ Hosein",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "AJ Hosein",
+              "non_striker": "KR Mayers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Mayers",
+              "bowler": "AJ Hosein",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KR Mayers",
+                  "fielders": [
+                    {
+                      "name": "CP Savage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "AJ Hosein",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "AJ Hosein",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Aaron Jones",
+              "bowler": "D Ferreira",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "D Ferreira",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "D Ferreira",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "D Ferreira",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "D Ferreira",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "D Ferreira",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "AJ Hosein",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "AJ Hosein",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "AJ Hosein",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "AJ Hosein",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "AJ Hosein",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "AJ Hosein",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "AJ Hosein",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Aaron Jones",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Aaron Jones",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Aaron Jones",
+                  "fielders": [
+                    {
+                      "name": "Zia-ul-Haq"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "D Ferreira",
+              "non_striker": "H Klaasen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "D Ferreira",
+              "non_striker": "H Klaasen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "D Ferreira",
+              "non_striker": "H Klaasen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Klaasen",
+              "bowler": "D Ferreira",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Klaasen",
+              "bowler": "D Ferreira",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "D Ferreira",
+              "non_striker": "H Klaasen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "H Klaasen",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Klaasen",
+                  "fielders": [
+                    {
+                      "name": "SK Patel"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "Noor Ahmad",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AJ Hosein",
+              "non_striker": "SO Hetmyer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SO Hetmyer",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SO Hetmyer",
+                  "fielders": [
+                    {
+                      "name": "D Ferreira"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Harmeet Singh",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Harmeet Singh",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AJ Hosein",
+              "non_striker": "Harmeet Singh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "MP Stoinis",
+              "non_striker": "Harmeet Singh",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "MP Stoinis",
+              "non_striker": "Harmeet Singh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Harmeet Singh",
+              "bowler": "MP Stoinis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Harmeet Singh",
+              "bowler": "MP Stoinis",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Harmeet Singh",
+              "bowler": "MP Stoinis",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Harmeet Singh",
+              "bowler": "MP Stoinis",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Harmeet Singh",
+              "bowler": "MP Stoinis",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Harmeet Singh",
+                  "fielders": [
+                    {
+                      "name": "D Ferreira"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AJ Hosein",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AJ Hosein",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "AJ Hosein",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "BC Fortuin",
+              "bowler": "AF Milne",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AF Milne",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AF Milne",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "AF Milne",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AF Milne",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AF Milne",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "BC Fortuin",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "Noor Ahmad",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "Noor Ahmad",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "Noor Ahmad",
+              "non_striker": "Sikandar Raza",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "Sikandar Raza",
+              "bowler": "AF Milne",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Sikandar Raza",
+                  "fielders": [
+                    {
+                      "name": "SK Patel"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CJ Gannon",
+              "bowler": "AF Milne",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CJ Gannon",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "Jasdeep Singh",
+              "bowler": "AF Milne",
+              "non_striker": "BC Fortuin",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BC Fortuin",
+              "bowler": "AF Milne",
+              "non_striker": "Jasdeep Singh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BC Fortuin",
+                  "fielders": [
+                    {
+                      "name": "D Ferreira"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.7,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 189
+      }
+    }
+  ]
+}

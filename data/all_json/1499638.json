@@ -1,0 +1,2752 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-07",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Auckland",
+    "dates": [
+      "2026-01-06"
+    ],
+    "event": {
+      "name": "Super Smash",
+      "match_number": 11
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "GB Troup"
+      ],
+      "reserve_umpires": [
+        "BS Wilson"
+      ],
+      "tv_umpires": [
+        "Glen Walklin"
+      ],
+      "umpires": [
+        "CR Pryor",
+        "JM Dempsey"
+      ]
+    },
+    "outcome": {
+      "winner": "Auckland",
+      "by": {
+        "runs": 88
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "DN Phillips"
+    ],
+    "players": {
+      "Auckland": [
+        "DN Phillips",
+        "LD Watson",
+        "BJ Jacobs",
+        "MJ Guptill",
+        "SM Solia",
+        "CD Fletcher",
+        "RD Harrison",
+        "S Dixit",
+        "H Johal",
+        "AL Olliver",
+        "RK Gulati"
+      ],
+      "Otago": [
+        "JM Cumming",
+        "JT Todd",
+        "MW Chu",
+        "JCT Boyle",
+        "LC Johnson",
+        "TM Johnson",
+        "JM Gibson",
+        "BNJ Lockrose",
+        "DK Ferns",
+        "ATE Hazeldine",
+        "MB Bacon"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AL Olliver": "9b05c1c1",
+        "ATE Hazeldine": "33ad0ad9",
+        "BJ Jacobs": "972f217b",
+        "BNJ Lockrose": "aa8914ad",
+        "BS Wilson": "ac3e14ed",
+        "CD Fletcher": "4af9f5d4",
+        "CR Pryor": "8d705d48",
+        "DK Ferns": "f28c7456",
+        "DN Phillips": "be0c9f5b",
+        "GB Troup": "94f0e744",
+        "Glen Walklin": "0070ed27",
+        "H Johal": "54bd6664",
+        "JCT Boyle": "f7b3d625",
+        "JM Cumming": "af4c6a6d",
+        "JM Dempsey": "153c9f33",
+        "JM Gibson": "e3aa97a2",
+        "JT Todd": "d8417b91",
+        "LC Johnson": "a573ad7a",
+        "LD Watson": "2ee7206c",
+        "MB Bacon": "90701232",
+        "MJ Guptill": "2be41edb",
+        "MW Chu": "ef9f75f8",
+        "RD Harrison": "8f3f2d61",
+        "RK Gulati": "f5da80da",
+        "S Dixit": "85ec63b5",
+        "SM Solia": "fd9f43bb",
+        "TM Johnson": "917f66da"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Auckland",
+      "Otago"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Otago"
+    },
+    "venue": "Eden Park Outer Oval, Auckland"
+  },
+  "innings": [
+    {
+      "team": "Auckland",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "DN Phillips",
+              "bowler": "MB Bacon",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "MB Bacon",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "MB Bacon",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "MB Bacon",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "MB Bacon",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "MB Bacon",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "ATE Hazeldine",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "LD Watson",
+              "bowler": "DK Ferns",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "DK Ferns",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "DK Ferns",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "DK Ferns",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "DK Ferns",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "DK Ferns",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "DN Phillips",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "DN Phillips",
+              "bowler": "MB Bacon",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "MB Bacon",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "MB Bacon",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "MB Bacon",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "MB Bacon",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "MB Bacon",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "LD Watson",
+              "bowler": "TM Johnson",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "TM Johnson",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "TM Johnson",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "TM Johnson",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "TM Johnson",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "TM Johnson",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "DN Phillips",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "LD Watson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LD Watson",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LD Watson",
+                  "fielders": [
+                    {
+                      "name": "JM Cumming"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "extras": {
+                "legbyes": 4
+              },
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "JM Gibson",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 6,
+                "extras": 1,
+                "total": 7
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "DK Ferns",
+              "non_striker": "DN Phillips",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Phillips",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DN Phillips",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "DK Ferns",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "DK Ferns",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "MJ Guptill",
+              "bowler": "JM Gibson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "MJ Guptill",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "DK Ferns",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "DK Ferns",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "MB Bacon",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "MB Bacon",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "MB Bacon",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "MB Bacon",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "MB Bacon",
+              "non_striker": "MJ Guptill",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "MB Bacon",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJ Guptill",
+              "bowler": "MB Bacon",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MJ Guptill",
+                  "fielders": [
+                    {
+                      "name": "JM Gibson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "ATE Hazeldine",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "JM Gibson",
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "JM Gibson",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "SM Solia",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "SM Solia",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "BNJ Lockrose",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Solia",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SM Solia",
+                  "fielders": [
+                    {
+                      "name": "MB Bacon"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CD Fletcher",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "CD Fletcher",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "CD Fletcher",
+              "bowler": "DK Ferns",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CD Fletcher",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CD Fletcher",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CD Fletcher",
+              "bowler": "DK Ferns",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "DK Ferns",
+              "non_striker": "CD Fletcher",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "DK Ferns",
+              "non_striker": "CD Fletcher",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "CD Fletcher",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CD Fletcher",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "RD Harrison",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RD Harrison",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "RD Harrison",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RD Harrison",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RD Harrison",
+              "bowler": "BNJ Lockrose",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "RD Harrison",
+              "bowler": "MB Bacon",
+              "non_striker": "BJ Jacobs",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Jacobs",
+              "bowler": "MB Bacon",
+              "non_striker": "RD Harrison",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BJ Jacobs",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "S Dixit",
+              "bowler": "MB Bacon",
+              "non_striker": "RD Harrison",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Dixit",
+              "bowler": "MB Bacon",
+              "non_striker": "RD Harrison",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RD Harrison",
+              "bowler": "MB Bacon",
+              "non_striker": "S Dixit",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RD Harrison",
+              "bowler": "MB Bacon",
+              "non_striker": "S Dixit",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Otago",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "JM Cumming",
+              "bowler": "DN Phillips",
+              "non_striker": "JT Todd",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JT Todd",
+              "bowler": "DN Phillips",
+              "non_striker": "JM Cumming",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JT Todd",
+              "bowler": "DN Phillips",
+              "non_striker": "JM Cumming",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JT Todd",
+              "bowler": "DN Phillips",
+              "non_striker": "JM Cumming",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JT Todd",
+              "bowler": "DN Phillips",
+              "non_striker": "JM Cumming",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JT Todd",
+                  "fielders": [
+                    {
+                      "name": "RD Harrison"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "DN Phillips",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JM Cumming",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "DN Phillips",
+              "non_striker": "JM Cumming",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "JM Cumming",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "AL Olliver",
+              "non_striker": "JM Cumming",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cumming",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cumming",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Cumming",
+                  "fielders": [
+                    {
+                      "name": "SM Solia"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "AL Olliver",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RD Harrison",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RD Harrison",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "MW Chu",
+              "bowler": "AL Olliver",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "AL Olliver",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "AL Olliver",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "MW Chu",
+              "bowler": "H Johal",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "H Johal",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "H Johal",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "H Johal",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "H Johal",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "H Johal",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "H Johal",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "H Johal",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "MW Chu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MW Chu",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MW Chu",
+                  "fielders": [
+                    {
+                      "name": "AL Olliver"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "LC Johnson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LC Johnson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "LC Johnson",
+              "bowler": "S Dixit",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LC Johnson",
+              "bowler": "S Dixit",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "S Dixit",
+              "non_striker": "LC Johnson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "S Dixit",
+              "non_striker": "LC Johnson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "S Dixit",
+              "non_striker": "LC Johnson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "S Dixit",
+              "non_striker": "LC Johnson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LC Johnson",
+              "bowler": "S Dixit",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "LC Johnson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LC Johnson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LC Johnson",
+                  "fielders": [
+                    {
+                      "name": "MJ Guptill"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TM Johnson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "TM Johnson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "TM Johnson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TM Johnson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "TM Johnson",
+              "bowler": "S Dixit",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TM Johnson",
+              "bowler": "S Dixit",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "S Dixit",
+              "non_striker": "TM Johnson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TM Johnson",
+              "bowler": "S Dixit",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TM Johnson",
+              "bowler": "S Dixit",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TM Johnson",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "S Dixit",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RD Harrison",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RD Harrison",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RD Harrison",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "JM Gibson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "RK Gulati",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "RK Gulati",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "JM Gibson",
+              "bowler": "H Johal",
+              "non_striker": "JCT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JCT Boyle",
+              "bowler": "H Johal",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JCT Boyle",
+                  "fielders": [
+                    {
+                      "name": "DN Phillips"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "BNJ Lockrose",
+              "bowler": "H Johal",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BNJ Lockrose",
+              "bowler": "H Johal",
+              "non_striker": "JM Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Gibson",
+              "bowler": "H Johal",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Gibson",
+                  "fielders": [
+                    {
+                      "name": "DN Phillips"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DK Ferns",
+              "bowler": "H Johal",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "DK Ferns",
+              "bowler": "S Dixit",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BNJ Lockrose",
+              "bowler": "S Dixit",
+              "non_striker": "DK Ferns",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DK Ferns",
+              "bowler": "S Dixit",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BNJ Lockrose",
+              "bowler": "S Dixit",
+              "non_striker": "DK Ferns",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DK Ferns",
+              "bowler": "S Dixit",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DK Ferns",
+              "bowler": "S Dixit",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "BNJ Lockrose",
+              "bowler": "H Johal",
+              "non_striker": "DK Ferns",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DK Ferns",
+              "bowler": "H Johal",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DK Ferns",
+                  "fielders": [
+                    {
+                      "name": "SM Solia"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ATE Hazeldine",
+              "bowler": "H Johal",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ATE Hazeldine",
+              "bowler": "H Johal",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ATE Hazeldine",
+                  "fielders": [
+                    {
+                      "name": "LD Watson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MB Bacon",
+              "bowler": "H Johal",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BNJ Lockrose",
+              "bowler": "H Johal",
+              "non_striker": "MB Bacon",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "MB Bacon",
+              "bowler": "S Dixit",
+              "non_striker": "BNJ Lockrose",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "MB Bacon",
+                  "fielders": [
+                    {
+                      "name": "CD Fletcher"
+                    },
+                    {
+                      "name": "AL Olliver"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 201
+      }
+    }
+  ]
+}

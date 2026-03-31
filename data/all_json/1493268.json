@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-12",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Sydney",
+    "dates": [
+      "2026-01-11"
+    ],
+    "event": {
+      "name": "Big Bash League",
+      "match_number": 31
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "Dave Gilbert"
+      ],
+      "reserve_umpires": [
+        "P Jackson"
+      ],
+      "tv_umpires": [
+        "Sharad Patel"
+      ],
+      "umpires": [
+        "CA Polosak",
+        "Eloise Sheridan"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 20,
+    "players": {
+      "Sydney Sixers": [
+        "Babar Azam",
+        "SPD Smith",
+        "JR Philippe",
+        "MC Henriques",
+        "SM Curran",
+        "L Shaw",
+        "J Edwards",
+        "JA Davies",
+        "BJ Dwarshuis",
+        "BAD Manenti",
+        "SA Abbott"
+      ],
+      "Hobart Hurricanes": [
+        "MJ Owen",
+        "TP Ward",
+        "BJ Webster",
+        "BR McDermott",
+        "Nikhil Chaudhary",
+        "MS Wade",
+        "Rehan Ahmed",
+        "CJ Jordan",
+        "Rishad Hossain",
+        "RP Meredith",
+        "B Stanlake"
+      ]
+    },
+    "registry": {
+      "people": {
+        "B Stanlake": "6834d1f2",
+        "BAD Manenti": "ab21795b",
+        "BJ Dwarshuis": "e1b9f3a9",
+        "BJ Webster": "56b93d46",
+        "BR McDermott": "c41043e6",
+        "Babar Azam": "8a75e999",
+        "CA Polosak": "26a360d2",
+        "CJ Jordan": "ffe699c0",
+        "Dave Gilbert": "aa782370",
+        "Eloise Sheridan": "d8d43840",
+        "J Edwards": "f787e0eb",
+        "JA Davies": "5cdf8304",
+        "JR Philippe": "39086549",
+        "L Shaw": "b34e4b15",
+        "MC Henriques": "32198ae0",
+        "MJ Owen": "f2c936d7",
+        "MS Wade": "afa7e784",
+        "Nikhil Chaudhary": "1f84183a",
+        "P Jackson": "927313b1",
+        "RP Meredith": "64775749",
+        "Rehan Ahmed": "0ecb4de6",
+        "Rishad Hossain": "5935d694",
+        "SA Abbott": "1a2676c5",
+        "SM Curran": "e94915e6",
+        "SPD Smith": "30a45b23",
+        "Sharad Patel": "8e6dd3ba",
+        "TP Ward": "fdd837ba"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Sydney Sixers",
+      "Hobart Hurricanes"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Hobart Hurricanes"
+    },
+    "venue": "Sydney Cricket Ground"
+  },
+  "innings": [
+    {
+      "team": "Sydney Sixers",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "B Stanlake",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "B Stanlake",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Babar Azam",
+              "bowler": "RP Meredith",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "B Stanlake",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "B Stanlake",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "B Stanlake",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "B Stanlake",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "RP Meredith",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "RP Meredith",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "RP Meredith",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "RP Meredith",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Babar Azam",
+              "bowler": "BJ Webster",
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "BJ Webster",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SPD Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "BJ Webster",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "BJ Webster",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "BJ Webster",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SPD Smith",
+              "bowler": "BJ Webster",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        }
+      ]
+    }
+  ]
+}

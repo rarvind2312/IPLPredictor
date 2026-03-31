@@ -1,0 +1,7035 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-08-11",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2024-07-27"
+    ],
+    "event": {
+      "name": "Major Clubs Limited Over Tournament",
+      "group": "B"
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "officials": {
+      "match_referees": [
+        "R Punchihewa"
+      ],
+      "umpires": [
+        "Ranganath Prasanna",
+        "UILD Wewage"
+      ]
+    },
+    "outcome": {
+      "winner": "Nugegoda Sports Welfare Club",
+      "by": {
+        "runs": 33
+      }
+    },
+    "overs": 50,
+    "players": {
+      "Nugegoda Sports Welfare Club": [
+        "Pulindu Perera",
+        "Tillakaratne Sampath",
+        "DM Jayalath",
+        "DKAL Perera",
+        "Kevin Perera",
+        "NR Gunasekera",
+        "I Siriwardene",
+        "A Muthalib",
+        "M Chanthuka",
+        "AMCD Abeysinghe",
+        "S Marasinghe"
+      ],
+      "Colts Cricket Club": [
+        "Yashodha Lanka",
+        "S de Mel",
+        "WRKS Darshika",
+        "D Lakshan",
+        "R Rasantha",
+        "S Fonseka",
+        "M Lakshan",
+        "A Dananjaya",
+        "Y Rodrigo",
+        "H Wickramasinghe",
+        "S Krishnashriram"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Dananjaya": "5b16a806",
+        "A Muthalib": "c08bdbbe",
+        "AMCD Abeysinghe": "49c271b5",
+        "D Lakshan": "0a2184d9",
+        "DKAL Perera": "0bacc5cb",
+        "DM Jayalath": "6ff084b4",
+        "H Wickramasinghe": "5652a09b",
+        "I Siriwardene": "1b200b19",
+        "Kevin Perera": "e88e6a14",
+        "M Chanthuka": "9adac4a2",
+        "M Lakshan": "aa844d38",
+        "NR Gunasekera": "88781812",
+        "Pulindu Perera": "d33740d9",
+        "R Punchihewa": "dd7477cb",
+        "R Rasantha": "fb12d010",
+        "Ranganath Prasanna": "9fc85271",
+        "S Fonseka": "fada9660",
+        "S Krishnashriram": "284c4330",
+        "S Marasinghe": "988237e9",
+        "S de Mel": "90a7d966",
+        "Tillakaratne Sampath": "dc002962",
+        "UILD Wewage": "6a58b590",
+        "WRKS Darshika": "268af93b",
+        "Y Rodrigo": "f8511ad1",
+        "Yashodha Lanka": "600dce49"
+      }
+    },
+    "season": "2024",
+    "team_type": "club",
+    "teams": [
+      "Nugegoda Sports Welfare Club",
+      "Colts Cricket Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Colts Cricket Club"
+    },
+    "venue": "Colts Cricket Club Ground, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Nugegoda Sports Welfare Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Tillakaratne Sampath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "D Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Tillakaratne Sampath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Tillakaratne Sampath",
+                  "fielders": [
+                    {
+                      "name": "R Rasantha"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "DM Jayalath",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "D Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "D Lakshan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "D Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "D Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "DM Jayalath",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "DM Jayalath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DM Jayalath",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DM Jayalath",
+                  "fielders": [
+                    {
+                      "name": "S Fonseka"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "DKAL Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "DKAL Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "DKAL Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DKAL Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DKAL Perera",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "Y Rodrigo",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 1,
+                "total": 5
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Pulindu Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Pulindu Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Pulindu Perera",
+                  "fielders": [
+                    {
+                      "name": "R Rasantha"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "D Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "D Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "D Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "D Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "D Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "S Krishnashriram",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 41,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 42,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "NR Gunasekera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "NR Gunasekera",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NR Gunasekera",
+                  "kind": "lbw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 43,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "I Siriwardene",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "I Siriwardene",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Siriwardene",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "I Siriwardene",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Siriwardene",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Siriwardene",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "I Siriwardene",
+                  "kind": "lbw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 44,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 45,
+          "deliveries": [
+            {
+              "batter": "A Muthalib",
+              "bowler": "WRKS Darshika",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "WRKS Darshika",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "WRKS Darshika",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 46,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "M Lakshan",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 47,
+          "deliveries": [
+            {
+              "batter": "A Muthalib",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "A Dananjaya",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "A Dananjaya",
+              "non_striker": "A Muthalib",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 48,
+          "deliveries": [
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Muthalib",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Muthalib",
+                  "fielders": [
+                    {
+                      "name": "D Lakshan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M Chanthuka",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Chanthuka",
+              "bowler": "M Lakshan",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 49,
+          "deliveries": [
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "M Chanthuka",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "M Chanthuka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Chanthuka",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "Kevin Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kevin Perera",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "M Chanthuka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Kevin Perera",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "AMCD Abeysinghe",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "M Chanthuka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AMCD Abeysinghe",
+              "bowler": "H Wickramasinghe",
+              "non_striker": "M Chanthuka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AMCD Abeysinghe",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 40.1,
+          "to": 49.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Colts Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Mel",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "S de Mel",
+              "bowler": "S Marasinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "S Marasinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "S Marasinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S de Mel",
+              "bowler": "S Marasinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "S Marasinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "S Marasinghe",
+              "non_striker": "S de Mel",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "S de Mel",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S de Mel",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "I Siriwardene",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "I Siriwardene",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "I Siriwardene",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "I Siriwardene",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "I Siriwardene",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "M Chanthuka",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "M Chanthuka",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "M Chanthuka",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Yashodha Lanka",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "M Chanthuka",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "M Chanthuka",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "M Chanthuka",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "I Siriwardene",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "I Siriwardene",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "WRKS Darshika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "WRKS Darshika",
+              "bowler": "M Chanthuka",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "WRKS Darshika",
+                  "fielders": [
+                    {
+                      "name": "A Muthalib"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "M Chanthuka",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "D Lakshan",
+              "bowler": "M Chanthuka",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "D Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Lakshan",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Lakshan",
+                  "fielders": [
+                    {
+                      "name": "A Muthalib"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "M Chanthuka",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "S Fonseka",
+              "bowler": "M Chanthuka",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "S Fonseka",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Fonseka",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "NR Gunasekera",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "NR Gunasekera",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "NR Gunasekera",
+              "non_striker": "S Fonseka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "S Fonseka",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Fonseka",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "DM Jayalath",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "M Lakshan",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "NR Gunasekera",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "NR Gunasekera",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "R Rasantha",
+              "bowler": "DM Jayalath",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "DM Jayalath",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "DM Jayalath",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "DM Jayalath",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "M Lakshan",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Lakshan",
+              "bowler": "I Siriwardene",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "M Lakshan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "M Lakshan",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Lakshan",
+                  "fielders": [
+                    {
+                      "name": "A Muthalib"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "I Siriwardene",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "S Marasinghe",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "S Marasinghe",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "A Dananjaya",
+              "bowler": "M Chanthuka",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "M Chanthuka",
+              "non_striker": "R Rasantha",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Rasantha",
+              "bowler": "M Chanthuka",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Rasantha",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "M Chanthuka",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "M Chanthuka",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "A Dananjaya",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "A Dananjaya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Dananjaya",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Dananjaya",
+                  "fielders": [
+                    {
+                      "name": "DKAL Perera"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "NR Gunasekera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "NR Gunasekera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "Tillakaratne Sampath",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "M Chanthuka",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "M Chanthuka",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "M Chanthuka",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "DKAL Perera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "DKAL Perera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "DKAL Perera",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "DKAL Perera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "DKAL Perera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "DKAL Perera",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 41,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "M Chanthuka",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "M Chanthuka",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 42,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 43,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "S Marasinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 44,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 45,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "H Wickramasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 46,
+          "deliveries": [
+            {
+              "batter": "H Wickramasinghe",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Wickramasinghe",
+                  "fielders": [
+                    {
+                      "name": "Pulindu Perera"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 47,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 48,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "AMCD Abeysinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 49,
+          "deliveries": [
+            {
+              "batter": "Y Rodrigo",
+              "bowler": "S Marasinghe",
+              "non_striker": "S Krishnashriram",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "S Marasinghe",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Krishnashriram",
+              "bowler": "S Marasinghe",
+              "non_striker": "Y Rodrigo",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Krishnashriram",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 40.1,
+          "to": 49.4,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 50,
+        "runs": 288
+      }
+    }
+  ]
+}

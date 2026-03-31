@@ -1,0 +1,2709 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-23",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Christchurch",
+    "dates": [
+      "2026-01-23"
+    ],
+    "event": {
+      "name": "Super Smash",
+      "match_number": 27
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SB O'Connor"
+      ],
+      "reserve_umpires": [
+        "BJ Small"
+      ],
+      "tv_umpires": [
+        "Kim Cotton"
+      ],
+      "umpires": [
+        "JM Dempsey",
+        "KS Jagannathan"
+      ]
+    },
+    "outcome": {
+      "winner": "Wellington",
+      "by": {
+        "runs": 13
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "players": {
+      "Wellington": [
+        "TA Blundell",
+        "SL Morgan",
+        "NF Kelly",
+        "MA Abbas",
+        "JM Tashkoff",
+        "OT Jackson",
+        "LV van Beek",
+        "PF Younghusband",
+        "BV Sears",
+        "JW Hartshorn",
+        "CR McLachlan"
+      ],
+      "Canterbury": [
+        "RA Mariu",
+        "HM Nicholls",
+        "MWT Boyle",
+        "CE McConchie",
+        "MJ Hay",
+        "LJ Carter",
+        "CB Paul",
+        "LLB Harper",
+        "Raunaq Kapur",
+        "T Muller",
+        "MD Rae"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BJ Small": "b1b7b7de",
+        "BV Sears": "e1891e00",
+        "CB Paul": "c945df30",
+        "CE McConchie": "d285acaf",
+        "CR McLachlan": "10da9f8b",
+        "HM Nicholls": "03521fd3",
+        "JM Dempsey": "153c9f33",
+        "JM Tashkoff": "afe7d695",
+        "JW Hartshorn": "9f395b45",
+        "KS Jagannathan": "9bc8dcec",
+        "Kim Cotton": "67a7c2ee",
+        "LJ Carter": "dfb51f40",
+        "LLB Harper": "2bdd2350",
+        "LV van Beek": "782fb776",
+        "MA Abbas": "c3576908",
+        "MD Rae": "1c06d60a",
+        "MJ Hay": "732f711b",
+        "MWT Boyle": "b42d5053",
+        "NF Kelly": "97f437ed",
+        "OT Jackson": "213c1054",
+        "PF Younghusband": "149d0c18",
+        "RA Mariu": "6d816d13",
+        "Raunaq Kapur": "8831b92e",
+        "SB O'Connor": "4e80ab93",
+        "SL Morgan": "6533ef33",
+        "T Muller": "ebb1f8e8",
+        "TA Blundell": "21e5f325"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Wellington",
+      "Canterbury"
+    ],
+    "toss": {
+      "decision": "bat",
+      "winner": "Wellington"
+    },
+    "venue": "Hagley Oval, Christchurch"
+  },
+  "innings": [
+    {
+      "team": "Wellington",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "T Muller",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "T Muller",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "T Muller",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "T Muller",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "T Muller",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "T Muller",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CB Paul",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "SL Morgan",
+              "bowler": "MD Rae",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "MD Rae",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "MD Rae",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "MD Rae",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "MD Rae",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "MD Rae",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "T Muller",
+              "extras": {
+                "legbyes": 4
+              },
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "T Muller",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "T Muller",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "T Muller",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "T Muller",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "T Muller",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CB Paul",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CB Paul",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CB Paul",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CB Paul",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "LLB Harper",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "LLB Harper",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "MD Rae",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "MD Rae",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "MD Rae",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "MD Rae",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "MD Rae",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "MD Rae",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SL Morgan",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "SL Morgan",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "SL Morgan",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SL Morgan",
+                  "fielders": [
+                    {
+                      "name": "CE McConchie"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "NF Kelly",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NF Kelly",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NF Kelly",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NF Kelly",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NF Kelly",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NF Kelly",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "CE McConchie",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "CE McConchie",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "TA Blundell",
+              "bowler": "LLB Harper",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "LLB Harper",
+              "non_striker": "TA Blundell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TA Blundell",
+              "bowler": "LLB Harper",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TA Blundell",
+                  "fielders": [
+                    {
+                      "name": "MWT Boyle"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JM Tashkoff",
+              "bowler": "LLB Harper",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Tashkoff",
+              "bowler": "LLB Harper",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "LLB Harper",
+              "non_striker": "JM Tashkoff",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Tashkoff",
+              "bowler": "LLB Harper",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Tashkoff",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "MA Abbas",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "OT Jackson",
+              "bowler": "CB Paul",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "CB Paul",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "CB Paul",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "CB Paul",
+              "non_striker": "MA Abbas",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "CB Paul",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "CB Paul",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "MA Abbas",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MA Abbas",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MA Abbas",
+                  "fielders": [
+                    {
+                      "name": "MWT Boyle"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "LV van Beek",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "Raunaq Kapur",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "LV van Beek",
+              "bowler": "MD Rae",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "MD Rae",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "MD Rae",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "MD Rae",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LV van Beek",
+              "bowler": "MD Rae",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LV van Beek",
+              "bowler": "MD Rae",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "LV van Beek",
+              "bowler": "T Muller",
+              "non_striker": "OT Jackson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "T Muller",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "T Muller",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "T Muller",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "T Muller",
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "OT Jackson",
+              "bowler": "T Muller",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "LV van Beek",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Canterbury",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "RA Mariu",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "HM Nicholls",
+              "bowler": "JW Hartshorn",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "JW Hartshorn",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "JW Hartshorn",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "JW Hartshorn",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "JW Hartshorn",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "JW Hartshorn",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "RA Mariu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "RA Mariu",
+              "bowler": "BV Sears",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "BV Sears",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "BV Sears",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "BV Sears",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "BV Sears",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "BV Sears",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "BV Sears",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "RA Mariu",
+              "bowler": "JW Hartshorn",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "JW Hartshorn",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "JW Hartshorn",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RA Mariu",
+              "bowler": "JW Hartshorn",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RA Mariu",
+                  "fielders": [
+                    {
+                      "name": "LV van Beek"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "JW Hartshorn",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "JW Hartshorn",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "HM Nicholls",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "BV Sears",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "BV Sears",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "MWT Boyle",
+              "bowler": "PF Younghusband",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "PF Younghusband",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "PF Younghusband",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "PF Younghusband",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "PF Younghusband",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "PF Younghusband",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "HM Nicholls",
+              "bowler": "OT Jackson",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "OT Jackson",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "OT Jackson",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "OT Jackson",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "OT Jackson",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "OT Jackson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "OT Jackson",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "HM Nicholls",
+              "bowler": "PF Younghusband",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "PF Younghusband",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "PF Younghusband",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "PF Younghusband",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "PF Younghusband",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "PF Younghusband",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "LV van Beek",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "LV van Beek",
+              "non_striker": "HM Nicholls",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HM Nicholls",
+              "bowler": "LV van Beek",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HM Nicholls",
+                  "fielders": [
+                    {
+                      "name": "NF Kelly"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CE McConchie",
+              "bowler": "LV van Beek",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "CE McConchie",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CE McConchie",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CE McConchie",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CE McConchie",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "BV Sears",
+              "non_striker": "MWT Boyle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MWT Boyle",
+              "bowler": "BV Sears",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MWT Boyle",
+                  "fielders": [
+                    {
+                      "name": "JW Hartshorn"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "MJ Hay",
+              "bowler": "PF Younghusband",
+              "non_striker": "LJ Carter",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LJ Carter",
+              "bowler": "PF Younghusband",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LJ Carter",
+              "bowler": "PF Younghusband",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "PF Younghusband",
+              "non_striker": "LJ Carter",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LJ Carter",
+              "bowler": "PF Younghusband",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "PF Younghusband",
+              "non_striker": "LJ Carter",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "LJ Carter",
+              "bowler": "OT Jackson",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LJ Carter",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "CB Paul",
+              "bowler": "OT Jackson",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "OT Jackson",
+              "non_striker": "CB Paul",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "OT Jackson",
+              "non_striker": "CB Paul",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "OT Jackson",
+              "non_striker": "CB Paul",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "OT Jackson",
+              "non_striker": "CB Paul",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "CB Paul",
+              "bowler": "BV Sears",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "CB Paul",
+              "bowler": "BV Sears",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CB Paul",
+                  "fielders": [
+                    {
+                      "name": "LV van Beek"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "LLB Harper",
+              "bowler": "BV Sears",
+              "non_striker": "MJ Hay",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "BV Sears",
+              "non_striker": "LLB Harper",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "BV Sears",
+              "non_striker": "LLB Harper",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MJ Hay",
+              "bowler": "BV Sears",
+              "non_striker": "LLB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MJ Hay",
+                  "fielders": [
+                    {
+                      "name": "NF Kelly"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "LLB Harper",
+              "bowler": "JW Hartshorn",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LLB Harper",
+              "bowler": "JW Hartshorn",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LLB Harper",
+              "bowler": "JW Hartshorn",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LLB Harper",
+              "bowler": "JW Hartshorn",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LLB Harper",
+              "bowler": "JW Hartshorn",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LLB Harper",
+                  "fielders": [
+                    {
+                      "name": "CR McLachlan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "T Muller",
+              "bowler": "JW Hartshorn",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Raunaq Kapur",
+              "bowler": "OT Jackson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "T Muller",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Raunaq Kapur",
+              "bowler": "OT Jackson",
+              "non_striker": "T Muller",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Muller",
+              "bowler": "OT Jackson",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Raunaq Kapur",
+              "bowler": "OT Jackson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "T Muller",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Raunaq Kapur",
+              "bowler": "OT Jackson",
+              "non_striker": "T Muller",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Muller",
+              "bowler": "OT Jackson",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Raunaq Kapur",
+              "bowler": "OT Jackson",
+              "non_striker": "T Muller",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Muller",
+              "bowler": "OT Jackson",
+              "non_striker": "Raunaq Kapur",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.2,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 16,
+        "runs": 150
+      }
+    }
+  ]
+}

@@ -1,0 +1,2998 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2025-06-05"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "group": "B"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "M Jayasena"
+      ],
+      "reserve_umpires": [
+        "KADA Nanayakkara"
+      ],
+      "umpires": [
+        "RMPJ Rambukwella",
+        "V Prasad"
+      ]
+    },
+    "outcome": {
+      "winner": "Chilaw Marians Cricket Club",
+      "by": {
+        "runs": 40
+      }
+    },
+    "overs": 20,
+    "players": {
+      "Chilaw Marians Cricket Club": [
+        "Yashodha Lanka",
+        "PTM Dabare",
+        "T Amarasinghe",
+        "H Jayasundara",
+        "KVA Adikari",
+        "Sammu Ashan",
+        "S Liyanage",
+        "RMRDG Rathnayake",
+        "NH Atharagalla",
+        "I Thimira",
+        "WNK Wanniarachchi"
+      ],
+      "Police Sports Club": [
+        "Vishad Randika",
+        "N Balasooriya",
+        "PARP Perera",
+        "HMCB Jayathilake",
+        "R Hirushan",
+        "MDKJ Perera",
+        "NN Fernando",
+        "D Kappagoda",
+        "WACP Wijelath",
+        "T Palihawadana",
+        "Sangeeth Sankalpa"
+      ]
+    },
+    "registry": {
+      "people": {
+        "D Kappagoda": "c10f9b62",
+        "H Jayasundara": "5bc572de",
+        "HMCB Jayathilake": "f8fa8b1c",
+        "I Thimira": "2ee2fcc8",
+        "KADA Nanayakkara": "9ee551f5",
+        "KVA Adikari": "4830fcaf",
+        "M Jayasena": "fa87f32f",
+        "MDKJ Perera": "f21043a5",
+        "N Balasooriya": "e57312fb",
+        "NH Atharagalla": "5250b33c",
+        "NN Fernando": "bd386d09",
+        "PARP Perera": "5f75a7c5",
+        "PTM Dabare": "a97fbc2c",
+        "R Hirushan": "aa9980cb",
+        "RMPJ Rambukwella": "13fa6ffc",
+        "RMRDG Rathnayake": "f73c0c37",
+        "S Liyanage": "b47a39f9",
+        "Sammu Ashan": "981b9303",
+        "Sangeeth Sankalpa": "1c5e8b5b",
+        "T Amarasinghe": "ff3c76ad",
+        "T Palihawadana": "253ba431",
+        "V Prasad": "6ea27248",
+        "Vishad Randika": "7075624e",
+        "WACP Wijelath": "b7e98f01",
+        "WNK Wanniarachchi": "2741c5b1",
+        "Yashodha Lanka": "600dce49"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Chilaw Marians Cricket Club",
+      "Police Sports Club"
+    ],
+    "toss": {
+      "decision": "bat",
+      "winner": "Chilaw Marians Cricket Club"
+    },
+    "venue": "P Sara Oval, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Chilaw Marians Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "D Kappagoda",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "D Kappagoda",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PTM Dabare",
+                  "fielders": [
+                    {
+                      "name": "N Balasooriya"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "N Balasooriya",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "N Balasooriya",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "N Balasooriya",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "N Balasooriya",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "N Balasooriya",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "N Balasooriya",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "T Amarasinghe",
+                  "fielders": [
+                    {
+                      "name": "Vishad Randika"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "H Jayasundara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "H Jayasundara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "H Jayasundara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Jayasundara",
+                  "fielders": [
+                    {
+                      "name": "R Hirushan"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "KVA Adikari",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "KVA Adikari",
+              "bowler": "R Hirushan",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "R Hirushan",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "R Hirushan",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "R Hirushan",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "R Hirushan",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "R Hirushan",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Sangeeth Sankalpa",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "NN Fernando",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "NN Fernando",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "KVA Adikari",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "D Kappagoda",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "D Kappagoda",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "D Kappagoda",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "T Palihawadana",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "T Palihawadana",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "T Palihawadana",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "T Palihawadana",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "T Palihawadana",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "D Kappagoda",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "D Kappagoda",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "D Kappagoda",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "KVA Adikari",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Yashodha Lanka",
+                  "fielders": [
+                    {
+                      "name": "D Kappagoda"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "WACP Wijelath",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Balasooriya",
+              "non_striker": "KVA Adikari",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KVA Adikari",
+              "bowler": "N Balasooriya",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KVA Adikari",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Balasooriya",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Balasooriya",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Balasooriya",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "WACP Wijelath",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "WACP Wijelath",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "WACP Wijelath",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "WACP Wijelath",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Sammu Ashan",
+                  "fielders": [
+                    {
+                      "substitute": true
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "WACP Wijelath",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Balasooriya",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Liyanage",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "NH Atharagalla",
+              "bowler": "N Balasooriya",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "NH Atharagalla",
+              "bowler": "N Balasooriya",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NH Atharagalla",
+              "bowler": "N Balasooriya",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Balasooriya",
+              "non_striker": "NH Atharagalla",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "NH Atharagalla",
+              "bowler": "D Kappagoda",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "D Kappagoda",
+              "non_striker": "NH Atharagalla",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "D Kappagoda",
+              "non_striker": "NH Atharagalla",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RMRDG Rathnayake",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "D Kappagoda",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "NH Atharagalla",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NH Atharagalla",
+              "bowler": "D Kappagoda",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "D Kappagoda",
+              "non_striker": "NH Atharagalla",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.7,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Police Sports Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Vishad Randika",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "Vishad Randika",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Vishad Randika",
+              "bowler": "I Thimira",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "I Thimira",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "I Thimira",
+              "non_striker": "Vishad Randika",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "I Thimira",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "I Thimira",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "I Thimira",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "N Balasooriya",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Vishad Randika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Vishad Randika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Vishad Randika",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Vishad Randika",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "Sammu Ashan",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Vishad Randika",
+              "bowler": "Sammu Ashan",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Vishad Randika",
+                  "kind": "lbw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "N Balasooriya",
+              "bowler": "I Thimira",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "I Thimira",
+              "non_striker": "PARP Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PARP Perera",
+                  "fielders": [
+                    {
+                      "name": "H Jayasundara"
+                    },
+                    {
+                      "name": "S Liyanage"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "I Thimira",
+              "non_striker": "N Balasooriya",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "I Thimira",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Balasooriya",
+              "bowler": "I Thimira",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "N Balasooriya",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "R Hirushan",
+              "bowler": "I Thimira",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "R Hirushan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "R Hirushan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "R Hirushan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "R Hirushan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Hirushan",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Hirushan",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "R Hirushan",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Hirushan",
+                  "fielders": [
+                    {
+                      "name": "H Jayasundara"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "MDKJ Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "MDKJ Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "MDKJ Perera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "MDKJ Perera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "MDKJ Perera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDKJ Perera",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MDKJ Perera",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "NN Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NN Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NN Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "NN Fernando",
+              "bowler": "NH Atharagalla",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "NN Fernando",
+              "bowler": "NH Atharagalla",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NN Fernando",
+              "bowler": "NH Atharagalla",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NN Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "NH Atharagalla",
+              "non_striker": "NN Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NN Fernando",
+              "bowler": "NH Atharagalla",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NN Fernando",
+                  "fielders": [
+                    {
+                      "name": "S Liyanage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "NH Atharagalla",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "NH Atharagalla",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "PTM Dabare",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "PTM Dabare",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "D Kappagoda",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "Sammu Ashan",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "Sammu Ashan",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "Sammu Ashan",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "D Kappagoda",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "WNK Wanniarachchi",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "D Kappagoda",
+              "bowler": "I Thimira",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "I Thimira",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "I Thimira",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "I Thimira",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "I Thimira",
+              "non_striker": "D Kappagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Kappagoda",
+              "bowler": "I Thimira",
+              "non_striker": "HMCB Jayathilake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Kappagoda",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "HMCB Jayathilake",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "WACP Wijelath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HMCB Jayathilake",
+                  "fielders": [
+                    {
+                      "name": "PTM Dabare"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "WACP Wijelath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WACP Wijelath",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "T Palihawadana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WACP Wijelath",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "T Palihawadana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "WACP Wijelath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "WACP Wijelath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "T Palihawadana",
+              "bowler": "I Thimira",
+              "non_striker": "WACP Wijelath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WACP Wijelath",
+              "bowler": "I Thimira",
+              "non_striker": "T Palihawadana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "I Thimira",
+              "non_striker": "WACP Wijelath",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "I Thimira",
+              "non_striker": "WACP Wijelath",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WACP Wijelath",
+              "bowler": "I Thimira",
+              "non_striker": "T Palihawadana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WACP Wijelath",
+              "bowler": "I Thimira",
+              "non_striker": "T Palihawadana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "WACP Wijelath",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "Sangeeth Sankalpa",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "Sangeeth Sankalpa",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sangeeth Sankalpa",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "T Palihawadana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "Sangeeth Sankalpa",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Sangeeth Sankalpa",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Palihawadana",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "Sangeeth Sankalpa",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Sangeeth Sankalpa",
+              "bowler": "RMRDG Rathnayake",
+              "non_striker": "T Palihawadana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 179
+      }
+    }
+  ]
+}

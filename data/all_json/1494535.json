@@ -1,0 +1,1937 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-11-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Sydney",
+    "dates": [
+      "2025-11-15"
+    ],
+    "event": {
+      "name": "Women's Big Bash League",
+      "match_number": 10
+    },
+    "gender": "female",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "J Stainer"
+      ],
+      "reserve_umpires": [
+        "P Jackson"
+      ],
+      "tv_umpires": [
+        "D Crozier"
+      ],
+      "umpires": [
+        "L McGill",
+        "Roberto Howard"
+      ]
+    },
+    "outcome": {
+      "winner": "Hobart Hurricanes",
+      "by": {
+        "runs": 16
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "player_of_match": [
+      "L Lee"
+    ],
+    "players": {
+      "Hobart Hurricanes": [
+        "L Lee",
+        "DN Wyatt",
+        "NJ Carey",
+        "NR Sciver-Brunt",
+        "H Graham",
+        "EJ Villani",
+        "R Trenaman",
+        "H Silver-holmes",
+        "M Strano",
+        "LCN Smith",
+        "LG Smith"
+      ],
+      "Brisbane Heat": [
+        "GM Harris",
+        "CR Knott",
+        "JI Rodrigues",
+        "JL Jonassen",
+        "CA Henry",
+        "N de Klerk",
+        "G Redmayne",
+        "NM Hancock",
+        "ML Wrigley",
+        "SU Ginger",
+        "LK Hamilton"
+      ]
+    },
+    "registry": {
+      "people": {
+        "CA Henry": "75820733",
+        "CR Knott": "d7ff1adc",
+        "D Crozier": "635509c0",
+        "DN Wyatt": "a139c379",
+        "EJ Villani": "cde96d97",
+        "G Redmayne": "324b9eee",
+        "GM Harris": "72166006",
+        "H Graham": "99812d10",
+        "H Silver-holmes": "2bfc7199",
+        "J Stainer": "fcd293d7",
+        "JI Rodrigues": "cb08b611",
+        "JL Jonassen": "0475a86b",
+        "L Lee": "7b01ce83",
+        "L McGill": "ab999519",
+        "LCN Smith": "340202b0",
+        "LG Smith": "9c515112",
+        "LK Hamilton": "c347ffe6",
+        "M Strano": "f57d5dbb",
+        "ML Wrigley": "0b71685d",
+        "N de Klerk": "ea544967",
+        "NJ Carey": "dff806f4",
+        "NM Hancock": "af8c3a85",
+        "NR Sciver-Brunt": "f3a18a0c",
+        "P Jackson": "927313b1",
+        "R Trenaman": "877dd709",
+        "Roberto Howard": "eec90c4b",
+        "SU Ginger": "803af9e0"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Hobart Hurricanes",
+      "Brisbane Heat"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Brisbane Heat"
+    },
+    "venue": "Drummoyne Oval, Sydney"
+  },
+  "innings": [
+    {
+      "team": "Hobart Hurricanes",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "LK Hamilton",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "LK Hamilton",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "LK Hamilton",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "LK Hamilton",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DN Wyatt",
+              "bowler": "NM Hancock",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "DN Wyatt",
+              "bowler": "LK Hamilton",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "DN Wyatt",
+              "bowler": "JL Jonassen",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "JL Jonassen",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "DN Wyatt",
+              "bowler": "LK Hamilton",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "LK Hamilton",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Hamilton",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "DN Wyatt",
+              "bowler": "GM Harris",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "GM Harris",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "GM Harris",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "GM Harris",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "GM Harris",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "GM Harris",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "NM Hancock",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "NM Hancock",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "NM Hancock",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "NM Hancock",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "L Lee",
+              "bowler": "CR Knott",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "CR Knott",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "CR Knott",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "CR Knott",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "CR Knott",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "CR Knott",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "DN Wyatt",
+              "bowler": "SU Ginger",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "SU Ginger",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "SU Ginger",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "SU Ginger",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "SU Ginger",
+              "non_striker": "DN Wyatt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "SU Ginger",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "DN Wyatt",
+              "bowler": "JL Jonassen",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DN Wyatt",
+              "bowler": "JL Jonassen",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DN Wyatt",
+                  "fielders": [
+                    {
+                      "name": "JI Rodrigues"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "NJ Carey",
+              "bowler": "JL Jonassen",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "non_striker": "NJ Carey",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "JL Jonassen",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "NJ Carey",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Carey",
+              "bowler": "JL Jonassen",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 6.1,
+          "to": 6.7,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Brisbane Heat",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "GM Harris",
+              "bowler": "LCN Smith",
+              "non_striker": "CR Knott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "LCN Smith",
+              "non_striker": "CR Knott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "LCN Smith",
+              "non_striker": "CR Knott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "LCN Smith",
+              "non_striker": "CR Knott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "LCN Smith",
+              "non_striker": "CR Knott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CR Knott",
+              "bowler": "LCN Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "CR Knott",
+              "bowler": "NR Sciver-Brunt",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "CR Knott",
+              "bowler": "NR Sciver-Brunt",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CR Knott",
+                  "fielders": [
+                    {
+                      "name": "H Graham"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "NR Sciver-Brunt",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "NR Sciver-Brunt",
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "NR Sciver-Brunt",
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "NR Sciver-Brunt",
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "NJ Carey",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "NJ Carey",
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "NJ Carey",
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "H Graham",
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "GM Harris",
+              "bowler": "LG Smith",
+              "non_striker": "JI Rodrigues",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "LG Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "LG Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "LG Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JI Rodrigues",
+                  "fielders": [
+                    {
+                      "name": "H Graham"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "LG Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "LG Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "GM Harris",
+              "bowler": "H Silver-holmes",
+              "non_striker": "JL Jonassen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "H Silver-holmes",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "H Silver-holmes",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "H Silver-holmes",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "H Silver-holmes",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "H Silver-holmes",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "JL Jonassen",
+              "bowler": "M Strano",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "M Strano",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "M Strano",
+              "non_striker": "JL Jonassen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "M Strano",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "M Strano",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "M Strano",
+              "non_striker": "JL Jonassen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "JL Jonassen",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "NJ Carey",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "JL Jonassen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Jonassen",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JL Jonassen",
+                  "fielders": [
+                    {
+                      "name": "DN Wyatt"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CA Henry",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CA Henry",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CA Henry",
+                  "fielders": [
+                    {
+                      "name": "H Graham"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "N de Klerk",
+              "bowler": "NJ Carey",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "N de Klerk",
+              "bowler": "LCN Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "LCN Smith",
+              "non_striker": "N de Klerk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N de Klerk",
+              "bowler": "LCN Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "LCN Smith",
+              "non_striker": "N de Klerk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N de Klerk",
+              "bowler": "LCN Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "N de Klerk",
+              "bowler": "LCN Smith",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "GM Harris",
+              "bowler": "H Graham",
+              "non_striker": "N de Klerk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N de Klerk",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "N de Klerk",
+                  "fielders": [
+                    {
+                      "name": "M Strano"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "G Redmayne",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "G Redmayne",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Redmayne",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "G Redmayne",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "NM Hancock",
+              "bowler": "H Graham",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "GM Harris",
+              "bowler": "M Strano",
+              "non_striker": "NM Hancock",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GM Harris",
+                  "fielders": [
+                    {
+                      "name": "EJ Villani"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ML Wrigley",
+              "bowler": "M Strano",
+              "non_striker": "NM Hancock",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NM Hancock",
+              "bowler": "M Strano",
+              "non_striker": "ML Wrigley",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NM Hancock",
+                  "fielders": [
+                    {
+                      "name": "H Graham"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SU Ginger",
+              "bowler": "M Strano",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "ML Wrigley",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SU Ginger",
+              "bowler": "M Strano",
+              "non_striker": "ML Wrigley",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SU Ginger",
+              "bowler": "M Strano",
+              "non_striker": "ML Wrigley",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Wrigley",
+              "bowler": "M Strano",
+              "non_striker": "SU Ginger",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "ML Wrigley",
+              "bowler": "H Graham",
+              "non_striker": "SU Ginger",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SU Ginger",
+              "bowler": "H Graham",
+              "non_striker": "ML Wrigley",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ML Wrigley",
+              "bowler": "H Graham",
+              "non_striker": "SU Ginger",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SU Ginger",
+              "bowler": "H Graham",
+              "non_striker": "ML Wrigley",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "ML Wrigley",
+                  "fielders": [
+                    {
+                      "name": "H Silver-holmes"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "SU Ginger",
+              "bowler": "H Graham",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SU Ginger",
+              "bowler": "H Graham",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 2.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 7.1,
+          "to": 7.6,
+          "type": "batting"
+        }
+      ],
+      "target": {
+        "overs": 12,
+        "runs": 125
+      }
+    }
+  ]
+}

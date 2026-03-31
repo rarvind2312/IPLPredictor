@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# OS generated files
+.DS_Store
+
+# SQLite databases and sidecars
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Local Data and Cricsheet JSONs
+data/ipl_json/
+data/all_json/

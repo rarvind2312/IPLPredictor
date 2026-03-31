@@ -1,0 +1,2616 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-06-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Oakland",
+    "dates": [
+      "2025-06-12"
+    ],
+    "event": {
+      "name": "Major League Cricket",
+      "match_number": 1
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "Reon King"
+      ],
+      "reserve_umpires": [
+        "BV Taylor"
+      ],
+      "tv_umpires": [
+        "P Wilson"
+      ],
+      "umpires": [
+        "LS Reifer",
+        "R Samuels"
+      ]
+    },
+    "outcome": {
+      "winner": "San Francisco Unicorns",
+      "by": {
+        "runs": 123
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "FH Allen"
+    ],
+    "players": {
+      "San Francisco Unicorns": [
+        "TL Seifert",
+        "FH Allen",
+        "J Fraser-McGurk",
+        "SP Krishnamurthi",
+        "C Connolly",
+        "Hassan Khan",
+        "CJ Anderson",
+        "LE Plunkett",
+        "XC Bartlett",
+        "C le Roux",
+        "Haris Rauf"
+      ],
+      "Washington Freedom": [
+        "MJ Owen",
+        "R Ravindra",
+        "J Edwards",
+        "GJ Maxwell",
+        "GD Phillips",
+        "AGS Gous",
+        "AJ Pienaar",
+        "Mukhtar Ahmed",
+        "IG Holland",
+        "BV Sears",
+        "SN Netravalkar"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AGS Gous": "d1305df0",
+        "AJ Pienaar": "647a48da",
+        "BV Sears": "e1891e00",
+        "BV Taylor": "99760152",
+        "C Connolly": "fe366f34",
+        "C le Roux": "7a490dec",
+        "CJ Anderson": "8abdf100",
+        "FH Allen": "bf74b130",
+        "GD Phillips": "9a46c4e5",
+        "GJ Maxwell": "b681e71e",
+        "Haris Rauf": "24bb1c2f",
+        "Hassan Khan": "486065b3",
+        "IG Holland": "4167f30b",
+        "J Edwards": "f787e0eb",
+        "J Fraser-McGurk": "9b6e1b3f",
+        "LE Plunkett": "9a963804",
+        "LS Reifer": "5dee559a",
+        "MJ Owen": "f2c936d7",
+        "Mukhtar Ahmed": "456f6d99",
+        "P Wilson": "68304a36",
+        "R Ravindra": "ba5e1069",
+        "R Samuels": "8a8bc9f6",
+        "Reon King": "20fbf68c",
+        "SN Netravalkar": "c8a3f688",
+        "SP Krishnamurthi": "3b8e7647",
+        "TL Seifert": "4663bd23",
+        "XC Bartlett": "3b53243a"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "San Francisco Unicorns",
+      "Washington Freedom"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Washington Freedom"
+    },
+    "venue": "Oakland Coliseum,Oakland"
+  },
+  "innings": [
+    {
+      "team": "San Francisco Unicorns",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "TL Seifert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "TL Seifert",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TL Seifert",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TL Seifert",
+                  "fielders": [
+                    {
+                      "name": "GJ Maxwell"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "R Ravindra",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "R Ravindra",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "R Ravindra",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Fraser-McGurk",
+                  "fielders": [
+                    {
+                      "name": "AJ Pienaar"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "SN Netravalkar",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "MJ Owen",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "MJ Owen",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "MJ Owen",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "R Ravindra",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "MJ Owen",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "GD Phillips",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "GD Phillips",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "GD Phillips",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "GD Phillips",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "GD Phillips",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "GD Phillips",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "SP Krishnamurthi",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SP Krishnamurthi",
+              "bowler": "IG Holland",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SP Krishnamurthi",
+                  "fielders": [
+                    {
+                      "name": "GJ Maxwell"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "IG Holland",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "C Connolly",
+              "bowler": "BV Sears",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "C Connolly",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "SN Netravalkar",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "SN Netravalkar",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "SN Netravalkar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "SN Netravalkar",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "SN Netravalkar",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "SN Netravalkar",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "C Connolly",
+              "bowler": "J Edwards",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Connolly",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "IG Holland",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "IG Holland",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Hassan Khan",
+              "bowler": "BV Sears",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "BV Sears",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "BV Sears",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BV Sears",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "MJ Owen",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "FH Allen",
+                  "fielders": [
+                    {
+                      "name": "GD Phillips"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CJ Anderson",
+              "bowler": "MJ Owen",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Anderson",
+              "bowler": "MJ Owen",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CJ Anderson",
+              "bowler": "MJ Owen",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "MJ Owen",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "MJ Owen",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "MJ Owen",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "CJ Anderson",
+              "bowler": "J Edwards",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CJ Anderson",
+              "bowler": "J Edwards",
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "J Edwards",
+              "non_striker": "CJ Anderson",
+              "review": {
+                "by": "Washington Freedom",
+                "umpire": "LS Reifer",
+                "batter": "Hassan Khan",
+                "decision": "struck down",
+                "type": "wicket",
+                "umpires_call": true
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "J Edwards",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "J Edwards",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "J Edwards",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Hassan Khan",
+              "bowler": "SN Netravalkar",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Anderson",
+              "bowler": "SN Netravalkar",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "SN Netravalkar",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Anderson",
+              "bowler": "SN Netravalkar",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Hassan Khan",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "SN Netravalkar",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "SN Netravalkar",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Hassan Khan",
+              "bowler": "SN Netravalkar",
+              "non_striker": "CJ Anderson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Washington Freedom",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "C le Roux",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "C le Roux",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "XC Bartlett",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "XC Bartlett",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "XC Bartlett",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "C le Roux",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "XC Bartlett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "R Ravindra",
+              "bowler": "Haris Rauf",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "Haris Rauf",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "Haris Rauf",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "Haris Rauf",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "Haris Rauf",
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "Haris Rauf",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "MJ Owen",
+              "bowler": "LE Plunkett",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "R Ravindra",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R Ravindra",
+              "bowler": "LE Plunkett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Ravindra",
+                  "fielders": [
+                    {
+                      "name": "J Fraser-McGurk"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "LE Plunkett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "LE Plunkett",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "LE Plunkett",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "LE Plunkett",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "LE Plunkett",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "MJ Owen",
+              "bowler": "Hassan Khan",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "Hassan Khan",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "Hassan Khan",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "Hassan Khan",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MJ Owen",
+                  "fielders": [
+                    {
+                      "name": "TL Seifert"
+                    },
+                    {
+                      "name": "Haris Rauf"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Hassan Khan",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "Hassan Khan",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Haris Rauf",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Haris Rauf",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Haris Rauf",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Haris Rauf",
+              "non_striker": "J Edwards",
+              "review": {
+                "by": "Washington Freedom",
+                "umpire": "LS Reifer",
+                "batter": "GJ Maxwell",
+                "decision": "struck down",
+                "type": "wicket",
+                "umpires_call": true
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GJ Maxwell",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Haris Rauf",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Haris Rauf",
+              "non_striker": "J Edwards",
+              "review": {
+                "by": "San Francisco Unicorns",
+                "umpire": "LS Reifer",
+                "batter": "GD Phillips",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GD Phillips",
+              "bowler": "Haris Rauf",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GD Phillips",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "J Edwards",
+              "bowler": "Hassan Khan",
+              "non_striker": "AGS Gous",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "Hassan Khan",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AGS Gous",
+              "bowler": "Hassan Khan",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AGS Gous",
+                  "fielders": [
+                    {
+                      "name": "XC Bartlett"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Pienaar",
+              "bowler": "Hassan Khan",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Pienaar",
+              "bowler": "Hassan Khan",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "Hassan Khan",
+              "non_striker": "AJ Pienaar",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Edwards",
+                  "fielders": [
+                    {
+                      "name": "C le Roux"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "AJ Pienaar",
+              "bowler": "C le Roux",
+              "non_striker": "Mukhtar Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mukhtar Ahmed",
+              "bowler": "C le Roux",
+              "non_striker": "AJ Pienaar",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Pienaar",
+              "bowler": "C le Roux",
+              "non_striker": "Mukhtar Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AJ Pienaar",
+                  "fielders": [
+                    {
+                      "name": "TL Seifert"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "IG Holland",
+              "bowler": "C le Roux",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Mukhtar Ahmed",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "IG Holland",
+              "bowler": "C le Roux",
+              "non_striker": "Mukhtar Ahmed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mukhtar Ahmed",
+              "bowler": "C le Roux",
+              "non_striker": "IG Holland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Mukhtar Ahmed",
+                  "fielders": [
+                    {
+                      "name": "TL Seifert"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "BV Sears",
+              "bowler": "C le Roux",
+              "non_striker": "IG Holland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "BV Sears",
+              "bowler": "Hassan Khan",
+              "non_striker": "IG Holland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "IG Holland",
+              "bowler": "Hassan Khan",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BV Sears",
+              "bowler": "Hassan Khan",
+              "non_striker": "IG Holland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "IG Holland",
+              "bowler": "Hassan Khan",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "IG Holland",
+              "bowler": "Hassan Khan",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "IG Holland",
+                  "fielders": [
+                    {
+                      "name": "J Fraser-McGurk"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SN Netravalkar",
+              "bowler": "Hassan Khan",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "BV Sears",
+              "bowler": "Haris Rauf",
+              "non_striker": "SN Netravalkar",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SN Netravalkar",
+              "bowler": "Haris Rauf",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SN Netravalkar",
+              "bowler": "Haris Rauf",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BV Sears",
+              "bowler": "Haris Rauf",
+              "non_striker": "SN Netravalkar",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BV Sears",
+              "bowler": "Haris Rauf",
+              "non_striker": "SN Netravalkar",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BV Sears",
+              "bowler": "Haris Rauf",
+              "non_striker": "SN Netravalkar",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "BV Sears",
+              "bowler": "Hassan Khan",
+              "non_striker": "SN Netravalkar",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BV Sears",
+              "bowler": "Hassan Khan",
+              "non_striker": "SN Netravalkar",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SN Netravalkar",
+              "bowler": "Hassan Khan",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BV Sears",
+              "bowler": "Hassan Khan",
+              "non_striker": "SN Netravalkar",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SN Netravalkar",
+              "bowler": "Hassan Khan",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SN Netravalkar",
+              "bowler": "Hassan Khan",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "SN Netravalkar",
+              "bowler": "Haris Rauf",
+              "non_striker": "BV Sears",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SN Netravalkar",
+                  "fielders": [
+                    {
+                      "name": "TL Seifert"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.7,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 270
+      }
+    }
+  ]
+}

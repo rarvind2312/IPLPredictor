@@ -1,0 +1,2923 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Navi Mumbai",
+    "dates": [
+      "2026-01-17"
+    ],
+    "event": {
+      "name": "Women's Premier League",
+      "match_number": 11
+    },
+    "gender": "female",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "MA Chakraborty"
+      ],
+      "reserve_umpires": [
+        "Gayathri Venugopal"
+      ],
+      "tv_umpires": [
+        "K Kelkar"
+      ],
+      "umpires": [
+        "Bhavesh Patel",
+        "N Janani"
+      ]
+    },
+    "outcome": {
+      "winner": "Royal Challengers Bengaluru",
+      "by": {
+        "wickets": 8
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "S Mandhana"
+    ],
+    "players": {
+      "Delhi Capitals": [
+        "Shafali Verma",
+        "L Lee",
+        "L Wolvaardt",
+        "JI Rodrigues",
+        "M Kapp",
+        "NS Prasad",
+        "M Mani",
+        "S Rana",
+        "LK Hamilton",
+        "N Shree Charani",
+        "NSS Sharma"
+      ],
+      "Royal Challengers Bengaluru": [
+        "GM Harris",
+        "S Mandhana",
+        "G Voll",
+        "RM Ghosh",
+        "GJ Naik",
+        "N de Klerk",
+        "RP Yadav",
+        "SG Satghare",
+        "SR Patil",
+        "P Rawat",
+        "LK Bell"
+      ]
+    },
+    "registry": {
+      "people": {
+        "Bhavesh Patel": "ee03dc30",
+        "G Voll": "5c30d455",
+        "GJ Naik": "52183095",
+        "GM Harris": "72166006",
+        "Gayathri Venugopal": "20e3ae99",
+        "JI Rodrigues": "cb08b611",
+        "K Kelkar": "1d88908d",
+        "L Lee": "7b01ce83",
+        "L Wolvaardt": "e60f81c9",
+        "LK Bell": "38b4583c",
+        "LK Hamilton": "c347ffe6",
+        "M Kapp": "63e3b6b3",
+        "M Mani": "8d1ade08",
+        "MA Chakraborty": "02264ff3",
+        "N Janani": "d06a665d",
+        "N Shree Charani": "583ce32c",
+        "N de Klerk": "ea544967",
+        "NS Prasad": "f903aec2",
+        "NSS Sharma": "5f22ccae",
+        "P Rawat": "34b8cd68",
+        "RM Ghosh": "721e0199",
+        "RP Yadav": "6c3aef71",
+        "S Mandhana": "5d2eda89",
+        "S Rana": "c4c374d9",
+        "SG Satghare": "3708b522",
+        "SR Patil": "33946d69",
+        "Shafali Verma": "d8f59089"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Delhi Capitals",
+      "Royal Challengers Bengaluru"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Royal Challengers Bengaluru"
+    },
+    "venue": "Dr DY Patil Sports Academy, Navi Mumbai"
+  },
+  "innings": [
+    {
+      "team": "Delhi Capitals",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "L Lee",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Bell",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Lee",
+              "bowler": "LK Bell",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Lee",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "LK Bell",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Wolvaardt",
+              "bowler": "LK Bell",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Wolvaardt",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "LK Bell",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "SG Satghare",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JI Rodrigues",
+              "bowler": "SG Satghare",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JI Rodrigues",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "M Kapp",
+              "bowler": "SG Satghare",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Kapp",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "SG Satghare",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "SG Satghare",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "SG Satghare",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "NS Prasad",
+              "bowler": "SG Satghare",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SG Satghare",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SG Satghare",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SG Satghare",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SG Satghare",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SG Satghare",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "NS Prasad",
+              "bowler": "SR Patil",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "SR Patil",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "SR Patil",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SR Patil",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SR Patil",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SR Patil",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SR Patil",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SR Patil",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "NS Prasad",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "N de Klerk",
+              "non_striker": "NS Prasad",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "N de Klerk",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "NS Prasad",
+              "bowler": "P Rawat",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NS Prasad",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "review": {
+                "by": "Delhi Capitals",
+                "umpire": "Bhavesh Patel",
+                "batter": "NS Prasad",
+                "decision": "struck down",
+                "type": "wicket",
+                "umpires_call": true
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NS Prasad",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "M Mani",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Mani",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M Mani",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "P Rawat",
+              "non_striker": "M Mani",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "M Mani",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Mani",
+                  "fielders": [
+                    {
+                      "name": "S Mandhana"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "N de Klerk",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "N de Klerk",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SR Patil",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "SR Patil",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "SR Patil",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "SR Patil",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "SR Patil",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "SR Patil",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "S Rana",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "P Rawat",
+              "non_striker": "S Rana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Rana",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Rana",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "P Rawat",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "P Rawat",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "P Rawat",
+              "non_striker": "LK Hamilton",
+              "review": {
+                "by": "Royal Challengers Bengaluru",
+                "umpire": "Bhavesh Patel",
+                "batter": "Shafali Verma",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "LK Hamilton",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "N de Klerk",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "N de Klerk",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "N de Klerk",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "N de Klerk",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "RP Yadav",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "RP Yadav",
+              "non_striker": "Shafali Verma",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shafali Verma",
+              "bowler": "LK Bell",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Shafali Verma",
+                  "fielders": [
+                    {
+                      "name": "P Rawat"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "LK Bell",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "LK Bell",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "LK Bell",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "LK Bell",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "LK Bell",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "N Shree Charani",
+              "bowler": "SR Patil",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SR Patil",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SR Patil",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SR Patil",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SR Patil",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SR Patil",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "N Shree Charani",
+              "bowler": "N de Klerk",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "N de Klerk",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "N de Klerk",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "N de Klerk",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "N de Klerk",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "N de Klerk",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "N Shree Charani",
+              "bowler": "SG Satghare",
+              "non_striker": "LK Hamilton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SG Satghare",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SG Satghare",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LK Hamilton",
+              "bowler": "SG Satghare",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LK Hamilton",
+                  "fielders": [
+                    {
+                      "name": "RP Yadav"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "NSS Sharma",
+              "bowler": "SG Satghare",
+              "non_striker": "N Shree Charani",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "N Shree Charani",
+              "bowler": "SG Satghare",
+              "non_striker": "NSS Sharma",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "NSS Sharma",
+                  "fielders": [
+                    {
+                      "name": "RM Ghosh"
+                    },
+                    {
+                      "name": "RP Yadav"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.8,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "GM Harris",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GM Harris",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "GM Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "GM Harris",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GM Harris",
+                  "fielders": [
+                    {
+                      "name": "Shafali Verma"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "review": {
+                "by": "Delhi Capitals",
+                "umpire": "Bhavesh Patel",
+                "batter": "G Voll",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "extras": {
+                "byes": 4
+              },
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "review": {
+                "by": "Royal Challengers Bengaluru",
+                "umpire": "N Janani",
+                "batter": "G Voll",
+                "decision": "upheld",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "S Rana",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "S Rana",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "S Rana",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "S Rana",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 1,
+                "total": 5
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "S Rana",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "S Rana",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "S Rana",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "Shafali Verma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "Shafali Verma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "Shafali Verma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "Shafali Verma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "Shafali Verma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "Shafali Verma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "LK Hamilton",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "N Shree Charani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "N Shree Charani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Mani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Mani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Mani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Mani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Mani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Mani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Mani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Mani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Mani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Mani",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Mani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Mani",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "M Kapp",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "M Kapp",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "S Mandhana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mandhana",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Mandhana",
+                  "fielders": [
+                    {
+                      "name": "LK Hamilton"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RM Ghosh",
+              "bowler": "NSS Sharma",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RM Ghosh",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RM Ghosh",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "NSS Sharma",
+              "non_striker": "RM Ghosh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RM Ghosh",
+              "bowler": "NSS Sharma",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "RM Ghosh",
+              "bowler": "LK Hamilton",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "LK Hamilton",
+              "non_striker": "RM Ghosh",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 167
+      }
+    }
+  ]
+}

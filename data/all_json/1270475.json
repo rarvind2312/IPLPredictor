@@ -1,0 +1,4859 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-09-18",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Melbourne",
+    "dates": [
+      "2022-03-08"
+    ],
+    "event": {
+      "name": "The Marsh Cup",
+      "match_number": 17
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "officials": {
+      "match_referees": [
+        "RL Parry"
+      ],
+      "reserve_umpires": [
+        "DR Close"
+      ],
+      "umpires": [
+        "PJ Gillespie",
+        "SAJ Craig"
+      ]
+    },
+    "outcome": {
+      "winner": "Western Australia",
+      "by": {
+        "wickets": 6
+      }
+    },
+    "overs": 50,
+    "player_of_match": [
+      "DJM Short"
+    ],
+    "players": {
+      "Victoria": [
+        "MW Harvey",
+        "J Fraser-McGurk",
+        "AJ Finch",
+        "PSP Handscomb",
+        "GJ Maxwell",
+        "NJ Maddinson",
+        "F O'Neill",
+        "JL Pattinson",
+        "HTRY Thornton",
+        "T Murphy",
+        "CL McClure"
+      ],
+      "Western Australia": [
+        "JR Philippe",
+        "DJM Short",
+        "SE Marsh",
+        "CT Bancroft",
+        "AJ Turner",
+        "HWR Cartwright",
+        "AM Hardie",
+        "JA Richardson",
+        "AJ Tye",
+        "M Kelly",
+        "JP Behrendorff"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AJ Finch": "b8d490fd",
+        "AJ Turner": "ff1e12a0",
+        "AJ Tye": "7c7d63a2",
+        "AM Hardie": "d405c0d5",
+        "CL McClure": "b3267eaa",
+        "CT Bancroft": "399b0b94",
+        "DJM Short": "1a156c88",
+        "DR Close": "4cae2b0c",
+        "F O'Neill": "39d608d4",
+        "GJ Maxwell": "b681e71e",
+        "HTRY Thornton": "055be93a",
+        "HWR Cartwright": "ab965cad",
+        "J Fraser-McGurk": "9b6e1b3f",
+        "JA Richardson": "1ee08e9a",
+        "JL Pattinson": "f752db61",
+        "JP Behrendorff": "4933f499",
+        "JR Philippe": "39086549",
+        "M Kelly": "68e26ec9",
+        "MW Harvey": "47dc9794",
+        "NJ Maddinson": "44afbf2d",
+        "PJ Gillespie": "3e253a50",
+        "PSP Handscomb": "ada15e88",
+        "RL Parry": "86d151dc",
+        "SAJ Craig": "689f2eed",
+        "SE Marsh": "508a1ea7",
+        "T Murphy": "ac2e7ec0"
+      }
+    },
+    "season": "2021/22",
+    "team_type": "club",
+    "teams": [
+      "Victoria",
+      "Western Australia"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Western Australia"
+    },
+    "venue": "Junction Oval, Melbourne"
+  },
+  "innings": [
+    {
+      "team": "Victoria",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "MW Harvey",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "J Fraser-McGurk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Fraser-McGurk",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Fraser-McGurk",
+                  "fielders": [
+                    {
+                      "name": "JA Richardson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MW Harvey",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "extras": {
+                "legbyes": 4
+              },
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "MW Harvey",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "MW Harvey",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MW Harvey",
+                  "fielders": [
+                    {
+                      "name": "AJ Turner"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "PSP Handscomb",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PSP Handscomb",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PSP Handscomb",
+                  "fielders": [
+                    {
+                      "name": "SE Marsh"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "M Kelly",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GJ Maxwell",
+                  "fielders": [
+                    {
+                      "name": "CT Bancroft"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "NJ Maddinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NJ Maddinson",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NJ Maddinson",
+                  "fielders": [
+                    {
+                      "name": "M Kelly"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "F O'Neill",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "F O'Neill",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F O'Neill",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "F O'Neill",
+                  "fielders": [
+                    {
+                      "name": "JR Philippe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "JL Pattinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "JL Pattinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "JL Pattinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "JL Pattinson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "JL Pattinson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Pattinson",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JL Pattinson",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JP Behrendorff",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "JP Behrendorff",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "JA Richardson",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "JA Richardson",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "M Kelly",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "M Kelly",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 2,
+                "extras": 1,
+                "total": 3
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AJ Tye",
+              "non_striker": "HTRY Thornton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "AJ Tye",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HTRY Thornton",
+              "bowler": "DJM Short",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HTRY Thornton",
+                  "fielders": [
+                    {
+                      "name": "JR Philippe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "T Murphy",
+              "bowler": "AM Hardie",
+              "non_striker": "AJ Finch",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "DJM Short",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Finch",
+              "bowler": "AM Hardie",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AJ Finch",
+                  "fielders": [
+                    {
+                      "name": "CT Bancroft"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CL McClure",
+              "bowler": "AM Hardie",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CL McClure",
+              "bowler": "AM Hardie",
+              "non_striker": "T Murphy",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CL McClure",
+                  "fielders": [
+                    {
+                      "name": "JR Philippe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.4,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Western Australia",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JR Philippe",
+                  "fielders": [
+                    {
+                      "name": "GJ Maxwell"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "JL Pattinson",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "JL Pattinson",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "CL McClure",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "CL McClure",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "CL McClure",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "HTRY Thornton",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "HTRY Thornton",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "DJM Short",
+              "bowler": "CL McClure",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "CL McClure",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "DJM Short",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DJM Short",
+              "bowler": "CL McClure",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DJM Short",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "F O'Neill",
+              "non_striker": "SE Marsh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SE Marsh",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SE Marsh",
+                  "fielders": [
+                    {
+                      "name": "MW Harvey"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "F O'Neill",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "F O'Neill",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "F O'Neill",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "CL McClure",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "CL McClure",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 1,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "JL Pattinson",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "JL Pattinson",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "JL Pattinson",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "CL McClure",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "JL Pattinson",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AJ Turner",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "JL Pattinson",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "JL Pattinson",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "JL Pattinson",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "JL Pattinson",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CT Bancroft",
+              "bowler": "CL McClure",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "CL McClure",
+              "non_striker": "CT Bancroft",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "CT Bancroft",
+              "bowler": "NJ Maddinson",
+              "non_striker": "HWR Cartwright",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 27.1,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 50,
+        "runs": 144
+      }
+    }
+  ]
+}

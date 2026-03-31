@@ -1,0 +1,1970 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2025-06-11"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "stage": "Quarter Final"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "R Punchihewa"
+      ],
+      "reserve_umpires": [
+        "D Sanjeewa"
+      ],
+      "umpires": [
+        "BCN Amarasinghe",
+        "RMPJ Rambukwella"
+      ]
+    },
+    "outcome": {
+      "winner": "Colombo Cricket Club",
+      "by": {
+        "runs": 17
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "players": {
+      "Colombo Cricket Club": [
+        "KNM Fernando",
+        "L Croospulle",
+        "D Sigera",
+        "PWH de Silva",
+        "Pawan Sandesh",
+        "I Karannagoda",
+        "PC de Silva",
+        "I Udana",
+        "N Thushara",
+        "MVT Fernando",
+        "KN Peiris"
+      ],
+      "Burgher Recreation Club": [
+        "R Sandaruwan",
+        "KI Fernando",
+        "M Subasingha",
+        "M Abinash",
+        "Kusal Wijethunga",
+        "G Kotuwegoda",
+        "T Ashel",
+        "M Shiraz",
+        "PWS Dulshan",
+        "C Dissanayake",
+        "C Heenatigala"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BCN Amarasinghe": "ccd560d6",
+        "C Dissanayake": "fa004e59",
+        "C Heenatigala": "4d13485c",
+        "D Sanjeewa": "f7257752",
+        "D Sigera": "6c15c035",
+        "G Kotuwegoda": "5a802426",
+        "I Karannagoda": "ddce5289",
+        "I Udana": "ac5ae4af",
+        "KI Fernando": "098753fe",
+        "KN Peiris": "d0cc2738",
+        "KNM Fernando": "d2a2bb1a",
+        "Kusal Wijethunga": "2fa66783",
+        "L Croospulle": "e30c9b2d",
+        "M Abinash": "077f83bf",
+        "M Shiraz": "cdac5a3d",
+        "M Subasingha": "5d499f67",
+        "MVT Fernando": "5eef2118",
+        "N Thushara": "ee1b6c27",
+        "PC de Silva": "b40ee8a8",
+        "PWH de Silva": "a97c8ec2",
+        "PWS Dulshan": "cd63866f",
+        "Pawan Sandesh": "6ed543ed",
+        "R Punchihewa": "dd7477cb",
+        "R Sandaruwan": "cf6acc0d",
+        "RMPJ Rambukwella": "13fa6ffc",
+        "T Ashel": "493a5224"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Colombo Cricket Club",
+      "Burgher Recreation Club"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Burgher Recreation Club"
+    },
+    "venue": "P Sara Oval, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Colombo Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "L Croospulle",
+              "bowler": "T Ashel",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "T Ashel",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "T Ashel",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "T Ashel",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "T Ashel",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "T Ashel",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "L Croospulle",
+              "bowler": "C Dissanayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "C Dissanayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Dissanayake",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Dissanayake",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Dissanayake",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "C Dissanayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "C Dissanayake",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "L Croospulle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Croospulle",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Croospulle",
+                  "fielders": [
+                    {
+                      "name": "C Dissanayake"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Sigera",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Sigera",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "D Sigera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Sigera",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "D Sigera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "D Sigera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Sigera",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Sigera",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "PWH de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "PWH de Silva",
+              "bowler": "M Subasingha",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Subasingha",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Subasingha",
+              "non_striker": "PWH de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "M Subasingha",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "M Subasingha",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PWH de Silva",
+              "bowler": "M Subasingha",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "PWH de Silva",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PWH de Silva",
+                  "fielders": [
+                    {
+                      "name": "M Abinash"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "Pawan Sandesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "Pawan Sandesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "Pawan Sandesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "Pawan Sandesh",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "Pawan Sandesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "Pawan Sandesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "C Heenatigala",
+              "non_striker": "Pawan Sandesh",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Pawan Sandesh",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Pawan Sandesh",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "I Karannagoda",
+              "bowler": "C Heenatigala",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "I Karannagoda",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "I Karannagoda",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Karannagoda",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "I Karannagoda",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "PC de Silva",
+              "bowler": "T Ashel",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "T Ashel",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "T Ashel",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "T Ashel",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "T Ashel",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "T Ashel",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Abinash",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Abinash",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "PWS Dulshan",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "PWS Dulshan",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Shiraz",
+              "non_striker": "KNM Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KNM Fernando",
+              "bowler": "M Shiraz",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KNM Fernando",
+                  "fielders": [
+                    {
+                      "name": "M Abinash"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "I Udana",
+              "bowler": "M Shiraz",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PC de Silva",
+              "bowler": "M Shiraz",
+              "non_striker": "I Udana",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Udana",
+              "bowler": "M Shiraz",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "I Udana",
+              "bowler": "M Shiraz",
+              "non_striker": "PC de Silva",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Burgher Recreation Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "R Sandaruwan",
+              "bowler": "MVT Fernando",
+              "non_striker": "KI Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Sandaruwan",
+              "bowler": "MVT Fernando",
+              "non_striker": "KI Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Sandaruwan",
+              "bowler": "MVT Fernando",
+              "non_striker": "KI Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Sandaruwan",
+              "bowler": "MVT Fernando",
+              "non_striker": "KI Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KI Fernando",
+              "bowler": "MVT Fernando",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KI Fernando",
+              "bowler": "MVT Fernando",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "KI Fernando",
+              "bowler": "N Thushara",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KI Fernando",
+              "bowler": "N Thushara",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KI Fernando",
+              "bowler": "N Thushara",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KI Fernando",
+              "bowler": "N Thushara",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KI Fernando",
+              "bowler": "N Thushara",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KI Fernando",
+                  "fielders": [
+                    {
+                      "name": "L Croospulle"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M Subasingha",
+              "bowler": "N Thushara",
+              "non_striker": "R Sandaruwan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Subasingha",
+                  "fielders": [
+                    {
+                      "name": "I Karannagoda"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "R Sandaruwan",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "R Sandaruwan",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R Sandaruwan",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R Sandaruwan",
+                  "fielders": [
+                    {
+                      "name": "L Croospulle"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Kusal Wijethunga",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Kusal Wijethunga",
+                  "fielders": [
+                    {
+                      "name": "L Croospulle"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "G Kotuwegoda",
+              "bowler": "I Udana",
+              "extras": {
+                "legbyes": 4
+              },
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Kotuwegoda",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "G Kotuwegoda",
+                  "fielders": [
+                    {
+                      "name": "KNM Fernando"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "M Abinash",
+              "bowler": "N Thushara",
+              "non_striker": "T Ashel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Ashel",
+              "bowler": "N Thushara",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Abinash",
+              "bowler": "N Thushara",
+              "non_striker": "T Ashel",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Abinash",
+              "bowler": "N Thushara",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "T Ashel",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Ashel",
+              "bowler": "N Thushara",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Abinash",
+              "bowler": "N Thushara",
+              "non_striker": "T Ashel",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "T Ashel",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Abinash",
+              "bowler": "I Udana",
+              "non_striker": "T Ashel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Ashel",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Abinash",
+              "bowler": "I Udana",
+              "non_striker": "T Ashel",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Abinash",
+              "bowler": "I Udana",
+              "non_striker": "T Ashel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Ashel",
+              "bowler": "I Udana",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "T Ashel",
+              "bowler": "I Udana",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "T Ashel",
+              "bowler": "I Udana",
+              "non_striker": "M Abinash",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 5,
+        "runs": 57
+      }
+    }
+  ]
+}

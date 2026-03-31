@@ -1,0 +1,2359 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-08-27",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 5,
+    "city": "London",
+    "dates": [
+      "2025-08-25"
+    ],
+    "event": {
+      "name": "The Hundred Men's Competition",
+      "match_number": 29
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "AJ Swann"
+      ],
+      "reserve_umpires": [
+        "Hassan Adnan"
+      ],
+      "tv_umpires": [
+        "S Redfern"
+      ],
+      "umpires": [
+        "BJ Debenham",
+        "Rob White"
+      ]
+    },
+    "outcome": {
+      "winner": "Oval Invincibles",
+      "by": {
+        "wickets": 6
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "WG Jacks"
+    ],
+    "players": {
+      "London Spirit": [
+        "JL Smith",
+        "DA Warner",
+        "OJ Pope",
+        "KS Williamson",
+        "AJ Turner",
+        "J Overton",
+        "RF Higgins",
+        "LA Dawson",
+        "L Wood",
+        "RJ Gleeson",
+        "JA Chohan"
+      ],
+      "Oval Invincibles": [
+        "WG Jacks",
+        "TS Muyeye",
+        "JM Cox",
+        "SM Curran",
+        "SW Billings",
+        "D Ferreira",
+        "TK Curran",
+        "Miles Hammond",
+        "NA Sowter",
+        "S Mahmood",
+        "JP Behrendorff"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AJ Swann": "f9d218a7",
+        "AJ Turner": "ff1e12a0",
+        "BJ Debenham": "524a3a82",
+        "D Ferreira": "f0af99a7",
+        "DA Warner": "dcce6f09",
+        "Hassan Adnan": "56ca7a8c",
+        "J Overton": "59559bc2",
+        "JA Chohan": "58be5e46",
+        "JL Smith": "c834c290",
+        "JM Cox": "ff154ecd",
+        "JP Behrendorff": "4933f499",
+        "KS Williamson": "d027ba9f",
+        "L Wood": "65b6943c",
+        "LA Dawson": "4a461c24",
+        "Miles Hammond": "c88bc84a",
+        "NA Sowter": "ee0c05c0",
+        "OJ Pope": "e94bc520",
+        "RF Higgins": "ad212f96",
+        "RJ Gleeson": "402f8494",
+        "Rob White": "59b91222",
+        "S Mahmood": "0f6db197",
+        "S Redfern": "5b038989",
+        "SM Curran": "e94915e6",
+        "SW Billings": "c16d4035",
+        "TK Curran": "e86754b2",
+        "TS Muyeye": "10b79140",
+        "WG Jacks": "9caf69a1"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "London Spirit",
+      "Oval Invincibles"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Oval Invincibles"
+    },
+    "venue": "Kennington Oval, London"
+  },
+  "innings": [
+    {
+      "team": "London Spirit",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "JL Smith",
+              "bowler": "S Mahmood",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "S Mahmood",
+              "non_striker": "JL Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "S Mahmood",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "S Mahmood",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "S Mahmood",
+              "non_striker": "JL Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "JP Behrendorff",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "TK Curran",
+              "non_striker": "JL Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "TK Curran",
+              "non_striker": "JL Smith",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "TK Curran",
+              "non_striker": "JL Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "TK Curran",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JL Smith",
+              "bowler": "TK Curran",
+              "non_striker": "DA Warner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JL Smith",
+                  "fielders": [
+                    {
+                      "name": "JM Cox"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "DA Warner",
+              "bowler": "JP Behrendorff",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "JP Behrendorff",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DA Warner",
+              "bowler": "JP Behrendorff",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DA Warner",
+                  "fielders": [
+                    {
+                      "name": "SW Billings"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "JP Behrendorff",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "JP Behrendorff",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "S Mahmood",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OJ Pope",
+              "bowler": "S Mahmood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OJ Pope",
+              "bowler": "S Mahmood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "OJ Pope",
+              "bowler": "S Mahmood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "S Mahmood",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "OJ Pope",
+              "bowler": "SM Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "SM Curran",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "SM Curran",
+              "non_striker": "OJ Pope",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "OJ Pope",
+              "bowler": "SM Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "OJ Pope",
+                  "fielders": [
+                    {
+                      "name": "WG Jacks"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "SM Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "TK Curran",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "TK Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "TK Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "TK Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "TK Curran",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "SM Curran",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "SM Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "SM Curran",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "SM Curran",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "SM Curran",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KS Williamson",
+                  "fielders": [
+                    {
+                      "name": "SW Billings"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "AJ Turner",
+              "bowler": "JP Behrendorff",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "JP Behrendorff",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "JP Behrendorff",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "J Overton",
+              "bowler": "NA Sowter",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "NA Sowter",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AJ Turner",
+                  "fielders": [
+                    {
+                      "name": "D Ferreira"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "NA Sowter",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "RF Higgins",
+              "bowler": "S Mahmood",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "S Mahmood",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "S Mahmood",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "S Mahmood",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "S Mahmood",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "J Overton",
+              "bowler": "TK Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "TK Curran",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "TK Curran",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "TK Curran",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "TK Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "SM Curran",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "SM Curran",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "J Overton",
+              "bowler": "S Mahmood",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "S Mahmood",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "S Mahmood",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "S Mahmood",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "S Mahmood",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "SM Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "SM Curran",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "RF Higgins",
+              "bowler": "TK Curran",
+              "non_striker": "J Overton",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Overton",
+              "bowler": "TK Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Overton",
+                  "fielders": [
+                    {
+                      "name": "JM Cox"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "LA Dawson",
+              "bowler": "TK Curran",
+              "non_striker": "RF Higgins",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "TK Curran",
+              "non_striker": "LA Dawson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RF Higgins",
+              "bowler": "TK Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "LA Dawson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "RF Higgins",
+                  "fielders": [
+                    {
+                      "name": "SW Billings"
+                    },
+                    {
+                      "name": "TK Curran"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "LA Dawson",
+              "bowler": "TK Curran",
+              "non_striker": "L Wood",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 4.5,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Oval Invincibles",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "TS Muyeye",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "TS Muyeye",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "TS Muyeye",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "TS Muyeye",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "TS Muyeye",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "TS Muyeye",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TS Muyeye",
+                  "fielders": [
+                    {
+                      "name": "AJ Turner"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "L Wood",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "L Wood",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "J Overton",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "L Wood",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "WG Jacks",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "LA Dawson",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "JA Chohan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "JA Chohan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "J Overton",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "J Overton",
+              "non_striker": "WG Jacks",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WG Jacks",
+              "bowler": "J Overton",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "WG Jacks",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "WG Jacks",
+                  "fielders": [
+                    {
+                      "name": "OJ Pope"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "LA Dawson",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "LA Dawson",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "JA Chohan",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "JA Chohan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "JA Chohan",
+              "extras": {
+                "noballs": 2
+              },
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 2,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "JA Chohan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "JA Chohan",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "JA Chohan",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "RJ Gleeson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RJ Gleeson",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "SM Curran",
+              "bowler": "RF Higgins",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "RF Higgins",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "RF Higgins",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "RF Higgins",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "RF Higgins",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "LA Dawson",
+              "non_striker": "SM Curran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "LA Dawson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SM Curran",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SM Curran",
+                  "fielders": [
+                    {
+                      "name": "RJ Gleeson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "SW Billings",
+              "bowler": "LA Dawson",
+              "non_striker": "JM Cox",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "LA Dawson",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "JM Cox",
+              "bowler": "J Overton",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "J Overton",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Cox",
+              "bowler": "J Overton",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Cox",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "J Overton",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "J Overton",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "J Overton",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "D Ferreira",
+              "bowler": "L Wood",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "L Wood",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "L Wood",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "L Wood",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "L Wood",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "SW Billings",
+              "bowler": "LA Dawson",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "LA Dawson",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "LA Dawson",
+              "non_striker": "SW Billings",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 4.5,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 153
+      }
+    }
+  ]
+}

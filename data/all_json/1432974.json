@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2024-05-17"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "group": "C"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "THR Priyantha"
+      ],
+      "reserve_umpires": [
+        "RP Massalage"
+      ],
+      "umpires": [
+        "BCN Amarasinghe",
+        "RSA Palliyaguruge"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 20,
+    "players": {
+      "Sinhalese Sports Club": [
+        "WIA Fernando",
+        "S Daniel",
+        "Krishan Sanjula",
+        "MALR Manasinghe",
+        "K Nadeeshan",
+        "NT Gamage",
+        "MNK Fernando",
+        "PM Liyanagamage",
+        "D Kalupahana",
+        "R Somarathne",
+        "G Balasooriya"
+      ],
+      "Negombo Cricket Club": [
+        "EMDY Munaweera",
+        "K Wanniarachchi",
+        "U Lakshan",
+        "HS Liyanage",
+        "TAM Siriwardana",
+        "MS Warnapura",
+        "PSU Fernando",
+        "GWR Lakmal",
+        "KN Peiris",
+        "P Ushettige",
+        "WRC Fernando"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BCN Amarasinghe": "ccd560d6",
+        "D Kalupahana": "ec33ff92",
+        "EMDY Munaweera": "5a22d91c",
+        "G Balasooriya": "f3ded80f",
+        "GWR Lakmal": "1514a0dd",
+        "HS Liyanage": "8505bd55",
+        "K Nadeeshan": "778b9795",
+        "K Wanniarachchi": "03244b87",
+        "KN Peiris": "d0cc2738",
+        "Krishan Sanjula": "ea11cb97",
+        "MALR Manasinghe": "e8d697ad",
+        "MNK Fernando": "ba603555",
+        "MS Warnapura": "f2626fc9",
+        "NT Gamage": "f66b8839",
+        "P Ushettige": "afd3365a",
+        "PM Liyanagamage": "3ee0050f",
+        "PSU Fernando": "dd43dd57",
+        "R Somarathne": "fd0d8fc7",
+        "RP Massalage": "6ffbe2e2",
+        "RSA Palliyaguruge": "4339c19d",
+        "S Daniel": "a38e7be7",
+        "TAM Siriwardana": "bf7842c9",
+        "THR Priyantha": "33f2a901",
+        "U Lakshan": "bc0554d7",
+        "WIA Fernando": "9550470d",
+        "WRC Fernando": "d58358e9"
+      }
+    },
+    "season": "2024",
+    "team_type": "club",
+    "teams": [
+      "Sinhalese Sports Club",
+      "Negombo Cricket Club"
+    ],
+    "toss": {
+      "decision": "bat",
+      "winner": "Sinhalese Sports Club"
+    },
+    "venue": "P Sara Oval, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Sinhalese Sports Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "WIA Fernando",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "S Daniel",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "EMDY Munaweera",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "EMDY Munaweera",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "S Daniel",
+              "bowler": "KN Peiris",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "KN Peiris",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Daniel",
+              "bowler": "KN Peiris",
+              "non_striker": "WIA Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.3,
+          "type": "mandatory"
+        }
+      ]
+    }
+  ]
+}

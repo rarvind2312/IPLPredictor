@@ -1,0 +1,5358 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-22",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Panadura",
+    "dates": [
+      "2025-07-17"
+    ],
+    "event": {
+      "name": "Major Clubs Limited Over Tournament",
+      "group": "A"
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "officials": {
+      "match_referees": [
+        "THR Priyantha"
+      ],
+      "reserve_umpires": [
+        "RSSK Perera"
+      ],
+      "umpires": [
+        "Ranganath Prasanna",
+        "BSP Fernando"
+      ]
+    },
+    "outcome": {
+      "winner": "Panadura Sports Club",
+      "by": {
+        "wickets": 7
+      }
+    },
+    "overs": 50,
+    "players": {
+      "Chilaw Marians Cricket Club": [
+        "PTM Dabare",
+        "Yashodha Lanka",
+        "T Amarasinghe",
+        "H Jayasundara",
+        "Sammu Ashan",
+        "S Liyanage",
+        "M Hasanka",
+        "RMRDG Rathnayake",
+        "NHG Cooray",
+        "I Thimira",
+        "S Disanayaka"
+      ],
+      "Panadura Sports Club": [
+        "BOP Fernando",
+        "VS Halambage",
+        "Kanchana de Livera",
+        "V Dinsara",
+        "Senitha Halambage",
+        "MADI Hemantha",
+        "S Malshan",
+        "N Vimukthi",
+        "SMD Silva",
+        "K Dinesh Shankar",
+        "MNM Dilshad"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BOP Fernando": "1d048deb",
+        "BSP Fernando": "8a49883f",
+        "H Jayasundara": "5bc572de",
+        "I Thimira": "2ee2fcc8",
+        "K Dinesh Shankar": "87464d8c",
+        "Kanchana de Livera": "05464bcd",
+        "M Hasanka": "70888633",
+        "MADI Hemantha": "58431ca0",
+        "MNM Dilshad": "6cfc180a",
+        "N Vimukthi": "b215a7be",
+        "NHG Cooray": "907869e6",
+        "PTM Dabare": "a97fbc2c",
+        "RMRDG Rathnayake": "f73c0c37",
+        "RSSK Perera": "047f3c44",
+        "Ranganath Prasanna": "9fc85271",
+        "S Disanayaka": "fbc17c95",
+        "S Liyanage": "b47a39f9",
+        "S Malshan": "68581793",
+        "SMD Silva": "d6a64a73",
+        "Sammu Ashan": "981b9303",
+        "Senitha Halambage": "eab6aa30",
+        "T Amarasinghe": "ff3c76ad",
+        "THR Priyantha": "33f2a901",
+        "V Dinsara": "630d40b7",
+        "VS Halambage": "9531d48f",
+        "Yashodha Lanka": "600dce49"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Chilaw Marians Cricket Club",
+      "Panadura Sports Club"
+    ],
+    "toss": {
+      "uncontested": true,
+      "decision": "bat",
+      "winner": "Chilaw Marians Cricket Club"
+    },
+    "venue": "Panadura Esplanade"
+  },
+  "innings": [
+    {
+      "team": "Chilaw Marians Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "PTM Dabare",
+              "bowler": "MNM Dilshad",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "MNM Dilshad",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "MNM Dilshad",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "MNM Dilshad",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "MNM Dilshad",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "MNM Dilshad",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "K Dinesh Shankar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "MNM Dilshad",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "MNM Dilshad",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "MNM Dilshad",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "MNM Dilshad",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "MNM Dilshad",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "MNM Dilshad",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "extras": {
+                "byes": 4
+              },
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Yashodha Lanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Yashodha Lanka",
+              "bowler": "N Vimukthi",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Yashodha Lanka",
+                  "fielders": [
+                    {
+                      "name": "Kanchana de Livera"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "N Vimukthi",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "N Vimukthi",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "N Vimukthi",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "N Vimukthi",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "N Vimukthi",
+              "non_striker": "T Amarasinghe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "T Amarasinghe",
+              "bowler": "Senitha Halambage",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "T Amarasinghe",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "Senitha Halambage",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "Senitha Halambage",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "Senitha Halambage",
+              "extras": {
+                "wides": 2
+              },
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "H Jayasundara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "H Jayasundara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "H Jayasundara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "PTM Dabare",
+              "bowler": "N Vimukthi",
+              "non_striker": "H Jayasundara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "N Vimukthi",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "N Vimukthi",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "H Jayasundara",
+              "bowler": "N Vimukthi",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Jayasundara",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Vimukthi",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Vimukthi",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PTM Dabare",
+              "bowler": "Senitha Halambage",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PTM Dabare",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Vimukthi",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Vimukthi",
+              "non_striker": "Sammu Ashan",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "Senitha Halambage",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "Senitha Halambage",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Sammu Ashan",
+              "bowler": "Senitha Halambage",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Sammu Ashan",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "Senitha Halambage",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "Senitha Halambage",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "M Hasanka",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Vimukthi",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Liyanage",
+              "bowler": "N Vimukthi",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Liyanage",
+                  "fielders": [
+                    {
+                      "name": "V Dinsara"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "M Hasanka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Hasanka",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Hasanka",
+                  "fielders": [
+                    {
+                      "name": "SMD Silva"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "extras": {
+                "noballs": 1,
+                "byes": 4
+              },
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "SMD Silva",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "SMD Silva",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "K Dinesh Shankar",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "Senitha Halambage",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "N Vimukthi",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "RMRDG Rathnayake",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RMRDG Rathnayake",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RMRDG Rathnayake",
+                  "fielders": [
+                    {
+                      "name": "S Malshan"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "Senitha Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "Senitha Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "MADI Hemantha",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "MADI Hemantha",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MADI Hemantha",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "VS Halambage",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "VS Halambage",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "I Thimira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "I Thimira",
+              "bowler": "MNM Dilshad",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Thimira",
+              "bowler": "MNM Dilshad",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "I Thimira",
+                  "fielders": [
+                    {
+                      "name": "S Malshan"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "S Disanayaka",
+              "bowler": "MNM Dilshad",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Disanayaka",
+              "bowler": "MNM Dilshad",
+              "non_striker": "NHG Cooray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MNM Dilshad",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MNM Dilshad",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "N Vimukthi",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MNM Dilshad",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NHG Cooray",
+              "bowler": "MNM Dilshad",
+              "non_striker": "S Disanayaka",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NHG Cooray",
+                  "fielders": [
+                    {
+                      "name": "BOP Fernando"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 40.1,
+          "to": 40.2,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Panadura Sports Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "VS Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "S Disanayaka",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "S Disanayaka",
+              "non_striker": "VS Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "VS Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "VS Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "VS Halambage",
+                  "fielders": [
+                    {
+                      "name": "H Jayasundara"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "S Disanayaka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "I Thimira",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "I Thimira",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "S Disanayaka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "S Disanayaka",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "S Disanayaka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "PTM Dabare",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "PTM Dabare",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "M Hasanka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "M Hasanka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "M Hasanka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "M Hasanka",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "BOP Fernando",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BOP Fernando",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BOP Fernando",
+                  "fielders": [
+                    {
+                      "name": "H Jayasundara"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "Sammu Ashan",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Kanchana de Livera",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Kanchana de Livera",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Kanchana de Livera",
+                  "fielders": [
+                    {
+                      "substitute": true
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "Sammu Ashan",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "Sammu Ashan",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "Sammu Ashan",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "Sammu Ashan",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "Sammu Ashan",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "Sammu Ashan",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "PTM Dabare",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "PTM Dabare",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "PTM Dabare",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "PTM Dabare",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "S Disanayaka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "S Disanayaka",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "S Disanayaka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "M Hasanka",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "I Thimira",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "I Thimira",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "M Hasanka",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "PTM Dabare",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "PTM Dabare",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "PTM Dabare",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Dinsara",
+              "bowler": "PTM Dabare",
+              "non_striker": "Senitha Halambage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "Sammu Ashan",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Senitha Halambage",
+              "bowler": "Sammu Ashan",
+              "non_striker": "V Dinsara",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 34.2,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 50,
+        "runs": 173
+      }
+    }
+  ]
+}

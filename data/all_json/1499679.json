@@ -1,0 +1,1793 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-15",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Dunedin",
+    "dates": [
+      "2026-01-15"
+    ],
+    "event": {
+      "name": "Women's Super Smash",
+      "match_number": 20
+    },
+    "gender": "female",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "TL Anderson"
+      ],
+      "reserve_umpires": [
+        "KS Jagannathan"
+      ],
+      "tv_umpires": [
+        "T Semmens"
+      ],
+      "umpires": [
+        "GG Pennell",
+        "Kim Cotton"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 20,
+    "players": {
+      "Wellington": [
+        "GE Plimmer",
+        "RM Burns",
+        "HC Francis",
+        "JM Kerr",
+        "XA Jetly",
+        "JT McFadyen",
+        "S Mackinder",
+        "JA Simmons",
+        "N Baird",
+        "INC McKenzie",
+        "RJ Bryant"
+      ],
+      "Otago": [
+        "FC Leydon-Davis",
+        "IR James",
+        "CG Blakely",
+        "L Harris",
+        "PM Inglis",
+        "AS Browning",
+        "PJ Watkins",
+        "E Gray",
+        "EJ Black",
+        "CM Deerness",
+        "LM Kotkamp"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AS Browning": "c4c97b51",
+        "CG Blakely": "8f999ed5",
+        "CM Deerness": "bb1343ed",
+        "E Gray": "58717de2",
+        "EJ Black": "2817e17a",
+        "FC Leydon-Davis": "b91efad5",
+        "GE Plimmer": "575494db",
+        "GG Pennell": "d9376677",
+        "HC Francis": "d767e864",
+        "INC McKenzie": "a36d1129",
+        "IR James": "57bdbc16",
+        "JA Simmons": "33360da1",
+        "JM Kerr": "9af58032",
+        "JT McFadyen": "7072542f",
+        "KS Jagannathan": "9bc8dcec",
+        "Kim Cotton": "67a7c2ee",
+        "L Harris": "36e2dc83",
+        "LM Kotkamp": "72a33c58",
+        "N Baird": "c0380823",
+        "PJ Watkins": "a2d53c59",
+        "PM Inglis": "e4a71d18",
+        "RJ Bryant": "381c4931",
+        "RM Burns": "94fe4708",
+        "S Mackinder": "f66a657d",
+        "T Semmens": "3b471aa4",
+        "TL Anderson": "f52ddf8d",
+        "XA Jetly": "57a49987"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Wellington",
+      "Otago"
+    ],
+    "toss": {
+      "decision": "bat",
+      "winner": "Wellington"
+    },
+    "venue": "University Oval, Dunedin"
+  },
+  "innings": [
+    {
+      "team": "Wellington",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "GE Plimmer",
+              "bowler": "PJ Watkins",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GE Plimmer",
+              "bowler": "PJ Watkins",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "PJ Watkins",
+              "non_striker": "GE Plimmer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "PJ Watkins",
+              "non_striker": "GE Plimmer",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "PJ Watkins",
+              "non_striker": "GE Plimmer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "PJ Watkins",
+              "non_striker": "GE Plimmer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "GE Plimmer",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "GE Plimmer",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "GE Plimmer",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "GE Plimmer",
+                  "fielders": [
+                    {
+                      "name": "CG Blakely"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "RM Burns",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RM Burns",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "RM Burns",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RM Burns",
+                  "fielders": [
+                    {
+                      "name": "PM Inglis"
+                    },
+                    {
+                      "name": "AS Browning"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "EJ Black",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "EJ Black",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "LM Kotkamp",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "HC Francis",
+              "bowler": "PJ Watkins",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "PJ Watkins",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "PJ Watkins",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "PJ Watkins",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "PJ Watkins",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "PJ Watkins",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "JM Kerr",
+              "bowler": "CM Deerness",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "CM Deerness",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "CM Deerness",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "CM Deerness",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "CM Deerness",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "CM Deerness",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "JM Kerr",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "E Gray",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "E Gray",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "JM Kerr",
+              "bowler": "PJ Watkins",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "PJ Watkins",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "PJ Watkins",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "PJ Watkins",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "PJ Watkins",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "PJ Watkins",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "HC Francis",
+              "bowler": "AS Browning",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "AS Browning",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "AS Browning",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "AS Browning",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "AS Browning",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "AS Browning",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "EJ Black",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "EJ Black",
+              "non_striker": "JM Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Kerr",
+              "bowler": "EJ Black",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Kerr",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "HC Francis",
+              "bowler": "AS Browning",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "AS Browning",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "AS Browning",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "AS Browning",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "AS Browning",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "AS Browning",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "XA Jetly",
+              "bowler": "LM Kotkamp",
+              "non_striker": "HC Francis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HC Francis",
+              "bowler": "LM Kotkamp",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HC Francis",
+                  "fielders": [
+                    {
+                      "name": "FC Leydon-Davis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JT McFadyen",
+              "bowler": "LM Kotkamp",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "LM Kotkamp",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "JT McFadyen",
+              "bowler": "PJ Watkins",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "PJ Watkins",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "PJ Watkins",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "PJ Watkins",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "PJ Watkins",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "PJ Watkins",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "XA Jetly",
+              "bowler": "CG Blakely",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JT McFadyen",
+              "bowler": "CG Blakely",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "CG Blakely",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JT McFadyen",
+              "bowler": "CG Blakely",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JT McFadyen",
+              "bowler": "CG Blakely",
+              "non_striker": "XA Jetly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "XA Jetly",
+              "bowler": "CG Blakely",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "XA Jetly",
+              "bowler": "AS Browning",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "XA Jetly",
+                  "fielders": [
+                    {
+                      "name": "PM Inglis"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "S Mackinder",
+              "bowler": "AS Browning",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JT McFadyen",
+              "bowler": "AS Browning",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mackinder",
+              "bowler": "AS Browning",
+              "non_striker": "JT McFadyen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JT McFadyen",
+              "bowler": "AS Browning",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JT McFadyen",
+                  "fielders": [
+                    {
+                      "name": "FC Leydon-Davis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "AS Browning",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "JA Simmons",
+              "bowler": "CM Deerness",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mackinder",
+              "bowler": "CM Deerness",
+              "non_striker": "JA Simmons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "CM Deerness",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "CM Deerness",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "CM Deerness",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "CM Deerness",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "S Mackinder",
+              "bowler": "E Gray",
+              "non_striker": "JA Simmons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "E Gray",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "E Gray",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mackinder",
+              "bowler": "E Gray",
+              "non_striker": "JA Simmons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mackinder",
+              "bowler": "E Gray",
+              "non_striker": "JA Simmons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "E Gray",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "JA Simmons",
+              "bowler": "EJ Black",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "EJ Black",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Mackinder",
+              "bowler": "EJ Black",
+              "non_striker": "JA Simmons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Mackinder",
+              "bowler": "EJ Black",
+              "non_striker": "JA Simmons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JA Simmons",
+              "bowler": "EJ Black",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JA Simmons",
+                  "fielders": [
+                    {
+                      "name": "CG Blakely"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "N Baird",
+              "bowler": "EJ Black",
+              "non_striker": "S Mackinder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Otago",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "XA Jetly",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "XA Jetly",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "XA Jetly",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "XA Jetly",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "XA Jetly",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "XA Jetly",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "JM Kerr",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "JA Simmons",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "JA Simmons",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "JA Simmons",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JA Simmons",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "JA Simmons",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FC Leydon-Davis",
+              "bowler": "JA Simmons",
+              "non_striker": "IR James",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "IR James",
+              "bowler": "JM Kerr",
+              "non_striker": "FC Leydon-Davis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 144
+      }
+    }
+  ]
+}

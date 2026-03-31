@@ -1,0 +1,3103 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-09-01",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "St Martin",
+    "dates": [
+      "2025-08-30"
+    ],
+    "event": {
+      "name": "CWC Challenge League",
+      "match_number": 28
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "missing": [
+      {
+        "powerplays": {
+          "1": [
+            "mandatory",
+            "mandatory",
+            "mandatory"
+          ],
+          "2": [
+            "mandatory"
+          ]
+        }
+      }
+    ],
+    "officials": {
+      "match_referees": [
+        "GF Labrooy"
+      ],
+      "reserve_umpires": [
+        "DH Mclean"
+      ],
+      "umpires": [
+        "M Prabhudesa",
+        "RJ Warren"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 50,
+    "players": {
+      "Papua New Guinea": [
+        "S Bau",
+        "HGV Vare",
+        "V Guba",
+        "A Vala",
+        "Boio Ray",
+        "Patrick Nou",
+        "P Karoho",
+        "D Ravu",
+        "A Nao",
+        "KV Morea",
+        "J Kariko"
+      ],
+      "Qatar": [
+        "I Liyanage",
+        "Mujeeb-ur-Rehman",
+        "Shakkir Kassim",
+        "Muhammad Tanveer",
+        "Muhammad Asim",
+        "Shahzaib Jamil",
+        "Ikramullah Khan",
+        "DAM Louis",
+        "Arif Nasir Uddin",
+        "Amir Farooq",
+        "Owais Ahmed"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Nao": "4d1ec7eb",
+        "A Vala": "72e60730",
+        "Amir Farooq": "6e991bd4",
+        "Arif Nasir Uddin": "807c91e3",
+        "Boio Ray": "9cf15e95",
+        "D Ravu": "053f3ce3",
+        "DAM Louis": "b975210d",
+        "DH Mclean": "281d4749",
+        "GF Labrooy": "8e088dbc",
+        "HGV Vare": "98299b67",
+        "I Liyanage": "826e1017",
+        "Ikramullah Khan": "c6e1354c",
+        "J Kariko": "cde067e1",
+        "KV Morea": "270bf7e2",
+        "M Prabhudesa": "c36bcd1e",
+        "Muhammad Asim": "b424d3d3",
+        "Muhammad Tanveer": "aef39fe4",
+        "Mujeeb-ur-Rehman": "1a8f879b",
+        "Owais Ahmed": "cef52835",
+        "P Karoho": "c449944c",
+        "Patrick Nou": "75657526",
+        "RJ Warren": "9d1c62d7",
+        "S Bau": "9a95bebb",
+        "Shahzaib Jamil": "fbb6d1a7",
+        "Shakkir Kassim": "2d4d282d",
+        "V Guba": "bec6de25"
+      }
+    },
+    "season": "2025",
+    "team_type": "international",
+    "teams": [
+      "Papua New Guinea",
+      "Qatar"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Qatar"
+    },
+    "venue": "Farmers Cricket Club Ground, St Martin"
+  },
+  "innings": [
+    {
+      "team": "Papua New Guinea",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "Amir Farooq",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Amir Farooq",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Amir Farooq",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "S Bau",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Bau",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "S Bau",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "Amir Farooq",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Amir Farooq",
+              "extras": {
+                "noballs": 1
+              },
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Amir Farooq",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "Muhammad Asim",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Muhammad Asim",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Muhammad Asim",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Muhammad Asim",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Muhammad Asim",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Muhammad Asim",
+              "non_striker": "V Guba",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "V Guba",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "V Guba",
+                  "fielders": [
+                    {
+                      "name": "DAM Louis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "HGV Vare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "HGV Vare",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "HGV Vare",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Owais Ahmed",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Owais Ahmed",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Boio Ray",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Boio Ray",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Boio Ray",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Owais Ahmed",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Owais Ahmed",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Patrick Nou",
+              "bowler": "Owais Ahmed",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Muhammad Asim",
+              "non_striker": "Patrick Nou",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Patrick Nou",
+                  "fielders": [
+                    {
+                      "name": "Shakkir Kassim"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "A Vala",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "A Vala",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "A Vala",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Vala",
+                  "fielders": [
+                    {
+                      "name": "I Liyanage"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Muhammad Asim",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "Muhammad Asim",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Muhammad Asim",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Muhammad Asim",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Muhammad Asim",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Muhammad Asim",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Muhammad Asim",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Owais Ahmed",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Owais Ahmed",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "DAM Louis",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DAM Louis",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DAM Louis",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "DAM Louis",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "DAM Louis",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "DAM Louis",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "D Ravu",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ravu",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Ravu",
+                  "fielders": [
+                    {
+                      "name": "Muhammad Asim"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "A Nao",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Nao",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Nao",
+                  "fielders": [
+                    {
+                      "name": "DAM Louis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "KV Morea",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "P Karoho",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Karoho",
+              "bowler": "Arif Nasir Uddin",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "P Karoho",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "P Karoho",
+                  "fielders": [
+                    {
+                      "name": "Owais Ahmed"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KV Morea",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "J Kariko",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Mujeeb-ur-Rehman",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "KV Morea",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "J Kariko",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Ikramullah Khan",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KV Morea",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "J Kariko",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Ikramullah Khan",
+              "extras": {
+                "legbyes": 4
+              },
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Kariko",
+              "bowler": "Ikramullah Khan",
+              "non_striker": "KV Morea",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "J Kariko",
+                  "kind": "lbw"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "team": "Qatar",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Mujeeb-ur-Rehman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Mujeeb-ur-Rehman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Mujeeb-ur-Rehman",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Mujeeb-ur-Rehman",
+              "bowler": "KV Morea",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Mujeeb-ur-Rehman",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Mujeeb-ur-Rehman",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "Mujeeb-ur-Rehman",
+              "bowler": "A Nao",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mujeeb-ur-Rehman",
+              "bowler": "A Nao",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Mujeeb-ur-Rehman",
+              "bowler": "A Nao",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Mujeeb-ur-Rehman",
+                  "fielders": [
+                    {
+                      "name": "A Vala"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Shakkir Kassim",
+              "bowler": "A Nao",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shakkir Kassim",
+              "bowler": "A Nao",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shakkir Kassim",
+              "bowler": "A Nao",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Shakkir Kassim",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "Shakkir Kassim",
+                  "fielders": [
+                    {
+                      "name": "HGV Vare"
+                    },
+                    {
+                      "name": "A Nao"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "Muhammad Tanveer",
+              "bowler": "KV Morea",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Muhammad Tanveer",
+              "bowler": "KV Morea",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Muhammad Tanveer",
+              "bowler": "KV Morea",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "Muhammad Tanveer",
+              "bowler": "A Nao",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "A Nao",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "A Nao",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "A Nao",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "A Nao",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "A Nao",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "Muhammad Tanveer",
+              "bowler": "KV Morea",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Muhammad Tanveer",
+              "bowler": "KV Morea",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Muhammad Tanveer",
+              "bowler": "KV Morea",
+              "non_striker": "I Liyanage",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "I Liyanage",
+              "bowler": "KV Morea",
+              "non_striker": "Muhammad Tanveer",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "target": {
+        "overs": 40,
+        "runs": 137
+      }
+    }
+  ]
+}

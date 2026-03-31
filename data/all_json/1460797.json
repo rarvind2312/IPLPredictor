@@ -1,0 +1,962 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-06-13",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Southampton",
+    "dates": [
+      "2025-06-13"
+    ],
+    "event": {
+      "name": "Vitality Blast Men",
+      "group": "South"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "DA Cosker"
+      ],
+      "umpires": [
+        "Mark Newell",
+        "NJ Llong"
+      ]
+    },
+    "outcome": {
+      "result": "tie",
+      "method": "D/L"
+    },
+    "overs": 20,
+    "players": {
+      "Hampshire": [
+        "LG Pretorius",
+        "JM Vince",
+        "TE Albert",
+        "JJ Weatherley",
+        "D Brevis",
+        "JK Fuller",
+        "BAC Howell",
+        "LA Dawson",
+        "CP Wood",
+        "SW Currie",
+        "JA Turner"
+      ],
+      "Middlesex": [
+        "KS Williamson",
+        "MDE Holden",
+        "BBA Geddes",
+        "SS Eskinazi",
+        "JL du Plooy",
+        "RF Higgins",
+        "JLB Davies",
+        "LBK Hollman",
+        "Zafar Gohar",
+        "TG Helm",
+        "NB Cornwell"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BAC Howell": "0bec3a6c",
+        "BBA Geddes": "305c31f2",
+        "CP Wood": "1cfac535",
+        "D Brevis": "844e79d1",
+        "DA Cosker": "aac9f784",
+        "JA Turner": "cdd875d9",
+        "JJ Weatherley": "a05d0552",
+        "JK Fuller": "dda5aae5",
+        "JL du Plooy": "6e6fb538",
+        "JLB Davies": "76dc16d4",
+        "JM Vince": "a15618fe",
+        "KS Williamson": "d027ba9f",
+        "LA Dawson": "4a461c24",
+        "LBK Hollman": "bdc0670a",
+        "LG Pretorius": "60aa2db3",
+        "MDE Holden": "d34a2268",
+        "Mark Newell": "b33f0fa1",
+        "NB Cornwell": "8f08313a",
+        "NJ Llong": "573fb985",
+        "RF Higgins": "ad212f96",
+        "SS Eskinazi": "75cbed9b",
+        "SW Currie": "c5f40e35",
+        "TE Albert": "a6c17509",
+        "TG Helm": "74a274cc",
+        "Zafar Gohar": "9fd3a210"
+      }
+    },
+    "season": "2025",
+    "team_type": "club",
+    "teams": [
+      "Hampshire",
+      "Middlesex"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Middlesex"
+    },
+    "venue": "The Rose Bowl, Southampton"
+  },
+  "innings": [
+    {
+      "team": "Hampshire",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "LG Pretorius",
+              "bowler": "NB Cornwell",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "NB Cornwell",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "NB Cornwell",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "NB Cornwell",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "NB Cornwell",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "NB Cornwell",
+              "non_striker": "JM Vince",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "JM Vince",
+              "bowler": "Zafar Gohar",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "Zafar Gohar",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "Zafar Gohar",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Vince",
+              "bowler": "Zafar Gohar",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Vince",
+                  "fielders": [
+                    {
+                      "name": "KS Williamson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "Zafar Gohar",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "Zafar Gohar",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "TE Albert",
+              "bowler": "TG Helm",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "TG Helm",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "TG Helm",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "LG Pretorius",
+              "bowler": "Zafar Gohar",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "Zafar Gohar",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "Zafar Gohar",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "Zafar Gohar",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "Zafar Gohar",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "Zafar Gohar",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "LG Pretorius",
+              "bowler": "RF Higgins",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "RF Higgins",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "RF Higgins",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "RF Higgins",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "RF Higgins",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "RF Higgins",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "TG Helm",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LG Pretorius",
+              "bowler": "TG Helm",
+              "non_striker": "TE Albert",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TE Albert",
+              "bowler": "TG Helm",
+              "non_striker": "LG Pretorius",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.5,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Middlesex",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "CP Wood",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "MDE Holden",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "JK Fuller",
+              "non_striker": "MDE Holden",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "JK Fuller",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "MDE Holden",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "JK Fuller",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "JK Fuller",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "JK Fuller",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "JK Fuller",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "CP Wood",
+              "non_striker": "MDE Holden",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "CP Wood",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "MDE Holden",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "CP Wood",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "MDE Holden",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "SW Currie",
+              "non_striker": "MDE Holden",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MDE Holden",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MDE Holden",
+                  "fielders": [
+                    {
+                      "name": "CP Wood"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "LA Dawson",
+              "non_striker": "BBA Geddes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "LA Dawson",
+              "non_striker": "BBA Geddes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "LA Dawson",
+              "non_striker": "BBA Geddes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "LA Dawson",
+              "non_striker": "BBA Geddes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "LA Dawson",
+              "non_striker": "BBA Geddes",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KS Williamson",
+              "bowler": "LA Dawson",
+              "non_striker": "BBA Geddes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "KS Williamson",
+              "bowler": "SW Currie",
+              "non_striker": "BBA Geddes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BBA Geddes",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BBA Geddes",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BBA Geddes",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BBA Geddes",
+              "bowler": "SW Currie",
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BBA Geddes",
+              "bowler": "SW Currie",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "KS Williamson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.5,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 6,
+        "runs": 76
+      }
+    }
+  ]
+}

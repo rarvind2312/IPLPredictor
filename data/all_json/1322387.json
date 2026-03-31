@@ -1,0 +1,5630 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-09-18",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Hobart",
+    "dates": [
+      "2022-11-17"
+    ],
+    "event": {
+      "name": "The Marsh Cup",
+      "match_number": 14
+    },
+    "gender": "male",
+    "match_type": "ODM",
+    "officials": {
+      "match_referees": [
+        "David Johnston"
+      ],
+      "umpires": [
+        "DM Koch",
+        "GJ Davidson"
+      ]
+    },
+    "outcome": {
+      "winner": "New South Wales",
+      "by": {
+        "runs": 160
+      }
+    },
+    "overs": 50,
+    "player_of_match": [
+      "DP Hughes"
+    ],
+    "players": {
+      "New South Wales": [
+        "KR Patterson",
+        "DP Hughes",
+        "MC Henriques",
+        "M Gilkes",
+        "DR Sams",
+        "JJS Sangha",
+        "BJ Holt",
+        "H Kerr",
+        "CJ Green",
+        "CP Tremain",
+        "LC Hatcher"
+      ],
+      "Tasmania": [
+        "BR McDermott",
+        "CP Jewell",
+        "JR Doran",
+        "JC Silk",
+        "MS Wade",
+        "BJ Webster",
+        "TD Andrews",
+        "TS Rogers",
+        "NT Ellis",
+        "PM Siddle",
+        "RP Meredith"
+      ]
+    },
+    "registry": {
+      "people": {
+        "BJ Holt": "f05d1564",
+        "BJ Webster": "56b93d46",
+        "BR McDermott": "c41043e6",
+        "CJ Green": "19b9f399",
+        "CP Jewell": "806c4e58",
+        "CP Tremain": "96824e68",
+        "DM Koch": "6d10c034",
+        "DP Hughes": "f3982af9",
+        "DR Sams": "caf69bf7",
+        "David Johnston": "92cef862",
+        "GJ Davidson": "31ad5973",
+        "H Kerr": "f422728b",
+        "JC Silk": "7a6dc294",
+        "JJS Sangha": "8e3cb0e9",
+        "JR Doran": "9cebb612",
+        "KR Patterson": "e3bf8356",
+        "LC Hatcher": "8f3fde65",
+        "M Gilkes": "d85b0f8b",
+        "MC Henriques": "32198ae0",
+        "MS Wade": "afa7e784",
+        "NT Ellis": "9eb1455b",
+        "PM Siddle": "bd93fea4",
+        "RP Meredith": "64775749",
+        "TD Andrews": "a0f612b6",
+        "TS Rogers": "1b04e02b"
+      }
+    },
+    "season": "2022/23",
+    "team_type": "club",
+    "teams": [
+      "New South Wales",
+      "Tasmania"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Tasmania"
+    },
+    "venue": "Bellerive Oval, Hobart"
+  },
+  "innings": [
+    {
+      "team": "New South Wales",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "extras": {
+                "byes": 4
+              },
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 4,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "PM Siddle",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "PM Siddle",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "NT Ellis",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "NT Ellis",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "BJ Webster",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "BJ Webster",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 29,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 30,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 31,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "RP Meredith",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "RP Meredith",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 32,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 33,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 34,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KR Patterson",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "KR Patterson",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 35,
+          "deliveries": [
+            {
+              "batter": "KR Patterson",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KR Patterson",
+                  "fielders": [
+                    {
+                      "name": "BR McDermott"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TS Rogers",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TS Rogers",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 36,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "TD Andrews",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TD Andrews",
+              "non_striker": "DP Hughes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 37,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "TS Rogers",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DP Hughes",
+                  "fielders": [
+                    {
+                      "name": "NT Ellis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "TS Rogers",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TS Rogers",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "TS Rogers",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TS Rogers",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "TS Rogers",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 38,
+          "deliveries": [
+            {
+              "batter": "MC Henriques",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MC Henriques",
+                  "fielders": [
+                    {
+                      "name": "JC Silk"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "DR Sams",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Sams",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Sams",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DR Sams",
+                  "kind": "lbw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 39,
+          "deliveries": [
+            {
+              "batter": "M Gilkes",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "NT Ellis",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "NT Ellis",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "NT Ellis",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "NT Ellis",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 40,
+          "deliveries": [
+            {
+              "batter": "M Gilkes",
+              "bowler": "TD Andrews",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "TD Andrews",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "TD Andrews",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "M Gilkes",
+              "bowler": "TD Andrews",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TD Andrews",
+              "non_striker": "M Gilkes",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 41,
+          "deliveries": [
+            {
+              "batter": "M Gilkes",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M Gilkes",
+                  "fielders": [
+                    {
+                      "name": "PM Siddle"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 42,
+          "deliveries": [
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 43,
+          "deliveries": [
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TD Andrews",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TD Andrews",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TD Andrews",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "TD Andrews",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TD Andrews",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TD Andrews",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 44,
+          "deliveries": [
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "RP Meredith",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "RP Meredith",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "RP Meredith",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "RP Meredith",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "RP Meredith",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 45,
+          "deliveries": [
+            {
+              "batter": "BJ Holt",
+              "bowler": "TS Rogers",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "TS Rogers",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "TS Rogers",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TS Rogers",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TS Rogers",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "TS Rogers",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "TS Rogers",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 46,
+          "deliveries": [
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "NT Ellis",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "NT Ellis",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 47,
+          "deliveries": [
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TS Rogers",
+              "non_striker": "BJ Holt",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Holt",
+              "bowler": "TS Rogers",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BJ Holt",
+                  "fielders": [
+                    {
+                      "name": "NT Ellis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "H Kerr",
+              "bowler": "TS Rogers",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TS Rogers",
+              "non_striker": "H Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Kerr",
+              "bowler": "TS Rogers",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "TS Rogers",
+              "non_striker": "H Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 48,
+          "deliveries": [
+            {
+              "batter": "H Kerr",
+              "bowler": "NT Ellis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Kerr",
+              "bowler": "NT Ellis",
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "H Kerr",
+              "bowler": "NT Ellis",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "JJS Sangha",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JJS Sangha",
+              "bowler": "NT Ellis",
+              "non_striker": "H Kerr",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JJS Sangha",
+                  "fielders": [
+                    {
+                      "name": "JR Doran"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "NT Ellis",
+              "non_striker": "H Kerr",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "H Kerr",
+              "bowler": "NT Ellis",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "H Kerr",
+                  "kind": "caught and bowled"
+                }
+              ]
+            },
+            {
+              "batter": "CP Tremain",
+              "bowler": "NT Ellis",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 49,
+          "deliveries": [
+            {
+              "batter": "CP Tremain",
+              "bowler": "PM Siddle",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "PM Siddle",
+              "non_striker": "CP Tremain",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CP Tremain",
+              "bowler": "PM Siddle",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Tremain",
+              "bowler": "PM Siddle",
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Tremain",
+              "bowler": "PM Siddle",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "CJ Green",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "CJ Green",
+              "bowler": "PM Siddle",
+              "non_striker": "CP Tremain",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 39.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 40.1,
+          "to": 49.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Tasmania",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "BR McDermott",
+              "bowler": "DR Sams",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "CP Jewell",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "DR Sams",
+              "non_striker": "CP Jewell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "DR Sams",
+              "non_striker": "CP Jewell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "DR Sams",
+              "non_striker": "CP Jewell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "DR Sams",
+              "non_striker": "CP Jewell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "DR Sams",
+              "non_striker": "CP Jewell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "DR Sams",
+              "non_striker": "CP Jewell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "CP Jewell",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "CP Jewell",
+              "bowler": "DR Sams",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "CP Jewell",
+              "bowler": "DR Sams",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "CP Jewell",
+                  "fielders": [
+                    {
+                      "name": "DP Hughes"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "CP Tremain",
+              "non_striker": "JR Doran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BR McDermott",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "DR Sams",
+              "non_striker": "JR Doran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "JC Silk",
+              "bowler": "DR Sams",
+              "non_striker": "JR Doran",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "DR Sams",
+              "non_striker": "JR Doran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "DR Sams",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "JC Silk",
+              "bowler": "CP Tremain",
+              "non_striker": "JR Doran",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Doran",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JR Doran",
+                  "fielders": [
+                    {
+                      "name": "MC Henriques"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "LC Hatcher",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CP Tremain",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "JC Silk",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 3,
+                "extras": 0,
+                "total": 3
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "JC Silk",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JC Silk",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JC Silk",
+                  "fielders": [
+                    {
+                      "name": "LC Hatcher"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "LC Hatcher",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "LC Hatcher",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BJ Webster",
+                  "fielders": [
+                    {
+                      "name": "BJ Holt"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "TD Andrews",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TD Andrews",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TD Andrews",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TD Andrews",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "H Kerr",
+              "non_striker": "TD Andrews",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "TD Andrews",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "CJ Green",
+              "non_striker": "TD Andrews",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TD Andrews",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TD Andrews",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TD Andrews",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "CJ Green",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 20,
+          "deliveries": [
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "H Kerr",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MS Wade",
+                  "fielders": [
+                    {
+                      "name": "CJ Green"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "NT Ellis",
+              "bowler": "H Kerr",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 21,
+          "deliveries": [
+            {
+              "batter": "TS Rogers",
+              "bowler": "CJ Green",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "CJ Green",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NT Ellis",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "CJ Green",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NT Ellis",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "NT Ellis",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 22,
+          "deliveries": [
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "NT Ellis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "NT Ellis",
+              "bowler": "H Kerr",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 23,
+          "deliveries": [
+            {
+              "batter": "NT Ellis",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "NT Ellis",
+                  "fielders": [
+                    {
+                      "name": "BJ Holt"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 24,
+          "deliveries": [
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "H Kerr",
+              "non_striker": "PM Siddle",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "H Kerr",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "H Kerr",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "H Kerr",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 25,
+          "deliveries": [
+            {
+              "batter": "PM Siddle",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PM Siddle",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PM Siddle",
+                  "fielders": [
+                    {
+                      "name": "KR Patterson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 26,
+          "deliveries": [
+            {
+              "batter": "RP Meredith",
+              "bowler": "DR Sams",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "DR Sams",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "DR Sams",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "DR Sams",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "DR Sams",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "DR Sams",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 27,
+          "deliveries": [
+            {
+              "batter": "TS Rogers",
+              "bowler": "CJ Green",
+              "non_striker": "RP Meredith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RP Meredith",
+              "bowler": "CJ Green",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TS Rogers",
+              "bowler": "CJ Green",
+              "non_striker": "RP Meredith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 28,
+          "deliveries": [
+            {
+              "batter": "RP Meredith",
+              "bowler": "DR Sams",
+              "non_striker": "TS Rogers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RP Meredith",
+                  "fielders": [
+                    {
+                      "name": "H Kerr"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 9.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 10.1,
+          "to": 28.1,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 50,
+        "runs": 301
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-02",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Hamilton",
+    "dates": [
+      "2025-12-26"
+    ],
+    "event": {
+      "name": "Women's Super Smash",
+      "match_number": 1
+    },
+    "gender": "female",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SRM Morris"
+      ],
+      "reserve_umpires": [
+        "SB Martin"
+      ],
+      "tv_umpires": [
+        "Damian Morrow"
+      ],
+      "umpires": [
+        "CM Brown",
+        "T Semmens"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 20,
+    "players": {
+      "Auckland": [
+        "P Catton",
+        "BG Armstrong",
+        "ML Green",
+        "BM Halliday",
+        "LR Down",
+        "JO Penfold",
+        "A Lambat",
+        "E Buchanan",
+        "AT Hucker",
+        "MM Penfold",
+        "BG Illing"
+      ],
+      "Northern Districts": [
+        "JM Watkin",
+        "T Wakelin",
+        "J Gardner",
+        "CA Gurrey",
+        "NH Patel",
+        "MBA Lamplough",
+        "E Wolland",
+        "HE Topp",
+        "LF Boucher",
+        "MW Downes",
+        "KA Knight"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Lambat": "5978fc2a",
+        "AT Hucker": "9b554bb9",
+        "BG Armstrong": "eca08a1d",
+        "BG Illing": "80a0cd77",
+        "BM Halliday": "efb6cb2a",
+        "CA Gurrey": "1e579ad5",
+        "CM Brown": "448f4f1c",
+        "Damian Morrow": "0fb1f503",
+        "E Buchanan": "e23c041b",
+        "E Wolland": "415c9efb",
+        "HE Topp": "d9b3ff0a",
+        "J Gardner": "184512d1",
+        "JM Watkin": "7239a365",
+        "JO Penfold": "321ea9e8",
+        "KA Knight": "4291f081",
+        "LF Boucher": "51afe432",
+        "LR Down": "19147fe0",
+        "MBA Lamplough": "997fffbe",
+        "ML Green": "865eae1f",
+        "MM Penfold": "645b2a2f",
+        "MW Downes": "d8e8179f",
+        "NH Patel": "d945db3e",
+        "P Catton": "22e8ba50",
+        "SB Martin": "08ad6466",
+        "SRM Morris": "74b402c6",
+        "T Semmens": "3b471aa4",
+        "T Wakelin": "9585d793"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Auckland",
+      "Northern Districts"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Northern Districts"
+    },
+    "venue": "Seddon Park, Hamilton"
+  },
+  "innings": [
+    {
+      "team": "Auckland",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "P Catton",
+              "bowler": "MW Downes",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Catton",
+              "bowler": "MW Downes",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "P Catton",
+                  "fielders": [
+                    {
+                      "name": "MBA Lamplough"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "ML Green",
+              "bowler": "MW Downes",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BG Armstrong",
+              "bowler": "MW Downes",
+              "non_striker": "ML Green",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BG Armstrong",
+              "bowler": "MW Downes",
+              "non_striker": "ML Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BG Armstrong",
+              "bowler": "MW Downes",
+              "non_striker": "ML Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "ML Green",
+              "bowler": "LF Boucher",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ML Green",
+              "bowler": "LF Boucher",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ML Green",
+              "bowler": "LF Boucher",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BG Armstrong",
+              "bowler": "LF Boucher",
+              "non_striker": "ML Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BG Armstrong",
+              "bowler": "LF Boucher",
+              "non_striker": "ML Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BG Armstrong",
+              "bowler": "LF Boucher",
+              "non_striker": "ML Green",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "ML Green",
+              "bowler": "MW Downes",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "ML Green",
+              "bowler": "MW Downes",
+              "non_striker": "BG Armstrong",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 2.2,
+          "type": "mandatory"
+        }
+      ]
+    }
+  ]
+}

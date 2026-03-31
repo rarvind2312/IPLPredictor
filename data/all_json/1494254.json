@@ -1,0 +1,2966 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-02",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Centurion",
+    "dates": [
+      "2025-12-27"
+    ],
+    "event": {
+      "name": "SA20",
+      "match_number": 2
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SB Lambson"
+      ],
+      "reserve_umpires": [
+        "Lauren Agenbag"
+      ],
+      "tv_umpires": [
+        "A Paleker"
+      ],
+      "umpires": [
+        "BP Jele",
+        "Stephen Harris"
+      ]
+    },
+    "outcome": {
+      "winner": "Joburg Super Kings",
+      "by": {
+        "runs": 22
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "D Jansen"
+    ],
+    "players": {
+      "Joburg Super Kings": [
+        "F du Plessis",
+        "M De Villiers",
+        "RR Rossouw",
+        "PWA Mulder",
+        "Shubham Ranjane",
+        "D Ferreira",
+        "D Forrester",
+        "AJ Hosein",
+        "D Jansen",
+        "Janco Smit",
+        "RJ Gleeson"
+      ],
+      "Pretoria Capitals": [
+        "WCF Smeed",
+        "B Parsons",
+        "SD Hope",
+        "D Brevis",
+        "C Esterhuizen",
+        "D Smith",
+        "RL Chase",
+        "Codi Yusuf",
+        "KA Maharaj",
+        "TS Mills",
+        "L Ngidi"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Paleker": "634b11ac",
+        "AJ Hosein": "4d7f517e",
+        "B Parsons": "fc60e81a",
+        "BP Jele": "7bb1331e",
+        "C Esterhuizen": "ef9acbcc",
+        "Codi Yusuf": "f2397e48",
+        "D Brevis": "844e79d1",
+        "D Ferreira": "f0af99a7",
+        "D Forrester": "23393635",
+        "D Jansen": "8dc152d1",
+        "D Smith": "5d69930d",
+        "F du Plessis": "3355b542",
+        "Janco Smit": "e345cb6b",
+        "KA Maharaj": "0b60eb09",
+        "L Ngidi": "f834dcfc",
+        "Lauren Agenbag": "40849abd",
+        "M De Villiers": "e9aaf862",
+        "PWA Mulder": "c96f6ac5",
+        "RJ Gleeson": "402f8494",
+        "RL Chase": "3feda4fa",
+        "RR Rossouw": "cad00a4d",
+        "SB Lambson": "4146063f",
+        "SD Hope": "1fc6ef83",
+        "Shubham Ranjane": "6c7a68d0",
+        "Stephen Harris": "fdcfd4aa",
+        "TS Mills": "245c97cb",
+        "WCF Smeed": "4e18e961"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Joburg Super Kings",
+      "Pretoria Capitals"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Pretoria Capitals"
+    },
+    "venue": "SuperSport Park, Centurion"
+  },
+  "innings": [
+    {
+      "team": "Joburg Super Kings",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "TS Mills",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "TS Mills",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "TS Mills",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Codi Yusuf",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Codi Yusuf",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Codi Yusuf",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "Codi Yusuf",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "Codi Yusuf",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "Codi Yusuf",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Codi Yusuf",
+              "non_striker": "M De Villiers",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "M De Villiers",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "M De Villiers",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "review": {
+                "by": "Pretoria Capitals",
+                "umpire": "Stephen Harris",
+                "batter": "M De Villiers",
+                "decision": "upheld",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "M De Villiers",
+                  "fielders": [
+                    {
+                      "name": "D Smith"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "TS Mills",
+              "non_striker": "F du Plessis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "F du Plessis",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "F du Plessis",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "F du Plessis",
+                  "fielders": [
+                    {
+                      "name": "D Smith"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "RR Rossouw",
+              "bowler": "L Ngidi",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "L Ngidi",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "L Ngidi",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "L Ngidi",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "L Ngidi",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "L Ngidi",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "non_boundary": true,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "Codi Yusuf",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "KA Maharaj",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "RL Chase",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "PWA Mulder",
+              "bowler": "KA Maharaj",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "KA Maharaj",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "RL Chase",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "RL Chase",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "RL Chase",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "PWA Mulder",
+              "bowler": "KA Maharaj",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "KA Maharaj",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "review": {
+                "by": "Pretoria Capitals",
+                "umpire": "Stephen Harris",
+                "batter": "RR Rossouw",
+                "decision": "struck down"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "KA Maharaj",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "PWA Mulder",
+              "bowler": "L Ngidi",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "L Ngidi",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "L Ngidi",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "L Ngidi",
+              "non_striker": "RR Rossouw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "L Ngidi",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "L Ngidi",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "RR Rossouw",
+              "bowler": "TS Mills",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RR Rossouw",
+              "bowler": "TS Mills",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RR Rossouw",
+                  "fielders": [
+                    {
+                      "name": "KA Maharaj"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "TS Mills",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "TS Mills",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "TS Mills",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "TS Mills",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "PWA Mulder",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "B Parsons",
+              "non_striker": "PWA Mulder",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "PWA Mulder",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "PWA Mulder",
+                  "fielders": [
+                    {
+                      "name": "Codi Yusuf"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KA Maharaj",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "KA Maharaj",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "KA Maharaj",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "KA Maharaj",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "KA Maharaj",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "KA Maharaj",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "KA Maharaj",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "D Ferreira",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "B Parsons",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "B Parsons",
+              "non_striker": "D Ferreira",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Ferreira",
+              "bowler": "B Parsons",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Ferreira",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "L Ngidi",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "L Ngidi",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Codi Yusuf",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Codi Yusuf",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "Codi Yusuf",
+              "non_striker": "Shubham Ranjane",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Shubham Ranjane",
+              "bowler": "Codi Yusuf",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Shubham Ranjane",
+                  "fielders": [
+                    {
+                      "name": "D Brevis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "Codi Yusuf",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "Codi Yusuf",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "AJ Hosein",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "L Ngidi",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "D Forrester",
+              "bowler": "TS Mills",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "TS Mills",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "TS Mills",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "TS Mills",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Forrester",
+              "bowler": "TS Mills",
+              "non_striker": "AJ Hosein",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Hosein",
+              "bowler": "TS Mills",
+              "non_striker": "D Forrester",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Pretoria Capitals",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "WCF Smeed",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "D Jansen",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "D Jansen",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "D Jansen",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "RJ Gleeson",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "RJ Gleeson",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "Janco Smit",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "Janco Smit",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "Janco Smit",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "AJ Hosein",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "WCF Smeed",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "WCF Smeed",
+              "bowler": "AJ Hosein",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "WCF Smeed",
+                  "kind": "bowled"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "PWA Mulder",
+              "non_striker": "SD Hope",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "PWA Mulder",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "B Parsons",
+              "bowler": "D Jansen",
+              "non_striker": "SD Hope",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "D Jansen",
+              "non_striker": "SD Hope",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SD Hope",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "SD Hope",
+                  "fielders": [
+                    {
+                      "name": "F du Plessis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 11,
+          "deliveries": [
+            {
+              "batter": "D Brevis",
+              "bowler": "Janco Smit",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "Janco Smit",
+              "non_striker": "D Brevis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "Janco Smit",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Brevis",
+              "bowler": "Janco Smit",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Brevis",
+                  "fielders": [
+                    {
+                      "name": "D Ferreira"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "Janco Smit",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 12,
+          "deliveries": [
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "D Jansen",
+              "non_striker": "B Parsons",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "B Parsons",
+              "bowler": "D Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "B Parsons",
+                  "fielders": [
+                    {
+                      "name": "Shubham Ranjane"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "D Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "D Jansen",
+              "non_striker": "C Esterhuizen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Esterhuizen",
+              "bowler": "D Jansen",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Esterhuizen",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "RL Chase",
+              "bowler": "D Jansen",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 13,
+          "deliveries": [
+            {
+              "batter": "RL Chase",
+              "bowler": "PWA Mulder",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "RL Chase",
+              "bowler": "PWA Mulder",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "RL Chase",
+              "bowler": "PWA Mulder",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "PWA Mulder",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RL Chase",
+              "bowler": "PWA Mulder",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "PWA Mulder",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 14,
+          "deliveries": [
+            {
+              "batter": "RL Chase",
+              "bowler": "Janco Smit",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "Janco Smit",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "Janco Smit",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "Janco Smit",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "Janco Smit",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "Janco Smit",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 15,
+          "deliveries": [
+            {
+              "batter": "RL Chase",
+              "bowler": "PWA Mulder",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "RL Chase",
+              "bowler": "PWA Mulder",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "PWA Mulder",
+              "non_striker": "RL Chase",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "RL Chase",
+              "bowler": "PWA Mulder",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "RL Chase",
+                  "fielders": [
+                    {
+                      "name": "M De Villiers"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "PWA Mulder",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "PWA Mulder",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 16,
+          "deliveries": [
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "D Jansen",
+              "non_striker": "D Smith",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "D Smith",
+              "bowler": "D Jansen",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "D Smith",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "D Jansen",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "D Jansen",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "D Jansen",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "D Jansen",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 17,
+          "deliveries": [
+            {
+              "batter": "KA Maharaj",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "RJ Gleeson",
+              "non_striker": "KA Maharaj",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KA Maharaj",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "KA Maharaj",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "TS Mills",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 18,
+          "deliveries": [
+            {
+              "batter": "TS Mills",
+              "bowler": "D Forrester",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "D Forrester",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "TS Mills",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "D Forrester",
+              "non_striker": "TS Mills",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TS Mills",
+              "bowler": "D Forrester",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "D Forrester",
+              "non_striker": "TS Mills",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TS Mills",
+              "bowler": "D Forrester",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TS Mills",
+              "bowler": "D Forrester",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 19,
+          "deliveries": [
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "RJ Gleeson",
+              "non_striker": "TS Mills",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "RJ Gleeson",
+              "non_striker": "TS Mills",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "RJ Gleeson",
+              "non_striker": "TS Mills",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "Codi Yusuf",
+              "bowler": "RJ Gleeson",
+              "non_striker": "TS Mills",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TS Mills",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TS Mills",
+                  "fielders": [
+                    {
+                      "name": "F du Plessis"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "L Ngidi",
+              "bowler": "RJ Gleeson",
+              "non_striker": "Codi Yusuf",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 5.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 20,
+        "runs": 169
+      }
+    }
+  ]
+}

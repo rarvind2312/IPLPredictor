@@ -1,0 +1,1408 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-12-15",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Melbourne",
+    "dates": [
+      "2025-12-06"
+    ],
+    "event": {
+      "name": "Women's Big Bash League",
+      "match_number": 38
+    },
+    "gender": "female",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "J Broadbent"
+      ],
+      "reserve_umpires": [
+        "C Haysom"
+      ],
+      "tv_umpires": [
+        "C Grant"
+      ],
+      "umpires": [
+        "LC Broadfoot",
+        "MH Wessels"
+      ]
+    },
+    "outcome": {
+      "winner": "Sydney Thunder",
+      "by": {
+        "wickets": 9
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "player_of_match": [
+      "G Voll"
+    ],
+    "players": {
+      "Melbourne Stars": [
+        "MM Lanning",
+        "R McKenna",
+        "A Sutherland",
+        "DR Gibson",
+        "ME Bouchier",
+        "AE Jones",
+        "KJ Garth",
+        "G Prestwidge",
+        "SK Moloney",
+        "ML Gibson",
+        "S Day"
+      ],
+      "Sydney Thunder": [
+        "P Litchfield",
+        "G Voll",
+        "L Harris",
+        "T Wilson",
+        "HC Knight",
+        "A Learoyd",
+        "L Finn",
+        "EL Arlott",
+        "Hasrat Gill",
+        "S Ismail",
+        "SL Bates"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Learoyd": "1757bedf",
+        "A Sutherland": "65d9b6b6",
+        "AE Jones": "b05e45e4",
+        "C Grant": "876ed858",
+        "C Haysom": "e8eb3b33",
+        "DR Gibson": "d2763568",
+        "EL Arlott": "78fd864b",
+        "G Prestwidge": "c218e4e7",
+        "G Voll": "5c30d455",
+        "HC Knight": "4ba0289e",
+        "Hasrat Gill": "95a055e0",
+        "J Broadbent": "f3266bb5",
+        "KJ Garth": "0b69a844",
+        "L Finn": "579e3965",
+        "L Harris": "36e2dc83",
+        "LC Broadfoot": "2d2bdd2a",
+        "ME Bouchier": "c2554b59",
+        "MH Wessels": "90f47cf2",
+        "ML Gibson": "27fa592f",
+        "MM Lanning": "27e003ce",
+        "P Litchfield": "4e6ef14f",
+        "R McKenna": "f7e41cd8",
+        "S Day": "c3d27d76",
+        "S Ismail": "108c4c09",
+        "SK Moloney": "a0bc8dc1",
+        "SL Bates": "0816fb1e",
+        "T Wilson": "32100b2d"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Melbourne Stars",
+      "Sydney Thunder"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Sydney Thunder"
+    },
+    "venue": "Junction Oval, Melbourne"
+  },
+  "innings": [
+    {
+      "team": "Melbourne Stars",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "S Ismail",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "SL Bates",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "SL Bates",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "SL Bates",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "SL Bates",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SL Bates",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "SL Bates",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "S Ismail",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "SL Bates",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "SL Bates",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "SL Bates",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SL Bates",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SL Bates",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "SL Bates",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "R McKenna",
+              "bowler": "EL Arlott",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "EL Arlott",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "EL Arlott",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "EL Arlott",
+              "non_striker": "R McKenna",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "EL Arlott",
+              "extras": {
+                "wides": 5
+              },
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 5,
+                "total": 5
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "EL Arlott",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "R McKenna",
+              "bowler": "EL Arlott",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "R McKenna",
+                  "fielders": [
+                    {
+                      "name": "S Ismail"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "G Voll",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "G Voll",
+              "non_striker": "A Sutherland",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "A Sutherland",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "A Sutherland",
+                  "fielders": [
+                    {
+                      "name": "T Wilson"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Finn",
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Finn",
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Finn",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Finn",
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Finn",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "L Finn",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "G Voll",
+              "non_striker": "DR Gibson",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "DR Gibson",
+              "bowler": "G Voll",
+              "non_striker": "MM Lanning",
+              "review": {
+                "by": "Sydney Thunder",
+                "umpire": "LC Broadfoot",
+                "batter": "DR Gibson",
+                "decision": "upheld",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DR Gibson",
+                  "fielders": [
+                    {
+                      "name": "T Wilson"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Finn",
+              "non_striker": "ME Bouchier",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ME Bouchier",
+              "bowler": "L Finn",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Finn",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "ME Bouchier",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MM Lanning",
+              "bowler": "L Finn",
+              "non_striker": "ME Bouchier",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "ME Bouchier",
+              "bowler": "L Finn",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "ME Bouchier",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "AE Jones",
+              "bowler": "L Finn",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AE Jones",
+                  "fielders": [
+                    {
+                      "name": "HC Knight"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "KJ Garth",
+              "bowler": "L Finn",
+              "non_striker": "MM Lanning",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "MM Lanning",
+              "bowler": "EL Arlott",
+              "non_striker": "KJ Garth",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MM Lanning",
+                  "fielders": [
+                    {
+                      "name": "Hasrat Gill"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "G Prestwidge",
+              "bowler": "EL Arlott",
+              "non_striker": "KJ Garth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KJ Garth",
+              "bowler": "EL Arlott",
+              "non_striker": "G Prestwidge",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Prestwidge",
+              "bowler": "EL Arlott",
+              "non_striker": "KJ Garth",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "KJ Garth",
+              "bowler": "EL Arlott",
+              "non_striker": "G Prestwidge",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "KJ Garth",
+              "bowler": "EL Arlott",
+              "non_striker": "G Prestwidge",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 3.6,
+          "type": "mandatory"
+        }
+      ]
+    },
+    {
+      "team": "Sydney Thunder",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "P Litchfield",
+              "bowler": "KJ Garth",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "KJ Garth",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "KJ Garth",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "KJ Garth",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "KJ Garth",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "KJ Garth",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "A Sutherland",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "R McKenna",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "R McKenna",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "R McKenna",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "R McKenna",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "R McKenna",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "R McKenna",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "R McKenna",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "R McKenna",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Day",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "S Day",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Day",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Day",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Day",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "S Day",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "G Voll",
+              "bowler": "G Prestwidge",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "G Prestwidge",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "G Prestwidge",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "G Prestwidge",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "G Prestwidge",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "G Prestwidge",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "P Litchfield",
+              "bowler": "KJ Garth",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "KJ Garth",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "KJ Garth",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "KJ Garth",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "KJ Garth",
+              "non_striker": "P Litchfield",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "KJ Garth",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "P Litchfield",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "P Litchfield",
+                  "fielders": [
+                    {
+                      "name": "KJ Garth"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "L Harris",
+              "bowler": "A Sutherland",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "A Sutherland",
+              "non_striker": "L Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "A Sutherland",
+              "non_striker": "L Harris",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "G Voll",
+              "bowler": "A Sutherland",
+              "non_striker": "L Harris",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "L Harris",
+              "bowler": "S Day",
+              "non_striker": "G Voll",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 6.1,
+          "to": 6.6,
+          "type": "batting"
+        }
+      ],
+      "target": {
+        "overs": 10,
+        "runs": 76
+      }
+    }
+  ]
+}

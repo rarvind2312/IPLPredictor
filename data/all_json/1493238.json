@@ -1,0 +1,1719 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-12-28",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Perth",
+    "dates": [
+      "2025-12-14"
+    ],
+    "event": {
+      "name": "Big Bash League",
+      "match_number": 1
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "CA Burke"
+      ],
+      "reserve_umpires": [
+        "Roberto Howard"
+      ],
+      "tv_umpires": [
+        "Troy Penman"
+      ],
+      "umpires": [
+        "DM Koch",
+        "GA Abood"
+      ]
+    },
+    "outcome": {
+      "winner": "Perth Scorchers",
+      "by": {
+        "wickets": 5
+      }
+    },
+    "overs": 20,
+    "player_of_match": [
+      "C Connolly"
+    ],
+    "players": {
+      "Sydney Sixers": [
+        "DP Hughes",
+        "Babar Azam",
+        "JR Philippe",
+        "MC Henriques",
+        "L Shaw",
+        "J Edwards",
+        "BJ Dwarshuis",
+        "JA Davies",
+        "CH Stobo",
+        "M Perry",
+        "T Murphy"
+      ],
+      "Perth Scorchers": [
+        "MR Marsh",
+        "FH Allen",
+        "C Connolly",
+        "AM Hardie",
+        "AJ Turner",
+        "LJ Evans",
+        "NR Hobson",
+        "AC Agar",
+        "JS Paris",
+        "BL Couch",
+        "M Beardman"
+      ]
+    },
+    "registry": {
+      "people": {
+        "AC Agar": "a2421394",
+        "AJ Turner": "ff1e12a0",
+        "AM Hardie": "d405c0d5",
+        "BJ Dwarshuis": "e1b9f3a9",
+        "BL Couch": "be69e09d",
+        "Babar Azam": "8a75e999",
+        "C Connolly": "fe366f34",
+        "CA Burke": "629654e6",
+        "CH Stobo": "098229a5",
+        "DM Koch": "6d10c034",
+        "DP Hughes": "f3982af9",
+        "FH Allen": "bf74b130",
+        "GA Abood": "a4af5528",
+        "J Edwards": "f787e0eb",
+        "JA Davies": "5cdf8304",
+        "JR Philippe": "39086549",
+        "JS Paris": "7c8f533d",
+        "L Shaw": "b34e4b15",
+        "LJ Evans": "1c513d54",
+        "M Beardman": "b5a12740",
+        "M Perry": "442461fa",
+        "MC Henriques": "32198ae0",
+        "MR Marsh": "3d8feaf8",
+        "NR Hobson": "4312e0fd",
+        "Roberto Howard": "eec90c4b",
+        "T Murphy": "ac2e7ec0",
+        "Troy Penman": "0aa42c26"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Sydney Sixers",
+      "Perth Scorchers"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Perth Scorchers"
+    },
+    "venue": "Perth Stadium"
+  },
+  "innings": [
+    {
+      "team": "Sydney Sixers",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "DP Hughes",
+              "bowler": "AM Hardie",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "AM Hardie",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "DP Hughes",
+              "bowler": "AM Hardie",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "DP Hughes",
+                  "fielders": [
+                    {
+                      "name": "C Connolly"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "AM Hardie",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "AM Hardie",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "AM Hardie",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "JS Paris",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JS Paris",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JS Paris",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "JS Paris",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "JS Paris",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "JS Paris",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "BL Couch",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "BL Couch",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "BL Couch",
+              "non_striker": "Babar Azam",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "BL Couch",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Babar Azam",
+              "bowler": "BL Couch",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Babar Azam",
+                  "fielders": [
+                    {
+                      "name": "LJ Evans"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "BL Couch",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "MC Henriques",
+              "bowler": "M Beardman",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "M Beardman",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "M Beardman",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "M Beardman",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "M Beardman",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "M Beardman",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "AC Agar",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "AC Agar",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MC Henriques",
+              "bowler": "AC Agar",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "AC Agar",
+              "non_striker": "MC Henriques",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MC Henriques",
+                  "fielders": [
+                    {
+                      "name": "AC Agar"
+                    }
+                  ],
+                  "kind": "run out"
+                }
+              ]
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "AC Agar",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "AC Agar",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "JR Philippe",
+              "bowler": "BL Couch",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "BL Couch",
+              "non_striker": "JR Philippe",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JR Philippe",
+              "bowler": "BL Couch",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JR Philippe",
+                  "fielders": [
+                    {
+                      "name": "FH Allen"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "BL Couch",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "BL Couch",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "BL Couch",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "J Edwards",
+              "bowler": "M Beardman",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "M Beardman",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "M Beardman",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "M Beardman",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "M Beardman",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "M Beardman",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "M Beardman",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "J Edwards",
+              "bowler": "JS Paris",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "JS Paris",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "JS Paris",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "JS Paris",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "JS Paris",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "JS Paris",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "J Edwards",
+              "bowler": "AC Agar",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AC Agar",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AC Agar",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AC Agar",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "AC Agar",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "AC Agar",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "J Edwards",
+              "bowler": "JS Paris",
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "JS Paris",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "L Shaw",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "L Shaw",
+              "bowler": "JS Paris",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "L Shaw",
+                  "fielders": [
+                    {
+                      "name": "FH Allen"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "BJ Dwarshuis",
+              "bowler": "JS Paris",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Dwarshuis",
+              "bowler": "JS Paris",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "JS Paris",
+              "non_striker": "BJ Dwarshuis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "BJ Dwarshuis",
+              "bowler": "AM Hardie",
+              "non_striker": "J Edwards",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AM Hardie",
+              "non_striker": "BJ Dwarshuis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AM Hardie",
+              "non_striker": "BJ Dwarshuis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AM Hardie",
+              "non_striker": "BJ Dwarshuis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AM Hardie",
+              "non_striker": "BJ Dwarshuis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "J Edwards",
+              "bowler": "AM Hardie",
+              "non_striker": "BJ Dwarshuis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        },
+        {
+          "from": 9.1,
+          "to": 9.6,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Perth Scorchers",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MR Marsh",
+              "bowler": "CH Stobo",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MR Marsh",
+              "bowler": "CH Stobo",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MR Marsh",
+              "bowler": "CH Stobo",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MR Marsh",
+                  "fielders": [
+                    {
+                      "name": "Babar Azam"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "CH Stobo",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "CH Stobo",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "CH Stobo",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "J Edwards",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "FH Allen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "T Murphy",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "FH Allen",
+              "bowler": "T Murphy",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "FH Allen",
+                  "fielders": [
+                    {
+                      "name": "L Shaw"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "T Murphy",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "M Perry",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "M Perry",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "M Perry",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "M Perry",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "M Perry",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "M Perry",
+              "non_striker": "AM Hardie",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "AM Hardie",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "AM Hardie",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "AM Hardie",
+                  "fielders": [
+                    {
+                      "name": "JR Philippe"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "J Edwards",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "J Edwards",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "J Edwards",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "T Murphy",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "AJ Turner",
+              "bowler": "CH Stobo",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CH Stobo",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "CH Stobo",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CH Stobo",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "CH Stobo",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "CH Stobo",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "AJ Turner",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "AJ Turner",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "C Connolly",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "C Connolly",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "C Connolly",
+                  "fielders": [
+                    {
+                      "name": "J Edwards"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "LJ Evans",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "LJ Evans",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "LJ Evans",
+              "bowler": "BJ Dwarshuis",
+              "non_striker": "AJ Turner",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "LJ Evans",
+                  "fielders": [
+                    {
+                      "name": "JA Davies"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "over": 10,
+          "deliveries": [
+            {
+              "batter": "AJ Turner",
+              "bowler": "M Perry",
+              "non_striker": "NR Hobson",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.7,
+          "type": "mandatory"
+        },
+        {
+          "from": 7.1,
+          "to": 7.8,
+          "type": "batting"
+        }
+      ],
+      "target": {
+        "overs": 11,
+        "runs": 114
+      }
+    }
+  ]
+}

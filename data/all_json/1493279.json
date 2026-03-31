@@ -1,0 +1,1453 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2026-01-21",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Hobart",
+    "dates": [
+      "2026-01-21"
+    ],
+    "event": {
+      "name": "Big Bash League",
+      "stage": "Knockout"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "Kepler Wessels"
+      ],
+      "reserve_umpires": [
+        "Andrew Crozier"
+      ],
+      "tv_umpires": [
+        "DM Koch"
+      ],
+      "umpires": [
+        "MW Graham-Smith",
+        "PJ Gillespie"
+      ]
+    },
+    "outcome": {
+      "winner": "Hobart Hurricanes",
+      "by": {
+        "runs": 3
+      },
+      "method": "D/L"
+    },
+    "overs": 20,
+    "player_of_match": [
+      "BJ Webster"
+    ],
+    "players": {
+      "Hobart Hurricanes": [
+        "MJ Owen",
+        "TP Ward",
+        "BJ Webster",
+        "BR McDermott",
+        "Nikhil Chaudhary",
+        "MS Wade",
+        "CJ Jordan",
+        "W Prestwidge",
+        "B Stanlake",
+        "Rishad Hossain",
+        "RP Meredith"
+      ],
+      "Melbourne Stars": [
+        "TF Rogers",
+        "SB Harper",
+        "JM Clarke",
+        "MP Stoinis",
+        "GJ Maxwell",
+        "HWR Cartwright",
+        "C Kellaway",
+        "TK Curran",
+        "MJ Swepson",
+        "Haris Rauf",
+        "PM Siddle"
+      ]
+    },
+    "registry": {
+      "people": {
+        "Andrew Crozier": "00d07580",
+        "B Stanlake": "6834d1f2",
+        "BJ Webster": "56b93d46",
+        "BR McDermott": "c41043e6",
+        "C Kellaway": "60c28835",
+        "CJ Jordan": "ffe699c0",
+        "DM Koch": "6d10c034",
+        "GJ Maxwell": "b681e71e",
+        "HWR Cartwright": "ab965cad",
+        "Haris Rauf": "24bb1c2f",
+        "JM Clarke": "2eca67f5",
+        "Kepler Wessels": "3bedaff0",
+        "MJ Owen": "f2c936d7",
+        "MJ Swepson": "86b4bf88",
+        "MP Stoinis": "d9273ee7",
+        "MS Wade": "afa7e784",
+        "MW Graham-Smith": "18aca3ce",
+        "Nikhil Chaudhary": "1f84183a",
+        "PJ Gillespie": "3e253a50",
+        "PM Siddle": "bd93fea4",
+        "RP Meredith": "64775749",
+        "Rishad Hossain": "5935d694",
+        "SB Harper": "a756e61a",
+        "TF Rogers": "7f232d46",
+        "TK Curran": "e86754b2",
+        "TP Ward": "fdd837ba",
+        "W Prestwidge": "bdf7a718"
+      }
+    },
+    "season": "2025/26",
+    "team_type": "club",
+    "teams": [
+      "Hobart Hurricanes",
+      "Melbourne Stars"
+    ],
+    "toss": {
+      "decision": "field",
+      "winner": "Melbourne Stars"
+    },
+    "venue": "Bellerive Oval, Hobart"
+  },
+  "innings": [
+    {
+      "team": "Hobart Hurricanes",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "MJ Owen",
+              "bowler": "GJ Maxwell",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "GJ Maxwell",
+              "non_striker": "MJ Owen",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "GJ Maxwell",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "GJ Maxwell",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "MJ Owen",
+              "bowler": "GJ Maxwell",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MJ Owen",
+                  "fielders": [
+                    {
+                      "name": "SB Harper"
+                    }
+                  ],
+                  "kind": "stumped"
+                }
+              ]
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "GJ Maxwell",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "TK Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "TK Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "TK Curran",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "TK Curran",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "TK Curran",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "TK Curran",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "PM Siddle",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "PM Siddle",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "PM Siddle",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "PM Siddle",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "PM Siddle",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "PM Siddle",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "TP Ward",
+              "bowler": "Haris Rauf",
+              "extras": {
+                "legbyes": 2
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 2,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "Haris Rauf",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "Haris Rauf",
+              "non_striker": "TP Ward",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TP Ward",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TP Ward",
+                  "fielders": [
+                    {
+                      "name": "TF Rogers"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "MJ Swepson",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "MJ Swepson",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MJ Swepson",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "MJ Swepson",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MJ Swepson",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "MJ Swepson",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "BR McDermott",
+              "bowler": "MP Stoinis",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MP Stoinis",
+              "non_striker": "BR McDermott",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BR McDermott",
+              "bowler": "MP Stoinis",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BR McDermott",
+                  "kind": "lbw"
+                }
+              ]
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "MP Stoinis",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MP Stoinis",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MP Stoinis",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MP Stoinis",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "MJ Swepson",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MJ Swepson",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "MJ Swepson",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MJ Swepson",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "MJ Swepson",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "MJ Swepson",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 7,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "PM Siddle",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "PM Siddle",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "PM Siddle",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "PM Siddle",
+              "non_striker": "BJ Webster",
+              "review": {
+                "by": "Melbourne Stars",
+                "umpire": "MW Graham-Smith",
+                "batter": "Nikhil Chaudhary",
+                "decision": "struck down",
+                "type": "wicket"
+              },
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "PM Siddle",
+              "extras": {
+                "byes": 1
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "PM Siddle",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 8,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "Haris Rauf",
+              "non_striker": "Nikhil Chaudhary",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "Haris Rauf",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "Nikhil Chaudhary",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "Nikhil Chaudhary",
+                  "fielders": [
+                    {
+                      "name": "C Kellaway"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MS Wade",
+              "bowler": "Haris Rauf",
+              "non_striker": "BJ Webster",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 9,
+          "deliveries": [
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "BJ Webster",
+              "bowler": "TK Curran",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "BJ Webster",
+                  "fielders": [
+                    {
+                      "name": "GJ Maxwell"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "CJ Jordan",
+              "bowler": "TK Curran",
+              "non_striker": "MS Wade",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.8,
+          "type": "mandatory"
+        },
+        {
+          "from": 7.1,
+          "to": 7.6,
+          "type": "batting"
+        }
+      ]
+    },
+    {
+      "team": "Melbourne Stars",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "TF Rogers",
+              "bowler": "Nikhil Chaudhary",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "Nikhil Chaudhary",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "Nikhil Chaudhary",
+              "non_striker": "TF Rogers",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "Nikhil Chaudhary",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "Nikhil Chaudhary",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "TF Rogers",
+              "bowler": "Nikhil Chaudhary",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 1,
+          "deliveries": [
+            {
+              "batter": "TF Rogers",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "TF Rogers",
+                  "kind": "bowled"
+                }
+              ]
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 2,
+          "deliveries": [
+            {
+              "batter": "SB Harper",
+              "bowler": "B Stanlake",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "JM Clarke",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "B Stanlake",
+              "extras": {
+                "legbyes": 1
+              },
+              "non_striker": "JM Clarke",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "B Stanlake",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "B Stanlake",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "B Stanlake",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "B Stanlake",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "B Stanlake",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "over": 3,
+          "deliveries": [
+            {
+              "batter": "JM Clarke",
+              "bowler": "Rishad Hossain",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "Rishad Hossain",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "Rishad Hossain",
+              "non_striker": "JM Clarke",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "Rishad Hossain",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "Rishad Hossain",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "Rishad Hossain",
+              "non_striker": "JM Clarke",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            }
+          ]
+        },
+        {
+          "over": 4,
+          "deliveries": [
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "JM Clarke",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "JM Clarke",
+                  "fielders": [
+                    {
+                      "name": "MJ Owen"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "RP Meredith",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "RP Meredith",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "SB Harper",
+              "bowler": "RP Meredith",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        },
+        {
+          "over": 5,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "Rishad Hossain",
+              "non_striker": "SB Harper",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              },
+              "wickets": [
+                {
+                  "player_out": "SB Harper",
+                  "kind": "retired out"
+                }
+              ]
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Rishad Hossain",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Rishad Hossain",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Rishad Hossain",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "Rishad Hossain",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "GJ Maxwell",
+              "bowler": "Rishad Hossain",
+              "non_striker": "MP Stoinis",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "over": 6,
+          "deliveries": [
+            {
+              "batter": "MP Stoinis",
+              "bowler": "MJ Owen",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "MJ Owen",
+              "extras": {
+                "wides": 1
+              },
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 1,
+                "total": 1
+              }
+            },
+            {
+              "batter": "MP Stoinis",
+              "bowler": "MJ Owen",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              },
+              "wickets": [
+                {
+                  "player_out": "MP Stoinis",
+                  "fielders": [
+                    {
+                      "name": "RP Meredith"
+                    }
+                  ],
+                  "kind": "caught"
+                }
+              ]
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "MJ Owen",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "MJ Owen",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "MJ Owen",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 6,
+                "extras": 0,
+                "total": 6
+              }
+            },
+            {
+              "batter": "HWR Cartwright",
+              "bowler": "MJ Owen",
+              "non_striker": "GJ Maxwell",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 1.6,
+          "type": "mandatory"
+        }
+      ],
+      "target": {
+        "overs": 7,
+        "runs": 85
+      }
+    }
+  ]
+}

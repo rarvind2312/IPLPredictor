@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "data_version": "1.1.0",
+    "created": "2025-07-17",
+    "revision": 1
+  },
+  "info": {
+    "balls_per_over": 6,
+    "city": "Colombo",
+    "dates": [
+      "2024-05-17"
+    ],
+    "event": {
+      "name": "Major Clubs T20 Tournament",
+      "group": "C"
+    },
+    "gender": "male",
+    "match_type": "T20",
+    "officials": {
+      "match_referees": [
+        "SM Faumi"
+      ],
+      "reserve_umpires": [
+        "RA Kottahachchi"
+      ],
+      "umpires": [
+        "LE Hannibal",
+        "WN de Silva"
+      ]
+    },
+    "outcome": {
+      "result": "no result"
+    },
+    "overs": 20,
+    "players": {
+      "Ace Capital Cricket Club": [
+        "PTM Dabare",
+        "S Gimhan",
+        "MPM Weerasinghe",
+        "Sammu Ashan",
+        "S Liyanage",
+        "RMRDG Rathnayake",
+        "NH Atharagalla",
+        "W Sahan",
+        "RJKTD Ranatunga",
+        "R de Silva",
+        "D Hemananda"
+      ],
+      "Tamil Union Cricket and Athletic Club": [
+        "KTH Ratnayake",
+        "SMLD Samarakoon",
+        "DS Weerakkody",
+        "A Siriwardhana",
+        "Sineth Jayawardena",
+        "STS Senarathne",
+        "Mohamed Shamaz",
+        "S Hapuhinna",
+        "T Vithushan",
+        "Amshi de Silva",
+        "H Wickramarchchi"
+      ]
+    },
+    "registry": {
+      "people": {
+        "A Siriwardhana": "b4f72cc6",
+        "Amshi de Silva": "dbe38f35",
+        "D Hemananda": "92189c3e",
+        "DS Weerakkody": "3473e5f2",
+        "H Wickramarchchi": "59546c85",
+        "KTH Ratnayake": "4eb02f2e",
+        "LE Hannibal": "3c04e91a",
+        "MPM Weerasinghe": "39571f64",
+        "Mohamed Shamaz": "93b6157d",
+        "NH Atharagalla": "5250b33c",
+        "PTM Dabare": "a97fbc2c",
+        "R de Silva": "0d6ab15a",
+        "RA Kottahachchi": "808f2939",
+        "RJKTD Ranatunga": "dadb0634",
+        "RMRDG Rathnayake": "f73c0c37",
+        "S Gimhan": "81acb5f5",
+        "S Hapuhinna": "60a9ffb4",
+        "S Liyanage": "b47a39f9",
+        "SM Faumi": "be5bf288",
+        "SMLD Samarakoon": "d28f4d1c",
+        "STS Senarathne": "cbafbb70",
+        "Sammu Ashan": "981b9303",
+        "Sineth Jayawardena": "e4bf3570",
+        "T Vithushan": "748f1901",
+        "W Sahan": "d86d276e",
+        "WN de Silva": "53e20e1c"
+      }
+    },
+    "season": "2024",
+    "team_type": "club",
+    "teams": [
+      "Ace Capital Cricket Club",
+      "Tamil Union Cricket and Athletic Club"
+    ],
+    "toss": {
+      "decision": "bat",
+      "winner": "Ace Capital Cricket Club"
+    },
+    "venue": "Sinhalese Sports Club Ground, Colombo"
+  },
+  "innings": [
+    {
+      "team": "Ace Capital Cricket Club",
+      "overs": [
+        {
+          "over": 0,
+          "deliveries": [
+            {
+              "batter": "PTM Dabare",
+              "bowler": "A Siriwardhana",
+              "non_striker": "S Gimhan",
+              "runs": {
+                "batter": 1,
+                "extras": 0,
+                "total": 1
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "A Siriwardhana",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 2,
+                "extras": 0,
+                "total": 2
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "A Siriwardhana",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "A Siriwardhana",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "A Siriwardhana",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 0,
+                "extras": 0,
+                "total": 0
+              }
+            },
+            {
+              "batter": "S Gimhan",
+              "bowler": "A Siriwardhana",
+              "non_striker": "PTM Dabare",
+              "runs": {
+                "batter": 4,
+                "extras": 0,
+                "total": 4
+              }
+            }
+          ]
+        }
+      ],
+      "powerplays": [
+        {
+          "from": 0.1,
+          "to": 0.6,
+          "type": "mandatory"
+        }
+      ]
+    }
+  ]
+}
