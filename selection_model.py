@@ -20,6 +20,7 @@ from collections import defaultdict
 from datetime import date, datetime
 from typing import Any, Optional
 
+import audit_profile
 import config
 import db
 import ipl_squad
@@ -394,10 +395,13 @@ def apply_selection_model(
     pkeys_for_cache = list(dict.fromkeys([k for k in pkeys_for_cache if k]))
     _t_rf = time.perf_counter()
     cache_by_pk = db.fetch_player_recent_form_cache_batch(pkeys_for_cache)
+    _rf_ms = (time.perf_counter() - _t_rf) * 1000.0
+    if audit_profile.audit_enabled():
+        audit_profile.record_prediction_phase("selection_recent_form_cache_fetch_ms", _rf_ms)
     if getattr(config, "PREDICTION_TIMING_LOG", False):
         _perf_logger.info(
             "selection_model recent_form_cache_fetch_ms=%.2f squad_keys=%d cache_hits=%d",
-            (time.perf_counter() - _t_rf) * 1000.0,
+            _rf_ms,
             len(pkeys_for_cache),
             len(cache_by_pk),
         )
@@ -534,10 +538,13 @@ def apply_selection_model(
 
         # Full ``selection_score_components`` merge happens in ``history_xi.compute_selection_scores``.
 
+    _loop_ms = (time.perf_counter() - _t_sm) * 1000.0
+    if audit_profile.audit_enabled():
+        audit_profile.record_prediction_phase("selection_model_apply_player_loop_ms", _loop_ms)
     if getattr(config, "PREDICTION_TIMING_LOG", False):
         _perf_logger.info(
             "selection_model scoring_loops_ms=%.2f n_players=%d",
-            (time.perf_counter() - _t_sm) * 1000.0,
+            _loop_ms,
             len(players),
         )
 

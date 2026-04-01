@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import sqlite3
 import tempfile
 import unittest
 from datetime import date
@@ -38,6 +39,49 @@ class TestGroupUnionMatches(unittest.TestCase):
         u2 = recent_form_cache._group_union_matches(rows, last_n=2, months=5, ref=ref)
         # Match 3 is outside ~5-month window; still included via last_n=2 with match 2.
         self.assertEqual({r["match_id"] for r in u2}, {2, 3})
+
+
+class TestT20SqlFilterMatchesPython(unittest.TestCase):
+    """``recent_form_cache._t20_sql_filter`` must agree with ``db.match_row_is_t20_family``."""
+
+    def test_sql_predicate_matches_python_on_sample_rows(self) -> None:
+        t20_sql, params = recent_form_cache._t20_sql_filter()
+        scenarios: list[tuple[str | None, str | None]] = [
+            ("IPL", None),
+            ("IPL", "it20"),
+            ("IPL", "T20"),
+            ("Vitality Blast", None),
+            ("International", "Test"),
+            ("International", "ODI"),
+            ("Sheffield Shield", None),
+            (None, None),
+            (None, "t20"),
+            ("International One Day Series", None),
+            ("Foo Minor League", "mdv"),
+        ]
+        for comp, mf in scenarios:
+            py = db.match_row_is_t20_family(comp, mf)
+            conn = sqlite3.connect(":memory:")
+            try:
+                conn.execute(
+                    "CREATE TABLE matches (id INTEGER, competition TEXT, match_format TEXT, match_date TEXT)"
+                )
+                conn.execute(
+                    "INSERT INTO matches VALUES (1, ?, ?, '2024-01-01')",
+                    (comp, mf),
+                )
+                row = conn.execute(
+                    f"SELECT 1 AS ok FROM matches m WHERE ({t20_sql})",
+                    params,
+                ).fetchone()
+                sql_ok = row is not None
+            finally:
+                conn.close()
+            self.assertEqual(
+                sql_ok,
+                py,
+                msg=f"competition={comp!r} match_format={mf!r} sql={sql_ok} python={py}",
+            )
 
 
 class TestRebuildRecentFormCache(unittest.TestCase):

@@ -150,6 +150,13 @@ def run_cricsheet_folder_ingest(
         _ingest_one_file(path, mid, by_id.get(mid), summary)
         already.add(mid)
 
+    if summary.matches_inserted > 0:
+        try:
+            db.rebuild_prediction_summary_tables()
+        except Exception as exc:  # noqa: BLE001
+            summary.warnings.append(f"prediction summary rebuild failed: {type(exc).__name__}: {exc}")
+            logger.exception("prediction summary rebuild failed after folder ingest")
+
     return summary
 
 

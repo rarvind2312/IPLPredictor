@@ -6,15 +6,34 @@ import json
 import logging
 import re
 import sqlite3
+import threading
 import time
 from contextlib import contextmanager
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Generator, Iterable, Optional
 
+import audit_profile
 import config
 import utils
 
 logger = logging.getLogger(__name__)
+_SCHEMA_BOOTSTRAP_LOCK = threading.Lock()
+_SCHEMA_BOOTSTRAP_SIG: Optional[tuple[str, int, int, int]] = None
+
+
+def db_runtime_signature() -> tuple[str, int, int, int]:
+    """
+    Cheap signature for in-process read caches.
+
+    Returns (db_path, exists_flag, size_bytes, mtime_ns).
+    """
+    p = Path(config.DB_PATH).resolve()
+    try:
+        st = p.stat()
+        return (str(p), 1, int(st.st_size), int(getattr(st, "st_mtime_ns", int(st.st_mtime * 1e9))))
+    except OSError:
+        return (str(p), 0, 0, 0)
 
 
 def _migrate_match_results_schema(conn: sqlite3.Connection) -> None:
@@ -301,6 +320,123 @@ def _migrate_drop_prediction_runtime_summary_tables(conn: sqlite3.Connection) ->
     conn.execute("DROP INDEX IF EXISTS idx_matches_match_date_id")
 
 
+def _migrate_prediction_aggregate_summary_tables(conn: sqlite3.Connection) -> None:
+    """Prediction-time aggregate summaries to avoid raw-table GROUP BY during inference."""
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_player_xi_counts (
+            player_name TEXT PRIMARY KEY,
+            xi_count INTEGER NOT NULL DEFAULT 0
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_player_batting (
+            player_name TEXT PRIMARY KEY,
+            avg_position REAL NOT NULL DEFAULT 0,
+            sample_count INTEGER NOT NULL DEFAULT 0
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_player_bowling (
+            player_name TEXT PRIMARY KEY,
+            avg_balls REAL NOT NULL DEFAULT 0,
+            match_count INTEGER NOT NULL DEFAULT 0
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_venue_team_player_xi (
+            venue TEXT NOT NULL,
+            team TEXT NOT NULL,
+            player_name TEXT NOT NULL,
+            xi_count INTEGER NOT NULL DEFAULT 0,
+            PRIMARY KEY (venue, team, player_name)
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_match_team_venue (
+            match_id INTEGER NOT NULL,
+            venue TEXT NOT NULL,
+            team TEXT NOT NULL,
+            PRIMARY KEY (match_id, team)
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_match_meta (
+            match_id INTEGER PRIMARY KEY,
+            winner TEXT,
+            team_a TEXT,
+            team_b TEXT,
+            venue TEXT,
+            batting_first TEXT,
+            created_at REAL,
+            match_date TEXT
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_player_global_xi (
+            player_key TEXT PRIMARY KEY,
+            tmx_rows INTEGER NOT NULL DEFAULT 0,
+            distinct_matches INTEGER NOT NULL DEFAULT 0,
+            distinct_teams INTEGER NOT NULL DEFAULT 0
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_player_team_xi (
+            player_key TEXT NOT NULL,
+            team_key TEXT NOT NULL,
+            tmx_rows INTEGER NOT NULL DEFAULT 0,
+            PRIMARY KEY (player_key, team_key)
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_player_global_slot (
+            player_key TEXT PRIMARY KEY,
+            slot_ema REAL NOT NULL DEFAULT 0,
+            slot_samples INTEGER NOT NULL DEFAULT 0
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS prediction_summary_rebuild_state (
+            id INTEGER PRIMARY KEY CHECK (id = 1),
+            last_rebuilt_at REAL NOT NULL DEFAULT 0,
+            match_xi_rows INTEGER NOT NULL DEFAULT 0,
+            match_batting_rows INTEGER NOT NULL DEFAULT 0,
+            match_results_rows INTEGER NOT NULL DEFAULT 0
+        )
+        """
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_ps_match_meta_date_id "
+        "ON prediction_summary_match_meta(match_date DESC, match_id DESC)"
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_ps_match_meta_teams "
+        "ON prediction_summary_match_meta(team_a, team_b)"
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_ps_player_team_xi_team "
+        "ON prediction_summary_player_team_xi(team_key)"
+    )
+
+
 def _migrate_player_profiles_derive_schema(conn: sqlite3.Connection) -> None:
     """Rebuild ``player_profiles`` for Stage 2 composite PK (player + franchise) if legacy schema."""
     row = conn.execute(
@@ -474,11 +610,16 @@ def ensure_data_dir() -> None:
 
 
 def get_connection() -> sqlite3.Connection:
+    global _SCHEMA_BOOTSTRAP_SIG
     ensure_data_dir()
+    sig = db_runtime_signature()
+    with _SCHEMA_BOOTSTRAP_LOCK:
+        needs_bootstrap = _SCHEMA_BOOTSTRAP_SIG != sig
     conn = sqlite3.connect(config.DB_PATH)
     conn.row_factory = sqlite3.Row
-    conn.executescript(
-        """
+    if needs_bootstrap:
+        conn.executescript(
+            """
         CREATE TABLE IF NOT EXISTS match_results (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             url TEXT NOT NULL,
@@ -809,49 +950,72 @@ def get_connection() -> sqlite3.Connection:
             UNIQUE(franchise_team_key, normalized_full_name_key)
         );
         CREATE INDEX IF NOT EXISTS idx_player_aliases_franchise ON player_aliases(franchise_team_key);
-        """
-    )
-    _migrate_match_results_schema(conn)
-    _migrate_player_batting_positions_innings(conn)
-    _backfill_canonical_history_keys_if_needed(conn)
-    # Must run after migration: old DBs had player_batting_positions without innings_number;
-    # CREATE INDEX on that column in executescript would fail before migrate could rebuild the table.
-    conn.execute(
-        "CREATE INDEX IF NOT EXISTS idx_pbp_match_innings ON player_batting_positions(match_id, innings_number)"
-    )
-    _migrate_matches_ingest_metadata_columns(conn)
-    _migrate_player_recent_form_summaries_and_cache(conn)
-    _migrate_drop_prediction_runtime_summary_tables(conn)
-    _migrate_player_profiles_derive_schema(conn)
-    _migrate_team_selection_derive_columns(conn)
-    _migrate_stage1_canonical_alias_columns(conn)
-    _migrate_player_aliases_table(conn)
-    conn.execute(
-        "CREATE INDEX IF NOT EXISTS idx_tmx_team_player ON team_match_xi(team_key, player_key)"
-    )
-    conn.execute(
-        "CREATE INDEX IF NOT EXISTS idx_pms_team_player ON player_match_stats(team_key, player_key)"
-    )
-    conn.execute(
-        "CREATE INDEX IF NOT EXISTS idx_pbp_team_player_match "
-        "ON player_batting_positions(team_key, player_key, match_id)"
-    )
-    conn.execute(
-        "CREATE INDEX IF NOT EXISTS idx_pff_franchise_player "
-        "ON player_franchise_features(franchise_team_key, player_key)"
-    )
-    conn.execute(
-        "CREATE INDEX IF NOT EXISTS idx_ppu_team_player_match "
-        "ON player_phase_usage(team_key, player_key, match_id)"
-    )
+            """
+        )
+        _migrate_match_results_schema(conn)
+        _migrate_player_batting_positions_innings(conn)
+        _backfill_canonical_history_keys_if_needed(conn)
+        # Must run after migration: old DBs had player_batting_positions without innings_number;
+        # CREATE INDEX on that column in executescript would fail before migrate could rebuild the table.
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_pbp_match_innings ON player_batting_positions(match_id, innings_number)"
+        )
+        _migrate_matches_ingest_metadata_columns(conn)
+        _migrate_player_recent_form_summaries_and_cache(conn)
+        _migrate_drop_prediction_runtime_summary_tables(conn)
+        _migrate_prediction_aggregate_summary_tables(conn)
+        _migrate_player_profiles_derive_schema(conn)
+        _migrate_team_selection_derive_columns(conn)
+        _migrate_stage1_canonical_alias_columns(conn)
+        _migrate_player_aliases_table(conn)
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_tmx_team_player ON team_match_xi(team_key, player_key)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_pms_team_player ON player_match_stats(team_key, player_key)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_pbp_team_player_match "
+            "ON player_batting_positions(team_key, player_key, match_id)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_pff_franchise_player "
+            "ON player_franchise_features(franchise_team_key, player_key)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_ppu_team_player_match "
+            "ON player_phase_usage(team_key, player_key, match_id)"
+        )
+        # Runtime-query indexes for prediction hot paths.
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_matches_match_date_id ON matches(match_date DESC, id DESC)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_match_results_team_ab ON match_results(team_a, team_b)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_match_xi_match_team_player "
+            "ON match_xi(match_id, team, player_name)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_match_xi_player_name ON match_xi(player_name)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_team_match_summary_team_key ON team_match_summary(team_key)"
+        )
     conn.execute("PRAGMA foreign_keys=ON")
     conn.commit()
+    if needs_bootstrap:
+        with _SCHEMA_BOOTSTRAP_LOCK:
+            _SCHEMA_BOOTSTRAP_SIG = db_runtime_signature()
     return conn
 
 
 @contextmanager
 def connection() -> Generator[sqlite3.Connection, None, None]:
     conn = get_connection()
+    if audit_profile.audit_enabled() and audit_profile.sql_capture_active():
+        conn = audit_profile.wrap_sqlite_connection(conn)  # type: ignore[assignment]
     try:
         yield conn
         conn.commit()
@@ -866,6 +1030,156 @@ def init_schema() -> None:
     """Ensure SQLite file and tables exist (also runs on every `get_connection()`)."""
     conn = get_connection()
     conn.close()
+
+
+def rebuild_prediction_summary_tables() -> dict[str, Any]:
+    """
+    Recompute prediction aggregate summary tables from raw history tables.
+
+    Intended to run after large ingest batches so prediction avoids expensive runtime GROUP BY/JOIN scans.
+    """
+    t0 = time.perf_counter()
+    with connection() as conn:
+        conn.execute("DELETE FROM prediction_summary_player_xi_counts")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_player_xi_counts (player_name, xi_count)
+            SELECT player_name, COUNT(*) AS c
+            FROM match_xi
+            GROUP BY player_name
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_player_batting")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_player_batting (player_name, avg_position, sample_count)
+            SELECT player_name, AVG(position) AS av, COUNT(*) AS n
+            FROM match_batting
+            WHERE position IS NOT NULL AND position > 0
+            GROUP BY player_name
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_player_bowling")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_player_bowling (player_name, avg_balls, match_count)
+            SELECT player_name,
+                   (
+                       SUM(CASE WHEN overs IS NOT NULL THEN overs * 6.0 ELSE 0 END)
+                       / CAST(COUNT(DISTINCT match_id) AS REAL)
+                   ) AS avg_balls,
+                   COUNT(DISTINCT match_id) AS n
+            FROM match_bowling
+            GROUP BY player_name
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_venue_team_player_xi")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_venue_team_player_xi (venue, team, player_name, xi_count)
+            SELECT r.venue, m.team, m.player_name, COUNT(*) AS c
+            FROM match_xi m
+            JOIN match_results r ON r.id = m.match_id
+            WHERE r.venue IS NOT NULL AND trim(r.venue) != ''
+            GROUP BY r.venue, m.team, m.player_name
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_match_team_venue")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_match_team_venue (match_id, venue, team)
+            SELECT DISTINCT m.match_id, COALESCE(r.venue, ''), m.team
+            FROM match_xi m
+            JOIN match_results r ON r.id = m.match_id
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_match_meta")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_match_meta (
+                match_id, winner, team_a, team_b, venue, batting_first, created_at, match_date
+            )
+            SELECT mr.id, mr.winner, mr.team_a, mr.team_b,
+                   COALESCE(NULLIF(trim(m.venue), ''), NULLIF(trim(mr.venue), ''), '') AS venue,
+                   mr.batting_first, mr.created_at, m.match_date
+            FROM match_results mr
+            LEFT JOIN matches m ON m.id = mr.id
+            WHERE mr.team_a IS NOT NULL AND trim(mr.team_a) != ''
+              AND mr.team_b IS NOT NULL AND trim(mr.team_b) != ''
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_player_global_xi")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_player_global_xi (
+                player_key, tmx_rows, distinct_matches, distinct_teams
+            )
+            SELECT player_key,
+                   COUNT(*) AS tmx_rows,
+                   COUNT(DISTINCT match_id) AS distinct_matches,
+                   COUNT(DISTINCT team_key) AS distinct_teams
+            FROM team_match_xi
+            WHERE player_key IS NOT NULL AND trim(player_key) != ''
+            GROUP BY player_key
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_player_team_xi")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_player_team_xi (player_key, team_key, tmx_rows)
+            SELECT player_key, team_key, COUNT(*) AS tmx_rows
+            FROM team_match_xi
+            WHERE player_key IS NOT NULL AND trim(player_key) != ''
+              AND team_key IS NOT NULL AND trim(team_key) != ''
+            GROUP BY player_key, team_key
+            """
+        )
+
+        conn.execute("DELETE FROM prediction_summary_player_global_slot")
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_player_global_slot (player_key, slot_ema, slot_samples)
+            SELECT player_key,
+                   AVG(batting_position) AS slot_ema,
+                   COUNT(*) AS slot_samples
+            FROM player_batting_positions
+            WHERE player_key IS NOT NULL AND trim(player_key) != ''
+              AND batting_position IS NOT NULL AND batting_position > 0
+            GROUP BY player_key
+            """
+        )
+
+        match_xi_rows = int(conn.execute("SELECT COUNT(*) AS c FROM match_xi").fetchone()["c"] or 0)
+        match_batting_rows = int(conn.execute("SELECT COUNT(*) AS c FROM match_batting").fetchone()["c"] or 0)
+        match_results_rows = int(conn.execute("SELECT COUNT(*) AS c FROM match_results").fetchone()["c"] or 0)
+        conn.execute(
+            """
+            INSERT INTO prediction_summary_rebuild_state (
+                id, last_rebuilt_at, match_xi_rows, match_batting_rows, match_results_rows
+            ) VALUES (1, ?, ?, ?, ?)
+            ON CONFLICT(id) DO UPDATE SET
+                last_rebuilt_at = excluded.last_rebuilt_at,
+                match_xi_rows = excluded.match_xi_rows,
+                match_batting_rows = excluded.match_batting_rows,
+                match_results_rows = excluded.match_results_rows
+            """,
+            (time.time(), match_xi_rows, match_batting_rows, match_results_rows),
+        )
+    elapsed_ms = (time.perf_counter() - t0) * 1000.0
+    return {
+        "ok": True,
+        "elapsed_ms": round(elapsed_ms, 2),
+        "match_xi_rows": match_xi_rows,
+        "match_batting_rows": match_batting_rows,
+        "match_results_rows": match_results_rows,
+    }
 
 
 def remove_sqlite_database_files() -> dict[str, Any]:
@@ -892,6 +1206,9 @@ def remove_sqlite_database_files() -> dict[str, Any]:
                 removed.append(str(p))
         except OSError as exc:
             logger.warning("remove_sqlite_database_files: could not remove %s: %s", p, exc)
+    with _SCHEMA_BOOTSTRAP_LOCK:
+        global _SCHEMA_BOOTSTRAP_SIG
+        _SCHEMA_BOOTSTRAP_SIG = None
     return {"db_path": str(base), "removed_paths": removed}
 
 
@@ -1960,6 +2277,99 @@ def player_spin_pace_faced_share(player_key: str, franchise_team_key: str, *, li
     }
 
 
+def batch_player_phase_bowl_rates(
+    player_keys: list[str],
+    franchise_team_key: str,
+    *,
+    limit_matches: int = 40,
+) -> dict[str, dict[str, float]]:
+    """Batch variant of ``player_phase_bowl_rates`` with a single DB connection."""
+    fk = (franchise_team_key or "").strip()[:80]
+    keys = [(k or "").strip()[:80] for k in player_keys if (k or "").strip()]
+    if not fk or not keys:
+        return {}
+    lim = max(5, min(120, int(limit_matches)))
+    out: dict[str, dict[str, float]] = {}
+    with connection() as conn:
+        for pk in keys:
+            rows = conn.execute(
+                """
+                SELECT DISTINCT p.match_id
+                FROM player_phase_usage p
+                JOIN matches m ON m.id = p.match_id
+                WHERE p.team_key = ? AND p.player_key = ? AND p.role = 'bowl'
+                ORDER BY m.match_date DESC NULLS LAST, m.id DESC
+                LIMIT ?
+                """,
+                (fk, pk, lim * 3),
+            ).fetchall()
+            mids = [int(r[0]) for r in rows][:lim]
+            if not mids:
+                out[pk] = {"powerplay": 0.0, "middle": 0.0, "death": 0.0}
+                continue
+            qm = ",".join("?" * len(mids))
+            hits = conn.execute(
+                f"""
+                SELECT phase, COUNT(DISTINCT match_id) AS c
+                FROM player_phase_usage
+                WHERE player_key = ? AND team_key = ? AND role = 'bowl'
+                  AND balls > 0 AND match_id IN ({qm})
+                GROUP BY phase
+                """,
+                [pk, fk] + mids,
+            ).fetchall()
+            by_ph = {str(r["phase"]): int(r["c"]) for r in hits}
+            n = float(len(mids))
+            out[pk] = {
+                "powerplay": by_ph.get("powerplay", 0) / n,
+                "middle": by_ph.get("middle", 0) / n,
+                "death": by_ph.get("death", 0) / n,
+            }
+    return out
+
+
+def batch_player_spin_pace_faced_share(
+    player_keys: list[str],
+    franchise_team_key: str,
+    *,
+    limit_rows: int = 80,
+) -> dict[str, dict[str, float]]:
+    """Batch variant of ``player_spin_pace_faced_share`` with a single DB connection."""
+    fk = (franchise_team_key or "").strip()[:80]
+    keys = [(k or "").strip()[:80] for k in player_keys if (k or "").strip()]
+    if not fk or not keys:
+        return {}
+    lim = max(10, min(400, int(limit_rows)))
+    out: dict[str, dict[str, float]] = {}
+    with connection() as conn:
+        for pk in keys:
+            rows = conn.execute(
+                """
+                SELECT s.vs_spin_balls_faced, s.vs_pace_balls_faced
+                FROM player_match_stats s
+                JOIN matches m ON m.id = s.match_id
+                WHERE s.player_key = ? AND s.team_key = ?
+                ORDER BY m.match_date DESC NULLS LAST, m.id DESC
+                LIMIT ?
+                """,
+                (pk, fk, lim),
+            ).fetchall()
+            sp = pp = 0
+            for r in rows:
+                sp += int(r["vs_spin_balls_faced"] or 0)
+                pp += int(r["vs_pace_balls_faced"] or 0)
+            tot = sp + pp
+            if tot <= 0:
+                out[pk] = {"spin_share": 0.0, "pace_share": 0.0, "samples": 0}
+            else:
+                out[pk] = {
+                    "spin_share": sp / tot,
+                    "pace_share": pp / tot,
+                    "samples": tot,
+                }
+    return out
+
+
 def refresh_all_player_franchise_features(min_season_year: Optional[int] = None) -> int:
     """
     Recompute ``player_franchise_features`` for every ``team_key`` present in
@@ -2239,76 +2649,60 @@ def franchise_history_snapshot(canonical_label: str) -> dict[str, Any]:
 
     with connection() as conn:
         xi_row = conn.execute(
-            """
-            SELECT COUNT(*) FROM team_match_xi x
-            WHERE x.team_key = ?
-            """,
+            "SELECT COUNT(*) AS c FROM team_match_xi WHERE team_key = ?",
             (ck,),
         ).fetchone()
-        xi_row_count = int(xi_row[0]) if xi_row else 0
+        xi_row_count = int(xi_row["c"] or 0) if xi_row else 0
         sm_row = conn.execute(
-            """
-            SELECT COUNT(*) FROM team_match_summary s
-            WHERE s.team_key = ?
-            """,
+            "SELECT COUNT(*) AS c FROM team_match_summary WHERE team_key = ?",
             (ck,),
         ).fetchone()
-        summary_row_count = int(sm_row[0]) if sm_row else 0
-        rows = conn.execute(
+        summary_row_count = int(sm_row["c"] or 0) if sm_row else 0
+        agg = conn.execute(
             """
-            SELECT m.id, m.match_date, m.created_at
+            SELECT
+                COUNT(*) AS distinct_match_count,
+                SUM(
+                    CASE
+                        WHEN m.match_date IS NOT NULL
+                         AND trim(m.match_date) != ''
+                         AND CAST(substr(trim(m.match_date), 1, 4) AS INTEGER) < ?
+                        THEN 1 ELSE 0
+                    END
+                ) AS prior_season_match_count,
+                MAX(COALESCE(m.created_at, 0)) AS newest_created_at
             FROM matches m
-            WHERE m.id IN (
-                SELECT DISTINCT x.match_id FROM team_match_xi x
-                WHERE x.team_key = ?
-            )
-            ORDER BY m.match_date DESC NULLS LAST, m.created_at DESC, m.id DESC
+            JOIN (
+                SELECT DISTINCT match_id
+                FROM team_match_xi
+                WHERE team_key = ?
+            ) t ON t.match_id = m.id
             """,
-            (ck,),
-        ).fetchall()
-
-    matches: list[dict[str, Any]] = [dict(r) for r in rows]
-
-    def _year(md: Any) -> Optional[int]:
-        if md is None:
-            return None
-        s = str(md).strip()
-        if not s:
-            return None
-        m = re.match(r"^(\d{4})", s)
-        if m:
-            return int(m.group(1))
-        return None
-
-    prior_season = 0
-    for m in matches:
-        y = _year(m.get("match_date"))
-        if y is not None and y < cur_year:
-            prior_season += 1
-
+            (cur_year, ck),
+        ).fetchone()
+    distinct_count = int(agg["distinct_match_count"] or 0) if agg else 0
+    prior_season = int(agg["prior_season_match_count"] or 0) if agg else 0
     newest_created: Optional[float] = None
-    for m in matches:
-        ca = m.get("created_at")
-        if ca is not None:
-            try:
-                newest_created = max(newest_created or 0.0, float(ca))
-            except (TypeError, ValueError):
-                pass
+    if agg is not None:
+        try:
+            newest_created = float(agg["newest_created_at"]) if agg["newest_created_at"] is not None else None
+        except (TypeError, ValueError):
+            newest_created = None
 
     stale_local = False
     if newest_created is not None:
         stale_local = (time.time() - newest_created) / 86400.0 > stale_days
 
     target_recent = int(getattr(config, "HISTORY_SYNC_TARGET_RECENT_MATCHES", 10))
-    recent_window = matches[:target_recent]
+    recent_window_n = min(distinct_count, target_recent)
 
     return {
         "canonical_label": lab,
         "team_key": ck,
-        "distinct_match_count": len(matches),
+        "distinct_match_count": distinct_count,
         "xi_row_count": xi_row_count,
         "team_match_summary_row_count": summary_row_count,
-        "recent_window_distinct_count": len(recent_window),
+        "recent_window_distinct_count": recent_window_n,
         "prior_season_match_count": prior_season,
         "newest_created_at": newest_created,
         "days_since_newest_created": (
@@ -2321,8 +2715,18 @@ def franchise_history_snapshot(canonical_label: str) -> dict[str, Any]:
 
 def get_cached_match_count_for_franchise(canonical_label: str) -> int:
     """Distinct matches in SQLite for this franchise (``team_match_xi`` coverage)."""
-    snap = franchise_history_snapshot(canonical_label)
-    return int(snap.get("distinct_match_count") or 0)
+    import ipl_teams
+
+    lab = (canonical_label or "").strip()
+    ck = ipl_teams.canonical_team_key_for_franchise(lab)
+    if not ck:
+        return 0
+    with connection() as conn:
+        row = conn.execute(
+            "SELECT COUNT(DISTINCT match_id) AS c FROM team_match_xi WHERE team_key = ?",
+            (ck,),
+        ).fetchone()
+    return int(row["c"] or 0) if row else 0
 
 
 def franchise_recent_match_summaries(canonical_label: str, *, limit: int = 5) -> list[dict[str, Any]]:
@@ -2381,6 +2785,19 @@ def history_team_xi_rows_for_franchise(canonical_label: str, *, limit: int = 650
 
     lab = ipl_teams.franchise_label_for_storage(canonical_label) or (canonical_label or "").strip()
     ck = ipl_teams.canonical_team_key_for_franchise(lab)
+    sig = db_runtime_signature()
+    return [dict(r) for r in _history_team_xi_rows_for_franchise_cached(sig, lab, ck, int(limit))]
+
+
+@lru_cache(maxsize=48)
+def _history_team_xi_rows_for_franchise_cached(
+    _sig: tuple[str, int, int, int],
+    lab: str,
+    ck: str,
+    limit: int,
+) -> tuple[dict[str, Any], ...]:
+    import ipl_teams
+
     with connection() as conn:
         rows = conn.execute(
             """
@@ -2415,7 +2832,7 @@ def history_team_xi_rows_for_franchise(canonical_label: str, *, limit: int = 650
         len(rows),
         len(strict),
     )
-    return strict
+    return tuple(strict)
 
 
 def backfill_history_tables_from_results(*, limit: int = 400) -> int:
@@ -2563,7 +2980,7 @@ def count_stored_matches() -> int:
 def xi_pick_counts_raw() -> list[tuple[str, int]]:
     with connection() as conn:
         rows = conn.execute(
-            "SELECT player_name, COUNT(*) AS c FROM match_xi GROUP BY player_name"
+            "SELECT player_name, xi_count AS c FROM prediction_summary_player_xi_counts"
         ).fetchall()
     return [(str(r["player_name"]), int(r["c"])) for r in rows]
 
@@ -2571,7 +2988,7 @@ def xi_pick_counts_raw() -> list[tuple[str, int]]:
 def max_xi_pick_count() -> int:
     with connection() as conn:
         row = conn.execute(
-            "SELECT MAX(c) AS m FROM (SELECT COUNT(*) AS c FROM match_xi GROUP BY player_name)"
+            "SELECT MAX(xi_count) AS m FROM prediction_summary_player_xi_counts"
         ).fetchone()
     return int(row["m"] or 0) if row else 0
 
@@ -2579,12 +2996,7 @@ def max_xi_pick_count() -> int:
 def avg_batting_position_raw() -> list[tuple[str, float, int]]:
     with connection() as conn:
         rows = conn.execute(
-            """
-            SELECT player_name, AVG(position) AS av, COUNT(*) AS n
-            FROM match_batting
-            WHERE position IS NOT NULL AND position > 0
-            GROUP BY player_name
-            """
+            "SELECT player_name, avg_position AS av, sample_count AS n FROM prediction_summary_player_batting"
         ).fetchall()
     return [(str(r["player_name"]), float(r["av"]), int(r["n"])) for r in rows]
 
@@ -2592,19 +3004,13 @@ def avg_batting_position_raw() -> list[tuple[str, float, int]]:
 def bowling_usage_raw() -> list[tuple[str, float, int]]:
     with connection() as conn:
         rows = conn.execute(
-            """
-            SELECT player_name,
-                   SUM(CASE WHEN overs IS NOT NULL THEN overs * 6.0 ELSE 0 END) AS balls,
-                   COUNT(DISTINCT match_id) AS n
-            FROM match_bowling
-            GROUP BY player_name
-            """
+            "SELECT player_name, avg_balls AS balls, match_count AS n FROM prediction_summary_player_bowling"
         ).fetchall()
     out: list[tuple[str, float, int]] = []
     for r in rows:
-        balls = float(r["balls"] or 0)
+        balls = float(r["balls"] or 0.0)
         n = int(r["n"] or 0)
-        out.append((str(r["player_name"]), balls / max(1, n), n))
+        out.append((str(r["player_name"]), balls, n))
     return out
 
 
@@ -2612,11 +3018,8 @@ def venue_team_xi_raw() -> list[tuple[str, str, str, int]]:
     with connection() as conn:
         rows = conn.execute(
             """
-            SELECT r.venue, m.team, m.player_name, COUNT(*) AS c
-            FROM match_xi m
-            JOIN match_results r ON r.id = m.match_id
-            WHERE r.venue IS NOT NULL AND TRIM(r.venue) != ''
-            GROUP BY r.venue, m.team, m.player_name
+            SELECT venue, team, player_name, xi_count AS c
+            FROM prediction_summary_venue_team_player_xi
             """
         ).fetchall()
     return [(str(r["venue"] or ""), str(r["team"] or ""), str(r["player_name"]), int(r["c"])) for r in rows]
@@ -2626,11 +3029,7 @@ def match_xi_team_venue_rows() -> list[tuple[int, str, str]]:
     """Distinct (match_id, venue, team) from XI rows."""
     with connection() as conn:
         rows = conn.execute(
-            """
-            SELECT DISTINCT m.match_id, r.venue, m.team
-            FROM match_xi m
-            JOIN match_results r ON r.id = m.match_id
-            """
+            "SELECT match_id, venue, team FROM prediction_summary_match_team_venue"
         ).fetchall()
     return [(int(r["match_id"]), str(r["venue"] or ""), str(r["team"] or "")) for r in rows]
 
@@ -2674,18 +3073,20 @@ def learned_venue_team_chase_rollup() -> list[tuple[str, int, int]]:
 
 def fetch_match_results_meta(limit: int = 400) -> list[dict[str, Any]]:
     """Recent matches for head-to-head, venue form, and chase/defend splits (needs batting_first)."""
+    return [dict(r) for r in _fetch_match_results_meta_cached(db_runtime_signature(), int(limit))]
+
+
+@lru_cache(maxsize=8)
+def _fetch_match_results_meta_cached(
+    _sig: tuple[str, int, int, int],
+    limit: int,
+) -> tuple[dict[str, Any], ...]:
     with connection() as conn:
         rows = conn.execute(
             """
-            SELECT mr.winner, mr.team_a, mr.team_b,
-                   COALESCE(NULLIF(TRIM(m.venue), ''), NULLIF(TRIM(mr.venue), ''), '') AS venue,
-                   mr.batting_first, mr.created_at, mr.id,
-                   m.match_date AS match_date
-            FROM match_results mr
-            LEFT JOIN matches m ON m.id = mr.id
-            WHERE mr.team_a IS NOT NULL AND TRIM(mr.team_a) != ''
-              AND mr.team_b IS NOT NULL AND TRIM(mr.team_b) != ''
-            ORDER BY m.match_date DESC NULLS LAST, mr.id DESC
+            SELECT winner, team_a, team_b, venue, batting_first, created_at, match_id AS id, match_date
+            FROM prediction_summary_match_meta
+            ORDER BY match_date DESC NULLS LAST, match_id DESC
             LIMIT ?
             """,
             (limit,),
@@ -2704,7 +3105,7 @@ def fetch_match_results_meta(limit: int = 400) -> list[dict[str, Any]]:
                 "match_date": r["match_date"],
             }
         )
-    return out
+    return tuple(out)
 
 
 def h2h_fixtures_between_franchises(
@@ -2879,12 +3280,11 @@ def batch_global_team_match_xi_stats(player_keys: list[str]) -> dict[str, dict[s
         rows = conn.execute(
             f"""
             SELECT player_key,
-                   COUNT(*) AS tmx_rows,
-                   COUNT(DISTINCT match_id) AS distinct_matches,
-                   COUNT(DISTINCT team_key) AS distinct_teams
-            FROM team_match_xi
+                   tmx_rows,
+                   distinct_matches,
+                   distinct_teams
+            FROM prediction_summary_player_global_xi
             WHERE player_key IN ({qm})
-            GROUP BY player_key
             """,
             keys,
         ).fetchall()
@@ -2911,13 +3311,10 @@ def batch_global_player_batting_slot_ema(player_keys: list[str]) -> dict[str, tu
         rows = conn.execute(
             f"""
             SELECT player_key,
-                   AVG(batting_position) AS ema,
-                   COUNT(*) AS n
-            FROM player_batting_positions
+                   slot_ema AS ema,
+                   slot_samples AS n
+            FROM prediction_summary_player_global_slot
             WHERE player_key IN ({qm})
-              AND batting_position IS NOT NULL
-              AND batting_position > 0
-            GROUP BY player_key
             """,
             keys,
         ).fetchall()
@@ -2948,19 +3345,32 @@ def batch_player_other_franchise_tmx_counts(
         return {}
     qm = ",".join("?" * len(keys))
     with connection() as conn:
+        totals = conn.execute(
+            f"""
+            SELECT player_key, tmx_rows
+            FROM prediction_summary_player_global_xi
+            WHERE player_key IN ({qm})
+            """,
+            keys,
+        ).fetchall()
         rows = conn.execute(
             f"""
-            SELECT player_key, COUNT(*) AS c
-            FROM team_match_xi
+            SELECT player_key, tmx_rows AS c
+            FROM prediction_summary_player_team_xi
             WHERE player_key IN ({qm})
-              AND team_key IS NOT NULL
-              AND TRIM(team_key) != ''
-              AND team_key != ?
-            GROUP BY player_key
+              AND team_key = ?
             """,
             keys + [fk],
         ).fetchall()
-    return {str(r["player_key"]): int(r["c"] or 0) for r in rows}
+    own = {str(r["player_key"]): int(r["c"] or 0) for r in rows}
+    out: dict[str, int] = {}
+    for r in totals:
+        pk = str(r["player_key"] or "").strip()
+        if not pk:
+            continue
+        all_n = int(r["tmx_rows"] or 0)
+        out[pk] = max(0, all_n - int(own.get(pk, 0)))
+    return out
 
 
 def batch_global_player_profile_aggregates(player_keys: list[str]) -> dict[str, dict[str, float]]:

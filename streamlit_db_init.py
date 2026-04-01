@@ -2,10 +2,12 @@
 
 from __future__ import annotations
 
+import time
 from pathlib import Path
 
 import streamlit as st
 
+import audit_profile
 import config
 import db
 
@@ -18,7 +20,16 @@ def ensure_db_schema_initialized(db_signature: tuple[str, int, int]) -> None:
     Signature is ``(resolved path, mtime_ns, size_bytes)`` so wipes/recreates pick up a new key;
     stable DBs skip repeated migration work on Streamlit reruns.
     """
+    _t0 = time.perf_counter()
     db.init_schema()
+    if audit_profile.audit_enabled():
+        try:
+            st.session_state["_audit_db_init_schema_cache_miss_ms"] = round(
+                (time.perf_counter() - _t0) * 1000.0,
+                2,
+            )
+        except Exception:  # noqa: BLE001
+            pass
 
 
 def db_init_signature() -> tuple[str, int, int]:

@@ -9,6 +9,7 @@ from typing import Any, Callable
 import pandas as pd
 import streamlit as st
 
+import audit_profile
 import config
 import history_sync
 
@@ -21,6 +22,7 @@ def render_stored_prediction_results(
     show_advanced_prediction_debug: bool,
     selection_debug_top15_for_side: Callable[..., Any],
 ) -> None:
+    _t_render = time.perf_counter()
     cond = r["conditions"]
     disp_a = r["team_a"]["name"]
     disp_b = r["team_b"]["name"]
@@ -72,8 +74,12 @@ def render_stored_prediction_results(
         st.json(conf)
         ptiming = r.get("prediction_timing_ms")
         if ptiming:
-            st.caption("From ``IPL_PREDICTION_TIMING=true``")
+            st.caption("From ``IPL_PREDICTION_TIMING=true`` and/or ``IPL_AUDIT_PROFILING=true``")
             st.json(ptiming)
+        ap = r.get("audit_prediction")
+        if ap:
+            st.caption("Deep audit (``IPL_AUDIT_PROFILING``): phases + slowest SQL during prediction")
+            st.json(ap)
 
     wp = r["win_probability"]
     eng = r.get("win_probability_engine") or {}
@@ -395,3 +401,9 @@ def render_stored_prediction_results(
                 use_container_width=True,
                 hide_index=True,
             )
+    audit_profile.append_session_audit_event(
+        "post_prediction_render",
+        "predict_ui_render.render_stored_prediction_results",
+        (time.perf_counter() - _t_render) * 1000.0,
+        extra={"advanced_debug": show_advanced_prediction_debug},
+    )

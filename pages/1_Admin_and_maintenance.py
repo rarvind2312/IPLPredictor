@@ -1,7 +1,7 @@
 """
-Admin & maintenance: Cricsheet ingest, all_json, recent-form cache, derive, SQLite audit, scorecard ingest.
+Admin & maintenance: IPL Cricsheet readme ingest, derive, SQLite audit, scorecard ingest.
 
-Not loaded on the main prediction page — use the sidebar **Admin and maintenance** entry.
+**all_json** ingest and **recent-form cache** controls are on the **Predict** page sidebar.
 """
 
 from __future__ import annotations
@@ -13,13 +13,11 @@ from dataclasses import asdict
 import streamlit as st
 
 import config
-import cricsheet_all_ingest
 import cricsheet_ingest
 import db
 import ipl_teams
 import learner
 import predictor
-import recent_form_cache
 import stage_derive
 import stage1_audit
 import streamlit_db_init
@@ -63,8 +61,8 @@ def main() -> None:
 
     st.title("Admin & maintenance")
     st.caption(
-        "Cricsheet ingest, all_json, recent-form cache, profile derive, SQLite audit/repair, and optional "
-        "scorecard ingest. The **Predict** page stays prediction-only."
+        "IPL Cricsheet readme ingest, profile derive, SQLite audit/repair, and optional scorecard ingest. "
+        "**all_json** ingest and **recent-form cache** live on the **Predict** page sidebar."
     )
 
     squad_a, squad_b, team_a_name, team_b_name = _session_squads_and_labels()
@@ -114,82 +112,9 @@ def main() -> None:
             for w in s.warnings[:40]:
                 st.warning(w)
 
-    st.divider()
-    st.subheader("Cricsheet all_json + recent form")
     st.caption(
-        f"Reads every numeric JSON file under **{config.CRICSHEET_ALL_JSON_DIR}** "
-        f"(env **IPL_CRICSHEET_ALL_JSON_DIR**). Button-driven only."
+        f"**all_json + recent-form cache** — use the **Predict** page sidebar (same controls as the checkpoint)."
     )
-    if st.button(
-        "Ingest Cricsheet all_json archive",
-        help="Walks all numeric *.json under all_json. Very large folders can take a long time.",
-    ):
-        with st.spinner("Ingesting all_json archive…"):
-            s_all = cricsheet_all_ingest.run_cricsheet_all_archive_ingest()
-        processed_run = (
-            int(s_all.matches_inserted)
-            + int(s_all.matches_resynced_duplicate)
-            + int(s_all.matches_skipped_duplicate_url)
-            + int(s_all.matches_skipped_duplicate)
-            + int(s_all.matches_skipped_malformed)
-        )
-        st.success(
-            f"JSON files in folder: **{s_all.json_files_seen}** · "
-            f"processed this run: **{processed_run}** · "
-            f"matches inserted: **{s_all.matches_inserted}** · "
-            f"resynced (same teams+date): **{s_all.matches_resynced_duplicate}** · "
-            f"skipped duplicate URL: **{s_all.matches_skipped_duplicate_url}** · "
-            f"skipped duplicate match: **{s_all.matches_skipped_duplicate}** · "
-            f"malformed: **{s_all.matches_skipped_malformed}**."
-        )
-        vfs = recent_form_cache.recent_form_validation_summary()
-        st.caption(
-            f"SQLite after ingest — distinct **T20** matches in DB: **{vfs['distinct_t20_matches_in_db']}** · "
-            f"``player_match_stats`` rows: **{vfs['player_match_stats_rows']}** · "
-            f"``player_recent_form_cache`` rows: **{vfs['player_recent_form_cache_rows']}** "
-            f"(rebuild cache to refresh)."
-        )
-        if s_all.warnings:
-            for w in s_all.warnings[:40]:
-                st.warning(w)
-            if len(s_all.warnings) > 40:
-                st.caption(f"… and {len(s_all.warnings) - 40} more warnings.")
-        with st.expander("Validation snapshot after ingest (JSON)"):
-            st.json(vfs)
-
-    if st.button(
-        "Rebuild recent-form cache (T20)",
-        help="Rebuilds player_recent_form_cache from player_match_stats + matches (SQLite only).",
-    ):
-        with st.spinner("Rebuilding player_recent_form_cache …"):
-            rs = recent_form_cache.rebuild_player_recent_form_cache()
-        vfs = recent_form_cache.recent_form_validation_summary()
-        st.success(
-            f"Cache rows written: **{rs.get('players_cached', 0)}** · "
-            f"``player_match_stats`` rows scanned: **{rs.get('rows_scanned', 0)}** · "
-            f"distinct **T20** matches counted: **{rs.get('t20_distinct_matches', 0)}** · "
-            f"errors: **{rs.get('errors', 0)}**."
-        )
-        st.caption(
-            f"``player_recent_form_cache`` total rows: **{vfs['player_recent_form_cache_rows']}** · "
-            f"distinct T20 matches in DB: **{vfs['distinct_t20_matches_in_db']}** · "
-            f"reference date: **{rs.get('reference_as_of_date', '')}**."
-        )
-        with st.expander("Recent-form validation summary (JSON)"):
-            st.json(vfs)
-
-    if st.button(
-        "Show recent-form validation summary",
-        help="Read-only: distinct T20 matches, cache row count, PMS rows, sample players (no rebuild).",
-    ):
-        vfs = recent_form_cache.recent_form_validation_summary()
-        st.success(
-            f"Distinct **T20** matches in DB: **{vfs['distinct_t20_matches_in_db']}** · "
-            f"``player_recent_form_cache`` rows: **{vfs['player_recent_form_cache_rows']}** · "
-            f"``player_match_stats`` rows: **{vfs['player_match_stats_rows']}**."
-        )
-        with st.expander("Full validation summary (JSON)"):
-            st.json(vfs)
 
     with st.expander("Reset database (destructive)", expanded=False):
         st.caption(
@@ -209,7 +134,10 @@ def main() -> None:
             out = db.remove_sqlite_database_files()
             db.init_schema()
             st.success(f"Removed **{out.get('removed_paths') or []}** · empty schema OK.")
-            st.warning("Re-ingest IPL and/or all_json, then derive + recent-form cache.")
+            st.warning(
+                "Re-ingest IPL readme JSON from this page as needed; use **Predict** sidebar for **all_json** "
+                "and **Rebuild recent-form cache (T20)**, then derive."
+            )
             streamlit_db_init.ensure_db_schema_initialized.clear()
 
     st.divider()
@@ -316,58 +244,6 @@ def main() -> None:
 
     st.markdown("---")
     st.caption(
-        f"**Cricsheet all_json + recent form** — duplicate controls (source: **{config.CRICSHEET_ALL_JSON_DIR}**)."
-    )
-    if st.button("Ingest all_json archive", key="admin_s1_all_json_ingest"):
-        with st.spinner("Ingesting all_json …"):
-            s_all = cricsheet_all_ingest.run_cricsheet_all_archive_ingest()
-        processed_run = (
-            int(s_all.matches_inserted)
-            + int(s_all.matches_resynced_duplicate)
-            + int(s_all.matches_skipped_duplicate_url)
-            + int(s_all.matches_skipped_duplicate)
-            + int(s_all.matches_skipped_malformed)
-        )
-        st.success(
-            f"JSON files: **{s_all.json_files_seen}** · processed **{processed_run}** · "
-            f"inserted **{s_all.matches_inserted}** · resynced **{s_all.matches_resynced_duplicate}** · "
-            f"dup URL **{s_all.matches_skipped_duplicate_url}** · dup match **{s_all.matches_skipped_duplicate}** · "
-            f"malformed **{s_all.matches_skipped_malformed}**."
-        )
-        vfs = recent_form_cache.recent_form_validation_summary()
-        st.caption(
-            f"T20 matches in DB: **{vfs['distinct_t20_matches_in_db']}** · PMS rows **{vfs['player_match_stats_rows']}** · "
-            f"cache rows **{vfs['player_recent_form_cache_rows']}** (rebuild to refresh)."
-        )
-        if s_all.warnings:
-            for w in s_all.warnings[:25]:
-                st.warning(w)
-        with st.expander("Validation snapshot (JSON)", expanded=False):
-            st.json(vfs)
-    if st.button("Rebuild recent-form cache (T20)", key="admin_s1_rf_cache_rebuild"):
-        with st.spinner("Rebuilding player_recent_form_cache …"):
-            rs = recent_form_cache.rebuild_player_recent_form_cache()
-        vfs = recent_form_cache.recent_form_validation_summary()
-        st.success(
-            f"Cache rows: **{rs.get('players_cached', 0)}** · PMS scanned **{rs.get('rows_scanned', 0)}** · "
-            f"T20 distinct **{rs.get('t20_distinct_matches', 0)}** · errors **{rs.get('errors', 0)}**."
-        )
-        st.caption(
-            f"``player_recent_form_cache`` total **{vfs['player_recent_form_cache_rows']}** · "
-            f"T20 in DB **{vfs['distinct_t20_matches_in_db']}**."
-        )
-        with st.expander("Validation summary (JSON)", expanded=False):
-            st.json(vfs)
-    if st.button("Show recent-form validation summary", key="admin_s1_rf_validation_only"):
-        vfs = recent_form_cache.recent_form_validation_summary()
-        st.success(
-            f"T20 matches **{vfs['distinct_t20_matches_in_db']}** · cache **{vfs['player_recent_form_cache_rows']}** · "
-            f"PMS **{vfs['player_match_stats_rows']}**."
-        )
-        st.json(vfs)
-
-    st.markdown("---")
-    st.caption(
         f"**Reset database (destructive)** — removes **{config.DB_PATH}** (+ WAL/SHM)."
     )
     wipe_db = st.checkbox(
@@ -387,9 +263,8 @@ def main() -> None:
             f"Paths removed: **{out.get('removed_paths') or '(none — file was missing)'}**."
         )
         st.warning(
-            "Next steps: **Initial Backfill** or **Sync** (IPL), optionally **Ingest all_json**, "
-            "then **Rebuild Profiles** / **Rebuild H2H**, then **Rebuild recent-form cache (T20)**, "
-            "then **Rebuild prediction runtime summaries** (fast Predict path)."
+            "Next steps: **Initial Backfill** or **Sync** (IPL), **Ingest Cricsheet all_json** and "
+            "**Rebuild recent-form cache (T20)** from the **Predict** sidebar, then **Rebuild Profiles** / **Rebuild H2H**."
         )
         streamlit_db_init.ensure_db_schema_initialized.clear()
 

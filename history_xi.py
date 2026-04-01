@@ -460,6 +460,64 @@ def attach_primary_history_to_squad(
     )
     _fr_keys = list(dict.fromkeys([t[2] for t in _player_rows_prep if t[2]]))
     _fr_batch = db.batch_get_player_franchise_features(_fr_keys, canonical_key)
+    _missing_phase_keys: list[str] = []
+    _missing_spin_keys: list[str] = []
+    for _sql_key in _fr_keys:
+        _fr = _fr_batch.get(_sql_key)
+        has_phase = bool(_fr) and (
+            float(_fr.get("pp_overs_bowled") or 0)
+            + float(_fr.get("middle_overs_bowled") or 0)
+            + float(_fr.get("death_overs_bowled") or 0)
+        ) > 0.01
+        has_spin = bool(_fr) and (int(_fr.get("vs_spin_balls") or 0) + int(_fr.get("vs_pace_balls") or 0)) > 0
+        if not has_phase:
+            _missing_phase_keys.append(_sql_key)
+        if not has_spin:
+            _missing_spin_keys.append(_sql_key)
+    _phase_rates_batch = db.batch_player_phase_bowl_rates(_missing_phase_keys, canonical_key, limit_matches=40)
+    _spin_pace_batch = db.batch_player_spin_pace_faced_share(_missing_spin_keys, canonical_key, limit_rows=80)
+    _all_mid_order = _distinct_match_ids(all_rows)
+    _recent5_mid_set = set(_all_mid_order[:5])
+    _prior_mid_set: set[int] = set()
+    _venue_mid_set: set[int] = set()
+    _overseas_mid_set: set[int] = set()
+    _chase_mid_set: set[int] = set()
+    _mid_team_chased: dict[int, Optional[bool]] = {}
+    _mid_overseas_n: dict[int, Optional[int]] = {}
+    for r in all_rows:
+        mid = int(r["match_id"])
+        if _venue_matches_key(str(r.get("venue") or ""), venue_keys):
+            _venue_mid_set.add(mid)
+        y = _year_from_match_date(r.get("match_date"))
+        if y is not None and y < cur_season:
+            _prior_mid_set.add(mid)
+        if mid not in _mid_overseas_n:
+            _mid_overseas_n[mid] = _overseas_count_for_team_row(r, canon_label)
+            oc = _mid_overseas_n[mid]
+            if oc is not None and abs(int(oc) - os_guess) <= 1:
+                _overseas_mid_set.add(mid)
+        if mid not in _mid_team_chased:
+            _mid_team_chased[mid] = _team_chased_row(r, canon_label)
+            ch = _mid_team_chased[mid]
+            if chase_context is not None and ch is not None and ch == chase_context:
+                _chase_mid_set.add(mid)
+    _h2h_mid_order = [m for m in _all_mid_order if m in h2h_ids]
+    _h2h_mid_set = set(_h2h_mid_order)
+    _h2h_overseas_mid_set = _overseas_mid_set & _h2h_mid_set
+    _h2h_chase_mid_set = _chase_mid_set & _h2h_mid_set
+    _h2h_bw_cap = max(3, min(12, max(1, len(h2h_ids))))
+    _h2h_bw_mids = set(_h2h_mid_order[:_h2h_bw_cap])
+
+    def _rate(player_mids: set[int], base_mids: set[int]) -> float:
+        if not player_mids or not base_mids:
+            return 0.0
+        return len(player_mids & base_mids) / float(len(base_mids))
+
+    def _usage_rate(player_mids: set[int], ordered_mids: list[int], n: int) -> float:
+        mids = ordered_mids[:n]
+        if not player_mids or not mids:
+            return 0.0
+        return sum(1 for m in mids if m in player_mids) / float(len(mids))
 
     for p, pk, sql_key, pr, _lk in _player_rows_prep:
         if not _sel_fetched:
@@ -474,6 +532,7 @@ def attach_primary_history_to_squad(
         grk_link = str(_lk.get("global_resolved_history_key") or "").strip()
         qk_global = sql_key or grk_link or pk
         mids = sorted({int(r["match_id"]) for r in pr})
+        player_mid_set = _sk_mids.get(sql_key, set()) if sql_key else set()
         pbp_full = _batch_pbp.get(sql_key, {}) if sql_key else {}
         pbp_by_mid = {m: pbp_full[m] for m in mids if m in pbp_full}
         pr_enriched: list[dict[str, Any]] = []
@@ -563,26 +622,16 @@ def attach_primary_history_to_squad(
         if h2h_used_bat or h2h_used_venue_slot:
             bat_h2h_players += 1
 
-        r5 = _recent_xi_rate(sql_key, all_rows, 5)
-        vnr = _venue_xi_rate(sql_key, all_rows, venue_keys)
-        ps = _prior_season_xi_rate(sql_key, all_rows, cur_season)
-        op = _overseas_pattern_xi_rate(sql_key, all_rows, canon_label, os_guess)
-        cd = _chase_defend_xi_rate(sql_key, all_rows, canon_label, chase_context)
-        bw = _bowl_usage_rate(sql_key, all_rows, 12)
+        r5 = _rate(player_mid_set, _recent5_mid_set)
+        vnr = _rate(player_mid_set, _venue_mid_set)
+        ps = _rate(player_mid_set, _prior_mid_set)
+        op = _rate(player_mid_set, _overseas_mid_set)
+        cd = _rate(player_mid_set, _chase_mid_set)
+        bw = _usage_rate(player_mid_set, _all_mid_order, 12)
 
-        op_h = (
-            _overseas_pattern_xi_rate(sql_key, all_rows_h2h, canon_label, os_guess)
-            if h2h_ids
-            else 0.0
-        )
-        cd_h = (
-            _chase_defend_xi_rate(sql_key, all_rows_h2h, canon_label, chase_context)
-            if h2h_ids
-            else 0.0
-        )
-        n_h2h_mid = max(1, len(h2h_ids))
-        bw_cap = max(3, min(12, n_h2h_mid))
-        bw_h = _bowl_usage_rate(sql_key, all_rows_h2h, bw_cap) if h2h_ids else 0.0
+        op_h = _rate(player_mid_set, _h2h_overseas_mid_set) if h2h_ids else 0.0
+        cd_h = _rate(player_mid_set, _h2h_chase_mid_set) if h2h_ids else 0.0
+        bw_h = _rate(player_mid_set, _h2h_bw_mids) if h2h_ids else 0.0
         if len(h2h_fixtures) >= 2 and h2h_ids:
             hb = min(1.0, 0.30 + 0.07 * float(len(h2h_fixtures)))
             op = (1.0 - hb) * op + hb * op_h
@@ -604,11 +653,7 @@ def attach_primary_history_to_squad(
                 "death": float(fr.get("phase_bowl_rate_death") or 0),
             }
         else:
-            ph_rates = (
-                db.player_phase_bowl_rates(sql_key, canonical_key, limit_matches=40)
-                if sql_key
-                else {"powerplay": 0.0, "middle": 0.0, "death": 0.0}
-            )
+            ph_rates = _phase_rates_batch.get(sql_key, {"powerplay": 0.0, "middle": 0.0, "death": 0.0})
         ph_blend = (
             0.34 * float(ph_rates.get("powerplay", 0.0))
             + 0.33 * float(ph_rates.get("middle", 0.0))
@@ -640,11 +685,7 @@ def attach_primary_history_to_squad(
                 "samples": int(fr.get("vs_spin_balls") or 0) + int(fr.get("vs_pace_balls") or 0),
             }
         else:
-            spin_pace = (
-                db.player_spin_pace_faced_share(sql_key, canonical_key, limit_rows=80)
-                if sql_key
-                else {"spin_share": 0.0, "pace_share": 0.0, "samples": 0}
-            )
+            spin_pace = _spin_pace_batch.get(sql_key, {"spin_share": 0.0, "pace_share": 0.0, "samples": 0})
 
         bat_agg = float(fr.get("batting_aggressor_score") or 0) if fr else 0.0
         bowl_ctrl = float(fr.get("bowling_control_score") or 0) if fr else 0.0

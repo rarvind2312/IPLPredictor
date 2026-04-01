@@ -11,6 +11,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Any, Callable, FrozenSet, Optional
 
+import audit_profile
 import canonical_keys
 import config
 import db
@@ -2034,8 +2035,61 @@ def run_prediction(
     team_a_stale_cached_player_keys: Optional[set[str]] = None,
     team_b_stale_cached_player_keys: Optional[set[str]] = None,
 ) -> dict[str, Any]:
+    _audit_par = audit_profile.PredictionRunAudit() if audit_profile.audit_enabled() else None
+    try:
+        return _run_prediction_inner(
+            team_a_name,
+            team_b_name,
+            squad_a_text,
+            squad_b_text,
+            unavailable_text,
+            venue,
+            match_time,
+            weather,
+            toss_scenario_key=toss_scenario_key,
+            team_a_captain_display_name=team_a_captain_display_name,
+            team_b_captain_display_name=team_b_captain_display_name,
+            team_a_wicketkeeper_display_name=team_a_wicketkeeper_display_name,
+            team_b_wicketkeeper_display_name=team_b_wicketkeeper_display_name,
+            team_a_fetched_squad_player_keys=team_a_fetched_squad_player_keys,
+            team_b_fetched_squad_player_keys=team_b_fetched_squad_player_keys,
+            team_a_stale_cached_player_keys=team_a_stale_cached_player_keys,
+            team_b_stale_cached_player_keys=team_b_stale_cached_player_keys,
+            _audit_par=_audit_par,
+        )
+    except BaseException:
+        if _audit_par:
+            _audit_par.close_failure()
+        raise
+
+
+def _run_prediction_inner(
+    team_a_name: str,
+    team_b_name: str,
+    squad_a_text: str,
+    squad_b_text: str,
+    unavailable_text: str,
+    venue: VenueProfile,
+    match_time: datetime,
+    weather: dict[str, Any],
+    *,
+    toss_scenario_key: str = "unknown",
+    team_a_captain_display_name: str = "",
+    team_b_captain_display_name: str = "",
+    team_a_wicketkeeper_display_name: str = "",
+    team_b_wicketkeeper_display_name: str = "",
+    team_a_fetched_squad_player_keys: Optional[set[str]] = None,
+    team_b_fetched_squad_player_keys: Optional[set[str]] = None,
+    team_a_stale_cached_player_keys: Optional[set[str]] = None,
+    team_b_stale_cached_player_keys: Optional[set[str]] = None,
+    _audit_par: Any = None,
+) -> dict[str, Any]:
     _run_t0 = time.perf_counter()
     prediction_timing_ms: dict[str, float] = {}
+
+    def _ap_phase(name: str, t0: float) -> None:
+        if audit_profile.audit_enabled():
+            audit_profile.record_prediction_phase(name, (time.perf_counter() - t0) * 1000.0)
 
     def _fetched_key_set(keys: Optional[set[str]]) -> FrozenSet[str]:
         if not keys:
@@ -2047,6 +2101,7 @@ def run_prediction(
                 out.add(s)
         return frozenset(out)
 
+    _t_early = time.perf_counter()
     conditions = venue_conditions_summary(venue, weather)
 
     sa = filter_unavailable(parse_squad_text(squad_a_text), unavailable_text)
@@ -2078,10 +2133,12 @@ def run_prediction(
         history_sync_debug["team_a"] = history_sync.local_history_debug_for_prediction(
             canon_a,
             squad_player_names=[p.name for p in sa],
+            include_squad_report=False,
         )
         history_sync_debug["team_b"] = history_sync.local_history_debug_for_prediction(
             canon_b,
             squad_player_names=[p.name for p in sb],
+            include_squad_report=False,
         )
     except Exception as exc:  # noqa: BLE001
         logger.exception("Local history snapshot failed; continuing with heuristics: %s", exc)
@@ -2105,6 +2162,9 @@ def run_prediction(
         if a_ne or b_ne:
             history_sync_debug["local_history_warning"] = history_sync.HISTORY_MISSING_USER_MESSAGE
 
+    _ap_phase("parse_squads_franchise_slug_and_history_sync_ms", _t_early)
+
+    _t_learn = time.perf_counter()
     learned_map = learner.load_learned_map()
     logger.info(
         "run_prediction: structured squads team_a=%d team_b=%d canonical=(%s,%s) preview_a=%s",
@@ -2142,6 +2202,9 @@ def run_prediction(
         _set_player_ipl_flags(sp)
         scored_b.append(sp)
 
+    _ap_phase("learned_map_load_shape_and_score_players_both_teams_ms", _t_learn)
+
+    _t_hctx = time.perf_counter()
     hctx = build_history_context()
     vkeys = venue_lookup_keys(venue)
     pattern_vkeys = _derive_pattern_venue_keys(venue, vkeys)
@@ -2155,6 +2218,8 @@ def run_prediction(
         _history_adjust_for_player(p, team_a_name, shape_a, vkeys, is_night, dew_risk, hctx)
     for p in scored_b:
         _history_adjust_for_player(p, team_b_name, shape_b, vkeys, is_night, dew_risk, hctx)
+
+    _ap_phase("build_history_context_and_history_rules_bump_ms", _t_hctx)
 
     h2h_layer: dict[str, Any] = {}
     _t_hist = time.perf_counter()
@@ -2217,6 +2282,7 @@ def run_prediction(
     _refine_opener_finisher_from_derive(scored_b)
     tk_b = ipl_teams.canonical_team_key_for_franchise(canon_b)
     _merge_player_match_stats_into_debug(scored_b, tk_b)
+    _ap_phase("history_xi_attach_selection_scores_merge_pms_both_teams_ms", _t_hist)
     if getattr(config, "PREDICTION_TIMING_LOG", False):
         prediction_timing_ms["history_xi_and_selection_both_teams_ms"] = round(
             (time.perf_counter() - _t_hist) * 1000.0, 2
@@ -2224,6 +2290,7 @@ def run_prediction(
     h2h_layer.pop("_h2h_layer_meta_done", None)
     history_sync_debug["h2h_layer"] = h2h_layer
 
+    _t_xi_pick = time.perf_counter()
     br_a = franchise_xi_scenario_branch(True, a_bats_first)
     br_b = franchise_xi_scenario_branch(False, a_bats_first)
     xi_a_base = select_playing_xi(scored_a, scenario_branch=None)
@@ -2318,6 +2385,8 @@ def run_prediction(
     _annotate_bench_xi_margins(scored_a, xi_a)
     _annotate_bench_xi_margins(scored_b, xi_b)
 
+    _ap_phase("xi_scenario_select_batting_order_validate_and_strict_checks_ms", _t_xi_pick)
+
     _t_imp = time.perf_counter()
     subs_a, impact_dbg_a, impact_dbg_all_a = impact_subs(
         scored_a,
@@ -2345,7 +2414,9 @@ def run_prediction(
         prediction_timing_ms["impact_subs_both_teams_ms"] = round(
             (time.perf_counter() - _t_imp) * 1000.0, 2
         )
+    _ap_phase("impact_subs_both_teams_ms", _t_imp)
 
+    _t_win_tail = time.perf_counter()
     str_a = _xi_strength(xi_a) if len(xi_a) == 11 else _xi_strength(xi_a) * 11 / max(1, len(xi_a))
     str_b = _xi_strength(xi_b) if len(xi_b) == 11 else _xi_strength(xi_b) * 11 / max(1, len(xi_b))
 
@@ -2410,6 +2481,7 @@ def run_prediction(
         prediction_timing_ms["win_engine_fetch_matches_and_compute_ms"] = round(
             (time.perf_counter() - _t_win) * 1000.0, 2
         )
+    _ap_phase("win_engine_fetch_match_meta_and_compute_ms", _t_win)
     headline_a = eng_d["team_a_win_pct_selected_toss"] / 100.0
     neutral_a = eng_d["marginal_team_a_win_pct"] / 100.0
     sf0 = eng_d.get("scenario_factors") or {}
@@ -2449,6 +2521,10 @@ def run_prediction(
 
     confidence = _prediction_confidence(
         xi_a, xi_b, hctx, str_a, str_b, scored_a=scored_a, scored_b=scored_b
+    )
+    _ap_phase(
+        "toss_logistic_win_probability_marginals_and_confidence_ms",
+        _t_win_tail,
     )
 
     def _structured_squad_rows(squad: list[SquadPlayer]) -> list[dict[str, Any]]:
@@ -2665,13 +2741,13 @@ def run_prediction(
 
     if not getattr(config, "PREDICTION_FULL_DEBUG_PAYLOAD", False):
         prediction_layer_debug = _slim_prediction_layer_debug(prediction_layer_debug)
-    if getattr(config, "PREDICTION_TIMING_LOG", False):
-        prediction_timing_ms["run_prediction_total_ms"] = round(
-            (time.perf_counter() - _run_t0) * 1000.0, 2
-        )
-        _perf_logger.info("run_prediction timing_ms=%s", prediction_timing_ms)
 
-    return {
+    _t_asm = time.perf_counter()
+    _timing_out = bool(
+        getattr(config, "PREDICTION_TIMING_LOG", False) or audit_profile.audit_enabled()
+    )
+
+    _out = {
         "conditions": conditions,
         "weather": weather,
         "squad_debug": {
@@ -2684,9 +2760,7 @@ def run_prediction(
         },
         "history_sync_debug": history_sync_debug,
         "prediction_layer_debug": prediction_layer_debug,
-        "prediction_timing_ms": prediction_timing_ms
-        if getattr(config, "PREDICTION_TIMING_LOG", False)
-        else None,
+        "prediction_timing_ms": prediction_timing_ms if _timing_out else None,
         "xi_validation": {
             "team_a_in_squad": sub_ok_a,
             "team_b_in_squad": sub_ok_b,
@@ -2779,3 +2853,12 @@ def run_prediction(
             ),
         },
     }
+    _ap_phase("prediction_result_dict_assembly_ms", _t_asm)
+    if getattr(config, "PREDICTION_TIMING_LOG", False):
+        prediction_timing_ms["run_prediction_total_ms"] = round(
+            (time.perf_counter() - _run_t0) * 1000.0, 2
+        )
+        _perf_logger.info("run_prediction timing_ms=%s", prediction_timing_ms)
+    if _audit_par:
+        _audit_par.close_success(_out)
+    return _out

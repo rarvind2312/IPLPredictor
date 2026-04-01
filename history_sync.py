@@ -257,8 +257,12 @@ def fetch_and_store_scorecard(
         }
 
     mid, st = db.insert_parsed_match(payload)
-    if st == "inserted":
+    if st in ("inserted", "resynced_duplicate"):
         learner.ingest_payload(payload)
+        try:
+            db.rebuild_prediction_summary_tables()
+        except Exception:
+            logger.exception("prediction summary rebuild failed after fetch_and_store_scorecard")
         logger.info(
             "fetch_and_store_scorecard inserted match_id=%s url=%s parser=%s",
             mid,
@@ -288,6 +292,7 @@ def local_history_debug_for_prediction(
     canonical_label: str,
     *,
     squad_player_names: Optional[list[str]] = None,
+    include_squad_report: Optional[bool] = None,
 ) -> dict[str, Any]:
     """
     Read-only: local SQLite franchise snapshot + optional squad↔history join (no network).
@@ -300,12 +305,16 @@ def local_history_debug_for_prediction(
     min_p = int(getattr(config, "HISTORY_SYNC_MIN_PRIOR_SEASON_MATCHES", 2))
     min_warn = int(getattr(config, "LOCAL_HISTORY_MIN_DISTINCT_MATCHES_WARN", 2))
 
-    cached_before = db.get_cached_match_count_for_franchise(canon)
     snap = db.franchise_history_snapshot(canon)
+    cached_before = int(snap.get("distinct_match_count") or 0)
     hist_ok, recent_ok, prior_ok, stale = _snapshot_sufficiency(snap, min_recent=min_r, min_prior=min_p)
 
     names = [n for n in (squad_player_names or []) if str(n).strip()]
-    squad_report = build_squad_vs_history_report(canon, names) if names else None
+    if include_squad_report is None:
+        include_squad_report = bool(
+            getattr(config, "HISTORY_SYNC_INCLUDE_SQUAD_REPORT_ON_PREDICTION", False)
+        )
+    squad_report = build_squad_vs_history_report(canon, names) if (include_squad_report and names) else None
 
     alias_warns: list[str] = []
     if squad_report:
@@ -424,11 +433,12 @@ def failsafe_history_debug(canonical_label: str, exc: Optional[Exception] = None
     """Minimal snapshot when local history read fails mid-prediction."""
     canon = (canonical_label or "").strip()
     snap = db.franchise_history_snapshot(canon)
+    cached = int(snap.get("distinct_match_count") or 0)
     block: dict[str, Any] = {
         "canonical_label": canon,
         "failsafe": True,
         "history_source": "local_sqlite_only",
-        "get_cached_match_count": db.get_cached_match_count_for_franchise(canon),
+        "get_cached_match_count": cached,
         "sample_recent_matches": db.franchise_recent_match_summaries(canon, limit=5),
         "distinct_matches_local_db": int(snap.get("distinct_match_count") or 0),
         "rows_loaded_local_db_xi": int(snap.get("xi_row_count") or 0),

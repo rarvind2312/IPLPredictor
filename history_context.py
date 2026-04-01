@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from functools import lru_cache
 from typing import Any
 
 import config
@@ -80,6 +81,11 @@ def _chase_by_venue() -> dict[str, tuple[float, int]]:
 
 
 def build_history_context() -> HistoryContext:
+    return _build_history_context_cached(db.db_runtime_signature())
+
+
+@lru_cache(maxsize=4)
+def _build_history_context_cached(_sig: tuple[str, int, int, int]) -> HistoryContext:
     ctx = HistoryContext()
     ctx.db_match_count = db.count_stored_matches()
     for name, c in db.xi_pick_counts_raw():

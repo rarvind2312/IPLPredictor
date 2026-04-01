@@ -91,6 +91,13 @@ def run_cricsheet_all_archive_ingest(
         else:
             summary.warnings.append(f"{stem}: unexpected status {status}")
 
+    if summary.matches_inserted > 0 or summary.matches_resynced_duplicate > 0:
+        try:
+            db.rebuild_prediction_summary_tables()
+        except Exception as exc:  # noqa: BLE001
+            summary.warnings.append(f"prediction summary rebuild failed: {type(exc).__name__}: {exc}")
+            logger.exception("prediction summary rebuild failed after all_json ingest")
+
     return summary
 
 

@@ -38,18 +38,37 @@ def _clamp01(x: float) -> float:
 
 
 def _t20_sql_filter() -> tuple[str, list[Any]]:
-    """SQL predicate on ``matches m`` aligned with :func:`db.match_row_is_t20_family`."""
+    """
+    SQL predicate on alias ``m`` (``matches``) equivalent to :func:`db.match_row_is_t20_family`.
+
+    Mirrors Python branch order: explicit T20 formats, explicit non-T20 rejection, then
+    competition substring rules (including exclude-vs-family interaction).
+    """
     params: list[Any] = []
-    or_parts: list[str] = []
+    mf = "lower(trim(coalesce(m.match_format,'')))"
+    explicit_t20 = f"({mf} IN ('t20', 't20i', 'it20'))"
+    explicit_non_t20 = f"({mf} IN ('test', 'odi', 'oda', 'list a', 'first-class', 'fc'))"
+    comp_l = "lower(trim(coalesce(m.competition,'')))"
+    family_parts = [
+        f"instr({comp_l}, ?) > 0" for _ in config.T20_FAMILY_COMPETITION_SUBSTRINGS
+    ]
+    family_or = "(" + " OR ".join(family_parts) + ")"
+    exclude_parts = [
+        f"instr({comp_l}, ?) > 0" for _ in config.T20_EXCLUDE_COMPETITION_SUBSTRINGS
+    ]
+    exclude_or = "(" + " OR ".join(exclude_parts) + ")" if exclude_parts else "0"
+    # SQLite binds ``?`` left-to-right; ``family_or`` appears twice — duplicate param values.
+    for s in config.T20_EXCLUDE_COMPETITION_SUBSTRINGS:
+        params.append(str(s))
     for s in config.T20_FAMILY_COMPETITION_SUBSTRINGS:
-        or_parts.append("instr(lower(coalesce(m.competition,'')), ?) > 0")
-        params.append(s)
-    legacy = "(" + " OR ".join(or_parts) + ")"
-    sql = (
-        "(lower(trim(coalesce(m.match_format,''))) IN ('t20','t20i') "
-        "OR ((trim(coalesce(m.match_format,'')) = '' OR m.match_format IS NULL) AND "
-        f"{legacy}))"
+        params.append(str(s))
+    for s in config.T20_FAMILY_COMPETITION_SUBSTRINGS:
+        params.append(str(s))
+    comp_nonempty = f"({comp_l} != '')"
+    comp_branch = (
+        f"({comp_nonempty} AND NOT (({exclude_or}) AND NOT ({family_or})) AND ({family_or}))"
     )
+    sql = f"(({explicit_t20}) OR (NOT ({explicit_non_t20}) AND {comp_branch}))"
     return sql, params
 
 

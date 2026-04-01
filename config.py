@@ -210,6 +210,11 @@ HISTORY_SYNC_MIN_RECENT_MATCHES = 5
 HISTORY_SYNC_TARGET_RECENT_MATCHES = 10
 HISTORY_SYNC_MIN_PRIOR_SEASON_MATCHES = 2
 HISTORY_SYNC_STALE_DAYS = 10.0
+# Build expensive per-player squad↔history report during prediction-time history snapshot.
+# Keep off by default; enable only for deep linkage debugging.
+HISTORY_SYNC_INCLUDE_SQUAD_REPORT_ON_PREDICTION = (
+    os.environ.get("IPL_HISTORY_SYNC_INCLUDE_SQUAD_REPORT", "").strip().lower() in ("1", "true", "yes")
+)
 
 # Warn in UI when a franchise has fewer than this many distinct usable matches in SQLite.
 LOCAL_HISTORY_MIN_DISTINCT_MATCHES_WARN = 2
@@ -287,6 +292,19 @@ PREDICTION_FULL_DEBUG_PAYLOAD = os.environ.get("IPL_PREDICTION_FULL_DEBUG", "").
 )
 # Log timing for startup / prediction sub-steps (see logger ``ipl_predictor.perf``).
 PREDICTION_TIMING_LOG = os.environ.get("IPL_PREDICTION_TIMING", "").strip().lower() in (
+    "1",
+    "true",
+    "yes",
+)
+# Deep audit: phase + per-query SQLite timings during prediction, Streamlit startup breakdown (see ``audit_profile``).
+AUDIT_PROFILING = os.environ.get("IPL_AUDIT_PROFILING", "").strip().lower() in (
+    "1",
+    "true",
+    "yes",
+)
+# On first page load, auto-fetching squads can block first paint due to network latency.
+# Keep off by default; users can click "Load squads from IPLT20 now".
+AUTO_FETCH_SQUADS_ON_START = os.environ.get("IPL_AUTO_FETCH_SQUADS_ON_START", "").strip().lower() in (
     "1",
     "true",
     "yes",

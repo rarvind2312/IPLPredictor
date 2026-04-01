@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import re
+from functools import lru_cache
 from typing import Any, Optional
 
 import canonical_keys
@@ -220,6 +221,11 @@ def ingest_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
 
 def load_learned_map() -> dict[str, dict[str, Any]]:
+    return _load_learned_map_cached(db.db_runtime_signature())
+
+
+@lru_cache(maxsize=4)
+def _load_learned_map_cached(_sig: tuple[str, int, int, int]) -> dict[str, dict[str, Any]]:
     rows = db.get_learned_players()
     return {
         k: {
