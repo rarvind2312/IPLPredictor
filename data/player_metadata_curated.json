@@ -1,0 +1,38 @@
+{
+  "jasprit bumrah": {
+    "display_name": "Jasprit Bumrah",
+    "batting_hand": "right",
+    "bowling_style_raw": "right-arm fast",
+    "bowling_type_bucket": "pace",
+    "primary_role": "bowler",
+    "secondary_role": "",
+    "likely_batting_band": "tail",
+    "likely_bowling_phases": "death",
+    "source": "curated_manual",
+    "confidence": 0.99
+  },
+  "ruturaj gaikwad": {
+    "display_name": "Ruturaj Gaikwad",
+    "batting_hand": "right",
+    "bowling_style_raw": "",
+    "bowling_type_bucket": "unknown",
+    "primary_role": "batter",
+    "secondary_role": "",
+    "likely_batting_band": "opener",
+    "likely_bowling_phases": "unknown",
+    "source": "curated_manual",
+    "confidence": 0.95
+  },
+  "sanju samson": {
+    "display_name": "Sanju Samson",
+    "batting_hand": "right",
+    "bowling_style_raw": "",
+    "bowling_type_bucket": "unknown",
+    "primary_role": "wicketkeeper_batter",
+    "secondary_role": "batter",
+    "likely_batting_band": "top_order",
+    "likely_bowling_phases": "unknown",
+    "source": "curated_manual",
+    "confidence": 0.95
+  }
+}

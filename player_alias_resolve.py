@@ -20,10 +20,15 @@ Layers:
 from __future__ import annotations
 
 import json
+import logging
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any, FrozenSet, Optional
 
+import config
 import learner
+
+logger = logging.getLogger(__name__)
 
 _SURNAME_PARTICLES: frozenset[str] = frozenset(
     {
@@ -53,6 +58,124 @@ _SURNAME_PARTICLES: frozenset[str] = frozenset(
         "mc",
     }
 )
+
+_ALIAS_OVERRIDE_CANON_TO_ALIASES: Optional[dict[str, list[str]]] = None
+_ALIAS_OVERRIDE_ALIAS_TO_CANON: Optional[dict[str, str]] = None
+_ALIAS_OVERRIDE_MTIME: Optional[float] = None
+
+
+def _load_alias_overrides() -> tuple[dict[str, list[str]], dict[str, str]]:
+    global _ALIAS_OVERRIDE_CANON_TO_ALIASES
+    global _ALIAS_OVERRIDE_ALIAS_TO_CANON
+    global _ALIAS_OVERRIDE_MTIME
+
+    raw_path = str(getattr(config, "PLAYER_ALIAS_OVERRIDES_PATH", "") or "").strip()
+    if not raw_path:
+        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
+        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
+        _ALIAS_OVERRIDE_MTIME = 0.0
+        return {}, {}
+
+    p = Path(raw_path)
+    if not p.is_absolute():
+        p = Path(__file__).resolve().parent / raw_path
+    if not p.is_file():
+        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
+        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
+        _ALIAS_OVERRIDE_MTIME = 0.0
+        return {}, {}
+
+    mtime = float(p.stat().st_mtime)
+    if (
+        _ALIAS_OVERRIDE_CANON_TO_ALIASES is not None
+        and _ALIAS_OVERRIDE_ALIAS_TO_CANON is not None
+        and _ALIAS_OVERRIDE_MTIME == mtime
+    ):
+        return _ALIAS_OVERRIDE_CANON_TO_ALIASES, _ALIAS_OVERRIDE_ALIAS_TO_CANON
+
+    try:
+        raw = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        logger.warning("alias_overrides: failed reading %s", p)
+        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
+        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
+        _ALIAS_OVERRIDE_MTIME = mtime
+        return {}, {}
+
+    if not isinstance(raw, dict):
+        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
+        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
+        _ALIAS_OVERRIDE_MTIME = mtime
+        return {}, {}
+
+    canon_to_aliases: dict[str, list[str]] = {}
+    alias_to_canon: dict[str, str] = {}
+    collisions: set[str] = set()
+    for canon_raw, aliases_raw in raw.items():
+        canon = learner.normalize_player_key(str(canon_raw or ""))
+        if not canon:
+            continue
+        aliases: list[str] = []
+        if isinstance(aliases_raw, str):
+            aliases_raw = [aliases_raw]
+        if isinstance(aliases_raw, (list, tuple)):
+            for a in aliases_raw:
+                ak = learner.normalize_player_key(str(a or ""))
+                if ak and ak not in aliases and ak != canon:
+                    aliases.append(ak)
+        if not aliases:
+            continue
+        canon_to_aliases[canon] = aliases
+        for ak in aliases:
+            if ak in alias_to_canon and alias_to_canon.get(ak) != canon:
+                collisions.add(ak)
+            else:
+                alias_to_canon[ak] = canon
+
+    for ak in collisions:
+        alias_to_canon.pop(ak, None)
+    if collisions:
+        logger.warning("alias_overrides: suppressed %d colliding alias key(s)", len(collisions))
+
+    _ALIAS_OVERRIDE_CANON_TO_ALIASES = canon_to_aliases
+    _ALIAS_OVERRIDE_ALIAS_TO_CANON = alias_to_canon
+    _ALIAS_OVERRIDE_MTIME = mtime
+    return canon_to_aliases, alias_to_canon
+
+
+def alias_overrides_active() -> bool:
+    canon_to_aliases, _ = _load_alias_overrides()
+    return bool(canon_to_aliases)
+
+
+def canonicalize_via_alias_overrides(normalized_player_key: str) -> str:
+    """
+    Map a normalized key to its curated canonical key (if present in `player_alias_overrides.json`).
+
+    This is intentionally side-effect-free and does **not** attempt fuzzy matching; it only
+    applies explicit curated mappings.
+    """
+    _canon_to_aliases, alias_to_canon = _load_alias_overrides()
+    pk = str(normalized_player_key or "").strip().lower()
+    if not pk or not alias_to_canon:
+        return pk
+    return str(alias_to_canon.get(pk) or pk)
+
+
+def _alias_override_candidates(normalized_full_name_key: str) -> list[str]:
+    canon_to_aliases, alias_to_canon = _load_alias_overrides()
+    pk = str(normalized_full_name_key or "").strip().lower()
+    if not pk or not canon_to_aliases:
+        return []
+    canon = alias_to_canon.get(pk) or pk
+    cands: list[str] = []
+    for v in (canon, pk):
+        if v and v not in cands:
+            cands.append(v)
+    for a in canon_to_aliases.get(canon) or []:
+        if a and a not in cands:
+            cands.append(a)
+    return cands
 
 
 @dataclass(frozen=True)
@@ -324,10 +447,17 @@ def _layer_c_candidates(
     out: set[str] = set()
     if not squad_given:
         return out
+    # Guardrail: a single full given name (e.g. "raghu") should not match multi-initial history keys
+    # (e.g. "rg sharma") purely by prefix compatibility — that is too collision-prone.
+    initials_like_squad_given = all(len(g) <= 2 for g in squad_given if g)
+    allow_initials_match = initials_like_squad_given or len(squad_given) >= 2
     for k in franchise_keys:
         if not _surname_tokens_match(k, squad_surname_tokens):
             continue
-        if _strict_given_alignment(squad_given, k) or _initials_prefix_compatible(
+        if _strict_given_alignment(squad_given, k):
+            out.add(k)
+            continue
+        if allow_initials_match and _initials_prefix_compatible(
             squad_given, k, surname_bucket_size=surname_bucket_size
         ):
             out.add(k)
@@ -501,6 +631,38 @@ def resolve_player_to_history_key(
             layer="exact",
             surname_checked=(),
             d_reason="",
+            d_branch="",
+            surname_bucket_size=bucket_n,
+        )
+
+    override_hits = tuple(sorted({c for c in _alias_override_candidates(pk) if c in franchise_player_keys}))
+    if len(override_hits) == 1:
+        return _finalize(
+            name=name,
+            pk=pk,
+            resolved=override_hits[0],
+            rtype="alias_match",
+            confidence=0.95,
+            ambiguous=(),
+            b_raw=(),
+            layer="curated_alias_override",
+            surname_checked=(),
+            d_reason="curated_alias_override_single_hit",
+            d_branch="",
+            surname_bucket_size=bucket_n,
+        )
+    if len(override_hits) > 1:
+        return _finalize(
+            name=name,
+            pk=pk,
+            resolved=None,
+            rtype="ambiguous_alias",
+            confidence=0.0,
+            ambiguous=override_hits,
+            b_raw=(),
+            layer="ambiguous",
+            surname_checked=override_hits,
+            d_reason="curated_alias_override_multiple_hits",
             d_branch="",
             surname_bucket_size=bucket_n,
         )

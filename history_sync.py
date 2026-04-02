@@ -263,6 +263,10 @@ def fetch_and_store_scorecard(
             db.rebuild_prediction_summary_tables()
         except Exception:
             logger.exception("prediction summary rebuild failed after fetch_and_store_scorecard")
+        try:
+            db.rebuild_player_metadata_and_matchup_summaries()
+        except Exception:
+            logger.exception("metadata/matchup rebuild failed after fetch_and_store_scorecard")
         logger.info(
             "fetch_and_store_scorecard inserted match_id=%s url=%s parser=%s",
             mid,
@@ -311,9 +315,9 @@ def local_history_debug_for_prediction(
 
     names = [n for n in (squad_player_names or []) if str(n).strip()]
     if include_squad_report is None:
-        include_squad_report = bool(
-            getattr(config, "HISTORY_SYNC_INCLUDE_SQUAD_REPORT_ON_PREDICTION", False)
-        )
+        # Default to include the report when called directly (tests/debug). Prediction-time callers
+        # explicitly pass ``include_squad_report=False`` to avoid the extra work.
+        include_squad_report = True
     squad_report = build_squad_vs_history_report(canon, names) if (include_squad_report and names) else None
 
     alias_warns: list[str] = []

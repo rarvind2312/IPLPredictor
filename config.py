@@ -10,6 +10,20 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 DB_PATH = os.environ.get("IPL_PREDICTOR_DB", str(DATA_DIR / "ipl_predictor.sqlite"))
 
+# Curated metadata / overrides (runtime + rebuild inputs)
+PLAYER_ALIAS_OVERRIDES_PATH = os.environ.get(
+    "IPL_PLAYER_ALIAS_OVERRIDES_PATH", str(DATA_DIR / "player_alias_overrides.json")
+)
+PLAYER_MARQUEE_OVERRIDES_PATH = os.environ.get(
+    "IPL_PLAYER_MARQUEE_OVERRIDES_PATH", str(DATA_DIR / "player_marquee_overrides.json")
+)
+PLAYER_METADATA_CRICINFO_PATH = os.environ.get(
+    "IPL_PLAYER_METADATA_CRICINFO_PATH", str(DATA_DIR / "player_metadata_cricinfo.json")
+)
+PLAYER_METADATA_CURATED_PATH = os.environ.get(
+    "IPL_PLAYER_METADATA_CURATED_PATH", str(DATA_DIR / "player_metadata_curated.json")
+)
+
 # Local Cricsheet IPL bundle (readme index + per-match JSON). Official zip uses
 # ``data/ipl_json/README.txt``; also accept ``data/readme.txt`` if you copy the index.
 CRICSHEET_JSON_DIR = Path(os.environ.get("IPL_CRICSHEET_JSON_DIR", str(DATA_DIR / "ipl_json")))

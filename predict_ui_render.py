@@ -11,7 +11,9 @@ import streamlit as st
 
 import audit_profile
 import config
+import db
 import history_sync
+import ipl_teams
 
 _perf_logger = logging.getLogger("ipl_predictor.perf")
 
@@ -26,18 +28,6 @@ def render_stored_prediction_results(
     cond = r["conditions"]
     disp_a = r["team_a"]["name"]
     disp_b = r["team_b"]["name"]
-    hlw = (r.get("history_sync_debug") or {}).get("local_history_warning")
-    if hlw:
-        st.warning(hlw)
-    xv = r.get("xi_validation") or {}
-    for wmsg in xv.get("strict_validation_warnings") or []:
-        if not wmsg:
-            continue
-        low = str(wmsg).lower()
-        if "major_linkage_failure" in low or "sqlite history snapshot failed" in low:
-            st.error(str(wmsg))
-        else:
-            st.warning(str(wmsg))
 
     st.divider()
     st.subheader("Weather & venue")
@@ -63,47 +53,17 @@ def render_stored_prediction_results(
         f"_Notes:_ {cond['notes']}"
     )
 
-    conf = r.get("prediction_confidence") or {}
-    st.subheader("Prediction confidence")
-    st.metric(
-        "Model confidence",
-        f"{100 * float(conf.get('score', 0)):.1f}%",
-        help="Rule-based: DB depth, XI history coverage, perspective agreement, strength separation.",
-    )
-    with st.expander("Optional: confidence breakdown & timing", expanded=False):
-        st.json(conf)
-        ptiming = r.get("prediction_timing_ms")
-        if ptiming:
-            st.caption("From ``IPL_PREDICTION_TIMING=true`` and/or ``IPL_AUDIT_PROFILING=true``")
-            st.json(ptiming)
-        ap = r.get("audit_prediction")
-        if ap:
-            st.caption("Deep audit (``IPL_AUDIT_PROFILING``): phases + slowest SQL during prediction")
-            st.json(ap)
-
     wp = r["win_probability"]
     eng = r.get("win_probability_engine") or {}
-    ts = r.get("toss_scenario") or {}
-    st.subheader("Win probability (rule-based engine)")
-    st.caption(
-        "Weighted factors: head-to-head, venue record, XI strength, batting order strength, "
-        "phase bowling, top-order matchups, weather/conditions, toss innings-role (chase/defend history), "
-        "and venue chase bias with dew/night tilt. Clamped to 30–70%."
-    )
-    headline_help = (
-        "Uses **selected toss** when known; otherwise matches **neutral toss** (average of the two innings orders)."
-    )
-    st.metric(
-        f"P({disp_a} wins) — headline",
-        f"{100 * wp['team_a_win']:.1f}%",
-        help=headline_help,
-    )
-    if eng.get("team_a_win_pct_neutral_toss") is not None:
-        st.metric(
-            "P(Team A wins) — neutral toss (avg scenarios)",
-            f"{float(eng.get('team_a_win_pct_neutral_toss', 50)):.1f}%",
-            help="Unconditional on toss: mean of P(A|A bats first) and P(A|B bats first).",
-        )
+    st.subheader("Win probability")
+    team_a_win = float(wp.get("team_a_win") or 0.0)
+    team_b_win = max(0.0, 1.0 - team_a_win)
+    wp1, wp2 = st.columns(2)
+    with wp1:
+        st.metric(disp_a, f"{100 * team_a_win:.1f}%")
+    with wp2:
+        st.metric(disp_b, f"{100 * team_b_win:.1f}%")
+    st.progress(int(round(team_a_win * 100)))
     if show_advanced_prediction_debug:
         with st.expander("Squad, history joins, XI validation & toss debug"):
             _t_sq = time.perf_counter()
@@ -291,57 +251,6 @@ def render_stored_prediction_results(
             else:
                 st.caption("XI validation metrics missing — click **Run prediction** again to refresh payload.")
 
-    if eng:
-        fav = eng.get("overall_favourite", "")
-        st.markdown(f"**Overall predicted favourite:** {fav}")
-        c1, c2 = st.columns(2)
-        with c1:
-            st.metric(
-                f"If {disp_a} bats first — P({disp_a} wins)",
-                f"{eng.get('team_a_win_pct_if_a_bats_first', 0):.1f}%",
-            )
-        with c2:
-            st.metric(
-                f"If {disp_b} bats first — P({disp_a} wins)",
-                f"{eng.get('team_a_win_pct_if_b_bats_first', 0):.1f}%",
-            )
-        st.markdown("**Why (short read)**")
-        st.write(eng.get("explanation", ""))
-        if show_advanced_prediction_debug:
-            with st.expander("Factor scores by scenario (0–100 per side)"):
-                st.json(eng.get("scenario_factors", {}))
-    st.caption(
-        f"If **{disp_a} bats first**: {100 * r['win_if_team_a_bats_first']['team_a_win']:.1f}% · "
-        f"If **{disp_a} bowls first** (i.e. {disp_b} bats first): "
-        f"{100 * r['win_if_team_a_bowls_first']['team_a_win']:.1f}%"
-    )
-    if show_advanced_prediction_debug:
-        with st.expander("Legacy logistic win model (comparison)"):
-            leg = r.get("win_probability_logistic") or {}
-            if leg.get("marginal"):
-                m = leg["marginal"]
-                st.metric(
-                    "Logistic P(A) (uses toss scenario if set)",
-                    f"{100 * float(m.get('team_a_win', 0)):.1f}%",
-                )
-
-    te = r["toss_effects"]
-    st.subheader("Toss / innings leverage (Team A perspective)")
-    st.write(
-        {
-            "Bat-first structural edge": round(te["bat_first_edge_team_a"], 4),
-            "Bowl-first (chase) edge": round(te["bowl_first_edge_team_a"], 4),
-            "Venue bat-first prior": round(te["venue_bat_first_prior"], 4),
-            "Dew chase tilt": round(te["dew_chase_factor"], 4),
-            "Venue chase win share (learned)": round(te.get("venue_chase_win_share", 0.5), 4),
-            "Chase-prior logit (when A chases)": round(te.get("chase_boost_logit_applied", 0.0), 5),
-        }
-    )
-    st.caption(
-        "Positive bat-first edge favours defending a total; positive bowl-first edge favours chasing "
-        "under the model’s dew and venue read."
-    )
-
     st.subheader("Predicted line-ups & impact subs")
     tc1, tc2 = st.columns(2)
     for col, side_key, tname in (
@@ -349,7 +258,14 @@ def render_stored_prediction_results(
         (tc2, "team_b", disp_b),
     ):
         with col:
-            st.markdown(f"### {r[side_key]['name']}")
+            slug = ipl_teams.slug_for_canonical_label(r[side_key]["name"])
+            logo_path = ipl_teams.team_logo_path_for_slug(slug) if slug else ""
+            hc1, hc2 = st.columns([1, 9])
+            with hc1:
+                if logo_path:
+                    st.image(logo_path, width=34)
+            with hc2:
+                st.markdown(f"### {r[side_key]['name']}")
             st.caption(
                 f"Squad overseas: **{r[side_key].get('squad_overseas', '—')}** · "
                 f"XI overseas: **{r[side_key].get('xi_overseas', '—')}** / 4 max"
@@ -386,24 +302,275 @@ def render_stored_prediction_results(
                 )
                 if c in xi_df.columns
             ]
-            if show_advanced_prediction_debug and hist_cols and not xi_df.empty:
-                with st.expander(f"{r[side_key]['name']} — XI / batting history signals"):
-                    st.dataframe(
-                        xi_df[hist_cols],
-                        use_container_width=True,
-                        hide_index=True,
-                    )
-            st.markdown("**Batting order**")
-            st.write(" → ".join(r[side_key]["batting_order"]))
             st.markdown("**Impact subs (5)**")
             st.dataframe(
                 pd.DataFrame(r[side_key]["impact_subs"]),
                 use_container_width=True,
                 hide_index=True,
             )
+
+    st.subheader("Historical Matchups")
+
+    def _matchup_snapshot() -> dict[str, Any]:
+        with db.connection() as conn:
+            row = conn.execute(
+                "SELECT matchup_summaries_updated_at, direct_delivery_rows_seen, notes "
+                "FROM matchup_summary_rebuild_state WHERE id=1"
+            ).fetchone()
+            bbms = conn.execute("SELECT COUNT(*) AS n FROM batter_bowler_matchup_summary").fetchone()
+            bvbt = conn.execute("SELECT COUNT(*) AS n FROM batter_vs_bowling_type_summary").fetchone()
+            bvhs = conn.execute("SELECT COUNT(*) AS n FROM bowler_vs_batting_hand_summary").fetchone()
+            bvbsp = conn.execute("SELECT COUNT(*) AS n FROM batter_vs_spin_pace_summary").fetchone()
+            bvbph = conn.execute("SELECT COUNT(*) AS n FROM batter_vs_phase_summary").fetchone()
+            bbb = conn.execute("SELECT COUNT(*) AS n FROM match_ball_by_ball").fetchone()
+        updated_at = float((row["matchup_summaries_updated_at"] if row else 0.0) or 0.0)
+        return {
+            "matchup_summaries_updated_at": updated_at,
+            "direct_delivery_rows_seen": int((row["direct_delivery_rows_seen"] if row else 0) or 0),
+            "notes": str((row["notes"] if row else "") or ""),
+            "row_counts": {
+                "match_ball_by_ball": int((bbb["n"] if bbb else 0) or 0),
+                "batter_bowler_matchup_summary": int((bbms["n"] if bbms else 0) or 0),
+                "batter_vs_bowling_type_summary": int((bvbt["n"] if bvbt else 0) or 0),
+                "bowler_vs_batting_hand_summary": int((bvhs["n"] if bvhs else 0) or 0),
+                "batter_vs_spin_pace_summary": int((bvbsp["n"] if bvbsp else 0) or 0),
+                "batter_vs_phase_summary": int((bvbph["n"] if bvbph else 0) or 0),
+            },
+        }
+
+    def _xi_key_map(side_key: str) -> tuple[list[str], dict[str, str]]:
+            xi_rows = r.get(side_key, {}).get("xi") or []
+            keys: list[str] = []
+            disp: dict[str, str] = {}
+            for row in xi_rows:
+                if not isinstance(row, dict):
+                    continue
+                pk = str(row.get("player_key") or "").strip().lower()
+                nm = str(row.get("name") or "").strip()
+                if pk and pk not in disp:
+                    disp[pk] = nm or pk
+                if pk and pk not in keys:
+                    keys.append(pk)
+            return keys[:11], disp
+
+    keys_a, disp_a_map = _xi_key_map("team_a")
+    keys_b, disp_b_map = _xi_key_map("team_b")
+    disp_all = {**disp_a_map, **disp_b_map}
+
+    def _name_for_key(k: str) -> str:
+        kk = str(k or "").strip().lower()
+        return disp_all.get(kk, kk or "—")
+
+    def _top_pairs(
+        bat_keys: list[str], bowl_keys: list[str], *, limit: int = 20
+    ) -> pd.DataFrame:
+        if not bat_keys or not bowl_keys:
+            return pd.DataFrame()
+        qm_a = ",".join("?" * len(bat_keys))
+        qm_b = ",".join("?" * len(bowl_keys))
+        with db.connection() as conn:
+            rows = conn.execute(
+                f"""
+                SELECT batter_key, bowler_key, balls, runs, dismissals, strike_rate, dot_ball_pct,
+                       sample_size_confidence
+                FROM batter_bowler_matchup_summary
+                WHERE batter_key IN ({qm_a}) AND bowler_key IN ({qm_b})
+                ORDER BY sample_size_confidence DESC, dismissals DESC, dot_ball_pct DESC, balls DESC
+                LIMIT ?
+                """,
+                [*bat_keys, *bowl_keys, int(limit)],
+            ).fetchall()
+        dfp = pd.DataFrame([dict(r) for r in rows]) if rows else pd.DataFrame()
+        if dfp.empty:
+            return dfp
+        dfp["batter"] = dfp["batter_key"].map(_name_for_key)
+        dfp["bowler"] = dfp["bowler_key"].map(_name_for_key)
+        try:
+            dfp["dismissals_per_100_balls"] = (
+                100.0 * dfp["dismissals"].astype(float) / dfp["balls"].clip(lower=1).astype(float)
+            ).round(3)
+        except Exception:
+            dfp["dismissals_per_100_balls"] = None
+        return dfp[
+            [
+                "bowler",
+                "batter",
+                "balls",
+                "dismissals",
+                "dismissals_per_100_balls",
+                "strike_rate",
+                "dot_ball_pct",
+                "sample_size_confidence",
+            ]
+        ]
+
+    def _bat_when_phase(bat_keys: list[str], *, limit: int = 40) -> pd.DataFrame:
+        if not bat_keys:
+            return pd.DataFrame()
+        qm = ",".join("?" * len(bat_keys))
+        with db.connection() as conn:
+            rows = conn.execute(
+                f"""
+                SELECT batter_key, bowling_phase, balls, strike_rate, dot_ball_pct,
+                       sample_size_confidence
+                FROM batter_vs_phase_summary
+                WHERE batter_key IN ({qm})
+                ORDER BY sample_size_confidence DESC, strike_rate DESC, balls DESC
+                LIMIT ?
+                """,
+                [*bat_keys, int(limit)],
+            ).fetchall()
+        dfp = pd.DataFrame([dict(r) for r in rows]) if rows else pd.DataFrame()
+        if dfp.empty:
+            return dfp
+        dfp["batter"] = dfp["batter_key"].map(_name_for_key)
+        return dfp[
+            [
+                "batter",
+                "bowling_phase",
+                "balls",
+                "strike_rate",
+                "dot_ball_pct",
+                "sample_size_confidence",
+            ]
+        ]
+
+    def _bat_vs_spin_pace(bat_keys: list[str], *, limit: int = 40) -> pd.DataFrame:
+        if not bat_keys:
+            return pd.DataFrame()
+        qm = ",".join("?" * len(bat_keys))
+        with db.connection() as conn:
+            rows = conn.execute(
+                f"""
+                SELECT batter_key, pace_spin_bucket, balls, strike_rate, dot_ball_pct,
+                       sample_size_confidence
+                FROM batter_vs_spin_pace_summary
+                WHERE batter_key IN ({qm})
+                ORDER BY sample_size_confidence DESC, balls DESC
+                LIMIT ?
+                """,
+                [*bat_keys, int(limit)],
+            ).fetchall()
+        dfp = pd.DataFrame([dict(r) for r in rows]) if rows else pd.DataFrame()
+        if dfp.empty:
+            return dfp
+        dfp["batter"] = dfp["batter_key"].map(_name_for_key)
+        return dfp[
+            [
+                "batter",
+                "pace_spin_bucket",
+                "balls",
+                "strike_rate",
+                "dot_ball_pct",
+                "sample_size_confidence",
+            ]
+        ]
+
+    if not keys_a or not keys_b:
+        st.info("No historical matchup rows available for this prediction yet.")
+    else:
+        with st.expander("Matchup recommendations", expanded=False):
+            st.markdown("**Who to bowl to whom**")
+            ca, cb = st.columns(2)
+            with ca:
+                df_ab = _top_pairs(keys_b, keys_a, limit=20)
+                if df_ab.empty:
+                    st.caption("No direct historical rows available.")
+                else:
+                    st.dataframe(df_ab, use_container_width=True, hide_index=True)
+            with cb:
+                df_ba = _top_pairs(keys_a, keys_b, limit=20)
+                if df_ba.empty:
+                    st.caption("No direct historical rows available.")
+                else:
+                    st.dataframe(df_ba, use_container_width=True, hide_index=True)
+
+            st.markdown("**Who to bat when**")
+            df_phase = _bat_when_phase([*keys_a, *keys_b], limit=60)
+            if df_phase.empty:
+                st.caption("No historical phase rows available.")
+            else:
+                st.dataframe(df_phase, use_container_width=True, hide_index=True)
+
+            st.markdown("**Who to bat against**")
+            df_sp = _bat_vs_spin_pace([*keys_a, *keys_b], limit=60)
+            if df_sp.empty:
+                st.caption("No historical type rows available.")
+            else:
+                st.dataframe(df_sp, use_container_width=True, hide_index=True)
     audit_profile.append_session_audit_event(
         "post_prediction_render",
         "predict_ui_render.render_stored_prediction_results",
         (time.perf_counter() - _t_render) * 1000.0,
         extra={"advanced_debug": show_advanced_prediction_debug},
     )
+
+
+def render_prediction_admin_debug(
+    r: dict[str, Any],
+    *,
+    selection_debug_top15_for_side: Callable[..., Any],
+) -> None:
+    disp_a = r["team_a"]["name"]
+    disp_b = r["team_b"]["name"]
+    st.subheader("Prediction debug")
+    st.caption("Technical prediction details moved off the main page.")
+
+    hlw = (r.get("history_sync_debug") or {}).get("local_history_warning")
+    if hlw:
+        st.warning(str(hlw))
+    xv = r.get("xi_validation") or {}
+    warn_rows = [str(w) for w in (xv.get("strict_validation_warnings") or []) if str(w).strip()]
+    if warn_rows:
+        with st.expander("Linkage / validation warnings", expanded=False):
+            for row in warn_rows:
+                st.write(row)
+
+    with st.expander("Confidence, timing, and internals", expanded=False):
+        st.markdown("**model_confidence**")
+        st.json(r.get("prediction_confidence") or {})
+        st.markdown("**prediction_timing_ms**")
+        st.json(r.get("prediction_timing_ms") or {})
+        st.markdown("**audit_prediction**")
+        st.json(r.get("audit_prediction") or {})
+        st.markdown("**toss_effects**")
+        st.json(r.get("toss_effects") or {})
+        st.markdown("**batting_order_summary**")
+        st.json(r.get("batting_order_summary") or {})
+        st.markdown("**win_probability_engine**")
+        st.json(r.get("win_probability_engine") or {})
+        st.markdown("**scenario win splits**")
+        st.json(
+            {
+                "team_a_if_bats_first": r.get("win_if_team_a_bats_first") or {},
+                "team_a_if_bowls_first": r.get("win_if_team_a_bowls_first") or {},
+            }
+        )
+
+    with st.expander("Batting order raw text", expanded=False):
+        st.write(f"{disp_a}: " + " -> ".join(r.get("team_a", {}).get("batting_order") or []))
+        st.write(f"{disp_b}: " + " -> ".join(r.get("team_b", {}).get("batting_order") or []))
+
+    with st.expander("Selection top-15", expanded=False):
+        dbg_side_pick = st.radio(
+            "Team",
+            ("team_a", "team_b"),
+            format_func=lambda s: f"{disp_a} (A)" if s == "team_a" else f"{disp_b} (B)",
+            horizontal=True,
+            key="admin_selection_debug_side",
+        )
+        df_dbg, xi_val = selection_debug_top15_for_side(r, dbg_side_pick)
+        if isinstance(df_dbg, pd.DataFrame) and not df_dbg.empty:
+            st.dataframe(df_dbg, use_container_width=True, hide_index=True)
+        else:
+            st.caption("No top-15 rows available in the stored payload.")
+        if xi_val:
+            st.json(xi_val)
+
+    with st.expander("Raw prediction payloads", expanded=False):
+        st.markdown("**history_sync_debug**")
+        st.json(r.get("history_sync_debug") or {})
+        st.markdown("**xi_validation**")
+        st.json(r.get("xi_validation") or {})
+        st.markdown("**prediction_layer_debug**")
+        st.json(r.get("prediction_layer_debug") or {})

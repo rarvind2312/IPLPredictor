@@ -605,6 +605,145 @@ def _migrate_team_selection_derive_columns(conn: sqlite3.Connection) -> None:
                 pass
 
 
+def _migrate_player_metadata_and_matchup_tables(conn: sqlite3.Connection) -> None:
+    """Create Phase-2 player metadata + matchup summary tables (idempotent)."""
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS player_metadata (
+            player_key TEXT PRIMARY KEY,
+            display_name TEXT,
+            batting_hand TEXT NOT NULL DEFAULT 'unknown',
+            bowling_style_raw TEXT NOT NULL DEFAULT '',
+            bowling_type_bucket TEXT NOT NULL DEFAULT 'unknown',
+            primary_role TEXT NOT NULL DEFAULT 'batter',
+            secondary_role TEXT NOT NULL DEFAULT '',
+            likely_batting_band TEXT NOT NULL DEFAULT 'unknown',
+            likely_bowling_phases TEXT NOT NULL DEFAULT 'unknown',
+            source TEXT NOT NULL DEFAULT 'derived_history',
+            confidence REAL NOT NULL DEFAULT 0.0,
+            last_updated REAL NOT NULL DEFAULT 0.0
+        )
+        """
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_player_metadata_role ON player_metadata(primary_role, likely_batting_band)"
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS batter_bowler_matchup_summary (
+            batter_key TEXT NOT NULL,
+            bowler_key TEXT NOT NULL,
+            balls INTEGER NOT NULL DEFAULT 0,
+            runs INTEGER NOT NULL DEFAULT 0,
+            dismissals INTEGER NOT NULL DEFAULT 0,
+            strike_rate REAL NOT NULL DEFAULT 0.0,
+            dot_ball_pct REAL NOT NULL DEFAULT 0.0,
+            boundary_pct REAL NOT NULL DEFAULT 0.0,
+            innings_count INTEGER NOT NULL DEFAULT 0,
+            match_count INTEGER NOT NULL DEFAULT 0,
+            last_match_date TEXT,
+            sample_size_confidence REAL NOT NULL DEFAULT 0.0,
+            source TEXT NOT NULL DEFAULT 'direct_delivery_history',
+            last_updated REAL NOT NULL DEFAULT 0.0,
+            PRIMARY KEY (batter_key, bowler_key)
+        )
+        """
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_bbms_bowler ON batter_bowler_matchup_summary(bowler_key, sample_size_confidence DESC)"
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS batter_vs_bowling_type_summary (
+            batter_key TEXT NOT NULL,
+            bowling_type_bucket TEXT NOT NULL,
+            balls INTEGER NOT NULL DEFAULT 0,
+            runs INTEGER NOT NULL DEFAULT 0,
+            dismissals REAL NOT NULL DEFAULT 0.0,
+            strike_rate REAL NOT NULL DEFAULT 0.0,
+            dot_ball_pct REAL NOT NULL DEFAULT 0.0,
+            boundary_pct REAL NOT NULL DEFAULT 0.0,
+            sample_size_confidence REAL NOT NULL DEFAULT 0.0,
+            source TEXT NOT NULL DEFAULT 'derived_history',
+            last_updated REAL NOT NULL DEFAULT 0.0,
+            PRIMARY KEY (batter_key, bowling_type_bucket)
+        )
+        """
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_bvbt_bucket ON batter_vs_bowling_type_summary(bowling_type_bucket, sample_size_confidence DESC)"
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS batter_vs_phase_summary (
+            batter_key TEXT NOT NULL,
+            bowling_phase TEXT NOT NULL,
+            balls INTEGER NOT NULL DEFAULT 0,
+            runs INTEGER NOT NULL DEFAULT 0,
+            dismissals INTEGER NOT NULL DEFAULT 0,
+            strike_rate REAL NOT NULL DEFAULT 0.0,
+            dot_ball_pct REAL NOT NULL DEFAULT 0.0,
+            sample_size_confidence REAL NOT NULL DEFAULT 0.0,
+            source TEXT NOT NULL DEFAULT 'direct_phase_history',
+            last_updated REAL NOT NULL DEFAULT 0.0,
+            PRIMARY KEY (batter_key, bowling_phase)
+        )
+        """
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_bvps_phase ON batter_vs_phase_summary(bowling_phase, sample_size_confidence DESC)"
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS bowler_vs_batting_hand_summary (
+            bowler_key TEXT NOT NULL,
+            batting_hand TEXT NOT NULL,
+            balls INTEGER NOT NULL DEFAULT 0,
+            runs INTEGER NOT NULL DEFAULT 0,
+            dismissals INTEGER NOT NULL DEFAULT 0,
+            economy REAL NOT NULL DEFAULT 0.0,
+            strike_rate_against REAL NOT NULL DEFAULT 0.0,
+            dot_ball_pct REAL NOT NULL DEFAULT 0.0,
+            sample_size_confidence REAL NOT NULL DEFAULT 0.0,
+            source TEXT NOT NULL DEFAULT 'direct_delivery_history',
+            last_updated REAL NOT NULL DEFAULT 0.0,
+            PRIMARY KEY (bowler_key, batting_hand)
+        )
+        """
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_bvhs_hand ON bowler_vs_batting_hand_summary(batting_hand, sample_size_confidence DESC)"
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS batter_vs_spin_pace_summary (
+            batter_key TEXT NOT NULL,
+            pace_spin_bucket TEXT NOT NULL,
+            balls INTEGER NOT NULL DEFAULT 0,
+            runs INTEGER NOT NULL DEFAULT 0,
+            dismissals REAL NOT NULL DEFAULT 0.0,
+            strike_rate REAL NOT NULL DEFAULT 0.0,
+            dot_ball_pct REAL NOT NULL DEFAULT 0.0,
+            sample_size_confidence REAL NOT NULL DEFAULT 0.0,
+            source TEXT NOT NULL DEFAULT 'derived_history',
+            last_updated REAL NOT NULL DEFAULT 0.0,
+            PRIMARY KEY (batter_key, pace_spin_bucket)
+        )
+        """
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS matchup_summary_rebuild_state (
+            id INTEGER PRIMARY KEY CHECK (id = 1),
+            player_metadata_updated_at REAL NOT NULL DEFAULT 0.0,
+            matchup_summaries_updated_at REAL NOT NULL DEFAULT 0.0,
+            direct_delivery_rows_seen INTEGER NOT NULL DEFAULT 0,
+            notes TEXT
+        )
+        """
+    )
+
+
 def ensure_data_dir() -> None:
     Path(config.DATA_DIR).mkdir(parents=True, exist_ok=True)
 
@@ -798,6 +937,34 @@ def get_connection() -> sqlite3.Connection:
         CREATE INDEX IF NOT EXISTS idx_ppu_match ON player_phase_usage(match_id);
         CREATE INDEX IF NOT EXISTS idx_ppu_player ON player_phase_usage(player_key);
 
+        CREATE TABLE IF NOT EXISTS match_ball_by_ball (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            match_id INTEGER NOT NULL,
+            innings_number INTEGER NOT NULL DEFAULT 1,
+            batting_team_key TEXT NOT NULL,
+            bowling_team_key TEXT NOT NULL,
+            over_number INTEGER NOT NULL DEFAULT 0,
+            ball_in_over INTEGER NOT NULL DEFAULT 0,
+            phase TEXT NOT NULL DEFAULT 'middle',
+            batter_name TEXT NOT NULL,
+            batter_key TEXT NOT NULL,
+            bowler_name TEXT NOT NULL,
+            bowler_key TEXT NOT NULL,
+            runs_batter INTEGER NOT NULL DEFAULT 0,
+            runs_total INTEGER NOT NULL DEFAULT 0,
+            is_legal_ball INTEGER NOT NULL DEFAULT 1,
+            is_dot_ball INTEGER NOT NULL DEFAULT 0,
+            is_boundary INTEGER NOT NULL DEFAULT 0,
+            is_dismissal INTEGER NOT NULL DEFAULT 0,
+            dismissal_kind TEXT,
+            batter_out_key TEXT,
+            FOREIGN KEY (match_id) REFERENCES matches(id) ON DELETE CASCADE
+        );
+        CREATE INDEX IF NOT EXISTS idx_mbbb_match ON match_ball_by_ball(match_id, innings_number);
+        CREATE INDEX IF NOT EXISTS idx_mbbb_batter ON match_ball_by_ball(batter_key, match_id);
+        CREATE INDEX IF NOT EXISTS idx_mbbb_bowler ON match_ball_by_ball(bowler_key, match_id);
+        CREATE INDEX IF NOT EXISTS idx_mbbb_phase ON match_ball_by_ball(phase, bowler_key);
+
         CREATE TABLE IF NOT EXISTS player_batting_positions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             match_id INTEGER NOT NULL,
@@ -968,6 +1135,7 @@ def get_connection() -> sqlite3.Connection:
         _migrate_team_selection_derive_columns(conn)
         _migrate_stage1_canonical_alias_columns(conn)
         _migrate_player_aliases_table(conn)
+        _migrate_player_metadata_and_matchup_tables(conn)
         conn.execute(
             "CREATE INDEX IF NOT EXISTS idx_tmx_team_player ON team_match_xi(team_key, player_key)"
         )
@@ -1182,6 +1350,779 @@ def rebuild_prediction_summary_tables() -> dict[str, Any]:
     }
 
 
+def _confidence_from_samples(n: float, *, full: float = 80.0) -> float:
+    try:
+        x = float(n)
+    except (TypeError, ValueError):
+        x = 0.0
+    return max(0.0, min(1.0, x / max(1.0, float(full))))
+
+
+def _normalize_small_key(v: Any) -> str:
+    return str(v or "").strip().lower().replace("-", "_").replace(" ", "_")
+
+
+def _load_curated_player_metadata_file(raw_path: str) -> dict[str, dict[str, Any]]:
+    raw = str(raw_path or "").strip()
+    if not raw:
+        return {}
+    p = Path(raw)
+    if not p.is_absolute():
+        p = Path(__file__).resolve().parent / raw
+    try:
+        if not p.is_file():
+            return {}
+        obj = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        logger.warning("player metadata curated file unreadable: %s", p)
+        return {}
+    if not isinstance(obj, dict):
+        return {}
+    out: dict[str, dict[str, Any]] = {}
+    for k, v in obj.items():
+        nk = str(k or "").strip()[:80]
+        if nk and isinstance(v, dict):
+            out[nk] = dict(v)
+    return out
+
+
+def _load_curated_player_metadata_with_priority() -> dict[str, dict[str, Any]]:
+    """
+    Merge metadata sources with explicit priority:
+    1) Manual curated
+    2) Cricinfo curated
+    """
+    manual = _load_curated_player_metadata_file(
+        str(getattr(config, "PLAYER_METADATA_CURATED_PATH", "data/player_metadata_curated.json") or "")
+    )
+    cricinfo = _load_curated_player_metadata_file(
+        str(getattr(config, "PLAYER_METADATA_CRICINFO_PATH", "data/player_metadata_cricinfo.json") or "")
+    )
+    merged = dict(cricinfo)
+    merged.update(manual)
+    return merged
+
+
+def _bowling_bucket_from_style(raw_style: str) -> str:
+    s = _normalize_small_key(raw_style)
+    if not s:
+        return "unknown"
+    if "mystery" in s:
+        return "mystery_spin"
+    if "orthodox" in s:
+        return "left_arm_orthodox"
+    if "wrist" in s or "legbreak" in s or "leg_spin" in s:
+        return "wrist_spin"
+    if "offbreak" in s or "off_spin" in s or "finger" in s:
+        return "finger_spin"
+    if any(x in s for x in ("fast", "medium", "seam", "pace", "swing")):
+        return "pace"
+    if "spin" in s:
+        return "finger_spin"
+    return "unknown"
+
+
+def rebuild_player_metadata() -> dict[str, Any]:
+    """
+    Build/update ``player_metadata`` from curated file + SQLite usage/history.
+    """
+    t0 = time.perf_counter()
+    curated = _load_curated_player_metadata_with_priority()
+    now = time.time()
+    with connection() as conn:
+        # latest display names + role/bowling hints
+        keys = conn.execute(
+            """
+            SELECT DISTINCT player_key
+            FROM team_match_xi
+            WHERE player_key IS NOT NULL AND trim(player_key) != ''
+            """
+        ).fetchall()
+        upserts = 0
+        for r in keys:
+            pk = str(r["player_key"] or "").strip()[:80]
+            if not pk:
+                continue
+            latest_name_row = conn.execute(
+                """
+                SELECT player_name FROM team_match_xi
+                WHERE player_key = ?
+                ORDER BY id DESC LIMIT 1
+                """,
+                (pk,),
+            ).fetchone()
+            display_name = str((latest_name_row["player_name"] if latest_name_row else pk) or pk).strip()
+            role_rows = conn.execute(
+                """
+                SELECT role_bucket, COUNT(*) AS c
+                FROM team_match_xi
+                WHERE player_key = ? AND role_bucket IS NOT NULL AND trim(role_bucket) != ''
+                GROUP BY role_bucket
+                ORDER BY c DESC
+                LIMIT 2
+                """,
+                (pk,),
+            ).fetchall()
+            primary_role = "batter"
+            secondary_role = ""
+            role_map = {
+                "Batter": "batter",
+                "WK-Batter": "wicketkeeper_batter",
+                "All-Rounder": "batting_allrounder",
+                "Bowler": "bowler",
+            }
+            if role_rows:
+                primary_role = role_map.get(str(role_rows[0]["role_bucket"] or "").strip(), "batter")
+                if len(role_rows) > 1:
+                    secondary_role = role_map.get(str(role_rows[1]["role_bucket"] or "").strip(), "")
+
+            style_row = conn.execute(
+                """
+                SELECT bowling_type, COUNT(*) AS c
+                FROM team_match_xi
+                WHERE player_key = ? AND bowling_type IS NOT NULL AND trim(bowling_type) != ''
+                GROUP BY bowling_type
+                ORDER BY c DESC
+                LIMIT 1
+                """,
+                (pk,),
+            ).fetchone()
+            bowling_style_raw = str((style_row["bowling_type"] if style_row else "") or "").strip()
+            bowling_type_bucket = _bowling_bucket_from_style(bowling_style_raw)
+
+            bat_row = conn.execute(
+                """
+                SELECT AVG(batting_position) AS av, COUNT(*) AS n
+                FROM player_batting_positions
+                WHERE player_key = ? AND batting_position IS NOT NULL AND batting_position > 0
+                """,
+                (pk,),
+            ).fetchone()
+            bat_avg = float((bat_row["av"] if bat_row else 0.0) or 0.0)
+            bat_n = int((bat_row["n"] if bat_row else 0) or 0)
+            if bat_n < 2:
+                likely_batting_band = "unknown"
+            elif bat_avg <= 2.2:
+                likely_batting_band = "opener"
+            elif bat_avg <= 4.0:
+                likely_batting_band = "top_order"
+            elif bat_avg <= 6.0:
+                likely_batting_band = "middle_order"
+            elif bat_avg <= 8.0:
+                likely_batting_band = "finisher"
+            else:
+                likely_batting_band = "tail"
+
+            ph_rows = conn.execute(
+                """
+                SELECT phase, SUM(balls) AS b
+                FROM player_phase_usage
+                WHERE player_key = ? AND role = 'bowl'
+                GROUP BY phase
+                """,
+                (pk,),
+            ).fetchall()
+            by_ph = {str(x["phase"] or ""): int(x["b"] or 0) for x in ph_rows}
+            nz = [k for k, v in by_ph.items() if v > 0]
+            if not nz:
+                likely_bowling_phases = "unknown"
+            elif len(nz) > 1:
+                likely_bowling_phases = "multiple"
+            else:
+                one = nz[0]
+                likely_bowling_phases = one if one in ("powerplay", "middle", "death") else "unknown"
+
+            batting_hand = "unknown"
+            source = "derived_history"
+            conf = _confidence_from_samples(bat_n, full=20.0)
+            if pk in curated:
+                c = curated[pk]
+                display_name = str(c.get("display_name") or c.get("player_name") or display_name).strip() or display_name
+                batting_hand = str(c.get("batting_hand") or "unknown").strip().lower()
+                bowling_style_raw = str(c.get("bowling_style_raw") or bowling_style_raw).strip()
+                bowling_type_bucket = str(c.get("bowling_type_bucket") or bowling_type_bucket).strip().lower()
+                primary_role = str(c.get("primary_role") or primary_role).strip().lower()
+                secondary_role = str(c.get("secondary_role") or secondary_role).strip().lower()
+                likely_batting_band = str(c.get("likely_batting_band") or likely_batting_band).strip().lower()
+                likely_bowling_phases = str(c.get("likely_bowling_phases") or likely_bowling_phases).strip().lower()
+                source = str(c.get("source") or "curated_manual").strip() or "curated_manual"
+                conf = max(conf, float(c.get("confidence") or 0.95))
+
+            conn.execute(
+                """
+                INSERT INTO player_metadata (
+                    player_key, display_name, batting_hand, bowling_style_raw, bowling_type_bucket,
+                    primary_role, secondary_role, likely_batting_band, likely_bowling_phases,
+                    source, confidence, last_updated
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(player_key) DO UPDATE SET
+                    display_name = excluded.display_name,
+                    batting_hand = excluded.batting_hand,
+                    bowling_style_raw = excluded.bowling_style_raw,
+                    bowling_type_bucket = excluded.bowling_type_bucket,
+                    primary_role = excluded.primary_role,
+                    secondary_role = excluded.secondary_role,
+                    likely_batting_band = excluded.likely_batting_band,
+                    likely_bowling_phases = excluded.likely_bowling_phases,
+                    source = excluded.source,
+                    confidence = excluded.confidence,
+                    last_updated = excluded.last_updated
+                """,
+                (
+                    pk,
+                    display_name,
+                    batting_hand if batting_hand in ("right", "left", "unknown") else "unknown",
+                    bowling_style_raw,
+                    bowling_type_bucket
+                    if bowling_type_bucket
+                    in ("pace", "finger_spin", "wrist_spin", "left_arm_orthodox", "mystery_spin", "unknown")
+                    else "unknown",
+                    primary_role
+                    if primary_role
+                    in (
+                        "batter",
+                        "wk_batter",
+                        "all_rounder",
+                        "bowler",
+                        "wicketkeeper_batter",
+                        "batting_allrounder",
+                        "bowling_allrounder",
+                    )
+                    else "batter",
+                    secondary_role,
+                    likely_batting_band
+                    if likely_batting_band in ("opener", "top_order", "middle_order", "finisher", "tail", "unknown")
+                    else "unknown",
+                    likely_bowling_phases
+                    if likely_bowling_phases in ("powerplay", "middle", "death", "multiple", "unknown")
+                    else "unknown",
+                    source,
+                    max(0.0, min(1.0, conf)),
+                    now,
+                ),
+            )
+            upserts += 1
+        conn.execute(
+            """
+            INSERT INTO matchup_summary_rebuild_state (id, player_metadata_updated_at)
+            VALUES (1, ?)
+            ON CONFLICT(id) DO UPDATE SET player_metadata_updated_at = excluded.player_metadata_updated_at
+            """,
+            (now,),
+        )
+    return {"ok": True, "rows_upserted": upserts, "elapsed_ms": round((time.perf_counter() - t0) * 1000.0, 2)}
+
+
+def _delivery_facts_from_raw_payload(conn: sqlite3.Connection) -> tuple[list[dict[str, Any]], int]:
+    """
+    Parse direct batter-bowler delivery facts from ``match_results.raw_payload`` when present.
+    Returns (delivery_rows, payload_rows_seen_with_overs).
+    """
+    rows = conn.execute(
+        "SELECT id, match_date, raw_payload FROM match_results WHERE raw_payload IS NOT NULL AND trim(raw_payload) != ''"
+    ).fetchall()
+    out: list[dict[str, Any]] = []
+    seen_payloads = 0
+    for r in rows:
+        raw = str(r["raw_payload"] or "")
+        if not raw:
+            continue
+        try:
+            obj = json.loads(raw)
+        except Exception:
+            continue
+        innings = obj.get("innings")
+        if not isinstance(innings, list) or not innings:
+            continue
+        seen_payloads += 1
+        mdate = str(r["match_date"] or "")
+        for inn in innings:
+            if not isinstance(inn, dict):
+                continue
+            overs = inn.get("overs")
+            if not isinstance(overs, list):
+                continue
+            for ov in overs:
+                if not isinstance(ov, dict):
+                    continue
+                deliveries = ov.get("deliveries")
+                if not isinstance(deliveries, list):
+                    continue
+                for d in deliveries:
+                    if not isinstance(d, dict):
+                        continue
+                    batter = str(((d.get("batter") if isinstance(d.get("batter"), str) else None) or "")).strip()
+                    bowler = str(((d.get("bowler") if isinstance(d.get("bowler"), str) else None) or "")).strip()
+                    if not batter or not bowler:
+                        continue
+                    batter_key = batter.lower().strip()[:80]
+                    bowler_key = bowler.lower().strip()[:80]
+                    runs_block = d.get("runs") if isinstance(d.get("runs"), dict) else {}
+                    bruns = int((runs_block.get("batter") if isinstance(runs_block, dict) else 0) or 0)
+                    total = int((runs_block.get("total") if isinstance(runs_block, dict) else bruns) or bruns)
+                    is_wicket = 0
+                    wk = d.get("wickets")
+                    if isinstance(wk, list) and wk:
+                        for w in wk:
+                            if isinstance(w, dict) and str(w.get("player_out") or "").strip().lower() == batter.lower():
+                                is_wicket = 1
+                                break
+                    out.append(
+                        {
+                            "batter_key": batter_key,
+                            "bowler_key": bowler_key,
+                            "runs_batter": bruns,
+                            "runs_total": total,
+                            "is_dot": 1 if total == 0 else 0,
+                            "is_boundary": 1 if bruns >= 4 else 0,
+                            "dismissal": is_wicket,
+                            "match_date": mdate,
+                            "match_id": int(r["id"] or 0),
+                        }
+                    )
+    return out, seen_payloads
+
+
+def rebuild_matchup_summaries() -> dict[str, Any]:
+    """
+    Recompute matchup summary tables from SQLite-ingested history.
+    """
+    t0 = time.perf_counter()
+    now = time.time()
+    with connection() as conn:
+        conn.execute("DELETE FROM batter_bowler_matchup_summary")
+        conn.execute("DELETE FROM batter_vs_bowling_type_summary")
+        conn.execute("DELETE FROM batter_vs_phase_summary")
+        conn.execute("DELETE FROM bowler_vs_batting_hand_summary")
+        conn.execute("DELETE FROM batter_vs_spin_pace_summary")
+        delivery_rows = conn.execute(
+            """
+            SELECT bb.match_id, m.match_date, bb.phase,
+                   bb.batter_key, bb.bowler_key,
+                   bb.runs_batter, bb.runs_total,
+                   bb.is_dot_ball, bb.is_boundary, bb.is_dismissal
+            FROM match_ball_by_ball bb
+            LEFT JOIN matches m ON m.id = bb.match_id
+            WHERE bb.batter_key IS NOT NULL AND trim(bb.batter_key) != ''
+              AND bb.bowler_key IS NOT NULL AND trim(bb.bowler_key) != ''
+              AND bb.is_legal_ball = 1
+            """
+        ).fetchall()
+
+        # Metadata maps for hand/type joins.
+        hand_map = {
+            str(x["player_key"] or "").strip()[:80]: str(x["batting_hand"] or "unknown").strip().lower()
+            for x in conn.execute("SELECT player_key, batting_hand FROM player_metadata").fetchall()
+        }
+        bowl_type_map = {
+            str(x["player_key"] or "").strip()[:80]: str(x["bowling_type_bucket"] or "unknown").strip().lower()
+            for x in conn.execute("SELECT player_key, bowling_type_bucket FROM player_metadata").fetchall()
+        }
+
+        bb: dict[tuple[str, str], dict[str, Any]] = {}
+        bphase: dict[tuple[str, str], dict[str, Any]] = {}
+        bvtype: dict[tuple[str, str], dict[str, Any]] = {}
+        bvh: dict[tuple[str, str], dict[str, Any]] = {}
+        bspinpace: dict[tuple[str, str], dict[str, Any]] = {}
+        for r in delivery_rows:
+            batter_key = str(r["batter_key"] or "").strip()[:80]
+            bowler_key = str(r["bowler_key"] or "").strip()[:80]
+            phase = str(r["phase"] or "middle").strip().lower()
+            if phase not in ("powerplay", "middle", "death"):
+                phase = "middle"
+            runs_batter = int(r["runs_batter"] or 0)
+            runs_total = int(r["runs_total"] or 0)
+            is_dot = int(r["is_dot_ball"] or 0)
+            is_boundary = int(r["is_boundary"] or 0)
+            is_dismissal = int(r["is_dismissal"] or 0)
+            mdate = str(r["match_date"] or "")
+            mid = int(r["match_id"] or 0)
+
+            # 1) Direct batter vs bowler.
+            k_bb = (batter_key, bowler_key)
+            cur_bb = bb.setdefault(
+                k_bb,
+                {
+                    "balls": 0,
+                    "runs": 0,
+                    "dismissals": 0,
+                    "dots": 0,
+                    "bounds": 0,
+                    "match_ids": set(),
+                    "last_match_date": "",
+                },
+            )
+            cur_bb["balls"] += 1
+            cur_bb["runs"] += runs_batter
+            cur_bb["dismissals"] += is_dismissal
+            cur_bb["dots"] += is_dot
+            cur_bb["bounds"] += is_boundary
+            cur_bb["match_ids"].add(mid)
+            if mdate and mdate > str(cur_bb["last_match_date"]):
+                cur_bb["last_match_date"] = mdate
+
+            # 2) Batter vs phase.
+            k_phase = (batter_key, phase)
+            cur_phase = bphase.setdefault(k_phase, {"balls": 0, "runs": 0, "dismissals": 0, "dots": 0, "bounds": 0})
+            cur_phase["balls"] += 1
+            cur_phase["runs"] += runs_batter
+            cur_phase["dismissals"] += is_dismissal
+            cur_phase["dots"] += is_dot
+            cur_phase["bounds"] += is_boundary
+
+            # 3) Batter vs bowling type and spin/pace fallback buckets.
+            btype = bowl_type_map.get(bowler_key, "unknown")
+            if btype not in ("pace", "finger_spin", "wrist_spin", "left_arm_orthodox", "mystery_spin", "unknown"):
+                btype = "unknown"
+            k_type = (batter_key, btype)
+            cur_type = bvtype.setdefault(k_type, {"balls": 0, "runs": 0, "dismissals": 0, "dots": 0, "bounds": 0})
+            cur_type["balls"] += 1
+            cur_type["runs"] += runs_batter
+            cur_type["dismissals"] += is_dismissal
+            cur_type["dots"] += is_dot
+            cur_type["bounds"] += is_boundary
+
+            ps_bucket = "pace" if btype == "pace" else ("spin" if btype in ("finger_spin", "wrist_spin", "left_arm_orthodox", "mystery_spin") else "unknown")
+            k_ps = (batter_key, ps_bucket)
+            cur_ps = bspinpace.setdefault(k_ps, {"balls": 0, "runs": 0, "dismissals": 0, "dots": 0})
+            cur_ps["balls"] += 1
+            cur_ps["runs"] += runs_batter
+            cur_ps["dismissals"] += is_dismissal
+            cur_ps["dots"] += is_dot
+
+            # 4) Bowler vs batting hand.
+            hand = hand_map.get(batter_key, "unknown")
+            if hand not in ("right", "left", "unknown"):
+                hand = "unknown"
+            k_hand = (bowler_key, hand)
+            cur_hand = bvh.setdefault(k_hand, {"balls": 0, "runs": 0, "dismissals": 0, "dots": 0})
+            cur_hand["balls"] += 1
+            cur_hand["runs"] += runs_total
+            cur_hand["dismissals"] += is_dismissal
+            cur_hand["dots"] += is_dot
+
+        for (batter_key, bowler_key), cur in bb.items():
+            balls = int(cur["balls"])
+            runs = int(cur["runs"])
+            dismissals = int(cur["dismissals"])
+            match_count = len(cur["match_ids"])
+            conn.execute(
+                """
+                INSERT INTO batter_bowler_matchup_summary (
+                    batter_key, bowler_key, balls, runs, dismissals, strike_rate,
+                    dot_ball_pct, boundary_pct, innings_count, match_count, last_match_date,
+                    sample_size_confidence, source, last_updated
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    batter_key,
+                    bowler_key,
+                    balls,
+                    runs,
+                    dismissals,
+                    (100.0 * runs / balls) if balls > 0 else 0.0,
+                    (float(cur["dots"]) / balls) if balls > 0 else 0.0,
+                    (float(cur["bounds"]) / balls) if balls > 0 else 0.0,
+                    match_count,
+                    match_count,
+                    cur["last_match_date"] or None,
+                    _confidence_from_samples(balls, full=90.0),
+                    "direct_ball_by_ball",
+                    now,
+                ),
+            )
+
+        for (batter_key, phase), cur in bphase.items():
+            balls = int(cur["balls"])
+            runs = int(cur["runs"])
+            conn.execute(
+                """
+                INSERT INTO batter_vs_phase_summary (
+                    batter_key, bowling_phase, balls, runs, dismissals, strike_rate,
+                    dot_ball_pct, sample_size_confidence, source, last_updated
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    batter_key,
+                    phase,
+                    balls,
+                    runs,
+                    int(cur["dismissals"]),
+                    (100.0 * runs / balls) if balls > 0 else 0.0,
+                    (float(cur["dots"]) / balls) if balls > 0 else 0.0,
+                    _confidence_from_samples(balls, full=120.0),
+                    "direct_ball_by_ball",
+                    now,
+                ),
+            )
+
+        for (batter_key, btype), cur in bvtype.items():
+            balls = int(cur["balls"])
+            runs = int(cur["runs"])
+            conn.execute(
+                """
+                INSERT INTO batter_vs_bowling_type_summary (
+                    batter_key, bowling_type_bucket, balls, runs, dismissals,
+                    strike_rate, dot_ball_pct, boundary_pct, sample_size_confidence, source, last_updated
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    batter_key,
+                    btype,
+                    balls,
+                    runs,
+                    int(cur["dismissals"]),
+                    (100.0 * runs / balls) if balls > 0 else 0.0,
+                    (float(cur["dots"]) / balls) if balls > 0 else 0.0,
+                    (float(cur["bounds"]) / balls) if balls > 0 else 0.0,
+                    _confidence_from_samples(balls, full=120.0),
+                    "direct_ball_by_ball_with_metadata",
+                    now,
+                ),
+            )
+
+        for (batter_key, ps_bucket), cur in bspinpace.items():
+            balls = int(cur["balls"])
+            runs = int(cur["runs"])
+            conn.execute(
+                """
+                INSERT INTO batter_vs_spin_pace_summary (
+                    batter_key, pace_spin_bucket, balls, runs, dismissals,
+                    strike_rate, dot_ball_pct, sample_size_confidence, source, last_updated
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    batter_key,
+                    ps_bucket,
+                    balls,
+                    runs,
+                    int(cur["dismissals"]),
+                    (100.0 * runs / balls) if balls > 0 else 0.0,
+                    (float(cur["dots"]) / balls) if balls > 0 else 0.0,
+                    _confidence_from_samples(balls, full=120.0),
+                    "direct_ball_by_ball_with_metadata",
+                    now,
+                ),
+            )
+
+        for (bowler_key, hand), cur in bvh.items():
+            balls = int(cur["balls"])
+            runs = int(cur["runs"])
+            conn.execute(
+                """
+                INSERT INTO bowler_vs_batting_hand_summary (
+                    bowler_key, batting_hand, balls, runs, dismissals, economy,
+                    strike_rate_against, dot_ball_pct, sample_size_confidence, source, last_updated
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    bowler_key,
+                    hand,
+                    balls,
+                    runs,
+                    int(cur["dismissals"]),
+                    (6.0 * runs / balls) if balls > 0 else 0.0,
+                    (100.0 * runs / balls) if balls > 0 else 0.0,
+                    (float(cur["dots"]) / balls) if balls > 0 else 0.0,
+                    _confidence_from_samples(balls, full=90.0),
+                    "direct_ball_by_ball_with_metadata",
+                    now,
+                ),
+            )
+
+        conn.execute(
+            """
+            INSERT INTO matchup_summary_rebuild_state (
+                id, matchup_summaries_updated_at, direct_delivery_rows_seen, notes
+            ) VALUES (1, ?, ?, ?)
+            ON CONFLICT(id) DO UPDATE SET
+                matchup_summaries_updated_at = excluded.matchup_summaries_updated_at,
+                direct_delivery_rows_seen = excluded.direct_delivery_rows_seen,
+                notes = excluded.notes
+            """,
+            (
+                now,
+                int(len(delivery_rows)),
+                "summaries populated from match_ball_by_ball (direct) plus metadata joins",
+            ),
+        )
+    return {
+        "ok": True,
+        "elapsed_ms": round((time.perf_counter() - t0) * 1000.0, 2),
+        "direct_delivery_rows_seen": int(len(delivery_rows)),
+        "payload_rows_with_overs": 0,
+    }
+
+
+def rebuild_player_metadata_and_matchup_summaries() -> dict[str, Any]:
+    """One-call Phase-2 rebuild entrypoint (safe to rerun)."""
+    m = rebuild_player_metadata()
+    s = rebuild_matchup_summaries()
+    return {"ok": bool(m.get("ok") and s.get("ok")), "metadata": m, "matchups": s}
+def fetch_player_metadata_batch(player_keys: list[str]) -> dict[str, dict[str, Any]]:
+    """
+    Batch fetch from ``player_metadata`` keyed by ``player_key``.
+
+    Returns a mapping keyed by normalized (lowercased) player_key.
+    """
+    keys = [str(k).strip().lower() for k in (player_keys or []) if str(k).strip()]
+    keys = list(dict.fromkeys(keys))
+    if not keys:
+        return {}
+    qm = ",".join("?" * len(keys))
+    with connection() as conn:
+        try:
+            rows = conn.execute(
+                f"""
+                SELECT lower(player_key) AS player_key,
+                       display_name,
+                       batting_hand,
+                       bowling_style_raw,
+                       bowling_type_bucket,
+                       primary_role,
+                       secondary_role,
+                       likely_batting_band,
+                       likely_bowling_phases,
+                       source,
+                       confidence,
+                       last_updated
+                FROM player_metadata
+                WHERE lower(player_key) IN ({qm})
+                """,
+                keys,
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return {}
+    out: dict[str, dict[str, Any]] = {}
+    for r in rows or []:
+        pk = str(r[0] or "").strip().lower()
+        if not pk:
+            continue
+        out[pk] = {
+            "player_key": pk,
+            "display_name": r[1],
+            "batting_hand": r[2],
+            "bowling_style_raw": r[3],
+            "bowling_type_bucket": r[4],
+            "primary_role": r[5],
+            "secondary_role": r[6],
+            "likely_batting_band": r[7],
+            "likely_bowling_phases": r[8],
+            "source": r[9],
+            "confidence": r[10],
+            "last_updated": r[11],
+        }
+    return out
+
+
+def fetch_player_batting_position_profile_batch(
+    franchise_team_key: str, player_keys: list[str]
+) -> dict[str, dict[str, Any]]:
+    """
+    Per-player batting-position profile derived from ``player_batting_positions``.
+    """
+    tk = str(franchise_team_key or "").strip()
+    keys = [str(k).strip().lower() for k in (player_keys or []) if str(k).strip()]
+    keys = list(dict.fromkeys(keys))
+    if not tk or not keys:
+        return {}
+    qm = ",".join("?" * len(keys))
+    with connection() as conn:
+        try:
+            rows = conn.execute(
+                f"""
+                SELECT lower(player_key) AS player_key, batting_position
+                FROM player_batting_positions
+                WHERE team_key = ? AND lower(player_key) IN ({qm}) AND batting_position IS NOT NULL
+                """,
+                [tk, *keys],
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return {}
+    positions_by_pk: dict[str, list[float]] = {}
+    for r in rows or []:
+        pk = str(r[0] or "").strip().lower()
+        if not pk:
+            continue
+        try:
+            pos = float(r[1])
+        except (TypeError, ValueError):
+            continue
+        if pos <= 0 or pos > 15:
+            continue
+        positions_by_pk.setdefault(pk, []).append(pos)
+    out: dict[str, dict[str, Any]] = {}
+    for pk, vals in positions_by_pk.items():
+        if not vals:
+            continue
+        s = sorted(vals)
+        dominant = float(round(s[len(s) // 2], 2))
+        top12_share = sum(1 for x in vals if x <= 2.0) / max(1, len(vals))
+        dist: dict[str, int] = {}
+        for x in vals:
+            k = str(int(round(x)))
+            dist[k] = dist.get(k, 0) + 1
+        out[pk] = {
+            "dominant_position": dominant,
+            "top12_share": float(round(top12_share, 4)),
+            "distribution": dist,
+        }
+    return out
+
+
+def fetch_bowler_phase_summary_batch(
+    franchise_team_key: str, player_keys: list[str]
+) -> dict[str, dict[str, Any]]:
+    """
+    Bowling phase usage summary from ``player_phase_usage`` for a franchise slice.
+    """
+    tk = str(franchise_team_key or "").strip()
+    keys = [str(k).strip().lower() for k in (player_keys or []) if str(k).strip()]
+    keys = list(dict.fromkeys(keys))
+    if not tk or not keys:
+        return {}
+    qm = ",".join("?" * len(keys))
+    with connection() as conn:
+        try:
+            rows = conn.execute(
+                f"""
+                SELECT lower(player_key) AS player_key, phase,
+                       SUM(balls) AS balls, SUM(wickets) AS wickets
+                FROM player_phase_usage
+                WHERE team_key = ? AND lower(player_key) IN ({qm}) AND role IN ('bowler','bowl','all')
+                GROUP BY lower(player_key), phase
+                """,
+                [tk, *keys],
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return {}
+    phase_map: dict[str, dict[str, dict[str, float]]] = {}
+    for r in rows or []:
+        pk = str(r[0] or "").strip().lower()
+        ph = str(r[1] or "").strip().lower()
+        if not pk or ph not in ("powerplay", "middle", "death"):
+            continue
+        phase_map.setdefault(pk, {})[ph] = {"balls": float(r[2] or 0.0), "wickets": float(r[3] or 0.0)}
+    out: dict[str, dict[str, Any]] = {}
+    for pk, phs in phase_map.items():
+        pp = phs.get("powerplay", {})
+        md = phs.get("middle", {})
+        dt = phs.get("death", {})
+        pp_b = float(pp.get("balls") or 0.0)
+        md_b = float(md.get("balls") or 0.0)
+        dt_b = float(dt.get("balls") or 0.0)
+        total = pp_b + md_b + dt_b
+        if total <= 0:
+            continue
+        out[pk] = {
+            "total_balls": total,
+            "powerplay_share": pp_b / total,
+            "middle_share": md_b / total,
+            "death_share": dt_b / total,
+            "powerplay_wickets_per_ball": (float(pp.get("wickets") or 0.0) / pp_b) if pp_b > 0 else 0.0,
+            "death_wickets_per_ball": (float(dt.get("wickets") or 0.0) / dt_b) if dt_b > 0 else 0.0,
+        }
+    return out
 def remove_sqlite_database_files() -> dict[str, Any]:
     """
     Delete the configured SQLite database file and any **-wal** / **-shm** sidecars.
@@ -1745,6 +2686,93 @@ def _bowling_type_from_row(row: dict[str, Any]) -> Optional[str]:
     return None
 
 
+def _phase_from_over_number(over_number: int) -> str:
+    # Stored over_number is 0-based in Cricsheet payload.
+    ov = int(over_number)
+    if ov <= 5:
+        return "powerplay"
+    if ov <= 14:
+        return "middle"
+    return "death"
+
+
+def _insert_match_ball_by_ball_rows(
+    conn: sqlite3.Connection,
+    match_id: int,
+    payload: dict[str, Any],
+) -> int:
+    import ipl_teams
+    import learner
+
+    events = payload.get("delivery_events") or []
+    if not isinstance(events, list) or not events:
+        return 0
+    n = 0
+    for ev in events:
+        if not isinstance(ev, dict):
+            continue
+        bteam_raw = str(ev.get("batting_team") or "").strip()
+        fteam_raw = str(ev.get("bowling_team") or "").strip()
+        batter = str(ev.get("batter") or "").strip()
+        bowler = str(ev.get("bowler") or "").strip()
+        if not bteam_raw or not fteam_raw or not batter or not bowler:
+            continue
+        bteam = ipl_teams.franchise_label_for_storage(bteam_raw) or bteam_raw
+        fteam = ipl_teams.franchise_label_for_storage(fteam_raw) or fteam_raw
+        batter_key = str(learner.normalize_player_key(batter) or "")[:80]
+        bowler_key = str(learner.normalize_player_key(bowler) or "")[:80]
+        if not batter_key or not bowler_key:
+            continue
+        try:
+            over_n = int(ev.get("over_number") or 0)
+            ball_n = int(ev.get("ball_in_over") or 0)
+            runs_batter = int(ev.get("runs_batter") or 0)
+            runs_total = int(ev.get("runs_total") or 0)
+            innings_n = int(ev.get("innings_number") or 1)
+            legal = 1 if int(ev.get("is_legal_ball") or 0) == 1 else 0
+            dismissal = 1 if int(ev.get("is_dismissal") or 0) == 1 else 0
+        except (TypeError, ValueError):
+            continue
+        phase = str(ev.get("phase") or _phase_from_over_number(over_n)).strip().lower()
+        if phase not in ("powerplay", "middle", "death"):
+            phase = _phase_from_over_number(over_n)
+        conn.execute(
+            """
+            INSERT INTO match_ball_by_ball (
+                match_id, innings_number, batting_team_key, bowling_team_key,
+                over_number, ball_in_over, phase,
+                batter_name, batter_key, bowler_name, bowler_key,
+                runs_batter, runs_total,
+                is_legal_ball, is_dot_ball, is_boundary, is_dismissal,
+                dismissal_kind, batter_out_key
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                match_id,
+                innings_n,
+                str(ipl_teams.canonical_team_key_for_franchise(bteam) or "")[:80],
+                str(ipl_teams.canonical_team_key_for_franchise(fteam) or "")[:80],
+                over_n,
+                ball_n,
+                phase,
+                batter,
+                batter_key,
+                bowler,
+                bowler_key,
+                runs_batter,
+                runs_total,
+                legal,
+                1 if legal and runs_total == 0 else 0,
+                1 if runs_batter >= 4 else 0,
+                dismissal,
+                str(ev.get("dismissal_kind") or "").strip().lower() or None,
+                str(learner.normalize_player_key(str(ev.get("batter_out") or "").strip()) or "")[:80] or None,
+            ),
+        )
+        n += 1
+    return n
+
+
 def _sync_history_match_tables(
     conn: sqlite3.Connection,
     match_result_id: int,
@@ -1962,6 +2990,8 @@ def _sync_extended_player_tables(
     conn.execute("DELETE FROM player_match_batting_summary WHERE match_id = ?", (match_result_id,))
     conn.execute("DELETE FROM player_match_bowling_summary WHERE match_id = ?", (match_result_id,))
     conn.execute("DELETE FROM player_match_role_usage WHERE match_id = ?", (match_result_id,))
+    conn.execute("DELETE FROM match_ball_by_ball WHERE match_id = ?", (match_result_id,))
+    bb_rows_inserted = _insert_match_ball_by_ball_rows(conn, match_result_id, payload)
 
     for row in payload.get("player_stats_extended") or []:
         pn = _clean_name(row.get("player_name"))
@@ -2119,6 +3149,12 @@ def _sync_extended_player_tables(
             match_result_id,
             n_pbp,
             pbp_debug,
+        )
+    if bb_rows_inserted:
+        logger.info(
+            "match_ball_by_ball match_id=%s rows_inserted=%s",
+            match_result_id,
+            bb_rows_inserted,
         )
 
     for row in payload.get("player_phase_extended") or []:
@@ -3615,6 +4651,92 @@ def fetch_recent_pms_rows_for_squad_players(
     return [dict(r) for r in rows]
 
 
+def fetch_last_team_match_player_signals(
+    franchise_team_key: str,
+    player_keys: list[str],
+) -> dict[str, dict[str, Any]]:
+    """
+    Latest stored match signals for a franchise squad slice.
+
+    Returns per ``player_key`` signals from the most recent ``team_match_xi`` match:
+    - was in last XI
+    - batting position / overs bowled / keeper flag
+    - basic batting and bowling contribution fields (if summary rows exist)
+    """
+    fk = (franchise_team_key or "").strip()[:80]
+    keys = [str(k).strip()[:80] for k in player_keys if str(k).strip()]
+    keys = list(dict.fromkeys(keys))
+    if not fk or not keys:
+        return {}
+    qm = ",".join(["?"] * len(keys))
+    with connection() as conn:
+        latest = conn.execute(
+            """
+            SELECT x.match_id AS match_id, m.match_date AS match_date
+            FROM team_match_xi x
+            JOIN matches m ON m.id = x.match_id
+            WHERE x.team_key = ?
+              AND m.match_date IS NOT NULL
+              AND trim(m.match_date) != ''
+            ORDER BY m.match_date DESC, x.match_id DESC
+            LIMIT 1
+            """,
+            (fk,),
+        ).fetchone()
+        if latest is None:
+            return {}
+        match_id = int(latest["match_id"])
+        match_date = str(latest["match_date"] or "")
+        rows = conn.execute(
+            f"""
+            SELECT x.player_key AS player_key,
+                   x.selected_in_xi AS selected_in_xi,
+                   x.batting_position AS batting_position,
+                   x.overs_bowled AS overs_bowled,
+                   x.is_keeper AS is_keeper,
+                   b.runs AS bat_runs,
+                   b.balls AS bat_balls,
+                   b.strike_rate AS bat_strike_rate,
+                   bw.wickets AS bowl_wickets,
+                   bw.runs_conceded AS bowl_runs_conceded,
+                   bw.economy AS bowl_economy
+            FROM team_match_xi x
+            LEFT JOIN player_match_batting_summary b
+              ON b.match_id = x.match_id
+             AND b.team_key = x.team_key
+             AND b.player_key = x.player_key
+            LEFT JOIN player_match_bowling_summary bw
+              ON bw.match_id = x.match_id
+             AND bw.team_key = x.team_key
+             AND bw.player_key = x.player_key
+            WHERE x.team_key = ?
+              AND x.match_id = ?
+              AND x.player_key IN ({qm})
+            """,
+            (fk, match_id, *keys),
+        ).fetchall()
+    out: dict[str, dict[str, Any]] = {}
+    for r in rows:
+        pk = str(r["player_key"] or "").strip()
+        if not pk:
+            continue
+        out[pk] = {
+            "last_match_id": match_id,
+            "last_match_date": match_date,
+            "was_in_last_match_xi": bool(int(r["selected_in_xi"] or 0) > 0),
+            "last_match_batting_position": r["batting_position"],
+            "last_match_overs_bowled": r["overs_bowled"],
+            "last_match_is_keeper": bool(int(r["is_keeper"] or 0) > 0),
+            "last_match_batting_runs": int(r["bat_runs"] or 0),
+            "last_match_batting_balls": int(r["bat_balls"] or 0),
+            "last_match_batting_strike_rate": float(r["bat_strike_rate"] or 0.0),
+            "last_match_bowling_wickets": int(r["bowl_wickets"] or 0),
+            "last_match_bowling_runs_conceded": int(r["bowl_runs_conceded"] or 0),
+            "last_match_bowling_economy": float(r["bowl_economy"] or 0.0),
+        }
+    return out
+
+
 def fetch_player_recent_form_cache_batch(player_keys: list[str]) -> dict[str, dict[str, Any]]:
     """
     Rows from ``player_recent_form_cache`` for the given global ``player_key`` values.
@@ -3770,6 +4892,42 @@ def global_distinct_history_player_keys() -> frozenset[str]:
             SELECT player_key FROM player_batting_positions
             WHERE player_key IS NOT NULL AND trim(player_key) != ''
             """
+        ).fetchall()
+    return frozenset(str(r["player_key"]).strip() for r in rows if str(r["player_key"]).strip())
+
+
+def recent_franchise_history_player_keys(
+    franchise_team_key: str,
+    *,
+    limit_matches: int = 18,
+) -> frozenset[str]:
+    """
+    Distinct player keys seen in the most recent stored matches for a franchise.
+
+    Used as supporting evidence for initials-style linkage when franchise-wide alias matching is weak.
+    """
+    fk = (franchise_team_key or "").strip()[:80]
+    lim = max(3, min(80, int(limit_matches)))
+    if not fk:
+        return frozenset()
+    with connection() as conn:
+        rows = conn.execute(
+            """
+            SELECT DISTINCT x.player_key
+            FROM team_match_xi x
+            JOIN (
+                SELECT DISTINCT t.match_id
+                FROM team_match_xi t
+                JOIN matches m ON m.id = t.match_id
+                WHERE t.team_key = ?
+                ORDER BY m.match_date DESC NULLS LAST, t.match_id DESC
+                LIMIT ?
+            ) recent ON recent.match_id = x.match_id
+            WHERE x.team_key = ?
+              AND x.player_key IS NOT NULL
+              AND trim(x.player_key) != ''
+            """,
+            (fk, lim, fk),
         ).fetchall()
     return frozenset(str(r["player_key"]).strip() for r in rows if str(r["player_key"]).strip())
 

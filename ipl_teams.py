@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Optional
 
 import canonical_keys
@@ -24,6 +25,20 @@ IPL_TEAMS: list[tuple[str, str]] = [
 SLUG_TO_LABEL: dict[str, str] = {s: l for s, l in IPL_TEAMS}
 TEAM_SLUGS: list[str] = [s for s, _ in IPL_TEAMS]
 
+ASSETS_DIR = Path(__file__).resolve().parent / "assets" / "team_logos"
+TEAM_LOGO_FILENAME_BY_SLUG: dict[str, str] = {
+    "chennai-super-kings": "csk.png",
+    "mumbai-indians": "mi.png",
+    "kolkata-knight-riders": "kkr.png",
+    "royal-challengers-bengaluru": "rcb.png",
+    "sunrisers-hyderabad": "srh.png",
+    "rajasthan-royals": "rr.png",
+    "gujarat-titans": "gt.png",
+    "delhi-capitals": "dc.png",
+    "lucknow-super-giants": "lsg.png",
+    "punjab-kings": "pbks.png",
+}
+
 # Cricsheet / archive names that differ from current IPL branding (normalized keys).
 _HISTORY_FRANCHISE_ALIASES: dict[str, str] = {
     "royal challengers bangalore": "Royal Challengers Bengaluru",
@@ -34,6 +49,17 @@ _HISTORY_FRANCHISE_ALIASES: dict[str, str] = {
 
 def label_for_slug(slug: str) -> str:
     return SLUG_TO_LABEL.get(slug, slug.replace("-", " ").title())
+
+
+def team_logo_path_for_slug(slug: str) -> str:
+    """Canonical local logo asset path for this franchise, else ``\"\"``."""
+    filename = TEAM_LOGO_FILENAME_BY_SLUG.get(slug)
+    if not filename:
+        return ""
+    path = ASSETS_DIR / filename
+    if not path.is_file():
+        return ""
+    return str(path)
 
 
 def canonical_franchise_label_from_history_name(team_input: str) -> Optional[str]:

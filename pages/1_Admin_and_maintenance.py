@@ -10,13 +10,17 @@ import logging
 import time
 from dataclasses import asdict
 
+import pandas as pd
 import streamlit as st
 
+import audit_profile
 import config
+import cricinfo_squad_parser
 import cricsheet_ingest
 import db
 import ipl_teams
 import learner
+import predict_ui_render
 import predictor
 import stage_derive
 import stage1_audit
@@ -43,8 +47,57 @@ def _session_squads_and_labels() -> tuple[str, str, str, str]:
     return squad_a, squad_b, team_a_name, team_b_name
 
 
+def _selection_debug_top15_for_side_admin(r: dict, side: str) -> tuple["pd.DataFrame", dict]:
+    pld = r.get("prediction_layer_debug") or {}
+    team = r.get(side) or {}
+    block = pld.get(side) or {}
+    raw = list(block.get("scoring_breakdown_per_player") or [])
+    raw.sort(key=lambda x: float(x.get("final_selection_score") or 0), reverse=True)
+    raw = raw[:15]
+    xi_rows = team.get("xi") or []
+    xi_names = {str(row.get("name") or "").strip() for row in xi_rows if row.get("name")}
+    impact_names = {
+        str(row.get("name") or "").strip()
+        for row in (team.get("impact_subs") or [])
+        if row.get("name")
+    }
+    rows_out: list[dict] = []
+    for row in raw:
+        name = str(row.get("squad_display_name") or row.get("player_name") or "").strip()
+        smb = row.get("selection_model_base")
+        if not isinstance(smb, dict):
+            smb = {}
+        tact = row.get("tactical_adjustment_total")
+        if tact is None and isinstance(row.get("selection_model_tactical"), dict):
+            tact = sum(
+                float(v)
+                for v in row["selection_model_tactical"].values()
+                if isinstance(v, (int, float))
+            )
+        rows_out.append(
+            {
+                "player": name,
+                "in_playing_xi": "yes" if name in xi_names else "no",
+                "impact_candidate": "yes" if name in impact_names else "no",
+                "recent_form_score": smb.get("recent_form_score"),
+                "ipl_history_and_role_score": smb.get("ipl_history_and_role_score"),
+                "team_balance_fit_score": smb.get("team_balance_fit_score"),
+                "venue_experience_score": smb.get("venue_experience_score"),
+                "tactical_adjustment_total": tact,
+                "final_selection_score": row.get("final_selection_score"),
+            }
+        )
+    sel_dbg = (r.get("selection_debug") or {}).get(side) or {}
+    xi_val = sel_dbg.get("xi_validation") if isinstance(sel_dbg.get("xi_validation"), dict) else {}
+    return pd.DataFrame(rows_out), xi_val
+
+
 def main() -> None:
     st.set_page_config(page_title="Admin — IPL Predictor", layout="wide")
+    st.markdown(
+        "<style>[data-testid='stDeployButton']{display:none !important;}</style>",
+        unsafe_allow_html=True,
+    )
     _t0 = time.perf_counter()
     streamlit_db_init.ensure_db_schema_initialized(streamlit_db_init.db_init_signature())
     if getattr(config, "PREDICTION_TIMING_LOG", False):
@@ -71,6 +124,96 @@ def main() -> None:
             f"Using squads from **Predict** session state when applicable ({team_a_name} vs {team_b_name}). "
             "Adjust teams and squads on **Predict**, then return here."
         )
+
+    st.divider()
+    st.subheader("Prediction tuning debug (moved from Predict)")
+    st.caption("On-demand linkage and batting-order checks for the current Home/Away squads from Predict.")
+    if st.button(
+        "Verify current squad ↔ raw SQLite linkage (Home & Away)",
+        key="admin_predict_tuning_squad_link",
+    ):
+        _t_tl = time.perf_counter()
+        la = stage1_audit.squad_raw_history_linkage_for_team(
+            squad_a, team_a_name, opponent_label=team_b_name
+        )
+        lb = stage1_audit.squad_raw_history_linkage_for_team(
+            squad_b, team_b_name, opponent_label=team_a_name
+        )
+        audit_profile.record_tuning_action(
+            "verify_squad_sqlite_linkage_teams_ab",
+            (time.perf_counter() - _t_tl) * 1000.0,
+        )
+        st.json(
+            {
+                "home": la.get("summary"),
+                "home_per_player": la.get("per_player"),
+                "away": lb.get("summary"),
+                "away_per_player": lb.get("per_player"),
+            }
+        )
+    if st.button(
+        "Show batting order vs recent matches (player_batting_positions sample)",
+        key="admin_predict_tuning_bat_recent",
+    ):
+        _t_bt = time.perf_counter()
+        with db.connection() as conn:
+            st.json(stage1_audit.batting_position_ingest_sample(conn, limit=10))
+        audit_profile.record_tuning_action(
+            "batting_position_ingest_sample",
+            (time.perf_counter() - _t_bt) * 1000.0,
+        )
+
+    with st.expander("Audit profiling (moved from Predict)", expanded=False):
+        st.caption("Startup / rerun breakdown from Predict page.")
+        st.json(st.session_state.get("_audit_startup_breakdown") or {})
+        st.caption("Latest prediction audit (SQL + phases) — run prediction on Predict page.")
+        st.json(st.session_state.get("_audit_last_prediction_audit") or {})
+        st.caption("Streamlit-timed events")
+        st.json(st.session_state.get("_audit_streamlit_events") or {})
+        st.caption("Last tuning action")
+        st.json(st.session_state.get("_audit_tuning_last") or {})
+
+    st.divider()
+    st.subheader("Advanced prediction debug")
+    last_prediction = st.session_state.get("last_prediction")
+    if not last_prediction:
+        st.caption("Run a prediction on the Predict page, then return here for technical debug details.")
+    else:
+        show_advanced_prediction_debug = st.checkbox(
+            "Show advanced prediction debug (large tables, SQLite JSON, selection top-15)",
+            value=False,
+            key="admin_advanced_prediction_debug",
+        )
+        if show_advanced_prediction_debug:
+            predict_ui_render.render_prediction_admin_debug(
+                last_prediction,
+                selection_debug_top15_for_side=_selection_debug_top15_for_side_admin,
+            )
+
+    st.divider()
+    st.subheader("Curated metadata inputs")
+    st.caption(
+        "JSON support files used by prediction-time wiring (alias overrides, marquee overrides, curated metadata). "
+        "Cricinfo squad parser is a maintenance helper to refresh the Cricinfo metadata JSON."
+    )
+    with st.expander("Refresh Cricinfo curated metadata JSON (network)", expanded=False):
+        st.caption(
+            f"Writes to `{config.PLAYER_METADATA_CRICINFO_PATH}` using squad URLs embedded in "
+            "`cricinfo_squad_parser.CRICINFO_2026_SQUAD_URLS`."
+        )
+        if st.button("Fetch & rebuild Cricinfo metadata JSON now", key="admin_rebuild_cricinfo_json"):
+            t0 = time.perf_counter()
+            try:
+                data = cricinfo_squad_parser.save_cricinfo_metadata_json(
+                    config.PLAYER_METADATA_CRICINFO_PATH,
+                    cricinfo_squad_parser.CRICINFO_2026_SQUAD_URLS,
+                )
+            except Exception as exc:  # noqa: BLE001
+                st.error(f"Failed to fetch/parse Cricinfo squad pages: {exc}")
+            else:
+                st.success(
+                    f"Wrote **{len(data)}** player entries · elapsed **{round((time.perf_counter() - t0) * 1000.0, 1)} ms**."
+                )
 
     st.subheader("Cricsheet ingest (Stage 1)")
     st.caption(

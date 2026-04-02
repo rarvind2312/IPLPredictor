@@ -1,10 +1,12 @@
-"""Streamlit IPL Playing XI Predictor — weather, venue intelligence, multi-perspective XI."""
+"""Streamlit IPL Predictor."""
 
 from __future__ import annotations
 
+import base64
 import logging
 import time
-from datetime import date, datetime
+from datetime import date, datetime, time as dt_time
+from pathlib import Path
 
 _APP_IMPORT_T0 = time.perf_counter()
 
@@ -22,7 +24,6 @@ import predict_ui_render
 import predictor
 import recent_form_cache
 import squad_fetch
-import stage1_audit
 import streamlit_db_init
 import time_utils
 import weather
@@ -31,6 +32,7 @@ from venues import list_venue_choices, resolve_venue
 _APP_IMPORT_DONE = time.perf_counter()
 
 _perf_logger = logging.getLogger("ipl_predictor.perf")
+_LOCAL_IPL_LOGO_PATH = Path(__file__).resolve().parent / "assets" / "team_logos" / "IPL.png"
 
 
 def _selection_debug_top15_for_side(r: dict, side: str) -> tuple["pd.DataFrame", dict]:
@@ -171,9 +173,22 @@ def main() -> None:
     _t_main = time.perf_counter()
     _t_pc = time.perf_counter()
     st.set_page_config(
-        page_title="IPL Playing XI Predictor",
+        page_title="IPL Predictor",
         layout="wide",
         initial_sidebar_state="expanded",
+    )
+    st.markdown(
+        "<style>"
+        "[data-testid='stDeployButton']{display:none !important;}"
+        "[data-testid='stStatusWidget']{display:none !important;}"
+        ".block-container{padding-top:1.35rem !important;}"
+        "@keyframes ipl-logo-pulse{"
+        "0%{transform:scale(0.9);opacity:0.45;}"
+        "20%{transform:scale(1.0);opacity:1;}"
+        "100%{transform:scale(0.9);opacity:0.45;}"
+        "}"
+        "</style>",
+        unsafe_allow_html=True,
     )
     _set_page_ms = (time.perf_counter() - _t_pc) * 1000.0
     _t_db = time.perf_counter()
@@ -299,17 +314,126 @@ def main() -> None:
 
     _sidebar_ms = (time.perf_counter() - _t_side) * 1000.0
     _t_body = time.perf_counter()
-    st.title("IPL Playing XI Predictor")
-    st.caption(
-        "Weighted coach, player, analyst, opposition, and learned-history views — "
-        "with weather (IST), venue conditions, XI constraints, impact subs, toss leverage, and win odds."
-    )
+    def _img_html(path: str, *, width: int, square: bool = True) -> str:
+        p = Path(path)
+        if not p.is_file():
+            return ""
+        raw = p.read_bytes()
+        probe = raw[:512].lstrip().lower()
+        mime = "image/svg+xml" if probe.startswith(b"<svg") or b"<svg" in probe else "image/png"
+        data = base64.b64encode(raw).decode("ascii")
+        if square:
+            style = (
+                f"width:{int(width)}px;height:{int(width)}px;"
+                "object-fit:contain;display:block;margin:0 auto;"
+            )
+        else:
+            style = (
+                f"max-width:{int(width)}px;width:100%;height:auto;"
+                "display:block;margin:0 auto;"
+            )
+        return (
+            f'<img src="data:{mime};base64,{data}" '
+            f'style="{style}" />'
+        )
+
+    def _render_team_logo(slug: str, *, width: int = 40, show_label: bool = False, center: bool = True) -> None:
+        lab = ipl_teams.label_for_slug(slug)
+        logo_path = ipl_teams.team_logo_path_for_slug(slug)
+        if logo_path:
+            img = _img_html(logo_path, width=width, square=True)
+            if img:
+                wrapper_style = "text-align:center;" if center else ""
+                st.markdown(f'<div style="{wrapper_style}">{img}</div>', unsafe_allow_html=True)
+            else:
+                st.markdown(f"**{lab}**")
+        else:
+            st.markdown(f"**{lab}**")
+        if show_label:
+            align = "center" if center else "left"
+            st.markdown(
+                f'<div style="text-align:{align}; font-size:0.8rem; color:#6b7280;">{lab}</div>',
+                unsafe_allow_html=True,
+            )
+
+    def _render_logo_row(slugs: list[str], *, width: int) -> None:
+        cells: list[str] = []
+        for slug in slugs:
+            logo_path = ipl_teams.team_logo_path_for_slug(slug)
+            if logo_path:
+                img = _img_html(logo_path, width=width, square=True)
+                cells.append(
+                    '<div style="display:flex; justify-content:center; align-items:center; min-height:{0}px;">{1}</div>'.format(
+                        int(width) + 18, img
+                    )
+                )
+            else:
+                lab = ipl_teams.label_for_slug(slug)
+                cells.append(
+                    '<div style="width:100%; min-height:{0}px; display:flex; align-items:center; '
+                    'justify-content:center; font-size:12px; font-weight:600; text-align:center;">{1}</div>'.format(
+                        int(width) + 18, lab
+                    )
+                )
+        st.markdown(
+            '<div style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); '
+            'justify-items:center; align-items:center; column-gap:16px; row-gap:12px; width:100%;">'
+            + "".join(cells)
+            + "</div>",
+            unsafe_allow_html=True,
+        )
+
+    def _render_loading_logo_shuffle(slugs: list[str], *, width: int) -> None:
+        cells: list[str] = []
+        for idx, slug in enumerate(slugs):
+            logo_path = ipl_teams.team_logo_path_for_slug(slug)
+            if logo_path:
+                img = _img_html(logo_path, width=width, square=True)
+                cells.append(
+                    '<div style="display:flex; justify-content:center; align-items:center; '
+                    'min-height:{0}px; animation:ipl-logo-pulse 1.8s ease-in-out infinite; animation-delay:{1:.2f}s;">{2}</div>'.format(
+                        int(width) + 14, float(idx) * 0.12, img
+                    )
+                )
+            else:
+                lab = ipl_teams.label_for_slug(slug)
+                cells.append(
+                    '<div style="min-height:{0}px; display:flex; justify-content:center; align-items:center; '
+                    'font-size:12px; font-weight:600; animation:ipl-logo-pulse 1.8s ease-in-out infinite; animation-delay:{1:.2f}s;">{2}</div>'.format(
+                        int(width) + 14, float(idx) * 0.12, lab
+                    )
+                )
+        st.markdown(
+            '<div style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); '
+            'justify-items:center; align-items:center; column-gap:14px; row-gap:10px; width:100%; margin-top:0.25rem;">'
+            + "".join(cells)
+            + "</div>",
+            unsafe_allow_html=True,
+        )
+
+    if _LOCAL_IPL_LOGO_PATH.is_file():
+        st.markdown(
+            '<div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-top:0.35rem; margin-bottom:0.2rem;">'
+            + _img_html(str(_LOCAL_IPL_LOGO_PATH), width=220, square=False)
+            + '<h1 style="text-align:center; margin:0.15rem 0 0 0;">IPL Predictor</h1>'
+            + "</div>",
+            unsafe_allow_html=True,
+        )
+    else:
+        st.markdown('<h1 style="text-align:center; margin:0.1rem 0;">IPL Predictor</h1>', unsafe_allow_html=True)
+
+    # Initial-load IPL-only logo strip (no generic icons).
+    slugs = list(ipl_teams.TEAM_SLUGS)
+    row1 = slugs[:5]
+    row2 = slugs[5:]
+    _render_logo_row(row1, width=132)
+    _render_logo_row(row2, width=132)
 
     st.subheader("Pre-match inputs")
     r1c1, r1c2 = st.columns(2)
     with r1c1:
         team_a_slug = st.selectbox(
-            "Team A (Home)",
+            "Home",
             options=ipl_teams.TEAM_SLUGS,
             format_func=lambda s: ipl_teams.label_for_slug(s),
             key="select_team_a",
@@ -317,7 +441,7 @@ def main() -> None:
     with r1c2:
         b_options = [s for s in ipl_teams.TEAM_SLUGS if s != team_a_slug]
         team_b_slug = st.selectbox(
-            "Team B (Away)",
+            "Away",
             options=b_options,
             format_func=lambda s: ipl_teams.label_for_slug(s),
             key="select_team_b",
@@ -325,6 +449,11 @@ def main() -> None:
 
     team_a_name = ipl_teams.label_for_slug(team_a_slug)
     team_b_name = ipl_teams.label_for_slug(team_b_slug)
+    l1, l2 = st.columns(2)
+    with l1:
+        _render_team_logo(team_a_slug, width=118, show_label=True, center=True)
+    with l2:
+        _render_team_logo(team_b_slug, width=118, show_label=True, center=True)
 
     venue_options = list_venue_choices()
     v_labels = [f"{d} ({k})" for k, d in venue_options]
@@ -335,11 +464,19 @@ def main() -> None:
     venue = resolve_venue(venue_custom.strip() or venue_key)
 
     md = st.date_input("Match date", value=date.today())
-    st.caption("All match times use **India Standard Time (IST)**.")
-    mt = st.time_input(
-        "Match Time (IST)",
-        value=datetime.now(time_utils.IST).time().replace(second=0, microsecond=0),
+    time_options: list[tuple[str, dt_time]] = [
+        ("Afternoon match (15:30 IST)", dt_time(15, 30)),
+        ("Night match (19:30 IST)", dt_time(19, 30)),
+    ]
+    default_idx = 1
+    mt_idx = st.selectbox(
+        "Match start slot (IST)",
+        options=range(len(time_options)),
+        index=default_idx,
+        format_func=lambda i: time_options[i][0],
+        key="match_start_slot_ist",
     )
+    mt = time_options[int(mt_idx)][1]
     match_time_ist = time_utils.combine_date_time_ist(md, mt)
 
     unavailable = st.text_area(
@@ -348,18 +485,12 @@ def main() -> None:
         key="unavailable_input",
     )
 
-    if st.session_state.get("_fetch_squads_requested"):
-        _maybe_fetch_squad(team_a_slug, "a")
-        _maybe_fetch_squad(team_b_slug, "b")
+    _maybe_fetch_squad(team_a_slug, "a")
+    _maybe_fetch_squad(team_b_slug, "b")
 
-    st.subheader("Squads (auto-loaded from IPLT20; editable)")
+    st.subheader("Squads")
     fb1, fb2 = st.columns(2)
     with fb1:
-        if st.button("Load squads from IPLT20 now", help="Fetch both squads once on demand"):
-            st.session_state["_fetch_squads_requested"] = True
-            st.session_state["_slug_a_cached"] = None
-            st.session_state["_slug_b_cached"] = None
-            st.rerun()
         if st.button("Refresh squads from IPLT20", help="Re-download both squads from official pages"):
             st.session_state["_fetch_squads_requested"] = True
             st.session_state["_slug_a_cached"] = None
@@ -413,10 +544,6 @@ def main() -> None:
             st.session_state[key] = ""
 
     st.subheader("Captain & wicketkeeper (optional XI priors)")
-    st.caption(
-        "Choices apply **strong selection-score boosts** for the playing XI (not hard locks). "
-        "WK list lists **WK-Batter** roles first, then the rest of the squad."
-    )
     ac1, ac2 = st.columns(2)
     with ac1:
         st.selectbox(
@@ -446,118 +573,84 @@ def main() -> None:
             format_func=lambda x: "(auto — no WK prior)" if x == "" else x,
         )
 
-    prediction_tuning_debug = st.checkbox(
-        "Prediction tuning debug",
-        value=False,
-        key="prediction_tuning_debug_enabled",
-        help="Enable on-demand SQLite checks for squad linkage and batting-order samples. Default off — no extra queries.",
-    )
-    if prediction_tuning_debug:
-        with st.expander("Prediction tuning tools", expanded=True):
-            st.caption(
-                "Queries run **only** when you click a button. IPL readme ingest, derive, audit, DB wipe: "
-                "**Admin & maintenance** page."
-            )
-            if st.button(
-                "Verify current squad ↔ raw SQLite linkage (Teams A & B)",
-                key="predict_tuning_squad_link",
-            ):
-                _t_tl = time.perf_counter()
-                la = stage1_audit.squad_raw_history_linkage_for_team(
-                    squad_a, team_a_name, opponent_label=team_b_name
-                )
-                lb = stage1_audit.squad_raw_history_linkage_for_team(
-                    squad_b, team_b_name, opponent_label=team_a_name
-                )
-                audit_profile.record_tuning_action(
-                    "verify_squad_sqlite_linkage_teams_ab",
-                    (time.perf_counter() - _t_tl) * 1000.0,
-                )
-                st.json(
-                    {
-                        "team_a": la.get("summary"),
-                        "team_a_per_player": la.get("per_player"),
-                        "team_b": lb.get("summary"),
-                        "team_b_per_player": lb.get("per_player"),
-                    }
-                )
-            if st.button(
-                "Show batting order vs recent matches (player_batting_positions sample)",
-                key="predict_tuning_bat_recent",
-            ):
-                _t_bt = time.perf_counter()
-                with db.connection() as conn:
-                    st.json(stage1_audit.batting_position_ingest_sample(conn, limit=10))
-                audit_profile.record_tuning_action(
-                    "batting_position_ingest_sample",
-                    (time.perf_counter() - _t_bt) * 1000.0,
-                )
-
     toss_labels = [lbl for _k, lbl in predictor.TOSS_SCENARIO_OPTIONS]
     toss_keys = [k for k, _lbl in predictor.TOSS_SCENARIO_OPTIONS]
     toss_ix = st.selectbox(
-        "Toss scenario (XI history, impact subs, win %)",
+        "Toss scenario",
         range(len(toss_labels)),
         format_func=lambda i: toss_labels[i],
-        help="Unknown = neutral win % and no chase/defend tilt. Known toss feeds SQLite-backed history signals, "
-        "impact subs ordering, logistic model, and headline win %.",
+        help="Unknown = neutral toss context. Known toss applies the selected innings scenario.",
     )
     toss_key = toss_keys[int(toss_ix)]
 
     if st.button("Run prediction", type="primary"):
         _t_run_btn = time.perf_counter()
-        with st.spinner("Fetching weather (IST), reading SQLite history (if loaded), building projections…"):
-            _t_wx = time.perf_counter()
-            w = weather.fetch_weather(venue, match_time_ist)
-            audit_profile.append_session_audit_event(
-                "prediction_run",
-                "weather.fetch_weather",
-                (time.perf_counter() - _t_wx) * 1000.0,
-                extra={"venue_key": getattr(venue, "key", "")},
+        loading_slot = st.empty()
+        with loading_slot.container():
+            st.markdown('<h3 style="text-align:center;">Building prediction...</h3>', unsafe_allow_html=True)
+            st.markdown(
+                '<div style="text-align:center; color:#6b7280; margin-bottom:0.6rem;">Loading uses IPL team logos only.</div>',
+                unsafe_allow_html=True,
             )
-            parsed_a = predictor.parse_squad_text(squad_a)
-            parsed_b = predictor.parse_squad_text(squad_b)
-            parsed_keys_a = {learner.normalize_player_key(p.name) for p in parsed_a}
-            parsed_keys_b = {learner.normalize_player_key(p.name) for p in parsed_b}
-            parsed_keys_a.discard("")
-            parsed_keys_b.discard("")
-            fe_a = st.session_state.get("fetched_keys_a")
-            fe_b = st.session_state.get("fetched_keys_b")
-            pre_a = st.session_state.get("_pre_change_fetched_a")
-            pre_b = st.session_state.get("_pre_change_fetched_b")
-            stale_a: set[str] = set()
-            stale_b: set[str] = set()
-            if isinstance(fe_a, frozenset) and fe_a and isinstance(pre_a, frozenset) and pre_a:
-                stale_a = (parsed_keys_a - fe_a) & pre_a
-            if isinstance(fe_b, frozenset) and fe_b and isinstance(pre_b, frozenset) and pre_b:
-                stale_b = (parsed_keys_b - fe_b) & pre_b
-            _t_pred = time.perf_counter()
-            result = predictor.run_prediction(
-                team_a_name,
-                team_b_name,
-                squad_a,
-                squad_b,
-                unavailable,
-                venue,
-                match_time_ist,
-                w,
-                toss_scenario_key=toss_key,
-                team_a_captain_display_name=st.session_state.get("cap_a") or "",
-                team_b_captain_display_name=st.session_state.get("cap_b") or "",
-                team_a_wicketkeeper_display_name=st.session_state.get("wk_a") or "",
-                team_b_wicketkeeper_display_name=st.session_state.get("wk_b") or "",
-                team_a_fetched_squad_player_keys=set(fe_a) if isinstance(fe_a, frozenset) and fe_a else None,
-                team_b_fetched_squad_player_keys=set(fe_b) if isinstance(fe_b, frozenset) and fe_b else None,
-                team_a_stale_cached_player_keys=stale_a or None,
-                team_b_stale_cached_player_keys=stale_b or None,
-            )
-            audit_profile.append_session_audit_event(
-                "prediction_run",
-                "predictor.run_prediction",
-                (time.perf_counter() - _t_pred) * 1000.0,
-            )
-            if audit_profile.audit_enabled():
-                st.session_state["_audit_last_prediction_audit"] = result.get("audit_prediction")
+            ls1, ls2 = st.columns(2)
+            with ls1:
+                _render_team_logo(team_a_slug, width=118, show_label=True, center=True)
+            with ls2:
+                _render_team_logo(team_b_slug, width=118, show_label=True, center=True)
+            _render_loading_logo_shuffle(list(ipl_teams.TEAM_SLUGS), width=72)
+
+        _t_wx = time.perf_counter()
+        w = weather.fetch_weather(venue, match_time_ist)
+        audit_profile.append_session_audit_event(
+            "prediction_run",
+            "weather.fetch_weather",
+            (time.perf_counter() - _t_wx) * 1000.0,
+            extra={"venue_key": getattr(venue, "key", "")},
+        )
+        parsed_a = predictor.parse_squad_text(squad_a)
+        parsed_b = predictor.parse_squad_text(squad_b)
+        parsed_keys_a = {learner.normalize_player_key(p.name) for p in parsed_a}
+        parsed_keys_b = {learner.normalize_player_key(p.name) for p in parsed_b}
+        parsed_keys_a.discard("")
+        parsed_keys_b.discard("")
+        fe_a = st.session_state.get("fetched_keys_a")
+        fe_b = st.session_state.get("fetched_keys_b")
+        pre_a = st.session_state.get("_pre_change_fetched_a")
+        pre_b = st.session_state.get("_pre_change_fetched_b")
+        stale_a: set[str] = set()
+        stale_b: set[str] = set()
+        if isinstance(fe_a, frozenset) and fe_a and isinstance(pre_a, frozenset) and pre_a:
+            stale_a = (parsed_keys_a - fe_a) & pre_a
+        if isinstance(fe_b, frozenset) and fe_b and isinstance(pre_b, frozenset) and pre_b:
+            stale_b = (parsed_keys_b - fe_b) & pre_b
+        _t_pred = time.perf_counter()
+        result = predictor.run_prediction(
+            team_a_name,
+            team_b_name,
+            squad_a,
+            squad_b,
+            unavailable,
+            venue,
+            match_time_ist,
+            w,
+            toss_scenario_key=toss_key,
+            team_a_captain_display_name=st.session_state.get("cap_a") or "",
+            team_b_captain_display_name=st.session_state.get("cap_b") or "",
+            team_a_wicketkeeper_display_name=st.session_state.get("wk_a") or "",
+            team_b_wicketkeeper_display_name=st.session_state.get("wk_b") or "",
+            team_a_fetched_squad_player_keys=set(fe_a) if isinstance(fe_a, frozenset) and fe_a else None,
+            team_b_fetched_squad_player_keys=set(fe_b) if isinstance(fe_b, frozenset) and fe_b else None,
+            team_a_stale_cached_player_keys=stale_a or None,
+            team_b_stale_cached_player_keys=stale_b or None,
+        )
+        audit_profile.append_session_audit_event(
+            "prediction_run",
+            "predictor.run_prediction",
+            (time.perf_counter() - _t_pred) * 1000.0,
+        )
+        if audit_profile.audit_enabled():
+            st.session_state["_audit_last_prediction_audit"] = result.get("audit_prediction")
+        loading_slot.empty()
         if getattr(config, "PREDICTION_TIMING_LOG", False):
             _perf_logger.info(
                 "app_run_prediction_button_block_ms=%.2f",
@@ -571,15 +664,9 @@ def main() -> None:
 
     if "last_prediction" in st.session_state:
         r = st.session_state["last_prediction"]
-        show_advanced_prediction_debug = st.checkbox(
-            "Show advanced prediction debug (large tables, SQLite JSON, selection top-15)",
-            value=False,
-            key="advanced_prediction_debug",
-            help="Off by default for speed. Does not change prediction results — only what is shown.",
-        )
         predict_ui_render.render_stored_prediction_results(
             r,
-            show_advanced_prediction_debug=show_advanced_prediction_debug,
+            show_advanced_prediction_debug=False,
             selection_debug_top15_for_side=_selection_debug_top15_for_side,
         )
 
@@ -595,21 +682,7 @@ def main() -> None:
             "main_sidebar_construct_ms": round(_sidebar_ms, 2),
             "main_column_body_ms": round(_main_body_ms, 2),
             "main_function_total_this_rerun_ms": round(_full_main_ms, 2),
-            "note": (
-                "``db_init_schema_cache_miss_ms`` is set only on first ``@st.cache_resource`` miss per process/DB. "
-                "Tuning-debug buttons run only when clicked (checkbox gates the expander). "
-                "``prediction_tuning_debug`` false ⇒ no linkage/sample queries on that rerun."
-            ),
         }
-        with st.expander("Audit profiling (IPL_AUDIT_PROFILING)", expanded=False):
-            st.caption("Startup / rerun breakdown for this script execution.")
-            st.json(st.session_state["_audit_startup_breakdown"])
-            st.caption("Latest prediction audit (SQL + phases) — run **Run prediction** once.")
-            st.json(st.session_state.get("_audit_last_prediction_audit") or {})
-            st.caption("Streamlit-timed events (weather, prediction, squad fetch, tuning buttons, result render)")
-            st.json(st.session_state.get("_audit_streamlit_events") or [])
-            st.caption("Last tuning-debug action")
-            st.json(st.session_state.get("_audit_tuning_last") or {})
 
 
 if __name__ == "__main__":
