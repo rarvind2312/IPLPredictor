@@ -11,6 +11,30 @@
     "source": "curated_manual",
     "confidence": 0.99
   },
+  "cameron green": {
+    "display_name": "Cameron Green",
+    "batting_hand": "right",
+    "bowling_style_raw": "right-arm fast-medium",
+    "bowling_type_bucket": "pace",
+    "primary_role": "all_rounder",
+    "secondary_role": "batting_allrounder",
+    "likely_batting_band": "top_order",
+    "likely_bowling_phases": "powerplay,death",
+    "source": "curated_manual",
+    "confidence": 0.98
+  },
+  "rinku singh": {
+    "display_name": "Rinku Singh",
+    "batting_hand": "left",
+    "bowling_style_raw": "right-arm offbreak",
+    "bowling_type_bucket": "finger_spin",
+    "primary_role": "batter",
+    "secondary_role": "",
+    "likely_batting_band": "middle",
+    "likely_bowling_phases": "unknown",
+    "source": "curated_manual",
+    "confidence": 0.97
+  },
   "ruturaj gaikwad": {
     "display_name": "Ruturaj Gaikwad",
     "batting_hand": "right",
@@ -34,5 +58,17 @@
     "likely_bowling_phases": "unknown",
     "source": "curated_manual",
     "confidence": 0.95
+  },
+  "sunil narine": {
+    "display_name": "Sunil Narine",
+    "batting_hand": "left",
+    "bowling_style_raw": "right-arm offbreak",
+    "bowling_type_bucket": "finger_spin",
+    "primary_role": "all_rounder",
+    "secondary_role": "batting_allrounder",
+    "likely_batting_band": "opener",
+    "likely_bowling_phases": "middle",
+    "source": "curated_manual",
+    "confidence": 0.98
   }
 }

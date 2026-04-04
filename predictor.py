@@ -25,6 +25,7 @@ import ipl_squad
 import ipl_teams
 import learner
 import player_alias_resolve
+import player_registry
 import time_utils
 import win_probability_engine
 from history_context import HistoryContext, build_history_context, venue_lookup_keys
@@ -41,100 +42,14 @@ from venues import VenueProfile, venue_conditions_summary
 
 logger = logging.getLogger(__name__)
 _perf_logger = logging.getLogger("ipl_predictor.perf")
-_CURATED_PLAYER_META_FALLBACK: Optional[dict[str, dict[str, Any]]] = None
-_CURATED_PLAYER_META_FALLBACK_MTIME: Optional[tuple[float, float]] = None
 
 
 def _load_curated_marquee_overrides() -> dict[str, dict[str, Any]]:
-    raw_path = str(getattr(config, "PLAYER_MARQUEE_OVERRIDES_PATH", "") or "").strip()
-    if not raw_path:
-        return {}
-    path = Path(raw_path)
-    if not path.is_absolute():
-        path = Path(__file__).resolve().parent / raw_path
-    if not path.is_file():
-        return {}
-    try:
-        raw = json.loads(path.read_text(encoding="utf-8"))
-    except Exception as exc:
-        logger.warning("marquee_overrides: failed reading %s (%s)", path, exc)
-        return {}
-    out: dict[str, dict[str, Any]] = {}
-    if isinstance(raw, dict) and isinstance(raw.get("players"), dict):
-        src = raw.get("players") or {}
-    elif isinstance(raw, dict):
-        src = raw
-    else:
-        src = {}
-    for k, v in src.items():
-        nk = learner.normalize_player_key(str(k or ""))
-        if not nk or not isinstance(v, dict):
-            continue
-        tier = str(v.get("marquee_tier") or "").strip().lower()
-        if tier not in ("tier_1", "tier_2", "tier_3"):
-            continue
-        out[nk] = {
-            "marquee_tier": tier,
-            "marquee_reason": str(v.get("marquee_reason") or "curated_override").strip() or "curated_override",
-        }
-    return out
+    return player_registry.registry_marquee_lookup_map()
 
 
 def _load_curated_player_metadata_fallback() -> dict[str, dict[str, Any]]:
-    """
-    Lightweight JSON fallback for runtime metadata propagation.
-    Priority: manual curated > cricinfo curated (manual fixes override/supplement).
-    """
-    global _CURATED_PLAYER_META_FALLBACK
-    global _CURATED_PLAYER_META_FALLBACK_MTIME
-    curated_path_s = str(getattr(config, "PLAYER_METADATA_CURATED_PATH", "") or "").strip()
-    cricinfo_path_s = str(getattr(config, "PLAYER_METADATA_CRICINFO_PATH", "") or "").strip()
-    curated_p = Path(curated_path_s) if curated_path_s else None
-    cricinfo_p = Path(cricinfo_path_s) if cricinfo_path_s else None
-    if curated_p and not curated_p.is_absolute():
-        curated_p = Path(__file__).resolve().parent / curated_path_s
-    if cricinfo_p and not cricinfo_p.is_absolute():
-        cricinfo_p = Path(__file__).resolve().parent / cricinfo_path_s
-
-    mt_a = curated_p.stat().st_mtime if curated_p and curated_p.is_file() else 0.0
-    mt_b = cricinfo_p.stat().st_mtime if cricinfo_p and cricinfo_p.is_file() else 0.0
-    cur_mtime = (float(mt_a), float(mt_b))
-    if _CURATED_PLAYER_META_FALLBACK is not None and _CURATED_PLAYER_META_FALLBACK_MTIME == cur_mtime:
-        return _CURATED_PLAYER_META_FALLBACK
-
-    out: dict[str, dict[str, Any]] = {}
-    # Load cricinfo first, then overlay manual curated (higher priority).
-    for path in (cricinfo_p, curated_p):
-        if not path:
-            continue
-        if not path.exists():
-            continue
-        if not path.is_file():
-            continue
-        try:
-            raw = json.loads(path.read_text(encoding="utf-8"))
-        except Exception:
-            logger.warning("player_metadata_fallback: failed reading %s", path)
-            continue
-        # Support both dict keyed by player_key and list[rows].
-        if isinstance(raw, dict):
-            items = raw.items()
-        elif isinstance(raw, list):
-            items = ((str(x.get("player_name") or x.get("player_key") or ""), x) for x in raw if isinstance(x, dict))
-        else:
-            items = []
-        for k, v in items:
-            if not isinstance(v, dict):
-                continue
-            nk = learner.normalize_player_key(str(k or ""))
-            if not nk:
-                nk = learner.normalize_player_key(str(v.get("player_name") or v.get("display_name") or ""))
-            if not nk:
-                continue
-            out[nk] = dict(v)
-    _CURATED_PLAYER_META_FALLBACK = out
-    _CURATED_PLAYER_META_FALLBACK_MTIME = cur_mtime
-    return out
+    return player_registry.registry_metadata_lookup_map()
 
 
 def _slim_prediction_layer_debug(pld: dict[str, Any]) -> dict[str, Any]:
@@ -192,12 +107,14 @@ def _metadata_dependency_report(
     marquee = _json_status(str(getattr(config, "PLAYER_MARQUEE_OVERRIDES_PATH", "") or ""))
     curated = _json_status(str(getattr(config, "PLAYER_METADATA_CURATED_PATH", "") or ""))
     cricinfo = _json_status(str(getattr(config, "PLAYER_METADATA_CRICINFO_PATH", "") or ""))
+    registry = _json_status(str(getattr(config, "PLAYER_REGISTRY_MASTER_PATH", "") or ""))
     alias = _json_status(str(getattr(config, "PLAYER_ALIAS_OVERRIDES_PATH", "") or ""))
     alias["active"] = bool(alias.get("active") and player_alias_resolve.alias_overrides_active())
-    # Predictor loads + applies marquee overrides via _load_curated_marquee_overrides().
+    registry["active"] = bool(registry.get("active") and player_registry.registry_active())
     marquee["active"] = bool(marquee.get("active") and _load_curated_marquee_overrides())
 
     return {
+        "player_registry_master": registry,
         "alias_overrides": alias,
         "marquee_overrides": marquee,
         "cricinfo_metadata_json": cricinfo,
@@ -1304,6 +1221,7 @@ def _annotate_phase_bowling_signals(players: list[SquadPlayer], franchise_team_k
     key_by_name = {p.name: _lookup_key(p) for p in players}
     pks = [k for k in key_by_name.values() if k]
     phase_map = db.fetch_bowler_phase_summary_batch(franchise_team_key, pks)
+    recent_bowling_map = db.fetch_recent_player_bowling_usage_batch(franchise_team_key, pks)
     for p in players:
         if not isinstance(getattr(p, "history_debug", None), dict):
             p.history_debug = {}
@@ -1313,6 +1231,9 @@ def _annotate_phase_bowling_signals(players: list[SquadPlayer], franchise_team_k
         if ph:
             hd["bowler_phase_summary"] = ph
             hd["phase_lookup_key"] = pk
+        recent_bowling = recent_bowling_map.get(pk, {})
+        if recent_bowling:
+            hd["current_team_recent_bowling_usage"] = recent_bowling
 
 
 def _annotate_player_metadata(players: list[SquadPlayer]) -> None:
@@ -1353,6 +1274,12 @@ def _annotate_player_metadata(players: list[SquadPlayer]) -> None:
             canon = player_alias_resolve.canonicalize_via_alias_overrides(c)
             if canon and canon not in out and canon not in canon_extra:
                 canon_extra.append(canon)
+            alias_candidates = getattr(player_alias_resolve, "_alias_override_candidates", None)
+            if callable(alias_candidates):
+                for alias_key in alias_candidates(c) or []:
+                    alias_key = str(alias_key or "").strip().lower()
+                    if alias_key and alias_key not in out and alias_key not in canon_extra:
+                        canon_extra.append(alias_key)
         out.extend(canon_extra)
         return out
 
@@ -1414,16 +1341,31 @@ def _annotate_player_metadata(players: list[SquadPlayer]) -> None:
         hd = p.history_debug
         m = None
         chosen_pk = ""
-        curated = _load_curated_player_metadata_fallback()
         options: list[tuple[str, dict[str, Any], str]] = []
         for cand in key_cands_by_name.get(p.name, []):
             if cand in meta:
-                options.append((cand, dict(meta[cand]), "db"))
-            if cand in curated:
-                options.append((cand, dict(curated[cand]), "curated_fallback"))
+                options.append((cand, dict(meta[cand]), "registry"))
         if options:
-            options.sort(key=lambda x: (_meta_quality(x[1]), 1 if x[2] == "curated_fallback" else 0), reverse=True)
+            options.sort(key=lambda x: _meta_quality(x[1]), reverse=True)
             chosen_pk, m, m_src = options[0]
+            merged = dict(m)
+            merged["source_runtime_primary"] = m_src
+            for alt_pk, alt_meta, alt_src in options[1:]:
+                alt_band = _normalize_batting_band_label(alt_meta.get("likely_batting_band"))
+                cur_band = _normalize_batting_band_label(merged.get("likely_batting_band"))
+                if not cur_band and alt_band:
+                    merged["likely_batting_band"] = alt_band
+                    merged["likely_batting_band_runtime_source"] = alt_src
+                    merged["likely_batting_band_lookup_key"] = alt_pk
+                cur_secondary = str(merged.get("secondary_role") or "").strip()
+                alt_secondary = str(alt_meta.get("secondary_role") or "").strip()
+                if not cur_secondary and alt_secondary:
+                    merged["secondary_role"] = alt_secondary
+                cur_primary = str(merged.get("primary_role") or "").strip().lower()
+                alt_primary = str(alt_meta.get("primary_role") or "").strip().lower()
+                if cur_primary in ("", "unknown") and alt_primary:
+                    merged["primary_role"] = alt_primary
+            m = merged
             if not isinstance(getattr(p, "history_debug", None), dict):
                 p.history_debug = {}
             p.history_debug["player_metadata_source_runtime"] = m_src
@@ -1445,11 +1387,136 @@ def _batting_band_from_profile(dominant_position: float, top12_share: float) -> 
         return "opener"
     if dp <= 3.0 or (top12_share >= 0.65 and dp <= 4.0):
         return "top_order"
-    if dp <= 5.0:
-        return "middle"
     if dp <= 7.0:
-        return "finisher"
-    return "tail"
+        return "middle_order"
+    if dp <= 8.5:
+        return "lower_middle"
+    return "lower_order"
+
+
+def _normalize_batting_band_label(raw: Any) -> str:
+    s = str(raw or "").strip().lower()
+    if s == "middle":
+        return "middle_order"
+    if s == "finisher":
+        return "lower_middle"
+    if s == "tail":
+        return "lower_order"
+    if s == "middle_order":
+        return "middle_order"
+    if s in ("lower_middle", "lower_order"):
+        return s
+    if s in ("opener", "top_order"):
+        return s
+    return ""
+
+
+def _metadata_batting_band_anchor(p: SquadPlayer) -> tuple[str, str]:
+    hd = getattr(p, "history_debug", None) or {}
+    meta = hd.get("player_metadata") if isinstance(hd.get("player_metadata"), dict) else {}
+    if not meta:
+        return "", "none"
+    source = str(meta.get("source") or "").strip().lower()
+    likely = _normalize_batting_band_label(meta.get("likely_batting_band"))
+    primary_role = str(meta.get("primary_role") or "").strip().lower()
+    secondary_role = str(meta.get("secondary_role") or "").strip().lower()
+    if likely:
+        if source in ("curated_manual", "cricinfo_curated", "derived_history"):
+            return likely, "strong"
+        return likely, "medium"
+    if p.role_bucket in (BATTER, WK_BATTER) and primary_role in (
+        "batter",
+        "wk_batter",
+        "wicketkeeper_batter",
+    ):
+        return "top_order", "light"
+    if secondary_role in ("batter", "wk_batter", "wicketkeeper_batter") and p.role_bucket in (BATTER, WK_BATTER):
+        return "top_order", "light"
+    return "", "none"
+
+
+def _batting_band_rank(raw: str) -> int:
+    order = {"opener": 0, "top_order": 1, "middle_order": 2, "lower_middle": 3, "lower_order": 4}
+    return order.get(_normalize_batting_band_label(raw), 99)
+
+
+def _choose_batting_band(
+    *,
+    anchor_band: str,
+    anchor_strength: str,
+    recent_franchise_profile: Optional[dict[str, Any]],
+    franchise_profile: Optional[dict[str, Any]],
+    global_profile: Optional[dict[str, Any]],
+) -> tuple[str, str]:
+    recent_band = ""
+    recent_samples = 0
+    if recent_franchise_profile:
+        recent_ema = float(recent_franchise_profile.get("recent_position_ema") or 0.0)
+        if recent_ema > 0:
+            recent_band = _batting_band_from_profile(recent_ema, 1.0 if recent_ema <= 2.5 else 0.0)
+        recent_samples = int(recent_franchise_profile.get("recent_sample_count") or 0)
+    franchise_band = ""
+    franchise_samples = 0
+    if franchise_profile:
+        franchise_band = _batting_band_from_profile(
+            float(franchise_profile.get("dominant_position") or 0.0),
+            float(franchise_profile.get("top12_share") or 0.0),
+        )
+        franchise_samples = int(franchise_profile.get("sample_count") or 0)
+    global_band = ""
+    global_samples = 0
+    if global_profile:
+        global_band = _batting_band_from_profile(
+            float(global_profile.get("dominant_position") or 0.0),
+            float(global_profile.get("top12_share") or 0.0),
+        )
+        global_samples = int(global_profile.get("sample_count") or 0)
+
+    if recent_band:
+        if anchor_band:
+            if anchor_strength == "strong" and anchor_band in ("opener", "top_order") and recent_band in ("lower_middle", "lower_order") and recent_samples < 4:
+                return anchor_band, "metadata_anchor_over_recent_tiny_sample"
+            if anchor_band == "middle_order" and recent_band == "middle_order" and recent_samples < 4:
+                return anchor_band, "metadata_middle_anchor_over_recent_small_sample"
+            if recent_samples >= 3 and abs(_batting_band_rank(anchor_band) - _batting_band_rank(recent_band)) <= 1:
+                return recent_band, "current_team_recent_refined"
+            if recent_samples >= 4:
+                return recent_band, "current_team_recent_strong"
+            return anchor_band, "metadata_anchor"
+        return recent_band, "current_team_recent"
+
+    if franchise_band:
+        if anchor_band:
+            anchor_rank = _batting_band_rank(anchor_band)
+            franchise_rank = _batting_band_rank(franchise_band)
+            if anchor_strength == "strong" and anchor_band in ("opener", "top_order"):
+                if franchise_band in ("lower_middle", "lower_order") and franchise_samples < 12:
+                    return anchor_band, "metadata_anchor_over_franchise_sparse"
+                if franchise_band == "middle_order" and franchise_samples < 6:
+                    return anchor_band, "metadata_anchor_over_franchise_tiny_sample"
+            if anchor_band == "middle_order" and franchise_band in ("lower_middle", "lower_order") and franchise_samples < 8:
+                return anchor_band, "metadata_middle_anchor_over_franchise_small_sample"
+            if abs(anchor_rank - franchise_rank) <= 1 and franchise_samples >= 6:
+                return franchise_band, "franchise_history_refined"
+            if franchise_samples >= 12:
+                return franchise_band, "franchise_history_strong"
+            return anchor_band, "metadata_anchor"
+        return franchise_band, "franchise_history"
+
+    if global_band:
+        if anchor_band:
+            if anchor_strength == "strong" and anchor_band in ("opener", "top_order") and global_band in ("lower_middle", "lower_order"):
+                return anchor_band, "metadata_anchor_over_global_conflict"
+            if anchor_band == "middle_order" and global_band in ("lower_middle", "lower_order") and global_samples < 12:
+                return anchor_band, "metadata_middle_anchor_over_global_small_sample"
+            if abs(_batting_band_rank(anchor_band) - _batting_band_rank(global_band)) <= 1 and global_samples >= 10:
+                return global_band, "global_history_refined"
+            return anchor_band, "metadata_anchor"
+        return global_band, "global_history"
+
+    if anchor_band:
+        return anchor_band, "metadata_anchor_only"
+    return "", "unresolved"
 
 
 def _annotate_batting_position_profiles(players: list[SquadPlayer], franchise_team_key: str) -> None:
@@ -1464,21 +1531,51 @@ def _annotate_batting_position_profiles(players: list[SquadPlayer], franchise_te
 
     key_by_name = {p.name: _lookup_key(p) for p in players}
     pks = [k for k in key_by_name.values() if k]
+    recent_prof = db.fetch_recent_player_batting_positions_batch(franchise_team_key, pks)
     prof = db.fetch_player_batting_position_profile_batch(franchise_team_key, pks)
+    global_prof = db.fetch_player_batting_position_profile_batch_global(pks)
     for p in players:
         if not isinstance(getattr(p, "history_debug", None), dict):
             p.history_debug = {}
         hd = p.history_debug
         pk = key_by_name.get(p.name, "")
         pr = prof.get(pk)
-        if not pr:
-            continue
-        dp = float(pr.get("dominant_position") or 0.0)
-        t12 = float(pr.get("top12_share") or 0.0)
-        band = _batting_band_from_profile(dp, t12)
+        gpr = global_prof.get(pk)
+        rpr = recent_prof.get(pk)
+        anchor_band, anchor_strength = _metadata_batting_band_anchor(p)
+        chosen_band, chosen_source = _choose_batting_band(
+            anchor_band=anchor_band,
+            anchor_strength=anchor_strength,
+            recent_franchise_profile=rpr,
+            franchise_profile=pr,
+            global_profile=gpr,
+        )
+        chosen_profile = pr or gpr or {}
+        dp = float(chosen_profile.get("dominant_position") or 0.0)
+        t12 = float(chosen_profile.get("top12_share") or 0.0)
+        if rpr:
+            hd["current_team_recent_batting_positions"] = list(rpr.get("recent_positions") or [])
+            hd["current_team_recent_batting_position_ema"] = rpr.get("recent_position_ema")
+            hd["current_team_recent_batting_rows"] = int(rpr.get("recent_sample_count") or 0)
+        if pr:
+            hd["current_franchise_batting_band"] = _batting_band_from_profile(
+                float(pr.get("dominant_position") or 0.0),
+                float(pr.get("top12_share") or 0.0),
+            )
+            hd["current_franchise_batting_rows"] = int(pr.get("sample_count") or 0)
+        if gpr:
+            hd["global_batting_band"] = _batting_band_from_profile(
+                float(gpr.get("dominant_position") or 0.0),
+                float(gpr.get("top12_share") or 0.0),
+            )
+            hd["global_batting_rows"] = int(gpr.get("sample_count") or 0)
+            hd["global_batting_dominant_position"] = float(gpr.get("dominant_position") or 0.0)
+        hd["batting_band_anchor"] = anchor_band
+        hd["batting_band_anchor_strength"] = anchor_strength
+        hd["batting_band"] = chosen_band or anchor_band or hd.get("batting_band") or ""
+        hd["batting_band_source"] = chosen_source
         hd["dominant_position"] = dp
-        hd["batting_band"] = band
-        hd["batting_position_distribution"] = pr.get("distribution") or {}
+        hd["batting_position_distribution"] = chosen_profile.get("distribution") or {}
         hd["top12_share"] = t12
         hd["overwhelming_top_order_history"] = bool(t12 >= 0.65)
         hd["batting_profile_lookup_key"] = pk
@@ -1515,6 +1612,277 @@ def _batting_position_signal_for_role_band(p: SquadPlayer) -> float:
     if d_ema > 0.5:
         return d_ema
     return 7.5
+
+
+def _last_match_overs_bowled_for_subtype(p: SquadPlayer) -> float:
+    hd = getattr(p, "history_debug", None) or {}
+    sm = hd.get("selection_model_debug") if isinstance(hd.get("selection_model_debug"), dict) else {}
+    lmd = sm.get("last_match_detail") if isinstance(sm.get("last_match_detail"), dict) else {}
+    try:
+        return float(lmd.get("last_match_overs_bowled") or 0.0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def _recent_bowling_usage_for_subtype(p: SquadPlayer) -> tuple[list[float], int, int, float, float]:
+    hd = getattr(p, "history_debug", None) or {}
+    recent = (
+        hd.get("current_team_recent_bowling_usage")
+        if isinstance(hd.get("current_team_recent_bowling_usage"), dict)
+        else {}
+    )
+    overs = [float(v or 0.0) for v in (recent.get("recent_overs_bowled") or [])]
+    sample_count = int(recent.get("recent_match_count") or len(overs) or 0)
+    bowling_count = int(
+        recent.get("recent_bowling_match_count")
+        or sum(1 for v in overs if float(v or 0.0) >= 0.5)
+        or 0
+    )
+    try:
+        avg_all = float(recent.get("recent_avg_overs_all") or (sum(overs) / len(overs) if overs else 0.0))
+    except (TypeError, ValueError):
+        avg_all = 0.0
+    try:
+        avg_when = float(
+            recent.get("recent_avg_overs_when_bowled")
+            or (
+                sum(v for v in overs if v >= 0.5) / max(1, sum(1 for v in overs if v >= 0.5))
+                if overs
+                else 0.0
+            )
+        )
+    except (TypeError, ValueError):
+        avg_when = 0.0
+    return overs, sample_count, bowling_count, avg_all, avg_when
+
+
+def _derive_allrounder_subtype(p: SquadPlayer) -> str:
+    hd = getattr(p, "history_debug", None) or {}
+    meta = hd.get("player_metadata") if isinstance(hd.get("player_metadata"), dict) else {}
+    phs = hd.get("bowler_phase_summary") if isinstance(hd.get("bowler_phase_summary"), dict) else {}
+    batting_band = _normalize_batting_band_label(hd.get("batting_band"))
+    likely_band = _normalize_batting_band_label(meta.get("likely_batting_band"))
+    primary_role = str(meta.get("primary_role") or "").strip().lower()
+    secondary_role = str(meta.get("secondary_role") or "").strip().lower()
+    bowling_type_bucket = str(meta.get("bowling_type_bucket") or "").strip().lower()
+    slot = float(_batting_position_signal_for_role_band(p))
+    recent_bowling_overs, recent_bowling_samples, recent_bowling_matches, recent_avg_overs_all, recent_avg_overs_when = _recent_bowling_usage_for_subtype(p)
+    try:
+        recent_ema = float(hd.get("current_team_recent_batting_position_ema") or 0.0)
+    except (TypeError, ValueError):
+        recent_ema = 0.0
+    recent_rows = int(hd.get("current_team_recent_batting_rows") or 0)
+    try:
+        franchise_dom = float(hd.get("dominant_position") or 0.0)
+    except (TypeError, ValueError):
+        franchise_dom = 0.0
+    try:
+        global_dom = float(hd.get("global_batting_dominant_position") or 0.0)
+    except (TypeError, ValueError):
+        global_dom = 0.0
+    subtype_scores = {"batting": 0.0, "bowling": 0.0, "balanced": 0.0}
+
+    band_anchor = batting_band or likely_band
+    if band_anchor == "opener":
+        subtype_scores["batting"] += 3.0
+    elif band_anchor == "top_order":
+        subtype_scores["batting"] += 2.6
+    elif band_anchor == "middle":
+        subtype_scores["batting"] += 1.5
+        subtype_scores["balanced"] += 0.8
+    elif band_anchor == "finisher":
+        subtype_scores["batting"] += 0.8
+        subtype_scores["balanced"] += 0.9
+    elif band_anchor == "tail":
+        subtype_scores["bowling"] += 2.4
+
+    if slot <= 4.5:
+        subtype_scores["batting"] += 2.2
+    elif slot <= 6.2:
+        subtype_scores["batting"] += 1.2
+        subtype_scores["balanced"] += 0.8
+    elif slot <= 7.5:
+        subtype_scores["balanced"] += 1.2
+        subtype_scores["bowling"] += 0.8
+    else:
+        subtype_scores["bowling"] += 2.2
+
+    if recent_rows >= 2:
+        if recent_ema <= 3.0:
+            subtype_scores["batting"] += 3.0
+        elif recent_ema <= 6.0:
+            subtype_scores["batting"] += 2.2
+        elif recent_ema <= 8.0:
+            subtype_scores["balanced"] += 1.6
+        else:
+            subtype_scores["bowling"] += 2.2
+    elif franchise_dom > 0:
+        if franchise_dom <= 6.0:
+            subtype_scores["batting"] += 1.3
+        elif franchise_dom <= 8.0:
+            subtype_scores["balanced"] += 0.9
+        else:
+            subtype_scores["bowling"] += 1.3
+
+    bat_minus_bowl = float(getattr(p, "bat_skill", 0.0) or 0.0) - float(getattr(p, "bowl_skill", 0.0) or 0.0)
+    if bat_minus_bowl >= 0.10:
+        subtype_scores["batting"] += 2.0
+    elif bat_minus_bowl <= -0.10:
+        subtype_scores["bowling"] += 2.0
+    else:
+        subtype_scores["balanced"] += 1.2
+
+    try:
+        total_balls = float(phs.get("total_balls") or 0.0)
+        pp_share = float(phs.get("powerplay_share") or 0.0)
+        md_share = float(phs.get("middle_share") or 0.0)
+        dt_share = float(phs.get("death_share") or 0.0)
+    except (TypeError, ValueError):
+        total_balls, pp_share, md_share, dt_share = 0.0, 0.0, 0.0, 0.0
+    if total_balls >= 180.0:
+        subtype_scores["bowling"] += 2.0
+    elif total_balls >= 72.0:
+        subtype_scores["bowling"] += 1.2
+        subtype_scores["balanced"] += 0.4
+    if _last_match_overs_bowled_for_subtype(p) >= 2.0:
+        subtype_scores["bowling"] += 1.2
+    if md_share >= 0.34 and total_balls >= 72.0:
+        subtype_scores["balanced"] += 0.8
+    if (pp_share >= 0.26 or dt_share >= 0.26) and total_balls >= 72.0:
+        subtype_scores["bowling"] += 0.8
+    if not band_anchor:
+        if bowling_type_bucket in ("left_arm_orthodox", "finger_spin", "wrist_spin", "mystery_spin"):
+            subtype_scores["bowling"] += 2.4
+        elif bowling_type_bucket in ("pace", "right_arm_fast", "right_arm_fast_medium", "left_arm_fast", "left_arm_fast_medium"):
+            subtype_scores["balanced"] += 0.8
+
+    if secondary_role in ("batter", "wk_batter", "wicketkeeper_batter", "batting_allrounder"):
+        subtype_scores["batting"] += 1.1
+    if secondary_role in ("bowler", "bowling_allrounder"):
+        subtype_scores["bowling"] += 1.1
+    if primary_role in ("batting_allrounder",):
+        subtype_scores["batting"] += 1.8
+    elif primary_role in ("bowling_allrounder",):
+        subtype_scores["bowling"] += 1.8
+    elif primary_role == "all_rounder":
+        subtype_scores["balanced"] += 0.6
+
+    if recent_bowling_samples >= 4:
+        if recent_avg_overs_all >= 2.0 or recent_bowling_matches >= 3:
+            subtype_scores["bowling"] += 2.0
+        elif recent_avg_overs_all >= 1.2:
+            subtype_scores["balanced"] += 1.1
+        else:
+            subtype_scores["batting"] += 0.8
+        if recent_avg_overs_all >= 2.6 or recent_avg_overs_when >= 3.0:
+            subtype_scores["bowling"] += 0.9
+
+    bowling_usage_real = total_balls >= 72.0 or _last_match_overs_bowled_for_subtype(p) >= 1.5
+    bowling_usage_strong = total_balls >= 180.0 or _last_match_overs_bowled_for_subtype(p) >= 2.5
+    bowling_usage_recent_real = recent_bowling_samples >= 4 and (
+        recent_avg_overs_all >= 1.75 or recent_bowling_matches >= 3
+    )
+    bowling_usage_recent_strong = recent_bowling_samples >= 4 and (
+        recent_avg_overs_all >= 2.2 or recent_avg_overs_when >= 2.6
+    )
+    bowling_usage_real = bowling_usage_real or bowling_usage_recent_real
+    bowling_usage_strong = bowling_usage_strong or bowling_usage_recent_strong
+    history_slot = recent_ema if recent_rows >= 2 and recent_ema > 0 else (
+        franchise_dom if franchise_dom > 0 else (global_dom if global_dom > 0 else slot)
+    )
+    batter_truth = (
+        likely_band in ("opener", "top_order", "middle")
+        or primary_role == "batting_allrounder"
+        or secondary_role in ("batter", "wk_batter", "wicketkeeper_batter", "batting_allrounder")
+    )
+    bowler_truth = (
+        primary_role == "bowling_allrounder"
+        or secondary_role in ("bowler", "bowling_allrounder")
+        or bowling_type_bucket in (
+            "left_arm_orthodox",
+            "finger_spin",
+            "wrist_spin",
+            "mystery_spin",
+            "pace",
+            "right_arm_fast",
+            "right_arm_fast_medium",
+            "left_arm_fast",
+            "left_arm_fast_medium",
+        )
+    )
+    sparse_role_history = not likely_band and recent_rows < 2 and franchise_dom <= 0 and global_dom <= 0
+
+    if secondary_role == "batting_allrounder" or primary_role == "batting_allrounder":
+        subtype = "batting_allrounder"
+    elif secondary_role == "bowling_allrounder" or primary_role == "bowling_allrounder":
+        subtype = "bowling_allrounder"
+    elif primary_role in ("batter", "wk_batter", "wicketkeeper_batter") and likely_band == "middle":
+        subtype = "balanced_allrounder" if bowling_usage_real or bowler_truth else "balanced_allrounder"
+    elif recent_rows >= 3:
+        if recent_ema <= 5.8 and not bowling_usage_recent_real and not bowling_usage_strong:
+            subtype = "batting_allrounder"
+        elif recent_ema >= 7.8 and bowling_usage_recent_real:
+            subtype = "bowling_allrounder"
+        elif recent_ema <= 7.0 and bowling_usage_recent_real:
+            subtype = "balanced_allrounder"
+        elif recent_ema <= 5.5 and recent_bowling_samples >= 4 and recent_avg_overs_all < 1.2:
+            subtype = "batting_allrounder"
+        elif recent_ema >= 8.0 and recent_bowling_samples >= 4 and recent_avg_overs_all >= 2.0:
+            subtype = "bowling_allrounder"
+        elif recent_ema <= 7.0 and recent_bowling_samples >= 4 and recent_avg_overs_all >= 2.0:
+            subtype = "balanced_allrounder"
+        else:
+            subtype = ""
+    else:
+        subtype = ""
+
+    if not subtype and sparse_role_history and not bowling_usage_real and bowling_type_bucket in (
+        "pace",
+        "right_arm_fast",
+        "right_arm_fast_medium",
+        "left_arm_fast",
+        "left_arm_fast_medium",
+    ) and float(getattr(p, "bat_skill", 0.0) or 0.0) >= 0.59:
+        subtype = "batting_allrounder"
+    elif not subtype and sparse_role_history and bowling_type_bucket in (
+        "left_arm_orthodox",
+        "finger_spin",
+        "wrist_spin",
+        "mystery_spin",
+    ) and float(getattr(p, "bat_skill", 0.0) or 0.0) <= 0.6:
+        subtype = "bowling_allrounder"
+    elif not subtype and batter_truth and history_slot <= 5.2 and bat_minus_bowl >= -0.12:
+        subtype = "batting_allrounder"
+    elif not subtype and bowler_truth and bowling_usage_strong and history_slot >= 7.2 and bat_minus_bowl <= 0.12:
+        subtype = "bowling_allrounder"
+    elif not subtype and batter_truth and bowler_truth and bowling_usage_real and 4.8 <= history_slot <= 7.5:
+        subtype = "balanced_allrounder"
+    elif not subtype and batter_truth and not bowling_usage_real and history_slot <= 6.0:
+        subtype = "batting_allrounder"
+    elif not subtype and bowler_truth and bowling_usage_real and history_slot >= 6.8:
+        subtype = "bowling_allrounder"
+    elif not subtype and 4.8 <= history_slot <= 7.5 and bowling_usage_real:
+        subtype = "balanced_allrounder"
+    elif not subtype:
+        batting_score = subtype_scores["batting"]
+        bowling_score = subtype_scores["bowling"]
+        balanced_score = subtype_scores["balanced"]
+        if batting_score >= bowling_score + 1.5 and batting_score >= balanced_score + 0.2:
+            subtype = "batting_allrounder"
+        elif bowling_score >= batting_score + 1.5 and bowling_score >= balanced_score + 0.2:
+            subtype = "bowling_allrounder"
+        else:
+            subtype = "balanced_allrounder"
+
+    hd["allrounder_subtype"] = subtype
+    hd["allrounder_subtype_scores"] = {k: round(v, 3) for k, v in subtype_scores.items()}
+    hd["allrounder_subtype_anchor_band"] = band_anchor
+    hd["allrounder_subtype_slot_signal"] = round(slot, 3)
+    hd["allrounder_subtype_bowling_balls"] = int(total_balls)
+    hd["allrounder_recent_bowling_overs"] = [round(v, 2) for v in recent_bowling_overs]
+    hd["allrounder_recent_bowling_avg_overs"] = round(recent_avg_overs_all, 3)
+    hd["allrounder_recent_bowling_match_count"] = int(recent_bowling_matches)
+    return subtype
 
 
 def _derive_role_band_for_player(p: SquadPlayer) -> str:
@@ -1554,6 +1922,16 @@ def _derive_role_band_for_player(p: SquadPlayer) -> str:
         last_pos = float(lmd.get("last_match_batting_position") or 0.0)
     except (TypeError, ValueError):
         last_pos = 0.0
+    no_reliable_batting_slot = (last_pos <= 0.0) and slot >= 7.4
+    likely_band = _normalize_batting_band_label(meta.get("likely_batting_band"))
+    batting_band = _normalize_batting_band_label(hd.get("batting_band"))
+    primary_role = str(meta.get("primary_role") or "").strip().lower()
+    secondary_role = str(meta.get("secondary_role") or "").strip().lower()
+    try:
+        recent_ema = float(hd.get("current_team_recent_batting_position_ema") or 0.0)
+    except (TypeError, ValueError):
+        recent_ema = 0.0
+    recent_rows = int(hd.get("current_team_recent_batting_rows") or 0)
 
     if rb == WK_BATTER:
         bband = str(hd.get("batting_band") or "")
@@ -1571,6 +1949,9 @@ def _derive_role_band_for_player(p: SquadPlayer) -> str:
             return "top_order"
         if slot <= 3.0 and ol >= 0.56:
             return "top_order"
+        if no_reliable_batting_slot:
+            if likely_band in ("opener", "top_order") or primary_role in ("wk_batter", "wicketkeeper_batter", "batter") or secondary_role in ("wk_batter", "wicketkeeper_batter", "batter"):
+                return "top_order"
         return "wicketkeeper_batter"
     if rb == BATTER:
         bband = str(hd.get("batting_band") or "")
@@ -1588,8 +1969,30 @@ def _derive_role_band_for_player(p: SquadPlayer) -> str:
             return "top_order"
         if slot <= 6.2:
             return "middle_order"
+        if no_reliable_batting_slot:
+            if likely_band == "opener":
+                return "opener"
+            if likely_band in ("top_order", "middle"):
+                return "top_order" if likely_band == "top_order" else "middle_order"
+            if primary_role in ("batter", "wk_batter", "wicketkeeper_batter") or secondary_role in ("batter", "wk_batter", "wicketkeeper_batter"):
+                return "top_order" if float(getattr(p, "bat_skill", 0.0) or 0.0) >= 0.56 else "middle_order"
+            return "top_order" if float(getattr(p, "bat_skill", 0.0) or 0.0) >= 0.60 else "middle_order"
         return "finisher"
     if rb == ALL_ROUNDER:
+        subtype = _derive_allrounder_subtype(p)
+        if batting_band in ("opener", "top_order") or likely_band in ("opener", "top_order"):
+            return "batting_allrounder"
+        if recent_rows >= 2 and recent_ema > 0 and recent_ema <= 4.8:
+            return "batting_allrounder"
+        if ph_total_balls < 72.0 and ppl < 0.62 and dth < 0.62:
+            if batting_band == "middle" or likely_band == "middle":
+                return "balanced_allrounder"
+            if batting_band in ("finisher", "tail") or likely_band in ("finisher", "tail"):
+                return "bowling_allrounder" if spin_like or p.bowl_skill >= p.bat_skill else "balanced_allrounder"
+            if subtype == "batting_allrounder":
+                return "batting_allrounder"
+            if subtype == "balanced_allrounder":
+                return "balanced_allrounder"
         if ph_total_balls >= 120:
             if dt_share >= 0.30 and (dt_wpb >= (pp_wpb * 0.9) or dt_share + 0.02 >= pp_share):
                 return "death_bowler"
@@ -1609,12 +2012,20 @@ def _derive_role_band_for_player(p: SquadPlayer) -> str:
             return "death_bowler"
         if ppl >= 0.62:
             return "powerplay_bowler"
-        if p.bowl_skill >= p.bat_skill + 0.08:
+        if batting_band == "middle" or likely_band == "middle":
+            return "balanced_allrounder"
+        if batting_band in ("finisher", "tail") or likely_band in ("finisher", "tail"):
+            if subtype == "batting_allrounder" and float(getattr(p, "bat_skill", 0.0) or 0.0) >= float(getattr(p, "bowl_skill", 0.0) or 0.0) + 0.08:
+                return "batting_allrounder"
+            return "bowling_allrounder" if spin_like or p.bowl_skill >= p.bat_skill else "balanced_allrounder"
+        if subtype == "bowling_allrounder" or p.bowl_skill >= p.bat_skill + 0.08:
             if spin_like:
                 return "middle_overs_spinner"
             return "bowling_allrounder"
-        if p.bat_skill >= p.bowl_skill + 0.05:
+        if subtype == "batting_allrounder" or p.bat_skill >= p.bowl_skill + 0.05:
             return "batting_allrounder"
+        if subtype == "balanced_allrounder":
+            return "balanced_allrounder"
         if spin_like:
             return "middle_overs_spinner"
         return "batting_allrounder"
@@ -2723,6 +3134,247 @@ def _batting_order_reason_summary_for_player(p: SquadPlayer, ranked: list[str]) 
     return " ".join(parts)
 
 
+def _default_slot_signal_for_batting_band(raw_band: str) -> float:
+    band = _normalize_batting_band_label(raw_band)
+    mapping = {
+        "opener": 1.8,
+        "top_order": 3.5,
+        "middle_order": 6.0,
+        "lower_middle": 8.0,
+        "lower_order": 9.6,
+    }
+    return float(mapping.get(band, 7.5))
+
+
+def _batting_slot_range_from_band(raw_band: str) -> tuple[int, int, str]:
+    band = _normalize_batting_band_label(raw_band)
+    if band == "opener":
+        return (1, 3, "opener")
+    if band == "top_order":
+        return (1, 4, "top_order")
+    if band == "middle_order":
+        return (5, 7, "middle_order")
+    if band == "lower_middle":
+        return (8, 8, "lower_middle")
+    if band == "lower_order":
+        return (9, 11, "lower_order")
+    return (5, 7, "middle_order")
+
+
+def _normalize_batting_slot_list(raw: Any) -> list[int]:
+    out: list[int] = []
+    items = raw if isinstance(raw, (list, tuple)) else []
+    for item in items:
+        try:
+            slot = int(item)
+        except (TypeError, ValueError):
+            continue
+        if 1 <= slot <= 11 and slot not in out:
+            out.append(slot)
+    return out
+
+
+def _slot_anchor_from_list(slots: list[int], fallback: float) -> float:
+    if not slots:
+        return float(fallback)
+    return float(sum(slots) / max(1, len(slots)))
+
+
+def _batting_slot_eligibility_profile(p: SquadPlayer) -> dict[str, Any]:
+    hd = getattr(p, "history_debug", None) or {}
+    meta = hd.get("player_metadata") if isinstance(hd.get("player_metadata"), dict) else {}
+    band = _normalize_batting_band_label(hd.get("batting_band"))
+    band_source = str(hd.get("batting_band_source") or "").strip() or "batting_band"
+    role_band = str(hd.get("role_band") or "").strip()
+    role_description = str(meta.get("role_description") or "").strip().lower()
+    allowed_slots = _normalize_batting_slot_list(meta.get("allowed_batting_slots"))
+    preferred_slots = _normalize_batting_slot_list(meta.get("preferred_batting_slots"))
+    opener_eligible = bool(meta.get("opener_eligible"))
+    finisher_eligible = bool(meta.get("finisher_eligible"))
+    floater_eligible = bool(meta.get("floater_eligible"))
+    recent_rows = int(hd.get("current_team_recent_batting_rows") or 0)
+    try:
+        recent_ema = float(hd.get("current_team_recent_batting_position_ema") or 0.0)
+    except (TypeError, ValueError):
+        recent_ema = 0.0
+    try:
+        dominant_position = float(hd.get("dominant_position") or 0.0)
+    except (TypeError, ValueError):
+        dominant_position = 0.0
+    try:
+        global_dominant = float(hd.get("global_batting_dominant_position") or 0.0)
+    except (TypeError, ValueError):
+        global_dominant = 0.0
+    history_sources: list[str] = []
+    slot_signal = 0.0
+    primary_source = ""
+
+    if recent_rows >= 2 and recent_ema > 0.0:
+        slot_signal = recent_ema
+        primary_source = "current_team_recent_history"
+        history_sources.append("current_team_recent_history")
+    elif dominant_position > 0.0:
+        slot_signal = dominant_position
+        primary_source = "current_team_history"
+        history_sources.append("current_team_history")
+    elif global_dominant > 0.0:
+        slot_signal = global_dominant
+        primary_source = "global_history"
+        history_sources.append("global_history")
+
+    if band:
+        history_sources.append(f"batting_band:{band_source}")
+    elif _normalize_batting_band_label(meta.get("likely_batting_band")):
+        band = _normalize_batting_band_label(meta.get("likely_batting_band"))
+        band_source = "registry_likely_batting_band"
+        history_sources.append("registry_likely_batting_band")
+    if not band:
+        role_to_band = {
+            "opener": "opener",
+            "top_order": "top_order",
+            "wicketkeeper_batter": "middle_order",
+            "middle_order": "middle_order",
+            "batting_allrounder": "middle_order",
+            "balanced_allrounder": "lower_middle",
+            "finisher": "lower_middle",
+            "bowling_allrounder": "lower_order",
+            "powerplay_bowler": "lower_order",
+            "middle_overs_spinner": "lower_order",
+            "death_bowler": "lower_order",
+            "utility_bowler": "lower_order",
+        }
+        fallback_band = role_to_band.get(role_band, "")
+        if fallback_band:
+            band = fallback_band
+            band_source = "role_band_fallback"
+            history_sources.append("role_band_fallback")
+
+    if not band:
+        role_description_to_band = {
+            "opening_batter": "opener",
+            "opener": "opener",
+            "top_order": "top_order",
+            "middle_order": "middle_order",
+            "batting_allrounder": "middle_order",
+            "balanced_allrounder": "lower_middle",
+            "bowling_allrounder": "lower_order",
+            "wicketkeeper_batter": "middle_order",
+            "batter": "middle_order",
+            "bowler": "lower_order",
+        }
+        fallback_band = role_description_to_band.get(role_description, "")
+        if fallback_band:
+            band = fallback_band
+            band_source = "registry_role_description"
+            history_sources.append("registry_role_description")
+
+    if not band and classify_player(p).is_specialist_bowler:
+        band = "lower_order"
+        band_source = "specialist_bowler_fallback"
+        history_sources.append("specialist_bowler_fallback")
+    if not band:
+        band = "middle_order"
+        band_source = "neutral_middle_order_fallback"
+        history_sources.append("neutral_middle_order_fallback")
+
+    if allowed_slots:
+        allowed_slots = sorted(slot for slot in allowed_slots if 1 <= slot <= 11)
+        history_sources.append("registry_allowed_slots")
+    else:
+        allowed_min_default, allowed_max_default, _ = _batting_slot_range_from_band(band)
+        allowed_slots = list(range(int(allowed_min_default), int(allowed_max_default) + 1))
+        history_sources.append(f"band_range:{band}")
+
+    preferred_slots = [slot for slot in preferred_slots if slot in allowed_slots]
+    if preferred_slots:
+        history_sources.append("registry_preferred_slots")
+    else:
+        preferred_slots = list(allowed_slots[: min(2, len(allowed_slots))])
+
+    if not opener_eligible and any(slot <= 3 for slot in allowed_slots):
+        opener_eligible = band == "opener" or role_description in ("opening_batter", "opener", "top_order")
+    if not finisher_eligible and any(5 <= slot <= 8 for slot in allowed_slots):
+        finisher_eligible = (
+            band in ("middle_order", "lower_middle")
+            and role_description in ("batting_allrounder", "balanced_allrounder", "middle_order")
+        ) or role_description in ("finisher",)
+    if not floater_eligible:
+        floater_eligible = len(allowed_slots) >= 3 and role_description in (
+            "batting_allrounder",
+            "balanced_allrounder",
+            "wicketkeeper_batter",
+        )
+
+    if slot_signal <= 0.0:
+        slot_signal = _slot_anchor_from_list(preferred_slots, _default_slot_signal_for_batting_band(band))
+        if not primary_source:
+            primary_source = "preferred_slots_default"
+            history_sources.append("preferred_slots_default")
+    allowed_min = min(allowed_slots) if allowed_slots else 5
+    allowed_max = max(allowed_slots) if allowed_slots else 7
+    allowed_band = band
+    dedup_sources: list[str] = []
+    seen: set[str] = set()
+    for src in history_sources:
+        if src and src not in seen:
+            seen.add(src)
+            dedup_sources.append(src)
+    return {
+        "band": band,
+        "band_source": band_source,
+        "slot_signal": float(slot_signal),
+        "primary_source": primary_source or band_source,
+        "source_ranked": dedup_sources,
+        "allowed_min": int(allowed_min),
+        "allowed_max": int(allowed_max),
+        "allowed_band": allowed_band,
+        "allowed_slots": list(allowed_slots),
+        "preferred_slots": list(preferred_slots),
+        "opener_eligible": bool(opener_eligible),
+        "finisher_eligible": bool(finisher_eligible),
+        "floater_eligible": bool(floater_eligible),
+    }
+
+
+def _assign_batting_order_stage(
+    xi: list[SquadPlayer],
+    conditions: dict[str, Any],
+    *,
+    team_name: str,
+    venue_keys: list[str],
+    out_warnings: Optional[list[str]] = None,
+) -> list[str]:
+    if len(xi) == 11:
+        order = build_batting_order(
+            xi,
+            conditions,
+            team_name=team_name,
+            venue_keys=venue_keys,
+            out_warnings=out_warnings,
+        )
+    else:
+        order = _batting_order_for_short_xi(xi, team_name=team_name, out_warnings=out_warnings)
+    by_name = {p.name: p for p in xi}
+    slot_log: list[dict[str, Any]] = []
+    for pos, nm in enumerate(order, start=1):
+        p = by_name.get(nm)
+        if p is None:
+            continue
+        hd = getattr(p, "history_debug", None) or {}
+        slot_log.append(
+            {
+                "name": nm,
+                "pos": pos,
+                "source": hd.get("batting_slot_eligibility_source"),
+                "signal": hd.get("batting_slot_signal"),
+                "band": hd.get("batting_slot_eligibility_band"),
+                "reason": hd.get("batting_slot_assignment_reason"),
+            }
+        )
+    logger.info("batting_order_stage: team=%s order=%s", team_name, slot_log)
+    return order
+
+
 def select_playing_xi(
     scored: list[SquadPlayer],
     *,
@@ -3189,6 +3841,178 @@ def _reconcile_condition_changes_and_annotate(
     return surviving
 
 
+def _xi_selection_factor_labels(p: SquadPlayer) -> list[str]:
+    hd = getattr(p, "history_debug", None) or {}
+    smd = hd.get("selection_model_debug") if isinstance(hd.get("selection_model_debug"), dict) else {}
+    bbd = smd.get("base_score_breakdown") if isinstance(smd.get("base_score_breakdown"), dict) else {}
+    lmd = smd.get("last_match_detail") if isinstance(smd.get("last_match_detail"), dict) else {}
+    factors: list[str] = []
+    if bool(lmd.get("was_in_last_match_xi")) or float(bbd.get("last_match_continuity_score") or 0.0) >= 0.55:
+        factors.append("recent_xi_appearances")
+    meta_src = str(hd.get("player_metadata_source_runtime") or "").strip()
+    if meta_src:
+        factors.append(f"master_registry_metadata:{meta_src}")
+    tier = str(hd.get("marquee_tier") or "").strip().lower()
+    if tier:
+        factors.append(f"marquee_{tier}")
+    if bool(hd.get("captain_selected_for_team")) or float(hd.get("captain_boost_applied") or 0.0) > 0.0:
+        factors.append("captain_boost")
+    if (
+        bool(hd.get("wicketkeeper_selected_for_team"))
+        or bool(hd.get("designated_keeper"))
+        or float(hd.get("wicketkeeper_boost_applied") or 0.0) > 0.0
+    ):
+        factors.append("wicketkeeper_requirement")
+    if bool(getattr(p, "is_overseas", False)):
+        factors.append("overseas_cap_context")
+    if classify_player(p).is_bowling_option:
+        factors.append("bowling_coverage")
+    if float(bbd.get("team_balance_fit_score") or 0.0) >= 0.52:
+        factors.append("team_balance")
+    if not factors:
+        factors.append("model_rank")
+    deduped: list[str] = []
+    seen: set[str] = set()
+    for factor in factors:
+        if factor not in seen:
+            seen.add(factor)
+            deduped.append(factor)
+    return deduped
+
+
+def _annotate_xi_selection_stage(
+    scored: list[SquadPlayer],
+    base_xi: list[SquadPlayer],
+    final_xi: list[SquadPlayer],
+    *,
+    team_name: str,
+    scenario_branch: Optional[str],
+    condition_changes: list[dict[str, Any]],
+    repair_swaps: list[dict[str, Any]],
+) -> None:
+    base_names = {p.name for p in base_xi}
+    final_names = {p.name for p in final_xi}
+    added_by_conditions = {
+        str(change.get("in") or "").strip()
+        for change in (condition_changes or [])
+        if str(change.get("in") or "").strip()
+    }
+    removed_by_conditions = {
+        str(change.get("out") or "").strip()
+        for change in (condition_changes or [])
+        if str(change.get("out") or "").strip()
+    }
+    added_by_repair = {
+        str(change.get("in") or "").strip()
+        for change in (repair_swaps or [])
+        if str(change.get("in") or "").strip()
+    }
+    removed_by_repair = {
+        str(change.get("out") or "").strip()
+        for change in (repair_swaps or [])
+        if str(change.get("out") or "").strip()
+    }
+    selected_log: list[dict[str, Any]] = []
+    for p in scored:
+        if not isinstance(getattr(p, "history_debug", None), dict):
+            p.history_debug = {}
+        hd = p.history_debug
+        factors = _xi_selection_factor_labels(p)
+        hd["xi_stage"] = "selected_xi" if p.name in final_names else "bench"
+        hd["xi_selection_factors"] = factors
+        notes: list[str] = []
+        if p.name in base_names:
+            notes.append("won the Stage-1 base XI rank")
+        if p.name in added_by_conditions:
+            notes.append(f"stayed in after {scenario_branch or 'scenario'} condition balancing")
+        if p.name in added_by_repair:
+            notes.append("survived final XI repair for constraints")
+        if p.name in final_names:
+            summary = hd.get("selection_reason_summary") or ""
+            stage_reason = (
+                f"Stage 1 XI selection: {', '.join(factors)}. "
+                + (" ".join(notes) + ". " if notes else "")
+                + (summary or "Selected after recent XI history, registry metadata, balance, and constraints were blended.")
+            ).strip()
+            hd["xi_selection_stage_reason"] = stage_reason[:720]
+            selected_log.append(
+                {
+                    "name": p.name,
+                    "factors": factors[:6],
+                    "reason": hd["xi_selection_stage_reason"][:200],
+                }
+            )
+        else:
+            miss_notes: list[str] = []
+            if p.name in removed_by_conditions:
+                miss_notes.append("moved out by condition balancing")
+            if p.name in removed_by_repair:
+                miss_notes.append("moved out by final XI repair")
+            summary = hd.get("base_xi_reason") or hd.get("selection_reason_summary") or ""
+            stage_reason = (
+                f"Bench after Stage 1 XI selection. "
+                + (" ".join(miss_notes) + ". " if miss_notes else "")
+                + summary
+            ).strip()
+            hd["xi_selection_stage_reason"] = stage_reason[:720]
+    logger.info("xi_selection_stage: team=%s selected=%s", team_name, selected_log)
+
+
+def _run_xi_selection_stage(
+    scored: list[SquadPlayer],
+    *,
+    team_name: str,
+    scenario_branch: Optional[str],
+    conditions: dict[str, Any],
+    overseas_min_required: int,
+    overseas_target: int,
+) -> dict[str, Any]:
+    xi_base = select_base_playing_xi(scored, conditions=conditions)
+    xi_after_conditions, condition_changes = _apply_condition_adjustments_from_base(
+        scored,
+        xi_base,
+        scenario_branch=scenario_branch,
+        conditions=conditions,
+    )
+    xi_after_overseas, overseas_debug = _optimize_overseas_preference(
+        scored,
+        xi_after_conditions,
+        conditions=conditions,
+        overseas_min_required=overseas_min_required,
+        overseas_target=overseas_target,
+    )
+    xi_final, xi_repaired, repair_swaps, repair_enforce = _repair_xi_if_needed(
+        scored,
+        xi_after_overseas,
+        conditions=conditions,
+    )
+    surviving_condition_changes = _reconcile_condition_changes_and_annotate(
+        scored,
+        xi_base,
+        xi_final,
+        scenario_branch=scenario_branch,
+        changes=condition_changes,
+    )
+    _annotate_xi_selection_stage(
+        scored,
+        xi_base,
+        xi_final,
+        team_name=team_name,
+        scenario_branch=scenario_branch,
+        condition_changes=surviving_condition_changes,
+        repair_swaps=repair_swaps,
+    )
+    return {
+        "base_xi": xi_base,
+        "final_xi": xi_final,
+        "condition_changes": surviving_condition_changes,
+        "overseas_debug": dict(overseas_debug),
+        "repair_applied": xi_repaired,
+        "repair_swaps": repair_swaps,
+        "repair_enforce": repair_enforce,
+    }
+
+
 def _repair_xi_if_needed(
     scored: list[SquadPlayer],
     xi: list[SquadPlayer],
@@ -3386,6 +4210,21 @@ def _repair_xi_if_needed(
                 if not drops:
                     drops = [p for p in repaired if p.is_overseas and _drop_safe(p, allow_locked=True)]
             pick = _best_swap(repaired, adds, drops, hard_codes, semi_codes, min_gain=min_gain, max_quality_drop=max_quality_drop)
+            if pick is None:
+                # Hard-constraint last resort: overseas bounds must beat mild lock/tier preferences.
+                if "overseas_min" in hard_codes:
+                    emergency_drops = [p for p in repaired if not p.is_overseas]
+                else:
+                    emergency_drops = [p for p in repaired if p.is_overseas]
+                pick = _best_swap(
+                    repaired,
+                    adds,
+                    emergency_drops,
+                    hard_codes,
+                    semi_codes,
+                    min_gain=-0.30,
+                    max_quality_drop=0.45,
+                )
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"overseas_bounds:{drop_p.name}->{add_p.name}")
@@ -3418,7 +4257,28 @@ def _repair_xi_if_needed(
             break
     res2 = rules_xi.validate_xi(repaired, conditions=conditions, squad=scored)
     if not res2.hard_ok:
-        repaired = select_playing_xi(scored, conditions=conditions)
+        fallback = select_playing_xi(scored, conditions=conditions)
+        fallback_os_min = min(
+            3,
+            sum(1 for p in scored if getattr(p, "is_overseas", False)),
+            int(getattr(config, "MAX_OVERSEAS", 4)),
+        )
+        fallback_os_target = min(
+            4,
+            sum(1 for p in scored if getattr(p, "is_overseas", False)),
+            int(getattr(config, "MAX_OVERSEAS", 4)),
+        )
+        fallback, _fallback_os_dbg = _optimize_overseas_preference(
+            scored,
+            fallback,
+            conditions=conditions,
+            overseas_min_required=fallback_os_min,
+            overseas_target=fallback_os_target,
+        )
+        fallback_res = rules_xi.validate_xi(fallback, conditions=conditions, squad=scored)
+        if len(fallback_res.violations) < len(res2.violations):
+            repaired = fallback
+            res2 = fallback_res
     if len(repaired) != 11:
         return repaired, False, [], {
             "hard_constraints_satisfied": False,
@@ -3679,11 +4539,22 @@ def _build_batting_order_role_fallback(xi: list[SquadPlayer], conditions: dict[s
     )
 
     ar_middle = sorted(
-        [p for p in ars if p.bat_skill >= p.bowl_skill + 0.04],
+        [
+            p
+            for p in ars
+            if str((getattr(p, "history_debug", None) or {}).get("allrounder_subtype") or "") == "batting_allrounder"
+            or p.bat_skill >= p.bowl_skill + 0.04
+        ],
         key=lambda p: p.bat_skill,
         reverse=True,
     )
-    ar_lower = [p for p in ars if p not in ar_middle]
+    ar_balanced = [
+        p
+        for p in ars
+        if p not in ar_middle
+        and str((getattr(p, "history_debug", None) or {}).get("allrounder_subtype") or "") == "balanced_allrounder"
+    ]
+    ar_lower = [p for p in ars if p not in ar_middle and p not in ar_balanced]
 
     rest_wk = sorted([p for p in wks if p.name not in used], key=lambda p: p.bat_skill, reverse=True)
 
@@ -3704,7 +4575,7 @@ def _build_batting_order_role_fallback(xi: list[SquadPlayer], conditions: dict[s
     ar_tail = sorted(ar_lower, key=fin_key, reverse=True)
     bow_tail = sorted(bows, key=lambda p: p.bowl_skill, reverse=True)
 
-    ordered_players = middle_line + ar_tail + bow_tail
+    ordered_players = middle_line + sorted(ar_balanced, key=fin_key, reverse=True) + ar_tail + bow_tail
 
     logger.info(
         "batting_order: groups openers=%s spec_mid=%s ar_mid=%s ar_tail=%s bowlers=%s",
@@ -3767,24 +4638,30 @@ def build_batting_order(
     if len(xi) != 11:
         return _batting_order_for_short_xi(xi, team_name=team_name, out_warnings=out_warnings)
 
+    eligibility_by_name: dict[str, dict[str, Any]] = {}
     for p in xi:
         if not isinstance(getattr(p, "history_debug", None), dict):
             p.history_debug = {}
         if not p.history_debug.get("role_band"):
             p.history_debug["role_band"] = _derive_role_band_for_player(p)
+        profile = _batting_slot_eligibility_profile(p)
+        eligibility_by_name[p.name] = profile
+        p.history_debug["batting_slot_eligibility_band"] = profile["band"]
+        p.history_debug["batting_slot_eligibility_source"] = profile["primary_source"]
+        p.history_debug["batting_slot_history_sources"] = list(profile["source_ranked"])
+        p.history_debug["batting_slot_signal"] = round(float(profile["slot_signal"]), 3)
+        p.history_debug["batting_slot_allowed_slots"] = list(profile.get("allowed_slots") or [])
+        p.history_debug["batting_slot_preferred_slots"] = list(profile.get("preferred_slots") or [])
+        p.history_debug["opener_eligible"] = bool(profile.get("opener_eligible"))
+        p.history_debug["finisher_eligible"] = bool(profile.get("finisher_eligible"))
+        p.history_debug["floater_eligible"] = bool(profile.get("floater_eligible"))
 
     band_rank = {
         "opener": 0,
         "top_order": 1,
-        "wicketkeeper_batter": 2,
-        "middle_order": 3,
-        "batting_allrounder": 4,
-        "finisher": 5,
-        "bowling_allrounder": 6,
-        "powerplay_bowler": 7,
-        "middle_overs_spinner": 7,
-        "death_bowler": 7,
-        "utility_bowler": 8,
+        "middle_order": 2,
+        "lower_middle": 3,
+        "lower_order": 4,
     }
 
     def _ol(p: SquadPlayer) -> float:
@@ -3796,32 +4673,72 @@ def build_batting_order(
         except (TypeError, ValueError):
             return 0.0
 
-    def _slot(p: SquadPlayer) -> float:
-        return float(_batting_position_signal_for_role_band(p))
+    def _placement_slot_signal(p: SquadPlayer) -> float:
+        profile = eligibility_by_name.get(p.name) or {}
+        return float(profile.get("slot_signal") or _default_slot_signal_for_batting_band("middle_order"))
+
+    def _preferred_slots(p: SquadPlayer) -> list[int]:
+        profile = eligibility_by_name.get(p.name) or {}
+        slots = [int(v) for v in profile.get("preferred_slots") or [] if 1 <= int(v) <= 11]
+        return slots
+
+    def _allowed_slots(p: SquadPlayer) -> list[int]:
+        profile = eligibility_by_name.get(p.name) or {}
+        slots = [int(v) for v in profile.get("allowed_slots") or [] if 1 <= int(v) <= 11]
+        return slots
+
+    def _preferred_slot_anchor(p: SquadPlayer) -> float:
+        prefs = _preferred_slots(p)
+        return _slot_anchor_from_list(prefs, _placement_slot_signal(p))
+
+    def _batting_strength_tiebreak(p: SquadPlayer) -> float:
+        hd = getattr(p, "history_debug", None) or {}
+        smd = hd.get("selection_model_debug") if isinstance(hd.get("selection_model_debug"), dict) else {}
+        bbd = smd.get("base_score_breakdown") if isinstance(smd.get("base_score_breakdown"), dict) else {}
+        rfd = smd.get("recent_form_detail") if isinstance(smd.get("recent_form_detail"), dict) else {}
+        lmd = smd.get("last_match_detail") if isinstance(smd.get("last_match_detail"), dict) else {}
+        recent_bat = float(rfd.get("batting_recent_form") or 0.0)
+        runs = float(lmd.get("last_match_batting_runs") or 0.0)
+        sr = float(lmd.get("last_match_batting_strike_rate") or 0.0)
+        return (
+            100.0 * recent_bat
+            + 12.0 * float(getattr(p, "bat_skill", 0.0) or 0.0)
+            + 0.28 * runs
+            + 0.03 * sr
+            + 8.0 * float(bbd.get("recent_form_score") or 0.0)
+        )
 
     def _band(p: SquadPlayer) -> str:
-        hd = getattr(p, "history_debug", None) or {}
-        raw = str(hd.get("batting_band") or hd.get("role_band") or "middle_order")
-        # Normalize to canonical band tokens used by guardrails.
-        if raw in ("middle_order", "middle"):
-            return "middle"
-        if raw in ("batting_allrounder", "wicketkeeper_batter"):
-            return "middle"
-        return raw
+        profile = eligibility_by_name.get(p.name) or {}
+        return str(profile.get("band") or "middle_order")
 
-    open_pool = [p for p in xi if _band(p) in ("opener", "top_order")]
+    def _allowed_max_slot(p: SquadPlayer) -> int:
+        profile = eligibility_by_name.get(p.name) or {}
+        return int(profile.get("allowed_max") or 7)
+
+    def _eligible_for_top_four(p: SquadPlayer) -> bool:
+        profile = eligibility_by_name.get(p.name) or {}
+        if bool(profile.get("opener_eligible")):
+            return True
+        primary_source = str(profile.get("primary_source") or "")
+        if primary_source.endswith("history") and _placement_slot_signal(p) <= 3.4:
+            return True
+        return False
+
+    open_pool = [p for p in xi if _eligible_for_top_four(p)]
     if len(open_pool) < 2:
         open_pool.extend(
             [
                 p
                 for p in xi
-                if _band(p) in ("top_order", "middle")
+                if _allowed_max_slot(p) <= 7
             ]
         )
     open_pool.sort(
         key=lambda p: (
-            _slot(p) - 0.62 * _ol(p) - 0.38 * _elite_player_signal(p),
-            -p.bat_skill,
+            _preferred_slot_anchor(p) - 0.62 * _ol(p) - 0.38 * _elite_player_signal(p),
+            _placement_slot_signal(p),
+            -_batting_strength_tiebreak(p),
             p.name,
         )
     )
@@ -3829,22 +4746,23 @@ def build_batting_order(
     opener_names = {p.name for p in opener_pick}
 
     rem = [p for p in xi if p.name not in opener_names]
-    early_bands = {"top_order", "wicketkeeper_batter", "middle_order", "batting_allrounder"}
-    late_bands = {"finisher", "bowling_allrounder", "powerplay_bowler", "middle_overs_spinner", "death_bowler", "utility_bowler"}
-    early = [p for p in rem if str((p.history_debug or {}).get("role_band") or "") in early_bands]
+    early = [p for p in rem if _allowed_max_slot(p) <= 7]
     late = [p for p in rem if p not in early]
     early.sort(
         key=lambda p: (
-            band_rank.get(str((p.history_debug or {}).get("role_band") or ""), 9),
-            _slot(p),
-            -p.bat_skill,
+            _preferred_slot_anchor(p),
+            band_rank.get(_band(p), 9),
+            _placement_slot_signal(p),
+            -_batting_strength_tiebreak(p),
             p.name,
         )
     )
     late.sort(
         key=lambda p: (
-            band_rank.get(str((p.history_debug or {}).get("role_band") or ""), 9),
-            _slot(p),
+            _preferred_slot_anchor(p),
+            band_rank.get(_band(p), 9),
+            _placement_slot_signal(p),
+            -_batting_strength_tiebreak(p),
             -p.bowl_skill,
             p.name,
         )
@@ -3860,7 +4778,7 @@ def build_batting_order(
     top_core = [
         p.name
         for p in xi
-        if str((getattr(p, "history_debug", None) or {}).get("role_band") or "") in ("opener", "top_order")
+        if _band(p) in ("opener", "top_order")
         and _elite_player_signal(p) >= 0.5
     ]
     for nm in top_core:
@@ -3875,8 +4793,8 @@ def build_batting_order(
             p_i = by_name.get(cand)
             if p_i is None:
                 continue
-            b = str((getattr(p_i, "history_debug", None) or {}).get("role_band") or "")
-            if b not in ("opener", "top_order", "wicketkeeper_batter") and _elite_player_signal(p_i) < 0.48:
+            b = _band(p_i)
+            if b not in ("opener", "top_order") and _elite_player_signal(p_i) < 0.48:
                 swap_idx = i
                 break
         if swap_idx is not None:
@@ -3884,35 +4802,51 @@ def build_batting_order(
 
     def _strong_batting_history_for_bowling_ar(p: SquadPlayer) -> bool:
         hd = getattr(p, "history_debug", None) or {}
-        if str(hd.get("role_band") or "") != "bowling_allrounder":
+        subtype_now = str(hd.get("allrounder_subtype") or "")
+        if str(hd.get("role_band") or "") != "bowling_allrounder" and subtype_now != "bowling_allrounder":
             return False
+        try:
+            recent_ema = float(hd.get("current_team_recent_batting_position_ema") or 0.0)
+        except (TypeError, ValueError):
+            recent_ema = 0.0
+        recent_rows = int(hd.get("current_team_recent_batting_rows") or 0)
+        if recent_rows >= 2 and recent_ema <= 5.5 and float(getattr(p, "bat_skill", 0.0) or 0.0) >= 0.7:
+            return True
         rows = float(hd.get("batting_position_rows_found") or 0.0)
-        dom = int(hd.get("dominant_position") or 99)
-        return rows >= 10 and dom <= 5 and float(getattr(p, "bat_skill", 0.0) or 0.0) >= 0.65
+        dom = float(hd.get("dominant_position") or 99.0)
+        if rows >= 12 and dom <= 5.5 and float(getattr(p, "bat_skill", 0.0) or 0.0) >= 0.68:
+            return True
+        try:
+            global_dom = float(hd.get("global_batting_dominant_position") or 99.0)
+        except (TypeError, ValueError):
+            global_dom = 99.0
+        global_rows = float(hd.get("global_batting_rows") or 0.0)
+        return global_rows >= 16 and global_dom <= 5.5 and float(getattr(p, "bat_skill", 0.0) or 0.0) >= 0.7
 
     # Canonical batting-order hard guardrails (single source of truth).
     def _allowed_range(p: SquadPlayer) -> tuple[int, int, str]:
-        f = classify_player(p)
-        rb = str((getattr(p, "history_debug", None) or {}).get("role_band") or "")
-        b = _band(p)
-
-        if f.is_specialist_bowler:
-            return (8, 11, "specialist_bowler")
-        if b == "opener":
-            return (1, 3, "opener")
-        if b == "top_order" or f.is_top_order_batter:
-            return (1, 5, "top_order")
-        if b == "finisher" or f.is_finisher:
-            return (5, 8, "finisher")
-        if rb == "bowling_allrounder" and not _strong_batting_history_for_bowling_ar(p):
-            return (6, 8, "bowling_allrounder")
-        return (3, 7, "middle_order")
+        profile = eligibility_by_name.get(p.name) or {}
+        return (
+            int(profile.get("allowed_min") or 5),
+            int(profile.get("allowed_max") or 7),
+            str(profile.get("allowed_band") or "middle_order"),
+        )
 
     def _violates_band(p: SquadPlayer, pos: int) -> bool:
         lo, hi, _b = _allowed_range(p)
         return pos < lo or pos > hi
 
+    seen_guardrail_states: set[tuple[str, ...]] = set()
     for _ in range(20):
+        state_key = tuple(strict_names)
+        if state_key in seen_guardrail_states:
+            logger.warning(
+                "batting_order: generic_guardrail_cycle_detected team=%s order=%s",
+                team_name,
+                strict_names,
+            )
+            break
+        seen_guardrail_states.add(state_key)
         changed = False
         for idx, nm in enumerate(list(strict_names)):
             p = by_name.get(nm)
@@ -3941,20 +4875,60 @@ def build_batting_order(
         if not changed:
             break
 
+    def _comparable_region(p: SquadPlayer) -> str:
+        band = _band(p)
+        if band in ("opener", "top_order"):
+            return "top"
+        if band == "lower_order":
+            return "tail"
+        return "middle"
+
+    def _allrounder_preferred_slots(p: SquadPlayer) -> list[int]:
+        return []
+
+    def _strict_priority_rank(p: SquadPlayer) -> int:
+        band_now = _band(p)
+        if band_now == "opener":
+            return 0
+        if band_now == "top_order":
+            return 1
+        if band_now == "middle_order":
+            return 2
+        if band_now == "lower_middle":
+            return 3
+        return 4
+
+    for i in range(len(strict_names) - 1):
+        a = by_name.get(strict_names[i])
+        b = by_name.get(strict_names[i + 1])
+        if a is None or b is None:
+            continue
+        if _comparable_region(a) != _comparable_region(b):
+            continue
+        if abs(_placement_slot_signal(a) - _placement_slot_signal(b)) > 1.1:
+            continue
+        if _batting_strength_tiebreak(b) <= _batting_strength_tiebreak(a) + 1.5:
+            continue
+        if _violates_band(b, i + 1) or _violates_band(a, i + 2):
+            continue
+        strict_names[i], strict_names[i + 1] = strict_names[i + 1], strict_names[i]
+
     current = [by_name[n] for n in strict_names if n in by_name]
     grp_bat: list[SquadPlayer] = []
+    grp_balanced_ar: list[SquadPlayer] = []
     grp_bowling_ar: list[SquadPlayer] = []
     grp_special: list[SquadPlayer] = []
     for p in current:
-        f = classify_player(p)
-        rb = str((getattr(p, "history_debug", None) or {}).get("role_band") or "")
-        if f.is_specialist_bowler:
+        band_now = _band(p)
+        if band_now == "lower_order" and classify_player(p).is_specialist_bowler:
             grp_special.append(p)
-        elif rb == "bowling_allrounder" and not _strong_batting_history_for_bowling_ar(p):
+        elif band_now == "lower_order":
             grp_bowling_ar.append(p)
+        elif band_now == "lower_middle":
+            grp_balanced_ar.append(p)
         else:
             grp_bat.append(p)
-    strict_names = [p.name for p in (grp_bat + grp_bowling_ar + grp_special)]
+    strict_names = [p.name for p in (grp_bat + grp_balanced_ar + grp_bowling_ar + grp_special)]
 
     # Enforce specialist-bowler tail (8–11) deterministically via swaps.
     def _enforce_specialist_bowler_tail(order: list[str]) -> list[str]:
@@ -3983,39 +4957,266 @@ def build_batting_order(
                 out[i], out[swap_j] = out[swap_j], out[i]
         return out
 
+    def _enforce_allrounder_subtype_ranges(order: list[str]) -> list[str]:
+        out = list(order)
+        by_nm = {p.name: p for p in xi}
+        for subtype in ("batting_allrounder", "balanced_allrounder", "bowling_allrounder"):
+            seen_states: set[tuple[str, ...]] = set()
+            loop_rounds = 0
+            swap_count = 0
+            changed = True
+            while changed:
+                loop_rounds += 1
+                state_key = tuple(out)
+                if state_key in seen_states or loop_rounds > 24 or swap_count > 64:
+                    logger.warning(
+                        "batting_order: subtype_guardrail_early_exit team=%s subtype=%s rounds=%d swaps=%d order=%s",
+                        team_name,
+                        subtype,
+                        loop_rounds,
+                        swap_count,
+                        out,
+                    )
+                    break
+                seen_states.add(state_key)
+                changed = False
+                for idx, nm in enumerate(list(out)):
+                    p = by_nm.get(nm)
+                    if p is None:
+                        continue
+                    subtype_now = str((getattr(p, "history_debug", None) or {}).get("allrounder_subtype") or "")
+                    if subtype_now != subtype:
+                        continue
+                    pos = idx + 1
+                    if not _violates_band(p, pos):
+                        continue
+                    target = None
+                    for pref_pos in _allrounder_preferred_slots(p):
+                        j = pref_pos - 1
+                        if j < 0 or j >= len(out):
+                            continue
+                        cand = by_nm.get(out[j])
+                        if cand is None or cand.name == p.name:
+                            target = j
+                            break
+                        if _violates_band(p, j + 1):
+                            continue
+                        if _violates_band(cand, pos):
+                            continue
+                        if _strict_priority_rank(cand) < _strict_priority_rank(p):
+                            continue
+                        target = j
+                        break
+                    if target is None:
+                        for j, cand_nm in enumerate(out):
+                            if j == idx:
+                                continue
+                            cand = by_nm.get(cand_nm)
+                            if cand is None:
+                                continue
+                            if _violates_band(p, j + 1):
+                                continue
+                            if _violates_band(cand, pos):
+                                continue
+                            if _strict_priority_rank(cand) < _strict_priority_rank(p):
+                                continue
+                            target = j
+                            break
+                    if target is not None:
+                        out[idx], out[target] = out[target], out[idx]
+                        changed = True
+                        swap_count += 1
+                        break
+            for idx, nm in enumerate(list(out)):
+                p = by_nm.get(nm)
+                if p is None:
+                    continue
+                subtype_now = str((getattr(p, "history_debug", None) or {}).get("allrounder_subtype") or "")
+                if subtype_now != subtype:
+                    continue
+                current_pref = _allrounder_preferred_slots(p)
+                if not current_pref:
+                    continue
+                pos = idx + 1
+                try:
+                    current_pref_idx = current_pref.index(pos)
+                except ValueError:
+                    current_pref_idx = len(current_pref)
+                for pref_pos in current_pref:
+                    if pref_pos == pos:
+                        break
+                    if current_pref.index(pref_pos) >= current_pref_idx:
+                        continue
+                    j = pref_pos - 1
+                    if j < 0 or j >= len(out):
+                        continue
+                    cand = by_nm.get(out[j])
+                    if cand is None or cand.name == p.name:
+                        continue
+                    if _violates_band(p, j + 1) or _violates_band(cand, pos):
+                        continue
+                    if _strict_priority_rank(cand) < _strict_priority_rank(p):
+                        continue
+                    out[idx], out[j] = out[j], out[idx]
+                    swap_count += 1
+                    break
+        return out
+
+    def _enforce_lower_order_overflow(order: list[str]) -> list[str]:
+        out = list(order)
+        if len(out) != 11:
+            return out
+        by_nm = {p.name: p for p in xi}
+
+        def _is_lower_order_candidate(p: Optional[SquadPlayer]) -> bool:
+            if p is None:
+                return False
+            f = classify_player(p)
+            return bool(f.is_specialist_bowler or _band(p) == "lower_order")
+
+        lower_names = [nm for nm in out if _is_lower_order_candidate(by_nm.get(nm))]
+        overflow = max(0, len(lower_names) - 4)
+        if overflow <= 0:
+            return out
+
+        non_lower = [nm for nm in out if nm not in lower_names]
+        lower_sorted = sorted(
+            lower_names,
+            key=lambda nm: (
+                _preferred_slot_anchor(by_nm[nm]) if by_nm.get(nm) is not None else 99.0,
+                _placement_slot_signal(by_nm[nm]) if by_nm.get(nm) is not None else 99.0,
+                -_batting_strength_tiebreak(by_nm[nm]) if by_nm.get(nm) is not None else 0.0,
+                -float(getattr(by_nm.get(nm), "bat_skill", 0.0) or 0.0),
+                -float(getattr(by_nm.get(nm), "selection_score", 0.0) or 0.0),
+                nm,
+            ),
+        )
+        top_cut = max(0, 11 - len(lower_sorted))
+        new_order = non_lower[:top_cut] + lower_sorted
+        return new_order if len(new_order) == len(out) else out
+
+    def _optimize_slot_constraints(order: list[str]) -> list[str]:
+        if len(order) != 11:
+            return order
+        ordered_players = [by_name[nm] for nm in order if nm in by_name]
+        if len(ordered_players) != 11:
+            return order
+        index_by_name = {p.name: idx for idx, p in enumerate(ordered_players)}
+
+        def _slot_cost(p: SquadPlayer, pos: int, *, allow_illegal: bool) -> float:
+            profile = eligibility_by_name.get(p.name) or {}
+            allowed = _allowed_slots(p)
+            prefs = _preferred_slots(p)
+            legal = pos in allowed if allowed else True
+            if not allow_illegal and not legal:
+                return float("inf")
+            penalty = 0.0
+            if not legal:
+                nearest_allowed = min((abs(pos - slot) for slot in allowed), default=4)
+                penalty += 250.0 + 25.0 * float(nearest_allowed)
+            pref_anchor = _preferred_slot_anchor(p)
+            pref_penalty = min((abs(pos - slot) for slot in prefs), default=abs(pos - pref_anchor))
+            penalty += 5.0 * float(pref_penalty)
+            penalty += 1.25 * abs(float(pos) - _placement_slot_signal(p))
+            penalty += 0.55 * abs(float(pos) - pref_anchor)
+            penalty += 0.35 * abs(float(pos) - float(index_by_name.get(p.name, pos - 1) + 1))
+            if classify_player(p).is_specialist_bowler and pos < 8:
+                penalty += 18.0 + 3.0 * float(8 - pos)
+            subtype_now = str((getattr(p, "history_debug", None) or {}).get("allrounder_subtype") or "")
+            role_band_now = str((getattr(p, "history_debug", None) or {}).get("role_band") or "")
+            if (role_band_now == "bowling_allrounder" or subtype_now == "bowling_allrounder") and pos < 7:
+                penalty += 12.0 + 2.0 * float(7 - pos)
+            if bool(profile.get("finisher_eligible")) and not (5 <= pos <= 8):
+                penalty += 4.0
+            return penalty
+
+        ordered_names = [p.name for p in ordered_players]
+
+        def _solve_assignment(allow_illegal: bool) -> Optional[list[str]]:
+            from functools import lru_cache
+
+            @lru_cache(maxsize=None)
+            def _solve(pos: int, used_mask: int) -> tuple[float, tuple[str, ...]]:
+                if pos > len(ordered_players):
+                    return (0.0, ())
+                best_cost = float("inf")
+                best_tail: tuple[str, ...] = ()
+                for idx, p in enumerate(ordered_players):
+                    if used_mask & (1 << idx):
+                        continue
+                    cost = _slot_cost(p, pos, allow_illegal=allow_illegal)
+                    if cost == float("inf"):
+                        continue
+                    rem_cost, rem_tail = _solve(pos + 1, used_mask | (1 << idx))
+                    total = cost + rem_cost
+                    if total < best_cost:
+                        best_cost = total
+                        best_tail = (p.name,) + rem_tail
+                return best_cost, best_tail
+
+            total_cost, tail = _solve(1, 0)
+            if not tail or total_cost == float("inf"):
+                return None
+            return list(tail)
+
+        legal = _solve_assignment(False)
+        if legal is not None:
+            return legal
+        fallback = _solve_assignment(True)
+        if fallback is None:
+            return order
+        logger.warning(
+            "batting_order: slot_constraint_fallback_used team=%s order=%s",
+            team_name,
+            ordered_names,
+        )
+        return fallback
+
     strict_names = _enforce_specialist_bowler_tail(strict_names)
+    strict_names = _enforce_lower_order_overflow(strict_names)
+    strict_names = _optimize_slot_constraints(strict_names)
 
     n_role_fb = 0
     for i, name in enumerate(strict_names):
         p = by_name.get(name)
         if p is None:
             continue
+        profile = eligibility_by_name.get(name) or _batting_slot_eligibility_profile(p)
         unk = float(config.HISTORY_BAT_SLOT_UNKNOWN)
         ema = float(getattr(p, "history_batting_ema", unk))
         if not isinstance(getattr(p, "history_debug", None), dict):
             p.history_debug = {}
-        if ema < unk - 1e-6:
-            p.history_debug["batting_order_final"] = "role_band_plus_historical_slot"
-        elif _batting_position_signal_for_role_band(p) < 7.4:
-            p.history_debug["batting_order_final"] = "role_band_plus_derive_slot"
+        primary_source = str(profile.get("primary_source") or "")
+        slot_signal = float(profile.get("slot_signal") or 7.5)
+        if primary_source.endswith("history"):
+            p.history_debug["batting_order_final"] = "historical_slot_eligibility"
+        elif primary_source.startswith("batting_band"):
+            p.history_debug["batting_order_final"] = "batting_band_eligibility"
         else:
-            p.history_debug["batting_order_final"] = "role_band_fallback"
+            p.history_debug["batting_order_final"] = "eligibility_fallback"
         p.history_debug["batting_order_rank_final"] = i + 1
         p.history_debug["batting_order_strict_xi_scope"] = True
         diag = _batting_order_diagnostic_source(p)
         p.history_debug["batting_order_diagnostic_source"] = diag
         ranked = _batting_order_signal_source_ranked(p)
         p.history_debug["batting_order_signal_source_ranked"] = ranked
-        p.history_debug["batting_order_reason_summary"] = _batting_order_reason_summary_for_player(p, ranked)
-        p.history_debug["final_order_reason"] = (
-            f"role_band={p.history_debug.get('role_band')} with batting_slot_signal="
-            f"{round(_batting_position_signal_for_role_band(p), 2)}"
+        slot_reason = (
+            f"Stage 2 batting slot {i + 1}: "
+            f"{primary_source or 'fallback'} set eligibility band {profile.get('band')} "
+            f"with slot signal {round(slot_signal, 2)}, preferred slots "
+            f"{profile.get('preferred_slots') or []}, and allowed slots "
+            f"{profile.get('allowed_slots') or []}."
         )
+        p.history_debug["batting_slot_assignment_reason"] = slot_reason
+        p.history_debug["batting_order_reason_summary"] = (
+            _batting_order_reason_summary_for_player(p, ranked) + " " + slot_reason
+        ).strip()
+        p.history_debug["final_order_reason"] = slot_reason
         p.history_debug["dominant_position"] = p.history_debug.get("dominant_position")
         p.history_debug["batting_band"] = p.history_debug.get("batting_band") or p.history_debug.get("role_band")
         p.history_debug["final_position"] = i + 1
         lo, hi, band_used = _allowed_range(p)
-        p.history_debug["batting_band"] = band_used
+        p.history_debug["batting_band_guardrail"] = band_used
         p.history_debug["batting_allowed_min"] = lo
         p.history_debug["batting_allowed_max"] = hi
         p.history_debug["moved_outside_band"] = _violates_band(p, i + 1)
@@ -4023,10 +5224,15 @@ def build_batting_order(
         bowler_guardrail_applied = False
         if classify_player(p).is_specialist_bowler and (i + 1) >= 8:
             bowler_guardrail_applied = True
-        if rb_now == "bowling_allrounder" and 6 <= (i + 1) <= 8 and not _strong_batting_history_for_bowling_ar(p):
+        subtype_now = str((getattr(p, "history_debug", None) or {}).get("allrounder_subtype") or "")
+        if (rb_now == "bowling_allrounder" or subtype_now == "bowling_allrounder") and 8 <= (i + 1) <= 11:
+            bowler_guardrail_applied = True
+        if (rb_now == "balanced_allrounder" or subtype_now == "balanced_allrounder") and 5 <= (i + 1) <= 8:
+            bowler_guardrail_applied = True
+        if (rb_now == "batting_allrounder" or subtype_now == "batting_allrounder") and 1 <= (i + 1) <= 5:
             bowler_guardrail_applied = True
         p.history_debug["bowler_order_guardrail_applied"] = bowler_guardrail_applied
-        if diag == "role_fallback":
+        if primary_source in ("role_band_fallback", "specialist_bowler_fallback", "neutral_middle_order_fallback"):
             n_role_fb += 1
 
     # Conflict detection: if guardrails could not be satisfied, log explicitly.
@@ -4875,33 +6081,21 @@ def _run_prediction_inner(
     os_min_b = min(3, squad_os_b, int(getattr(config, "MAX_OVERSEAS", 4)))
     os_target_a = min(4, squad_os_a, int(getattr(config, "MAX_OVERSEAS", 4)))
     os_target_b = min(4, squad_os_b, int(getattr(config, "MAX_OVERSEAS", 4)))
-    xi_a_base = select_base_playing_xi(scored_a, conditions=conditions)
-    xi_a, xi_a_condition_changes = _apply_condition_adjustments_from_base(
+    xi_stage_a = _run_xi_selection_stage(
         scored_a,
-        xi_a_base,
+        team_name=team_a_name,
         scenario_branch=br_a,
-        conditions=conditions,
-    )
-    xi_a, overseas_dbg_a_pre = _optimize_overseas_preference(
-        scored_a,
-        xi_a,
         conditions=conditions,
         overseas_min_required=os_min_a,
         overseas_target=os_target_a,
     )
-    overseas_dbg_a = dict(overseas_dbg_a_pre)
-    xi_a, xi_a_repaired, xi_a_repair_swaps, xi_a_repair_enforce = _repair_xi_if_needed(
-        scored_a,
-        xi_a,
-        conditions=conditions,
-    )
-    xi_a_condition_changes = _reconcile_condition_changes_and_annotate(
-        scored_a,
-        xi_a_base,
-        xi_a,
-        scenario_branch=br_a,
-        changes=xi_a_condition_changes,
-    )
+    xi_a_base = xi_stage_a["base_xi"]
+    xi_a = xi_stage_a["final_xi"]
+    xi_a_condition_changes = xi_stage_a["condition_changes"]
+    overseas_dbg_a = dict(xi_stage_a["overseas_debug"])
+    xi_a_repaired = bool(xi_stage_a["repair_applied"])
+    xi_a_repair_swaps = list(xi_stage_a["repair_swaps"])
+    xi_a_repair_enforce = dict(xi_stage_a["repair_enforce"])
     _delta_scen_a = {p.name for p in xi_a}.symmetric_difference({p.name for p in xi_a_base})
     for p in scored_a:
         if not isinstance(getattr(p, "history_debug", None), dict):
@@ -4912,33 +6106,21 @@ def _run_prediction_inner(
         hd_a["selection_changed_due_to_scenario"] = p.name in _delta_scen_a
         hd_a["base_xi_rank_used"] = round(_base_xi_rank_value(p), 5)
 
-    xi_b_base = select_base_playing_xi(scored_b, conditions=conditions)
-    xi_b, xi_b_condition_changes = _apply_condition_adjustments_from_base(
+    xi_stage_b = _run_xi_selection_stage(
         scored_b,
-        xi_b_base,
+        team_name=team_b_name,
         scenario_branch=br_b,
-        conditions=conditions,
-    )
-    xi_b, overseas_dbg_b_pre = _optimize_overseas_preference(
-        scored_b,
-        xi_b,
         conditions=conditions,
         overseas_min_required=os_min_b,
         overseas_target=os_target_b,
     )
-    overseas_dbg_b = dict(overseas_dbg_b_pre)
-    xi_b, xi_b_repaired, xi_b_repair_swaps, xi_b_repair_enforce = _repair_xi_if_needed(
-        scored_b,
-        xi_b,
-        conditions=conditions,
-    )
-    xi_b_condition_changes = _reconcile_condition_changes_and_annotate(
-        scored_b,
-        xi_b_base,
-        xi_b,
-        scenario_branch=br_b,
-        changes=xi_b_condition_changes,
-    )
+    xi_b_base = xi_stage_b["base_xi"]
+    xi_b = xi_stage_b["final_xi"]
+    xi_b_condition_changes = xi_stage_b["condition_changes"]
+    overseas_dbg_b = dict(xi_stage_b["overseas_debug"])
+    xi_b_repaired = bool(xi_stage_b["repair_applied"])
+    xi_b_repair_swaps = list(xi_stage_b["repair_swaps"])
+    xi_b_repair_enforce = dict(xi_stage_b["repair_enforce"])
     _delta_scen_b = {p.name for p in xi_b}.symmetric_difference({p.name for p in xi_b_base})
     for p in scored_b:
         if not isinstance(getattr(p, "history_debug", None), dict):
@@ -5087,27 +6269,19 @@ def _run_prediction_inner(
     if not v_ok_b:
         logger.warning("team_b XI constraints failed: %s", v_err_b)
     batting_order_warnings: list[str] = []
-    order_a = (
-        build_batting_order(
-            xi_a,
-            conditions,
-            team_name=team_a_name,
-            venue_keys=vkeys,
-            out_warnings=batting_order_warnings,
-        )
-        if len(xi_a) == 11
-        else _batting_order_for_short_xi(xi_a, team_name=team_a_name, out_warnings=batting_order_warnings)
+    order_a = _assign_batting_order_stage(
+        xi_a,
+        conditions,
+        team_name=team_a_name,
+        venue_keys=vkeys,
+        out_warnings=batting_order_warnings,
     )
-    order_b = (
-        build_batting_order(
-            xi_b,
-            conditions,
-            team_name=team_b_name,
-            venue_keys=vkeys,
-            out_warnings=batting_order_warnings,
-        )
-        if len(xi_b) == 11
-        else _batting_order_for_short_xi(xi_b, team_name=team_b_name, out_warnings=batting_order_warnings)
+    order_b = _assign_batting_order_stage(
+        xi_b,
+        conditions,
+        team_name=team_b_name,
+        venue_keys=vkeys,
+        out_warnings=batting_order_warnings,
     )
     # Freeze XI membership before batting order: order may be assigned, but membership may not mutate.
     if len(xi_a) == 11 and set(order_a) != {p.name for p in xi_a}:
@@ -5383,6 +6557,9 @@ def _run_prediction_inner(
                     "captain_boost_applied": hd.get("captain_boost_applied"),
                     "wicketkeeper_boost_applied": hd.get("wicketkeeper_boost_applied"),
                     "selection_reason_summary": hd.get("selection_reason_summary"),
+                    "xi_stage": hd.get("xi_stage"),
+                    "xi_selection_factors": hd.get("xi_selection_factors"),
+                    "xi_selection_stage_reason": hd.get("xi_selection_stage_reason"),
                     "base_xi_score": hd.get("base_xi_score"),
                     "base_xi_reason": hd.get("base_xi_reason"),
                     "base_xi_selected": hd.get("base_xi_selected"),
@@ -5401,8 +6578,13 @@ def _run_prediction_inner(
                     "marquee_suggested_rank_pct": hd.get("marquee_suggested_rank_pct"),
                     "batting_order_reason_summary": hd.get("batting_order_reason_summary"),
                     "role_band": hd.get("role_band"),
+                    "allrounder_subtype": hd.get("allrounder_subtype"),
                     "dominant_position": hd.get("dominant_position"),
                     "batting_band": hd.get("batting_band"),
+                    "batting_slot_eligibility_band": hd.get("batting_slot_eligibility_band"),
+                    "batting_slot_eligibility_source": hd.get("batting_slot_eligibility_source"),
+                    "batting_slot_history_sources": hd.get("batting_slot_history_sources"),
+                    "batting_slot_signal": hd.get("batting_slot_signal"),
                     "final_position": hd.get("final_position"),
                     "moved_outside_band": hd.get("moved_outside_band"),
                     "bowler_order_guardrail_applied": hd.get("bowler_order_guardrail_applied"),
@@ -5411,6 +6593,7 @@ def _run_prediction_inner(
                     "is_death_bowler_candidate": _is_death_bowler_candidate(p),
                     "batting_position_history_basis": hd.get("batting_position_history_basis"),
                     "final_order_reason": hd.get("final_order_reason"),
+                    "batting_slot_assignment_reason": hd.get("batting_slot_assignment_reason"),
                     "batting_order_signal_source_ranked": hd.get("batting_order_signal_source_ranked"),
                     "xi_selection_frequency": (hd.get("selection_score_components") or {}).get("xi_selection_frequency"),
                     "recent_usage_score": (hd.get("selection_score_components") or {}).get("recent_usage_score"),
@@ -5434,7 +6617,8 @@ def _run_prediction_inner(
                     "team_balance_fit_score": bbd.get("team_balance_fit_score"),
                     "condition_adjustment": smd.get("tactical_adjustment_total"),
                     "final_xi_decision_reason": (
-                        hd.get("condition_adjustment_reason")
+                        hd.get("xi_selection_stage_reason")
+                        or hd.get("condition_adjustment_reason")
                         or hd.get("base_xi_reason")
                         or hd.get("selection_reason_summary")
                     ),
@@ -5469,10 +6653,12 @@ def _run_prediction_inner(
         w_alt: list[str] = []
 
         def _alt_bo(xi: list[SquadPlayer], tnm: str) -> list[str]:
-            if len(xi) != 11:
-                return [p.name for p in xi]
-            return build_batting_order(
-                xi, conditions, team_name=tnm, venue_keys=vkeys, out_warnings=w_alt
+            return _assign_batting_order_stage(
+                xi,
+                conditions,
+                team_name=tnm,
+                venue_keys=vkeys,
+                out_warnings=w_alt,
             )
 
         xi_scenario_alternates = {
@@ -5561,8 +6747,10 @@ def _run_prediction_inner(
                 {
                     "name": p.name,
                     "selected_because": _selected_because(p),
+                    "xi_selection_factors": hd.get("xi_selection_factors") or [],
                     "final_xi_decision_reason": (
-                        hd.get("condition_adjustment_reason")
+                        hd.get("xi_selection_stage_reason")
+                        or hd.get("condition_adjustment_reason")
                         or hd.get("base_xi_reason")
                         or hd.get("selection_reason_summary")
                         or ""
@@ -5595,6 +6783,9 @@ def _run_prediction_inner(
                     "batting_band": hd.get("batting_band"),
                     "allowed_range": [hd.get("batting_allowed_min"), hd.get("batting_allowed_max")],
                     "final_position": hd.get("final_position") or pos,
+                    "slot_eligibility_source": hd.get("batting_slot_eligibility_source"),
+                    "slot_signal": hd.get("batting_slot_signal"),
+                    "slot_reason": hd.get("batting_slot_assignment_reason") or hd.get("final_order_reason") or "",
                     "guardrail_applied": bool(hd.get("bowler_order_guardrail_applied")),
                     "moved_outside_band": bool(hd.get("moved_outside_band")),
                 }
@@ -5723,9 +6914,7 @@ def _run_prediction_inner(
                 "xi_repaired": bool(xi_a_repaired),
                 "repair_swaps": xi_a_repair_swaps,
                 "overseas_target_preference_applied": bool(overseas_dbg_a.get("overseas_target_preference_applied")),
-                "overseas_repair_applied": bool(
-                    overseas_dbg_a_pre.get("overseas_repair_applied") or overseas_dbg_a.get("overseas_repair_applied")
-                ),
+                "overseas_repair_applied": bool(overseas_dbg_a.get("overseas_repair_applied")),
                 "overseas_target": overseas_dbg_a.get("overseas_target"),
                 "overseas_min_required": overseas_dbg_a.get("overseas_min_required"),
                 "best_excluded_overseas_candidates": overseas_dbg_a.get("best_excluded_overseas_candidates") or [],
@@ -5757,9 +6946,7 @@ def _run_prediction_inner(
                 "xi_repaired": bool(xi_b_repaired),
                 "repair_swaps": xi_b_repair_swaps,
                 "overseas_target_preference_applied": bool(overseas_dbg_b.get("overseas_target_preference_applied")),
-                "overseas_repair_applied": bool(
-                    overseas_dbg_b_pre.get("overseas_repair_applied") or overseas_dbg_b.get("overseas_repair_applied")
-                ),
+                "overseas_repair_applied": bool(overseas_dbg_b.get("overseas_repair_applied")),
                 "overseas_target": overseas_dbg_b.get("overseas_target"),
                 "overseas_min_required": overseas_dbg_b.get("overseas_min_required"),
                 "best_excluded_overseas_candidates": overseas_dbg_b.get("best_excluded_overseas_candidates") or [],

@@ -1,0 +1,5854 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-04-03T10:51:08Z",
+  "db_path": "/Users/arvindravi/ipl-xi-predictor/data/ipl_predictor.sqlite",
+  "latest_ipl_date": "2026-04-02",
+  "summary": {
+    "players_enriched": 200,
+    "players_left_blank": 46,
+    "aliases_added": 168,
+    "teams_filled": 0,
+    "unresolved_collisions": 4
+  },
+  "players": {
+    "ruturaj gaikwad": {
+      "registry_key": "ruturaj gaikwad",
+      "canonical_name": "Ruturaj Gaikwad",
+      "old_history_canonical_key": "ruturaj gaikwad",
+      "new_history_canonical_key": "rd gaikwad",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for rd gaikwad",
+        "exact scorecard name match rd gaikwad",
+        "same-surname initials pool candidate rd gaikwad",
+        "same-surname initials pool candidate rd gaikwad"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "dewald brevis": {
+      "registry_key": "dewald brevis",
+      "canonical_name": "Dewald Brevis",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "d brevis",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate d brevis"
+      ],
+      "alias_additions": [
+        "d brevis"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ms dhoni": {
+      "registry_key": "ms dhoni",
+      "canonical_name": "MS Dhoni",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ms dhoni",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for ms dhoni",
+        "exact scorecard name match ms dhoni",
+        "same surname initials pool candidate ms dhoni",
+        "exact raw match ms dhoni"
+      ],
+      "alias_additions": [
+        "ms dhoni"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473504.json",
+        "1473500.json",
+        "1473494.json",
+        "1473489.json",
+        "1473486.json",
+        "1473480.json",
+        "1473475.json",
+        "1473467.json",
+        "1473462.json",
+        "1473459.json",
+        "1473454.json",
+        "1473448.json"
+      ]
+    },
+    "kartik sharma": {
+      "registry_key": "kartik sharma",
+      "canonical_name": "Kartik Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kartik sharma",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for kartik sharma",
+        "exact scorecard name match kartik sharma",
+        "safe raw surname variant kv sharma",
+        "safe raw surname variant ks sharma"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "",
+      "matched_files": [
+        "1473501.json",
+        "1473493.json",
+        "1473487.json",
+        "1473482.json",
+        "1473470.json",
+        "1473466.json",
+        "1426310.json",
+        "1426306.json",
+        "1426300.json",
+        "1426296.json",
+        "1426290.json",
+        "1426283.json",
+        "1359542.json",
+        "1359519.json",
+        "1304103.json"
+      ]
+    },
+    "sarfaraz khan": {
+      "registry_key": "sarfaraz khan",
+      "canonical_name": "Sarfaraz Khan",
+      "old_history_canonical_key": "sarfaraz khan",
+      "new_history_canonical_key": "sn khan",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for sn khan",
+        "exact scorecard name match sn khan",
+        "safe one-edit scorecard variant sn khan",
+        "same-surname initials pool candidate sn khan",
+        "same-surname initials pool candidate sn khan",
+        "same-surname initials pool candidate sn khan"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ayush mhatre": {
+      "registry_key": "ayush mhatre",
+      "canonical_name": "Ayush Mhatre",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "a mhatre",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate a mhatre"
+      ],
+      "alias_additions": [
+        "a mhatre"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "urvil patel": {
+      "registry_key": "urvil patel",
+      "canonical_name": "Urvil Patel",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "urvil patel",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for urvil patel",
+        "exact scorecard name match urvil patel",
+        "exact raw match urvil patel"
+      ],
+      "alias_additions": [
+        "urvil patel"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473504.json",
+        "1473500.json",
+        "1473494.json"
+      ]
+    },
+    "sanju samson": {
+      "registry_key": "sanju samson",
+      "canonical_name": "Sanju Samson",
+      "old_history_canonical_key": "sanju samson",
+      "new_history_canonical_key": "sv samson",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for sv samson",
+        "exact scorecard name match sv samson",
+        "safe one-edit scorecard variant sv samson",
+        "same-surname initials pool candidate sv samson",
+        "same-surname initials pool candidate sv samson",
+        "same-surname initials pool candidate sv samson"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "aman khan": {
+      "registry_key": "aman khan",
+      "canonical_name": "Aman Khan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "shivam dube": {
+      "registry_key": "shivam dube",
+      "canonical_name": "Shivam Dube",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "s dube",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate s dube"
+      ],
+      "alias_additions": [
+        "s dube"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "zak foulkes": {
+      "registry_key": "zak foulkes",
+      "canonical_name": "Zak Foulkes",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "ramakrishna ghosh": {
+      "registry_key": "ramakrishna ghosh",
+      "canonical_name": "Ramakrishna Ghosh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same-surname initials pool candidate rm ghosh",
+        "left blank: top candidate rm ghosh lacked strong evidence"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "anshul kamboj": {
+      "registry_key": "anshul kamboj",
+      "canonical_name": "Anshul Kamboj",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "a kamboj",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate a kamboj"
+      ],
+      "alias_additions": [
+        "a kamboj"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "jamie overton": {
+      "registry_key": "jamie overton",
+      "canonical_name": "Jamie Overton",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "j overton",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate j overton"
+      ],
+      "alias_additions": [
+        "j overton"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.8999999999999999,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "matthew short": {
+      "registry_key": "matthew short",
+      "canonical_name": "Matthew Short",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mw short",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate mw short"
+      ],
+      "alias_additions": [
+        "mw short"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "prashant veer": {
+      "registry_key": "prashant veer",
+      "canonical_name": "Prashant Veer",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "khaleel ahmed": {
+      "registry_key": "khaleel ahmed",
+      "canonical_name": "Khaleel Ahmed",
+      "old_history_canonical_key": "khaleel ahmed",
+      "new_history_canonical_key": "kk ahmed",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for kk ahmed",
+        "exact scorecard name match kk ahmed",
+        "safe one-edit scorecard variant kk ahmed",
+        "same-surname initials pool candidate kk ahmed",
+        "same-surname initials pool candidate kk ahmed",
+        "same-surname initials pool candidate kk ahmed"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "rahul chahar": {
+      "registry_key": "rahul chahar",
+      "canonical_name": "Rahul Chahar",
+      "old_history_canonical_key": "rahul chahar",
+      "new_history_canonical_key": "rd chahar",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for rd chahar",
+        "exact scorecard name match rd chahar",
+        "safe one-edit scorecard variant rd chahar",
+        "safe one-edit scorecard variant rd chahar",
+        "same-surname initials pool candidate rd chahar",
+        "same-surname initials pool candidate rd chahar",
+        "same-surname initials pool candidate rd chahar",
+        "same-surname initials pool candidate rd chahar"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "shreyas gopal": {
+      "registry_key": "shreyas gopal",
+      "canonical_name": "Shreyas Gopal",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "s gopal",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate s gopal"
+      ],
+      "alias_additions": [
+        "s gopal"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.8200000000000001,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "gurjapneet singh": {
+      "registry_key": "gurjapneet singh",
+      "canonical_name": "Gurjapneet Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "matt henry": {
+      "registry_key": "matt henry",
+      "canonical_name": "Matt Henry",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mj henry",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate mj henry"
+      ],
+      "alias_additions": [
+        "mj henry"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "akeal hosein": {
+      "registry_key": "akeal hosein",
+      "canonical_name": "Akeal Hosein",
+      "old_history_canonical_key": "akeal hosein",
+      "new_history_canonical_key": "aj hosein",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for aj hosein",
+        "exact scorecard name match aj hosein",
+        "same-surname initials pool candidate aj hosein",
+        "same-surname initials pool candidate aj hosein",
+        "same-surname initials pool candidate aj hosein"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.98,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "spencer johnson": {
+      "registry_key": "spencer johnson",
+      "canonical_name": "Spencer Johnson",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "sh johnson",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate sh johnson"
+      ],
+      "alias_additions": [
+        "sh johnson"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.84,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "mukesh choudhary": {
+      "registry_key": "mukesh choudhary",
+      "canonical_name": "Mukesh Choudhary",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mukesh choudhary",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for mukesh choudhary",
+        "exact scorecard name match mukesh choudhary",
+        "exact raw match mukesh choudhary"
+      ],
+      "alias_additions": [
+        "mukesh choudhary"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473459.json",
+        "1473454.json",
+        "1422136.json",
+        "1304114.json",
+        "1304108.json",
+        "1304105.json",
+        "1304101.json",
+        "1304095.json",
+        "1304092.json",
+        "1304084.json",
+        "1304079.json",
+        "1304075.json"
+      ]
+    },
+    "noor ahmad": {
+      "registry_key": "noor ahmad",
+      "canonical_name": "Noor Ahmad",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "noor ahmad",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for noor ahmad",
+        "exact scorecard name match noor ahmad",
+        "exact raw match noor ahmad"
+      ],
+      "alias_additions": [
+        "noor ahmad"
+      ],
+      "team_filled": false,
+      "team_after": "Chennai Super Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473504.json",
+        "1473500.json",
+        "1473494.json",
+        "1473489.json",
+        "1473486.json",
+        "1473480.json",
+        "1473475.json",
+        "1473467.json",
+        "1473462.json",
+        "1473459.json",
+        "1473454.json",
+        "1473448.json"
+      ]
+    },
+    "nathan ellis": {
+      "registry_key": "nathan ellis",
+      "canonical_name": "Nathan Ellis",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "nt ellis",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate nt ellis",
+        "left blank top candidate nt ellis lacked strong evidence",
+        "safe raw surname variant nt ellis",
+        "exact ipl player_key match for nt ellis",
+        "exact scorecard name match nt ellis"
+      ],
+      "alias_additions": [
+        "nt ellis"
+      ],
+      "team_filled": false,
+      "team_after": "",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473440.json",
+        "1426303.json",
+        "1359540.json",
+        "1359538.json",
+        "1359533.json",
+        "1359527.json",
+        "1359520.json",
+        "1359505.json",
+        "1359501.json",
+        "1359488.json",
+        "1359482.json",
+        "1359476.json"
+      ]
+    },
+    "quinton de kock": {
+      "registry_key": "quinton de kock",
+      "canonical_name": "Quinton de Kock",
+      "old_history_canonical_key": "quinton de kock",
+      "new_history_canonical_key": "q de kock",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for q de kock",
+        "exact scorecard name match q de kock",
+        "safe one-edit scorecard variant q de kock",
+        "same-surname initials pool candidate q de kock",
+        "same-surname initials pool candidate q de kock",
+        "same-surname initials pool candidate q de kock"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "danish malewar": {
+      "registry_key": "danish malewar",
+      "canonical_name": "Danish Malewar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "robin minz": {
+      "registry_key": "robin minz",
+      "canonical_name": "Robin Minz",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "r minz",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate r minz",
+        "left blank top candidate r minz lacked strong evidence",
+        "safe raw surname variant r minz",
+        "exact ipl player_key match for r minz",
+        "exact scorecard name match r minz"
+      ],
+      "alias_additions": [
+        "r minz"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473446.json",
+        "1473440.json"
+      ]
+    },
+    "ryan rickelton": {
+      "registry_key": "ryan rickelton",
+      "canonical_name": "Ryan Rickelton",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "rd rickelton",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate rd rickelton"
+      ],
+      "alias_additions": [
+        "rd rickelton"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "sherfane rutherford": {
+      "registry_key": "sherfane rutherford",
+      "canonical_name": "Sherfane Rutherford",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "se rutherford",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate se rutherford"
+      ],
+      "alias_additions": [
+        "se rutherford"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "rohit sharma": {
+      "registry_key": "rohit sharma",
+      "canonical_name": "Rohit Sharma",
+      "old_history_canonical_key": "rg sharma",
+      "new_history_canonical_key": "rg sharma",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key rg sharma"
+      ],
+      "alias_additions": [
+        "rg sharma"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "suryakumar yadav": {
+      "registry_key": "suryakumar yadav",
+      "canonical_name": "Suryakumar Yadav",
+      "old_history_canonical_key": "surya kumar yadav",
+      "new_history_canonical_key": "sa yadav",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for sa yadav",
+        "exact scorecard name match sa yadav",
+        "safe one-edit scorecard variant sa yadav",
+        "same-surname initials pool candidate sa yadav",
+        "same-surname initials pool candidate sa yadav",
+        "same-surname initials pool candidate sa yadav",
+        "same-surname initials pool candidate sa yadav"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "hardik pandya": {
+      "registry_key": "hardik pandya",
+      "canonical_name": "Hardik Pandya",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "hh pandya",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate hh pandya"
+      ],
+      "alias_additions": [
+        "hh pandya"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "atharva ankolekar": {
+      "registry_key": "atharva ankolekar",
+      "canonical_name": "Atharva Ankolekar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "raj bawa": {
+      "registry_key": "raj bawa",
+      "canonical_name": "Raj Bawa",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ra bawa",
+      "inferred": true,
+      "evidence_summary": [
+        "safe one-edit scorecard variant ra bawa",
+        "same-surname initials pool candidate ra bawa"
+      ],
+      "alias_additions": [
+        "ra bawa"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "corbin bosch": {
+      "registry_key": "corbin bosch",
+      "canonical_name": "Corbin Bosch",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "c bosch",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate c bosch",
+        "left blank top candidate c bosch lacked strong evidence",
+        "safe raw surname variant c bosch",
+        "exact ipl player_key match for c bosch",
+        "exact scorecard name match c bosch"
+      ],
+      "alias_additions": [
+        "c bosch"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473493.json",
+        "1473487.json",
+        "1473482.json"
+      ]
+    },
+    "will jacks": {
+      "registry_key": "will jacks",
+      "canonical_name": "Will Jacks",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "wg jacks",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate wg jacks"
+      ],
+      "alias_additions": [
+        "wg jacks"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "mayank rawat": {
+      "registry_key": "mayank rawat",
+      "canonical_name": "Mayank Rawat",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same-surname initials pool candidate m rawat",
+        "left blank: top candidate m rawat lacked strong evidence"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "naman dhir": {
+      "registry_key": "naman dhir",
+      "canonical_name": "Naman Dhir",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "naman dhir",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for naman dhir",
+        "exact scorecard name match naman dhir",
+        "exact raw match naman dhir"
+      ],
+      "alias_additions": [
+        "naman dhir"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473510.json",
+        "1473509.json",
+        "1473506.json",
+        "1473501.json",
+        "1473493.json",
+        "1473487.json",
+        "1473482.json",
+        "1473478.json",
+        "1473475.json",
+        "1473470.json",
+        "1473466.json",
+        "1473458.json"
+      ]
+    },
+    "mitchell santner": {
+      "registry_key": "mitchell santner",
+      "canonical_name": "Mitchell Santner",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mj santner",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate mj santner"
+      ],
+      "alias_additions": [
+        "mj santner"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "shardul thakur": {
+      "registry_key": "shardul thakur",
+      "canonical_name": "Shardul Thakur",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "sn thakur",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate sn thakur"
+      ],
+      "alias_additions": [
+        "sn thakur"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "tilak varma": {
+      "registry_key": "tilak varma",
+      "canonical_name": "Tilak Varma",
+      "old_history_canonical_key": "n tilak varma",
+      "new_history_canonical_key": "tilak varma",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for tilak varma",
+        "exact scorecard name match tilak varma"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ashwani kumar": {
+      "registry_key": "ashwani kumar",
+      "canonical_name": "Ashwani Kumar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ashwani kumar",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for ashwani kumar",
+        "exact scorecard name match ashwani kumar",
+        "exact raw match ashwani kumar"
+      ],
+      "alias_additions": [
+        "ashwani kumar"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473510.json",
+        "1473509.json",
+        "1473506.json",
+        "1473493.json",
+        "1473475.json",
+        "1473453.json",
+        "1473449.json"
+      ]
+    },
+    "trent boult": {
+      "registry_key": "trent boult",
+      "canonical_name": "Trent Boult",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ta boult",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ta boult"
+      ],
+      "alias_additions": [
+        "ta boult"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "jasprit bumrah": {
+      "registry_key": "jasprit bumrah",
+      "canonical_name": "Jasprit Bumrah",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jj bumrah",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jj bumrah"
+      ],
+      "alias_additions": [
+        "jj bumrah"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "deepak chahar": {
+      "registry_key": "deepak chahar",
+      "canonical_name": "Deepak Chahar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "dl chahar",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate dl chahar"
+      ],
+      "alias_additions": [
+        "dl chahar"
+      ],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "am ghazanfar": {
+      "registry_key": "am ghazanfar",
+      "canonical_name": "AM Ghazanfar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "am ghazanfar",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for am ghazanfar",
+        "exact scorecard name match am ghazanfar",
+        "same-surname initials pool candidate am ghazanfar"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "mayank markande": {
+      "registry_key": "mayank markande",
+      "canonical_name": "Mayank Markande",
+      "old_history_canonical_key": "mayank markande",
+      "new_history_canonical_key": "m markande",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for m markande",
+        "exact scorecard name match m markande",
+        "same-surname initials pool candidate m markande",
+        "same-surname initials pool candidate m markande"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "mohd izhar": {
+      "registry_key": "mohd izhar",
+      "canonical_name": "Mohd Izhar",
+      "old_history_canonical_key": "mohd izhar",
+      "new_history_canonical_key": "mohd izhar",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "raghu sharma": {
+      "registry_key": "raghu sharma",
+      "canonical_name": "Raghu Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same surname initials pool candidate rg sharma",
+        "left blank rg sharma score 0 88 vs r sharma score 0 52",
+        "safe raw surname variant rg sharma",
+        "exact ipl player_key match for rg sharma",
+        "exact scorecard name match rg sharma"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Mumbai Indians",
+      "confidence": 0.0,
+      "unresolved_collision": true,
+      "reason_if_left_blank": "collision_risk",
+      "evidence_source": "",
+      "matched_files": [
+        "1473510.json",
+        "1473509.json",
+        "1473506.json",
+        "1473501.json",
+        "1473493.json",
+        "1473487.json",
+        "1473482.json",
+        "1473478.json",
+        "1473475.json",
+        "1473470.json",
+        "1473466.json",
+        "1473458.json"
+      ]
+    },
+    "shreyas iyer": {
+      "registry_key": "shreyas iyer",
+      "canonical_name": "Shreyas Iyer",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ss iyer",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ss iyer"
+      ],
+      "alias_additions": [
+        "ss iyer"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "priyansh arya": {
+      "registry_key": "priyansh arya",
+      "canonical_name": "Priyansh Arya",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "priyansh arya",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for priyansh arya",
+        "exact scorecard name match priyansh arya",
+        "exact raw match priyansh arya"
+      ],
+      "alias_additions": [
+        "priyansh arya"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473511.json",
+        "1473510.json",
+        "1473508.json",
+        "1473506.json",
+        "1485779.json",
+        "1473497.json",
+        "1473495.json",
+        "1473491.json",
+        "1473486.json",
+        "1473481.json",
+        "1473474.json",
+        "1473471.json"
+      ]
+    },
+    "pyla avinash": {
+      "registry_key": "pyla avinash",
+      "canonical_name": "Pyla Avinash",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "harnoor singh": {
+      "registry_key": "harnoor singh",
+      "canonical_name": "Harnoor Singh",
+      "old_history_canonical_key": "harnoor singh",
+      "new_history_canonical_key": "harnoor singh",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "prabhsimran singh": {
+      "registry_key": "prabhsimran singh",
+      "canonical_name": "Prabhsimran Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "p simran singh",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate p simran singh"
+      ],
+      "alias_additions": [
+        "p simran singh"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "vishnu vinod": {
+      "registry_key": "vishnu vinod",
+      "canonical_name": "Vishnu Vinod",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "vishnu vinod",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for vishnu vinod",
+        "exact scorecard name match vishnu vinod",
+        "exact raw match vishnu vinod"
+      ],
+      "alias_additions": [
+        "vishnu vinod"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1370352.json",
+        "1359537.json",
+        "1359531.json"
+      ]
+    },
+    "nehal wadhera": {
+      "registry_key": "nehal wadhera",
+      "canonical_name": "Nehal Wadhera",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "n wadhera",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate n wadhera"
+      ],
+      "alias_additions": [
+        "n wadhera"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "azmatullah omarzai": {
+      "registry_key": "azmatullah omarzai",
+      "canonical_name": "Azmatullah Omarzai",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "azmatullah omarzai",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for azmatullah omarzai",
+        "exact scorecard name match azmatullah omarzai",
+        "exact raw match azmatullah omarzai"
+      ],
+      "alias_additions": [
+        "azmatullah omarzai"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473511.json",
+        "1473510.json",
+        "1473508.json",
+        "1485779.json",
+        "1473497.json",
+        "1473495.json",
+        "1473491.json",
+        "1473486.json",
+        "1473481.json",
+        "1473442.json",
+        "1426283.json",
+        "1426278.json"
+      ]
+    },
+    "cooper connolly": {
+      "registry_key": "cooper connolly",
+      "canonical_name": "Cooper Connolly",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same-surname initials pool candidate c connolly",
+        "left blank: top candidate c connolly lacked strong evidence"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "marco jansen": {
+      "registry_key": "marco jansen",
+      "canonical_name": "Marco Jansen",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "m jansen",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate m jansen"
+      ],
+      "alias_additions": [
+        "m jansen"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "musheer khan": {
+      "registry_key": "musheer khan",
+      "canonical_name": "Musheer Khan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "musheer khan",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for musheer khan",
+        "exact scorecard name match musheer khan",
+        "safe raw surname variant m shahrukh khan",
+        "exact raw match musheer khan"
+      ],
+      "alias_additions": [
+        "musheer khan"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473509.json",
+        "1473504.json",
+        "1473502.json",
+        "1473498.json",
+        "1473493.json",
+        "1473488.json",
+        "1473484.json",
+        "1473476.json",
+        "1473472.json",
+        "1473463.json",
+        "1473460.json",
+        "1473457.json",
+        "1473508.json"
+      ]
+    },
+    "mitchell owen": {
+      "registry_key": "mitchell owen",
+      "canonical_name": "Mitchell Owen",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mj owen",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate mj owen",
+        "left blank top candidate mj owen lacked strong evidence",
+        "safe raw surname variant mj owen",
+        "exact ipl player_key match for mj owen",
+        "exact scorecard name match mj owen"
+      ],
+      "alias_additions": [
+        "mj owen"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473497.json"
+      ]
+    },
+    "shashank singh": {
+      "registry_key": "shashank singh",
+      "canonical_name": "Shashank Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "shashank singh",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for shashank singh",
+        "exact scorecard name match shashank singh",
+        "exact raw match shashank singh"
+      ],
+      "alias_additions": [
+        "shashank singh"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473511.json",
+        "1473510.json",
+        "1473508.json",
+        "1473506.json",
+        "1485779.json",
+        "1473497.json",
+        "1473495.json",
+        "1473491.json",
+        "1473486.json",
+        "1473481.json",
+        "1473474.json",
+        "1473471.json"
+      ]
+    },
+    "marcus stoinis": {
+      "registry_key": "marcus stoinis",
+      "canonical_name": "Marcus Stoinis",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mp stoinis",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate mp stoinis"
+      ],
+      "alias_additions": [
+        "mp stoinis"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "suryansh shedge": {
+      "registry_key": "suryansh shedge",
+      "canonical_name": "Suryansh Shedge",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "suryansh shedge",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for suryansh shedge",
+        "exact scorecard name match suryansh shedge",
+        "exact raw match suryansh shedge"
+      ],
+      "alias_additions": [
+        "suryansh shedge"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473486.json",
+        "1473468.json",
+        "1473455.json",
+        "1473450.json",
+        "1473442.json"
+      ]
+    },
+    "arshdeep singh": {
+      "registry_key": "arshdeep singh",
+      "canonical_name": "Arshdeep Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "arshdeep singh",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for arshdeep singh",
+        "exact scorecard name match arshdeep singh",
+        "exact raw match arshdeep singh"
+      ],
+      "alias_additions": [
+        "arshdeep singh"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473511.json",
+        "1473510.json",
+        "1473508.json",
+        "1473506.json",
+        "1485779.json",
+        "1473497.json",
+        "1473495.json",
+        "1473491.json",
+        "1473486.json",
+        "1473481.json",
+        "1473474.json",
+        "1473471.json"
+      ]
+    },
+    "xavier bartlett": {
+      "registry_key": "xavier bartlett",
+      "canonical_name": "Xavier Bartlett",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "xc bartlett",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate xc bartlett"
+      ],
+      "alias_additions": [
+        "xc bartlett"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "yuzvendra chahal": {
+      "registry_key": "yuzvendra chahal",
+      "canonical_name": "Yuzvendra Chahal",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ys chahal",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ys chahal"
+      ],
+      "alias_additions": [
+        "ys chahal"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "praveen dubey": {
+      "registry_key": "praveen dubey",
+      "canonical_name": "Praveen Dubey",
+      "old_history_canonical_key": "p dubey",
+      "new_history_canonical_key": "p dubey",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key p dubey"
+      ],
+      "alias_additions": [
+        "p dubey"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ben dwarshuis": {
+      "registry_key": "ben dwarshuis",
+      "canonical_name": "Ben Dwarshuis",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "lockie ferguson": {
+      "registry_key": "lockie ferguson",
+      "canonical_name": "Lockie Ferguson",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "lh ferguson",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate lh ferguson"
+      ],
+      "alias_additions": [
+        "lh ferguson"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "harpreet brar": {
+      "registry_key": "harpreet brar",
+      "canonical_name": "Harpreet Brar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "harpreet brar",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for harpreet brar",
+        "exact scorecard name match harpreet brar",
+        "exact raw match harpreet brar"
+      ],
+      "alias_additions": [
+        "harpreet brar"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473508.json",
+        "1473506.json",
+        "1485779.json",
+        "1473497.json",
+        "1473486.json",
+        "1473481.json",
+        "1473474.json",
+        "1473471.json",
+        "1426307.json",
+        "1426303.json",
+        "1426291.json",
+        "1426287.json"
+      ]
+    },
+    "vishal nishad": {
+      "registry_key": "vishal nishad",
+      "canonical_name": "Vishal Nishad",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "vijaykumar vyshak": {
+      "registry_key": "vijaykumar vyshak",
+      "canonical_name": "Vijaykumar Vyshak",
+      "old_history_canonical_key": "vijaykumar vyshak",
+      "new_history_canonical_key": "vijaykumar vyshak",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key vijaykumar vyshak"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "yash thakur": {
+      "registry_key": "yash thakur",
+      "canonical_name": "Yash Thakur",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "yash thakur",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for yash thakur",
+        "exact scorecard name match yash thakur",
+        "exact raw match yash thakur"
+      ],
+      "alias_additions": [
+        "yash thakur"
+      ],
+      "team_filled": false,
+      "team_after": "Punjab Kings",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473464.json",
+        "1473459.json",
+        "1426295.json",
+        "1426292.json",
+        "1426282.json",
+        "1426277.json",
+        "1426272.json",
+        "1426266.json",
+        "1426264.json",
+        "1422139.json",
+        "1422133.json",
+        "1422122.json"
+      ]
+    },
+    "riyan parag": {
+      "registry_key": "riyan parag",
+      "canonical_name": "Riyan Parag",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "r parag",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate r parag"
+      ],
+      "alias_additions": [
+        "r parag"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "aman rao": {
+      "registry_key": "aman rao",
+      "canonical_name": "Aman Rao",
+      "old_history_canonical_key": "aman rao",
+      "new_history_canonical_key": "aman rao",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "shubham dubey": {
+      "registry_key": "shubham dubey",
+      "canonical_name": "Shubham Dubey",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "sb dubey",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate sb dubey"
+      ],
+      "alias_additions": [
+        "sb dubey"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "shimron hetmyer": {
+      "registry_key": "shimron hetmyer",
+      "canonical_name": "Shimron Hetmyer",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "so hetmyer",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate so hetmyer"
+      ],
+      "alias_additions": [
+        "so hetmyer"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "yashasvi jaiswal": {
+      "registry_key": "yashasvi jaiswal",
+      "canonical_name": "Yashasvi Jaiswal",
+      "old_history_canonical_key": "yashasvi jaiswal",
+      "new_history_canonical_key": "ybk jaiswal",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for ybk jaiswal",
+        "exact scorecard name match ybk jaiswal",
+        "same-surname initials pool candidate ybk jaiswal",
+        "same-surname initials pool candidate ybk jaiswal",
+        "same-surname initials pool candidate ybk jaiswal"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "dhruv jurel": {
+      "registry_key": "dhruv jurel",
+      "canonical_name": "Dhruv Jurel",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "dhruv jurel",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for dhruv jurel",
+        "exact scorecard name match dhruv jurel",
+        "exact raw match dhruv jurel"
+      ],
+      "alias_additions": [
+        "dhruv jurel"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473500.json",
+        "1473497.json",
+        "1473490.json",
+        "1473487.json",
+        "1473484.json",
+        "1473479.json",
+        "1473473.json",
+        "1473469.json",
+        "1473465.json",
+        "1473460.json",
+        "1473455.json",
+        "1473448.json"
+      ]
+    },
+    "lhuan dre pretorius": {
+      "registry_key": "lhuan dre pretorius",
+      "canonical_name": "Lhuan-dre Pretorius",
+      "old_history_canonical_key": "lhuan dre pretorius",
+      "new_history_canonical_key": "lhuan dre pretorius",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ravi singh": {
+      "registry_key": "ravi singh",
+      "canonical_name": "Ravi Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same surname initials pool candidate rk singh",
+        "left blank rk singh score 0 92 vs rp singh score 0 44",
+        "safe raw surname variant rk singh",
+        "exact ipl player_key match for rk singh",
+        "exact scorecard name match rk singh"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.0,
+      "unresolved_collision": true,
+      "reason_if_left_blank": "collision_risk",
+      "evidence_source": "",
+      "matched_files": [
+        "1473505.json",
+        "1473494.json",
+        "1473490.json",
+        "1473485.json",
+        "1473481.json",
+        "1473476.json",
+        "1473468.json",
+        "1473462.json",
+        "1473456.json",
+        "1473452.json",
+        "1473449.json",
+        "1473443.json"
+      ]
+    },
+    "vaibhav sooryavanshi": {
+      "registry_key": "vaibhav sooryavanshi",
+      "canonical_name": "Vaibhav Sooryavanshi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "v suryavanshi",
+      "inferred": true,
+      "evidence_summary": [
+        "no ipl history candidate met safe link criteria",
+        "safe raw surname variant v suryavanshi",
+        "exact ipl player_key match for v suryavanshi",
+        "exact scorecard name match v suryavanshi",
+        "same surname initials pool candidate v suryavanshi"
+      ],
+      "alias_additions": [
+        "v suryavanshi"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473500.json",
+        "1473497.json",
+        "1473490.json",
+        "1473487.json",
+        "1473484.json",
+        "1473479.json",
+        "1473473.json"
+      ]
+    },
+    "donovan ferreira": {
+      "registry_key": "donovan ferreira",
+      "canonical_name": "Donovan Ferreira",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "d ferreira",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate d ferreira"
+      ],
+      "alias_additions": [
+        "d ferreira"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.82,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ravindra jadeja": {
+      "registry_key": "ravindra jadeja",
+      "canonical_name": "Ravindra Jadeja",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ra jadeja",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ra jadeja"
+      ],
+      "alias_additions": [
+        "ra jadeja"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "dasun shanaka": {
+      "registry_key": "dasun shanaka",
+      "canonical_name": "Dasun Shanaka",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "sam curran": {
+      "registry_key": "sam curran",
+      "canonical_name": "Sam Curran",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "sm curran",
+      "inferred": true,
+      "evidence_summary": [
+        "safe one-edit scorecard variant sm curran",
+        "same-surname initials pool candidate sm curran"
+      ],
+      "alias_additions": [
+        "sm curran"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "jofra archer": {
+      "registry_key": "jofra archer",
+      "canonical_name": "Jofra Archer",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jc archer",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jc archer"
+      ],
+      "alias_additions": [
+        "jc archer"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "brijesh sharma": {
+      "registry_key": "brijesh sharma",
+      "canonical_name": "Brijesh Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "brijesh sharma",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for brijesh sharma",
+        "exact scorecard name match brijesh sharma"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "nandre burger": {
+      "registry_key": "nandre burger",
+      "canonical_name": "Nandre Burger",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "n burger",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate n burger"
+      ],
+      "alias_additions": [
+        "n burger"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "tushar deshpande": {
+      "registry_key": "tushar deshpande",
+      "canonical_name": "Tushar Deshpande",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "tu deshpande",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate tu deshpande"
+      ],
+      "alias_additions": [
+        "tu deshpande"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "kwena maphaka": {
+      "registry_key": "kwena maphaka",
+      "canonical_name": "Kwena Maphaka",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kt maphaka",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate kt maphaka"
+      ],
+      "alias_additions": [
+        "kt maphaka"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.8999999999999999,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "adam milne": {
+      "registry_key": "adam milne",
+      "canonical_name": "Adam Milne",
+      "old_history_canonical_key": "adam milne",
+      "new_history_canonical_key": "af milne",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for af milne",
+        "exact scorecard name match af milne",
+        "safe one-edit scorecard variant af milne",
+        "same-surname initials pool candidate af milne",
+        "same-surname initials pool candidate af milne",
+        "same-surname initials pool candidate af milne"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "sushant mishra": {
+      "registry_key": "sushant mishra",
+      "canonical_name": "Sushant Mishra",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "vignesh puthur": {
+      "registry_key": "vignesh puthur",
+      "canonical_name": "Vignesh Puthur",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "v puthur",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate v puthur",
+        "left blank top candidate v puthur lacked strong evidence",
+        "safe raw surname variant v puthur",
+        "exact ipl player_key match for v puthur",
+        "exact scorecard name match v puthur"
+      ],
+      "alias_additions": [
+        "v puthur"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473478.json",
+        "1473458.json",
+        "1473453.json",
+        "1473449.json",
+        "1473440.json"
+      ]
+    },
+    "ravi bishnoi": {
+      "registry_key": "ravi bishnoi",
+      "canonical_name": "Ravi Bishnoi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ravi bishnoi",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for ravi bishnoi",
+        "exact scorecard name match ravi bishnoi",
+        "exact raw match ravi bishnoi"
+      ],
+      "alias_additions": [
+        "ravi bishnoi"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473499.json",
+        "1473482.json",
+        "1473477.json",
+        "1473473.json",
+        "1473467.json",
+        "1473463.json",
+        "1473456.json",
+        "1473453.json",
+        "1473450.json",
+        "1473444.json",
+        "1473441.json",
+        "1426305.json"
+      ]
+    },
+    "sandeep sharma": {
+      "registry_key": "sandeep sharma",
+      "canonical_name": "Sandeep Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "sandeep sharma",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for sandeep sharma",
+        "exact scorecard name match sandeep sharma",
+        "exact raw match sandeep sharma"
+      ],
+      "alias_additions": [
+        "sandeep sharma"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473484.json",
+        "1473479.json",
+        "1473473.json",
+        "1473469.json",
+        "1473465.json",
+        "1473460.json",
+        "1473455.json",
+        "1473448.json",
+        "1473443.json",
+        "1473439.json",
+        "1426311.json",
+        "1426310.json"
+      ]
+    },
+    "kuldeep sen": {
+      "registry_key": "kuldeep sen",
+      "canonical_name": "Kuldeep Sen",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kr sen",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate kr sen"
+      ],
+      "alias_additions": [
+        "kr sen"
+      ],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "yash raj punja": {
+      "registry_key": "yash raj punja",
+      "canonical_name": "Yash Raj Punja",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "yudhvir singh": {
+      "registry_key": "yudhvir singh",
+      "canonical_name": "Yudhvir Singh",
+      "old_history_canonical_key": "yudhvir singh",
+      "new_history_canonical_key": "yudhvir singh",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key yudhvir singh"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Rajasthan Royals",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "rajat patidar": {
+      "registry_key": "rajat patidar",
+      "canonical_name": "Rajat Patidar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "rm patidar",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate rm patidar"
+      ],
+      "alias_additions": [
+        "rm patidar"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "jordan cox": {
+      "registry_key": "jordan cox",
+      "canonical_name": "Jordan Cox",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "tim david": {
+      "registry_key": "tim david",
+      "canonical_name": "Tim David",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "th david",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate th david"
+      ],
+      "alias_additions": [
+        "th david"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "virat kohli": {
+      "registry_key": "virat kohli",
+      "canonical_name": "Virat Kohli",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "v kohli",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate v kohli"
+      ],
+      "alias_additions": [
+        "v kohli"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "devdutt padikkal": {
+      "registry_key": "devdutt padikkal",
+      "canonical_name": "Devdutt Padikkal",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "d padikkal",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate d padikkal"
+      ],
+      "alias_additions": [
+        "d padikkal"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "phil salt": {
+      "registry_key": "phil salt",
+      "canonical_name": "Phil Salt",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "pd salt",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate pd salt"
+      ],
+      "alias_additions": [
+        "pd salt"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "jitesh sharma": {
+      "registry_key": "jitesh sharma",
+      "canonical_name": "Jitesh Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jm sharma",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jm sharma"
+      ],
+      "alias_additions": [
+        "jm sharma"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "jacob bethell": {
+      "registry_key": "jacob bethell",
+      "canonical_name": "Jacob Bethell",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jg bethell",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate jg bethell",
+        "left blank top candidate jg bethell lacked strong evidence",
+        "safe raw surname variant jg bethell",
+        "exact ipl player_key match for jg bethell",
+        "exact scorecard name match jg bethell"
+      ],
+      "alias_additions": [
+        "jg bethell"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473489.json",
+        "1473483.json"
+      ]
+    },
+    "kanishk chouhan": {
+      "registry_key": "kanishk chouhan",
+      "canonical_name": "Kanishk Chouhan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "venkatesh iyer": {
+      "registry_key": "venkatesh iyer",
+      "canonical_name": "Venkatesh Iyer",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "vr iyer",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate vr iyer"
+      ],
+      "alias_additions": [
+        "vr iyer"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.84,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "vihaan malhotra": {
+      "registry_key": "vihaan malhotra",
+      "canonical_name": "Vihaan Malhotra",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "mangesh yadav": {
+      "registry_key": "mangesh yadav",
+      "canonical_name": "Mangesh Yadav",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same surname initials pool candidate mp yadav",
+        "left blank top candidate mp yadav lacked strong evidence",
+        "safe raw surname variant mp yadav",
+        "exact ipl player_key match for mp yadav",
+        "exact scorecard name match mp yadav"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.0,
+      "unresolved_collision": true,
+      "reason_if_left_blank": "collision_risk",
+      "evidence_source": "",
+      "matched_files": [
+        "1473491.json",
+        "1473482.json",
+        "1426286.json",
+        "1422139.json",
+        "1422133.json",
+        "1422129.json"
+      ]
+    },
+    "krunal pandya": {
+      "registry_key": "krunal pandya",
+      "canonical_name": "Krunal Pandya",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kh pandya",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate kh pandya"
+      ],
+      "alias_additions": [
+        "kh pandya"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "romario shepherd": {
+      "registry_key": "romario shepherd",
+      "canonical_name": "Romario Shepherd",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "r shepherd",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate r shepherd"
+      ],
+      "alias_additions": [
+        "r shepherd"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "abhinandan singh": {
+      "registry_key": "abhinandan singh",
+      "canonical_name": "Abhinandan Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "abhinandan singh",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for abhinandan singh",
+        "exact scorecard name match abhinandan singh"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "satvik deswal": {
+      "registry_key": "satvik deswal",
+      "canonical_name": "Satvik Deswal",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "jacob duffy": {
+      "registry_key": "jacob duffy",
+      "canonical_name": "Jacob Duffy",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "josh hazlewood": {
+      "registry_key": "josh hazlewood",
+      "canonical_name": "Josh Hazlewood",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jr hazlewood",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jr hazlewood"
+      ],
+      "alias_additions": [
+        "jr hazlewood"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "bhuvneshwar kumar": {
+      "registry_key": "bhuvneshwar kumar",
+      "canonical_name": "Bhuvneshwar Kumar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "b kumar",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate b kumar"
+      ],
+      "alias_additions": [
+        "b kumar"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "vicky ostwal": {
+      "registry_key": "vicky ostwal",
+      "canonical_name": "Vicky Ostwal",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "rasikh salam": {
+      "registry_key": "rasikh salam",
+      "canonical_name": "Rasikh Salam",
+      "old_history_canonical_key": "rasikh salam",
+      "new_history_canonical_key": "rasikh salam",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key rasikh salam"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "suyash sharma": {
+      "registry_key": "suyash sharma",
+      "canonical_name": "Suyash Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "suyash sharma",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for suyash sharma",
+        "exact scorecard name match suyash sharma",
+        "exact raw match suyash sharma"
+      ],
+      "alias_additions": [
+        "suyash sharma"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473511.json",
+        "1473508.json",
+        "1473507.json",
+        "1473503.json",
+        "1473489.json",
+        "1473483.json",
+        "1473479.json",
+        "1473474.json",
+        "1473471.json",
+        "1473465.json",
+        "1473461.json",
+        "1473458.json"
+      ]
+    },
+    "swapnil singh": {
+      "registry_key": "swapnil singh",
+      "canonical_name": "Swapnil Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "swapnil singh",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for swapnil singh",
+        "exact scorecard name match swapnil singh",
+        "exact raw match swapnil singh"
+      ],
+      "alias_additions": [
+        "swapnil singh"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426310.json",
+        "1426306.json",
+        "1426300.json",
+        "1426296.json",
+        "1426290.json",
+        "1426283.json",
+        "1426279.json",
+        "1359537.json",
+        "1359525.json"
+      ]
+    },
+    "nuwan thushara": {
+      "registry_key": "nuwan thushara",
+      "canonical_name": "Nuwan Thushara",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "n thushara",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate n thushara"
+      ],
+      "alias_additions": [
+        "n thushara"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "yash dayal": {
+      "registry_key": "yash dayal",
+      "canonical_name": "Yash Dayal",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "yash dayal",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for yash dayal",
+        "exact scorecard name match yash dayal",
+        "exact raw match yash dayal"
+      ],
+      "alias_additions": [
+        "yash dayal"
+      ],
+      "team_filled": false,
+      "team_after": "Royal Challengers Bengaluru",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473511.json",
+        "1473508.json",
+        "1473507.json",
+        "1473503.json",
+        "1473489.json",
+        "1473483.json",
+        "1473479.json",
+        "1473474.json",
+        "1473471.json",
+        "1473465.json",
+        "1473461.json",
+        "1473458.json"
+      ]
+    },
+    "ishan kishan": {
+      "registry_key": "ishan kishan",
+      "canonical_name": "Ishan Kishan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ishan kishan",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for ishan kishan",
+        "exact scorecard name match ishan kishan",
+        "exact raw match ishan kishan"
+      ],
+      "alias_additions": [
+        "ishan kishan"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473505.json",
+        "1473503.json",
+        "1473499.json",
+        "1473492.json",
+        "1473488.json",
+        "1473480.json",
+        "1473478.json",
+        "1473470.json",
+        "1473464.json",
+        "1473457.json",
+        "1473452.json",
+        "1473447.json"
+      ]
+    },
+    "salil arora": {
+      "registry_key": "salil arora",
+      "canonical_name": "Salil Arora",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same-surname initials pool candidate s arora",
+        "left blank: top candidate s arora lacked strong evidence"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "travis head": {
+      "registry_key": "travis head",
+      "canonical_name": "Travis Head",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "tm head",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate tm head"
+      ],
+      "alias_additions": [
+        "tm head"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "heinrich klaasen": {
+      "registry_key": "heinrich klaasen",
+      "canonical_name": "Heinrich Klaasen",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "h klaasen",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate h klaasen"
+      ],
+      "alias_additions": [
+        "h klaasen"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ravichandran smaran": {
+      "registry_key": "ravichandran smaran",
+      "canonical_name": "Ravichandran Smaran",
+      "old_history_canonical_key": "ravichandran smaran",
+      "new_history_canonical_key": "ravichandran smaran",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "aniket verma": {
+      "registry_key": "aniket verma",
+      "canonical_name": "Aniket Verma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "aniket verma",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for aniket verma",
+        "exact scorecard name match aniket verma",
+        "exact raw match aniket verma"
+      ],
+      "alias_additions": [
+        "aniket verma"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473505.json",
+        "1473503.json",
+        "1473499.json",
+        "1473492.json",
+        "1473488.json",
+        "1473480.json",
+        "1473478.json",
+        "1473470.json",
+        "1473464.json",
+        "1473457.json",
+        "1473452.json",
+        "1473447.json"
+      ]
+    },
+    "abhishek sharma": {
+      "registry_key": "abhishek sharma",
+      "canonical_name": "Abhishek Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "abhishek sharma",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for abhishek sharma",
+        "exact scorecard name match abhishek sharma",
+        "exact raw match abhishek sharma"
+      ],
+      "alias_additions": [
+        "abhishek sharma"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473505.json",
+        "1473503.json",
+        "1473499.json",
+        "1473492.json",
+        "1473488.json",
+        "1473480.json",
+        "1473478.json",
+        "1473470.json",
+        "1473464.json",
+        "1473457.json",
+        "1473452.json",
+        "1473447.json"
+      ]
+    },
+    "brydon carse": {
+      "registry_key": "brydon carse",
+      "canonical_name": "Brydon Carse",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "harsh dubey": {
+      "registry_key": "harsh dubey",
+      "canonical_name": "Harsh Dubey",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "harsh dubey",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for harsh dubey",
+        "exact scorecard name match harsh dubey",
+        "exact raw match harsh dubey"
+      ],
+      "alias_additions": [
+        "harsh dubey"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473505.json",
+        "1473503.json",
+        "1473499.json"
+      ]
+    },
+    "krains fuletra": {
+      "registry_key": "krains fuletra",
+      "canonical_name": "Krains Fuletra",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "liam livingstone": {
+      "registry_key": "liam livingstone",
+      "canonical_name": "Liam Livingstone",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ls livingstone",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ls livingstone"
+      ],
+      "alias_additions": [
+        "ls livingstone"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.84,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "kamindu mendis": {
+      "registry_key": "kamindu mendis",
+      "canonical_name": "Kamindu Mendis",
+      "old_history_canonical_key": "phkd mendis",
+      "new_history_canonical_key": "phkd mendis",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key phkd mendis"
+      ],
+      "alias_additions": [
+        "phkd mendis"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "nitish kumar reddy": {
+      "registry_key": "nitish kumar reddy",
+      "canonical_name": "Nitish Kumar Reddy",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "nithish kumar reddy",
+      "inferred": true,
+      "evidence_summary": [
+        "safe one-edit scorecard variant nithish kumar reddy"
+      ],
+      "alias_additions": [
+        "nithish kumar reddy"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "harshal patel": {
+      "registry_key": "harshal patel",
+      "canonical_name": "Harshal Patel",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "hv patel",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate hv patel"
+      ],
+      "alias_additions": [
+        "hv patel"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "shivam mavi": {
+      "registry_key": "shivam mavi",
+      "canonical_name": "Shivam Mavi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "shivam mavi",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for shivam mavi",
+        "exact scorecard name match shivam mavi",
+        "exact raw match shivam mavi"
+      ],
+      "alias_additions": [
+        "shivam mavi"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1304099.json",
+        "1304093.json",
+        "1304081.json",
+        "1304076.json",
+        "1304054.json",
+        "1304047.json",
+        "1254117.json",
+        "1254116.json",
+        "1254115.json",
+        "1254106.json",
+        "1254109.json",
+        "1254102.json"
+      ]
+    },
+    "shivang kumar": {
+      "registry_key": "shivang kumar",
+      "canonical_name": "Shivang Kumar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "shivang kumar",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for shivang kumar",
+        "exact scorecard name match shivang kumar"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "jack edwards": {
+      "registry_key": "jack edwards",
+      "canonical_name": "Jack Edwards",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "amit kumar": {
+      "registry_key": "amit kumar",
+      "canonical_name": "Amit Kumar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "pat cummins": {
+      "registry_key": "pat cummins",
+      "canonical_name": "Pat Cummins",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "pj cummins",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate pj cummins"
+      ],
+      "alias_additions": [
+        "pj cummins"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "praful hinge": {
+      "registry_key": "praful hinge",
+      "canonical_name": "Praful Hinge",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "eshan malinga": {
+      "registry_key": "eshan malinga",
+      "canonical_name": "Eshan Malinga",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "e malinga",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate e malinga"
+      ],
+      "alias_additions": [
+        "e malinga"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "david payne": {
+      "registry_key": "david payne",
+      "canonical_name": "David Payne",
+      "old_history_canonical_key": "da payne",
+      "new_history_canonical_key": "da payne",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key da payne"
+      ],
+      "alias_additions": [
+        "da payne"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "sakib hussain": {
+      "registry_key": "sakib hussain",
+      "canonical_name": "Sakib Hussain",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "onkar tarmale": {
+      "registry_key": "onkar tarmale",
+      "canonical_name": "Onkar Tarmale",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "jaydev unadkat": {
+      "registry_key": "jaydev unadkat",
+      "canonical_name": "Jaydev Unadkat",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jd unadkat",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jd unadkat"
+      ],
+      "alias_additions": [
+        "jd unadkat"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "zeeshan ansari": {
+      "registry_key": "zeeshan ansari",
+      "canonical_name": "Zeeshan Ansari",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "zeeshan ansari",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for zeeshan ansari",
+        "exact scorecard name match zeeshan ansari",
+        "exact raw match zeeshan ansari"
+      ],
+      "alias_additions": [
+        "zeeshan ansari"
+      ],
+      "team_filled": false,
+      "team_after": "Sunrisers Hyderabad",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473499.json",
+        "1473492.json",
+        "1473488.json",
+        "1473480.json",
+        "1473478.json",
+        "1473470.json",
+        "1473464.json",
+        "1473457.json",
+        "1473452.json",
+        "1473447.json"
+      ]
+    },
+    "shubman gill": {
+      "registry_key": "shubman gill",
+      "canonical_name": "Shubman Gill",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "shubman gill",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for shubman gill",
+        "exact scorecard name match shubman gill",
+        "exact raw match shubman gill"
+      ],
+      "alias_additions": [
+        "shubman gill"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473509.json",
+        "1473504.json",
+        "1473502.json",
+        "1473498.json",
+        "1473493.json",
+        "1473488.json",
+        "1473484.json",
+        "1473476.json",
+        "1473472.json",
+        "1473463.json",
+        "1473460.json",
+        "1473457.json"
+      ]
+    },
+    "anuj rawat": {
+      "registry_key": "anuj rawat",
+      "canonical_name": "Anuj Rawat",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "anuj rawat",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for anuj rawat",
+        "exact scorecard name match anuj rawat",
+        "exact raw match anuj rawat"
+      ],
+      "alias_additions": [
+        "anuj rawat"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426268.json",
+        "1422133.json",
+        "1422128.json",
+        "1422124.json",
+        "1422119.json",
+        "1359544.json",
+        "1359539.json",
+        "1359534.json",
+        "1359528.json",
+        "1359524.json",
+        "1359517.json",
+        "1359494.json"
+      ]
+    },
+    "tom banton": {
+      "registry_key": "tom banton",
+      "canonical_name": "Tom Banton",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "t banton",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate t banton",
+        "left blank top candidate t banton lacked strong evidence",
+        "safe raw surname variant t banton",
+        "exact ipl player_key match for t banton",
+        "exact scorecard name match t banton"
+      ],
+      "alias_additions": [
+        "t banton"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1216494.json",
+        "1216540.json"
+      ]
+    },
+    "jos buttler": {
+      "registry_key": "jos buttler",
+      "canonical_name": "Jos Buttler",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jc buttler",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jc buttler"
+      ],
+      "alias_additions": [
+        "jc buttler"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "kumar kushagra": {
+      "registry_key": "kumar kushagra",
+      "canonical_name": "Kumar Kushagra",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kumar kushagra",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for kumar kushagra",
+        "exact scorecard name match kumar kushagra",
+        "exact raw match kumar kushagra"
+      ],
+      "alias_additions": [
+        "kumar kushagra"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426300.json",
+        "1426285.json",
+        "1426281.json",
+        "1422138.json"
+      ]
+    },
+    "sai sudharsan": {
+      "registry_key": "sai sudharsan",
+      "canonical_name": "Sai Sudharsan",
+      "old_history_canonical_key": "sai sudharsan",
+      "new_history_canonical_key": "b sai sudharsan",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for b sai sudharsan",
+        "exact scorecard name match b sai sudharsan",
+        "same-surname initials pool candidate b sai sudharsan"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "m shahrukh khan": {
+      "registry_key": "m shahrukh khan",
+      "canonical_name": "M Shahrukh Khan",
+      "old_history_canonical_key": "m shahrukh khan",
+      "new_history_canonical_key": "m shahrukh khan",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key m shahrukh khan"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "jason holder": {
+      "registry_key": "jason holder",
+      "canonical_name": "Jason Holder",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jo holder",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jo holder"
+      ],
+      "alias_additions": [
+        "jo holder"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.82,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "glenn phillips": {
+      "registry_key": "glenn phillips",
+      "canonical_name": "Glenn Phillips",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "gd phillips",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate gd phillips"
+      ],
+      "alias_additions": [
+        "gd phillips"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "rashid khan": {
+      "registry_key": "rashid khan",
+      "canonical_name": "Rashid Khan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "rashid khan",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for rashid khan",
+        "exact scorecard name match rashid khan",
+        "exact raw match rashid khan"
+      ],
+      "alias_additions": [
+        "rashid khan"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473509.json",
+        "1473504.json",
+        "1473502.json",
+        "1473498.json",
+        "1473493.json",
+        "1473488.json",
+        "1473484.json",
+        "1473476.json",
+        "1473472.json",
+        "1473463.json",
+        "1473460.json",
+        "1473457.json"
+      ]
+    },
+    "nishant sindhu": {
+      "registry_key": "nishant sindhu",
+      "canonical_name": "Nishant Sindhu",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "manav suthar": {
+      "registry_key": "manav suthar",
+      "canonical_name": "Manav Suthar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mj suthar",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate mj suthar",
+        "left blank top candidate mj suthar lacked strong evidence",
+        "safe raw surname variant mj suthar",
+        "exact ipl player_key match for mj suthar",
+        "exact scorecard name match mj suthar"
+      ],
+      "alias_additions": [
+        "mj suthar"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426290.json"
+      ]
+    },
+    "rahul tewatia": {
+      "registry_key": "rahul tewatia",
+      "canonical_name": "Rahul Tewatia",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "r tewatia",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate r tewatia"
+      ],
+      "alias_additions": [
+        "r tewatia"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "washington sundar": {
+      "registry_key": "washington sundar",
+      "canonical_name": "Washington Sundar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "washington sundar",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for washington sundar",
+        "exact scorecard name match washington sundar",
+        "exact raw match washington sundar"
+      ],
+      "alias_additions": [
+        "washington sundar"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473509.json",
+        "1473488.json",
+        "1473484.json",
+        "1473476.json",
+        "1473463.json",
+        "1473457.json",
+        "1426273.json",
+        "1422130.json",
+        "1359508.json",
+        "1359503.json",
+        "1359499.json",
+        "1359493.json"
+      ]
+    },
+    "arshad khan": {
+      "registry_key": "arshad khan",
+      "canonical_name": "Arshad Khan",
+      "old_history_canonical_key": "arshad khan",
+      "new_history_canonical_key": "arshad khan",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key arshad khan"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ashok sharma": {
+      "registry_key": "ashok sharma",
+      "canonical_name": "Ashok Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ashok sharma",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for ashok sharma",
+        "exact scorecard name match ashok sharma"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "gurnoor brar": {
+      "registry_key": "gurnoor brar",
+      "canonical_name": "Gurnoor Brar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "gurnoor brar",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for gurnoor brar",
+        "exact raw match gurnoor brar"
+      ],
+      "alias_additions": [
+        "gurnoor brar"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.94,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1359512.json"
+      ]
+    },
+    "kulwant khejroliya": {
+      "registry_key": "kulwant khejroliya",
+      "canonical_name": "Kulwant Khejroliya",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "k khejroliya",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate k khejroliya"
+      ],
+      "alias_additions": [
+        "k khejroliya"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "mohammed siraj": {
+      "registry_key": "mohammed siraj",
+      "canonical_name": "Mohammed Siraj",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mohammed siraj",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for mohammed siraj",
+        "exact scorecard name match mohammed siraj",
+        "exact raw match mohammed siraj"
+      ],
+      "alias_additions": [
+        "mohammed siraj"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473509.json",
+        "1473504.json",
+        "1473502.json",
+        "1473498.json",
+        "1473493.json",
+        "1473488.json",
+        "1473484.json",
+        "1473476.json",
+        "1473472.json",
+        "1473463.json",
+        "1473460.json",
+        "1473457.json"
+      ]
+    },
+    "prasidh krishna": {
+      "registry_key": "prasidh krishna",
+      "canonical_name": "Prasidh Krishna",
+      "old_history_canonical_key": "prasidh krishna",
+      "new_history_canonical_key": "m prasidh krishna",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for m prasidh krishna",
+        "exact scorecard name match m prasidh krishna",
+        "same-surname initials pool candidate m prasidh krishna"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "kagiso rabada": {
+      "registry_key": "kagiso rabada",
+      "canonical_name": "Kagiso Rabada",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "k rabada",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate k rabada"
+      ],
+      "alias_additions": [
+        "k rabada"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "sai kishore": {
+      "registry_key": "sai kishore",
+      "canonical_name": "Sai Kishore",
+      "old_history_canonical_key": "sai kishore",
+      "new_history_canonical_key": "r sai kishore",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for r sai kishore",
+        "exact scorecard name match r sai kishore",
+        "same-surname initials pool candidate r sai kishore"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ishant sharma": {
+      "registry_key": "ishant sharma",
+      "canonical_name": "Ishant Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "i sharma",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate i sharma"
+      ],
+      "alias_additions": [
+        "i sharma"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "luke wood": {
+      "registry_key": "luke wood",
+      "canonical_name": "Luke Wood",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "l wood",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate l wood",
+        "left blank top candidate l wood lacked strong evidence",
+        "safe raw surname variant l wood",
+        "exact ipl player_key match for l wood",
+        "exact scorecard name match l wood"
+      ],
+      "alias_additions": [
+        "l wood"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426281.json",
+        "1422123.json"
+      ]
+    },
+    "jayant yadav": {
+      "registry_key": "jayant yadav",
+      "canonical_name": "Jayant Yadav",
+      "old_history_canonical_key": "jayant yadav",
+      "new_history_canonical_key": "j yadav",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate j yadav"
+      ],
+      "alias_additions": [
+        "j yadav"
+      ],
+      "team_filled": false,
+      "team_after": "Gujarat Titans",
+      "confidence": 0.82,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "prithvi raj": {
+      "registry_key": "prithvi raj",
+      "canonical_name": "Prithvi Raj",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "abishek porel": {
+      "registry_key": "abishek porel",
+      "canonical_name": "Abishek Porel",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "abishek porel",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for abishek porel",
+        "exact scorecard name match abishek porel",
+        "exact raw match abishek porel"
+      ],
+      "alias_additions": [
+        "abishek porel"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473501.json",
+        "1473498.json",
+        "1473495.json",
+        "1473492.json",
+        "1473485.json",
+        "1473483.json",
+        "1473477.json",
+        "1473472.json",
+        "1473469.json",
+        "1473466.json",
+        "1473461.json",
+        "1473454.json"
+      ]
+    },
+    "david miller": {
+      "registry_key": "david miller",
+      "canonical_name": "David Miller",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "da miller",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate da miller"
+      ],
+      "alias_additions": [
+        "da miller"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "karun nair": {
+      "registry_key": "karun nair",
+      "canonical_name": "Karun Nair",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kk nair",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate kk nair"
+      ],
+      "alias_additions": [
+        "kk nair"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "pathum nissanka": {
+      "registry_key": "pathum nissanka",
+      "canonical_name": "Pathum Nissanka",
+      "old_history_canonical_key": "p nissanka",
+      "new_history_canonical_key": "p nissanka",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key p nissanka"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "sahil parakh": {
+      "registry_key": "sahil parakh",
+      "canonical_name": "Sahil Parakh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "kl rahul": {
+      "registry_key": "kl rahul",
+      "canonical_name": "KL Rahul",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kl rahul",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for kl rahul",
+        "exact scorecard name match kl rahul",
+        "same surname initials pool candidate kl rahul",
+        "exact raw match kl rahul"
+      ],
+      "alias_additions": [
+        "kl rahul"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1485779.json",
+        "1473501.json",
+        "1473498.json",
+        "1473495.json",
+        "1473492.json",
+        "1473485.json",
+        "1473483.json",
+        "1473477.json",
+        "1473472.json",
+        "1473469.json",
+        "1473466.json",
+        "1473461.json"
+      ]
+    },
+    "nitish rana": {
+      "registry_key": "nitish rana",
+      "canonical_name": "Nitish Rana",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "n rana",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate n rana"
+      ],
+      "alias_additions": [
+        "n rana"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "prithvi shaw": {
+      "registry_key": "prithvi shaw",
+      "canonical_name": "Prithvi Shaw",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "pp shaw",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate pp shaw"
+      ],
+      "alias_additions": [
+        "pp shaw"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "tristan stubbs": {
+      "registry_key": "tristan stubbs",
+      "canonical_name": "Tristan Stubbs",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "t stubbs",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate t stubbs"
+      ],
+      "alias_additions": [
+        "t stubbs"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ben duckett": {
+      "registry_key": "ben duckett",
+      "canonical_name": "Ben Duckett",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "axar patel": {
+      "registry_key": "axar patel",
+      "canonical_name": "Axar Patel",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ar patel",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ar patel"
+      ],
+      "alias_additions": [
+        "ar patel"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ajay mandal": {
+      "registry_key": "ajay mandal",
+      "canonical_name": "Ajay Mandal",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "sameer rizvi": {
+      "registry_key": "sameer rizvi",
+      "canonical_name": "Sameer Rizvi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "sameer rizvi",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for sameer rizvi",
+        "exact scorecard name match sameer rizvi",
+        "exact raw match sameer rizvi"
+      ],
+      "alias_additions": [
+        "sameer rizvi"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1485779.json",
+        "1473501.json",
+        "1473498.json",
+        "1473495.json",
+        "1473454.json",
+        "1473441.json",
+        "1426299.json",
+        "1426287.json",
+        "1426272.json",
+        "1426267.json",
+        "1426260.json",
+        "1422131.json"
+      ]
+    },
+    "ashutosh sharma": {
+      "registry_key": "ashutosh sharma",
+      "canonical_name": "Ashutosh Sharma",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ashutosh sharma",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for ashutosh sharma",
+        "exact scorecard name match ashutosh sharma",
+        "exact raw match ashutosh sharma"
+      ],
+      "alias_additions": [
+        "ashutosh sharma"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1485779.json",
+        "1473501.json",
+        "1473498.json",
+        "1473492.json",
+        "1473485.json",
+        "1473483.json",
+        "1473477.json",
+        "1473472.json",
+        "1473469.json",
+        "1473466.json",
+        "1473461.json",
+        "1473454.json"
+      ]
+    },
+    "madhav tiwari": {
+      "registry_key": "madhav tiwari",
+      "canonical_name": "Madhav Tiwari",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "m tiwari",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate m tiwari",
+        "left blank top candidate m tiwari lacked strong evidence",
+        "safe raw surname variant m tiwari",
+        "exact ipl player_key match for m tiwari",
+        "exact scorecard name match m tiwari"
+      ],
+      "alias_additions": [
+        "m tiwari"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473501.json",
+        "1473495.json"
+      ]
+    },
+    "auqib nabi": {
+      "registry_key": "auqib nabi",
+      "canonical_name": "Auqib Nabi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "dushmantha chameera": {
+      "registry_key": "dushmantha chameera",
+      "canonical_name": "Dushmantha Chameera",
+      "old_history_canonical_key": "dushmantha chameera",
+      "new_history_canonical_key": "pvd chameera",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for pvd chameera",
+        "exact scorecard name match pvd chameera",
+        "same-surname initials pool candidate pvd chameera"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "kyle jamieson": {
+      "registry_key": "kyle jamieson",
+      "canonical_name": "Kyle Jamieson",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ka jamieson",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ka jamieson"
+      ],
+      "alias_additions": [
+        "ka jamieson"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.84,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "kuldeep yadav": {
+      "registry_key": "kuldeep yadav",
+      "canonical_name": "Kuldeep Yadav",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kuldeep yadav",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for kuldeep yadav",
+        "exact scorecard name match kuldeep yadav",
+        "exact raw match kuldeep yadav",
+        "safe raw surname variant k yadav"
+      ],
+      "alias_additions": [
+        "kuldeep yadav"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1485779.json",
+        "1473501.json",
+        "1473498.json",
+        "1473495.json",
+        "1473492.json",
+        "1473485.json",
+        "1473483.json",
+        "1473477.json",
+        "1473472.json",
+        "1473469.json",
+        "1473466.json",
+        "1473461.json",
+        "1359526.json",
+        "1359511.json",
+        "1254093.json"
+      ]
+    },
+    "mukesh kumar": {
+      "registry_key": "mukesh kumar",
+      "canonical_name": "Mukesh Kumar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mukesh kumar",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for mukesh kumar",
+        "exact scorecard name match mukesh kumar",
+        "exact raw match mukesh kumar"
+      ],
+      "alias_additions": [
+        "mukesh kumar"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1485779.json",
+        "1473501.json",
+        "1473485.json",
+        "1473483.json",
+        "1473477.json",
+        "1473472.json",
+        "1473469.json",
+        "1473466.json",
+        "1473461.json",
+        "1473454.json",
+        "1473447.json",
+        "1473441.json"
+      ]
+    },
+    "t natarajan": {
+      "registry_key": "t natarajan",
+      "canonical_name": "T Natarajan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "t natarajan",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for t natarajan",
+        "exact scorecard name match t natarajan",
+        "same surname initials pool candidate t natarajan",
+        "exact raw match t natarajan"
+      ],
+      "alias_additions": [
+        "t natarajan"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473498.json",
+        "1473495.json",
+        "1473492.json",
+        "1426312.json",
+        "1426311.json",
+        "1426309.json",
+        "1426307.json",
+        "1426295.json",
+        "1426293.json",
+        "1426288.json",
+        "1426284.json",
+        "1426279.json"
+      ]
+    },
+    "lungi ngidi": {
+      "registry_key": "lungi ngidi",
+      "canonical_name": "Lungi Ngidi",
+      "old_history_canonical_key": "l ngidi",
+      "new_history_canonical_key": "l ngidi",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key l ngidi"
+      ],
+      "alias_additions": [
+        "l ngidi"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "vipraj nigam": {
+      "registry_key": "vipraj nigam",
+      "canonical_name": "Vipraj Nigam",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "v nigam",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate v nigam"
+      ],
+      "alias_additions": [
+        "v nigam"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "mitchell starc": {
+      "registry_key": "mitchell starc",
+      "canonical_name": "Mitchell Starc",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ma starc",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ma starc"
+      ],
+      "alias_additions": [
+        "ma starc"
+      ],
+      "team_filled": false,
+      "team_after": "Delhi Capitals",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "tripurana vijay": {
+      "registry_key": "tripurana vijay",
+      "canonical_name": "Tripurana Vijay",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "ajinkya rahane": {
+      "registry_key": "ajinkya rahane",
+      "canonical_name": "Ajinkya Rahane",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "am rahane",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate am rahane"
+      ],
+      "alias_additions": [
+        "am rahane"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "rinku singh": {
+      "registry_key": "rinku singh",
+      "canonical_name": "Rinku Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "rk singh",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate rk singh"
+      ],
+      "alias_additions": [
+        "rk singh"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.94,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "finn allen": {
+      "registry_key": "finn allen",
+      "canonical_name": "Finn Allen",
+      "old_history_canonical_key": "fh allen",
+      "new_history_canonical_key": "fh allen",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key fh allen"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "tejasvi dahiya": {
+      "registry_key": "tejasvi dahiya",
+      "canonical_name": "Tejasvi Dahiya",
+      "old_history_canonical_key": "tejasvi dahiya",
+      "new_history_canonical_key": "tejasvi dahiya",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "manish pandey": {
+      "registry_key": "manish pandey",
+      "canonical_name": "Manish Pandey",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mk pandey",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate mk pandey"
+      ],
+      "alias_additions": [
+        "mk pandey"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "rovman powell": {
+      "registry_key": "rovman powell",
+      "canonical_name": "Rovman Powell",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "r powell",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate r powell"
+      ],
+      "alias_additions": [
+        "r powell"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "angkrish raghuvanshi": {
+      "registry_key": "angkrish raghuvanshi",
+      "canonical_name": "Angkrish Raghuvanshi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "a raghuvanshi",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate a raghuvanshi"
+      ],
+      "alias_additions": [
+        "a raghuvanshi"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "ramandeep singh": {
+      "registry_key": "ramandeep singh",
+      "canonical_name": "Ramandeep Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ramandeep singh",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for ramandeep singh",
+        "exact scorecard name match ramandeep singh",
+        "exact raw match ramandeep singh",
+        "safe raw surname variant rk singh"
+      ],
+      "alias_additions": [
+        "ramandeep singh"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473505.json",
+        "1473494.json",
+        "1473490.json",
+        "1473476.json",
+        "1473468.json",
+        "1473462.json",
+        "1473456.json",
+        "1473452.json",
+        "1473449.json",
+        "1473443.json",
+        "1473438.json",
+        "1426312.json",
+        "1473485.json",
+        "1473481.json"
+      ]
+    },
+    "sarthak ranjan": {
+      "registry_key": "sarthak ranjan",
+      "canonical_name": "Sarthak Ranjan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "tim seifert": {
+      "registry_key": "tim seifert",
+      "canonical_name": "Tim Seifert",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "tl seifert",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate tl seifert",
+        "left blank top candidate tl seifert lacked strong evidence",
+        "safe raw surname variant tl seifert",
+        "exact ipl player_key match for tl seifert",
+        "exact scorecard name match tl seifert"
+      ],
+      "alias_additions": [
+        "tl seifert"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1304056.json",
+        "1304048.json",
+        "1254102.json"
+      ]
+    },
+    "rahul tripathi": {
+      "registry_key": "rahul tripathi",
+      "canonical_name": "Rahul Tripathi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ra tripathi",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ra tripathi"
+      ],
+      "alias_additions": [
+        "ra tripathi"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "daksh kamra": {
+      "registry_key": "daksh kamra",
+      "canonical_name": "Daksh Kamra",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "cameron green": {
+      "registry_key": "cameron green",
+      "canonical_name": "Cameron Green",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "c green",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate c green"
+      ],
+      "alias_additions": [
+        "c green"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.94,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "sunil narine": {
+      "registry_key": "sunil narine",
+      "canonical_name": "Sunil Narine",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "sp narine",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate sp narine"
+      ],
+      "alias_additions": [
+        "sp narine"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "rachin ravindra": {
+      "registry_key": "rachin ravindra",
+      "canonical_name": "Rachin Ravindra",
+      "old_history_canonical_key": "rachin ravindra",
+      "new_history_canonical_key": "r ravindra",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for r ravindra",
+        "exact scorecard name match r ravindra",
+        "same-surname initials pool candidate r ravindra",
+        "same-surname initials pool candidate r ravindra"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "anukul roy": {
+      "registry_key": "anukul roy",
+      "canonical_name": "Anukul Roy",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "as roy",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate as roy"
+      ],
+      "alias_additions": [
+        "as roy"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "vaibhav arora": {
+      "registry_key": "vaibhav arora",
+      "canonical_name": "Vaibhav Arora",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "vg arora",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate vg arora"
+      ],
+      "alias_additions": [
+        "vg arora"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "saurabh dubey": {
+      "registry_key": "saurabh dubey",
+      "canonical_name": "Saurabh Dubey",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same surname initials pool candidate sb dubey",
+        "left blank top candidate sb dubey lacked strong evidence",
+        "safe raw surname variant s dube",
+        "safe raw surname variant sb dubey",
+        "exact ipl player_key match for s dube",
+        "exact scorecard name match s dube",
+        "same surname initials pool candidate s dube",
+        "left blank s dube score 1 14 vs sb dubey score 1 06"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.0,
+      "unresolved_collision": true,
+      "reason_if_left_blank": "ambiguous_alias",
+      "evidence_source": "",
+      "matched_files": [
+        "1473504.json",
+        "1473500.json",
+        "1473494.json",
+        "1473489.json",
+        "1473486.json",
+        "1473480.json",
+        "1473475.json",
+        "1473467.json",
+        "1473462.json",
+        "1473459.json",
+        "1473454.json",
+        "1473448.json",
+        "1473497.json",
+        "1473490.json",
+        "1473487.json",
+        "1473479.json",
+        "1473473.json",
+        "1473469.json",
+        "1473460.json",
+        "1473443.json",
+        "1473439.json",
+        "1426299.json",
+        "1426294.json",
+        "1422137.json"
+      ]
+    },
+    "kartik tyagi": {
+      "registry_key": "kartik tyagi",
+      "canonical_name": "Kartik Tyagi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "kartik tyagi",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for kartik tyagi",
+        "exact scorecard name match kartik tyagi",
+        "exact raw match kartik tyagi"
+      ],
+      "alias_additions": [
+        "kartik tyagi"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426297.json",
+        "1359543.json",
+        "1359539.json",
+        "1359521.json",
+        "1304100.json",
+        "1304096.json",
+        "1254103.json",
+        "1254097.json",
+        "1254111.json",
+        "1254085.json",
+        "1216530.json",
+        "1216537.json"
+      ]
+    },
+    "blessing muzarabani": {
+      "registry_key": "blessing muzarabani",
+      "canonical_name": "Blessing Muzarabani",
+      "old_history_canonical_key": "b muzarabani",
+      "new_history_canonical_key": "b muzarabani",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key b muzarabani"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "matheesha pathirana": {
+      "registry_key": "matheesha pathirana",
+      "canonical_name": "Matheesha Pathirana",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "m pathirana",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate m pathirana"
+      ],
+      "alias_additions": [
+        "m pathirana"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.88,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "navdeep saini": {
+      "registry_key": "navdeep saini",
+      "canonical_name": "Navdeep Saini",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "navdeep saini",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for navdeep saini",
+        "exact scorecard name match navdeep saini",
+        "exact raw match navdeep saini",
+        "safe raw surname variant na saini"
+      ],
+      "alias_additions": [
+        "navdeep saini"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1359540.json",
+        "1304059.json",
+        "1304055.json",
+        "1254113.json",
+        "1254076.json",
+        "1237178.json",
+        "1216502.json",
+        "1216544.json",
+        "1216494.json",
+        "1216522.json",
+        "1216531.json",
+        "1216540.json",
+        "1359478.json"
+      ]
+    },
+    "prashant solanki": {
+      "registry_key": "prashant solanki",
+      "canonical_name": "Prashant Solanki",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ph solanki",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate ph solanki",
+        "left blank top candidate ph solanki lacked strong evidence",
+        "safe raw surname variant ph solanki",
+        "exact ipl player_key match for ph solanki",
+        "exact scorecard name match ph solanki"
+      ],
+      "alias_additions": [
+        "ph solanki"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1304114.json",
+        "1304108.json"
+      ]
+    },
+    "umran malik": {
+      "registry_key": "umran malik",
+      "canonical_name": "Umran Malik",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "umran malik",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for umran malik",
+        "exact scorecard name match umran malik",
+        "exact raw match umran malik"
+      ],
+      "alias_additions": [
+        "umran malik"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1422126.json",
+        "1359543.json",
+        "1359514.json",
+        "1359508.json",
+        "1359503.json",
+        "1359493.json",
+        "1359488.json",
+        "1359484.json",
+        "1359478.json",
+        "1304116.json",
+        "1304111.json",
+        "1304107.json"
+      ]
+    },
+    "varun chakravarthy": {
+      "registry_key": "varun chakravarthy",
+      "canonical_name": "Varun Chakravarthy",
+      "old_history_canonical_key": "varun chakravarthy",
+      "new_history_canonical_key": "cv varun",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for cv varun",
+        "exact scorecard name match cv varun",
+        "same-surname initials pool candidate cv varun"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "akash deep": {
+      "registry_key": "akash deep",
+      "canonical_name": "Akash Deep",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "akash deep",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for akash deep",
+        "exact scorecard name match akash deep",
+        "exact raw match akash deep"
+      ],
+      "alias_additions": [
+        "akash deep"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473502.json",
+        "1473499.json",
+        "1473467.json",
+        "1473463.json",
+        "1473456.json",
+        "1473453.json",
+        "1426263.json",
+        "1359483.json",
+        "1359479.json",
+        "1304068.json",
+        "1304064.json",
+        "1304059.json"
+      ]
+    },
+    "harshit rana": {
+      "registry_key": "harshit rana",
+      "canonical_name": "Harshit Rana",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "harshit rana",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for harshit rana",
+        "exact scorecard name match harshit rana",
+        "exact raw match harshit rana"
+      ],
+      "alias_additions": [
+        "harshit rana"
+      ],
+      "team_filled": false,
+      "team_after": "Kolkata Knight Riders",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473505.json",
+        "1473494.json",
+        "1473490.json",
+        "1473485.json",
+        "1473481.json",
+        "1473476.json",
+        "1473468.json",
+        "1473462.json",
+        "1473456.json",
+        "1473452.json",
+        "1473449.json",
+        "1473443.json"
+      ]
+    },
+    "mustafizur rahman": {
+      "registry_key": "mustafizur rahman",
+      "canonical_name": "Mustafizur Rahman",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mustafizur rahman",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for mustafizur rahman",
+        "exact scorecard name match mustafizur rahman",
+        "exact raw match mustafizur rahman"
+      ],
+      "alias_additions": [
+        "mustafizur rahman"
+      ],
+      "team_filled": false,
+      "team_after": "",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1485779.json",
+        "1473501.json",
+        "1473498.json",
+        "1426287.json",
+        "1426284.json",
+        "1426277.json",
+        "1426272.json",
+        "1426267.json",
+        "1426260.json",
+        "1422131.json",
+        "1422125.json",
+        "1422119.json"
+      ]
+    },
+    "rishabh pant": {
+      "registry_key": "rishabh pant",
+      "canonical_name": "Rishabh Pant",
+      "old_history_canonical_key": "rishabh pant",
+      "new_history_canonical_key": "rr pant",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for rr pant",
+        "exact scorecard name match rr pant",
+        "same-surname initials pool candidate rr pant",
+        "same-surname initials pool candidate rr pant"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "abdul samad": {
+      "registry_key": "abdul samad",
+      "canonical_name": "Abdul Samad",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "abdul samad",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for abdul samad",
+        "exact scorecard name match abdul samad",
+        "exact raw match abdul samad"
+      ],
+      "alias_additions": [
+        "abdul samad"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473507.json",
+        "1473502.json",
+        "1473499.json",
+        "1473491.json",
+        "1473482.json",
+        "1473477.json",
+        "1473473.json",
+        "1473467.json",
+        "1473463.json",
+        "1473456.json",
+        "1473453.json",
+        "1473450.json"
+      ]
+    },
+    "akshat raghuwanshi": {
+      "registry_key": "akshat raghuwanshi",
+      "canonical_name": "Akshat Raghuwanshi",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no ipl history candidate met safe link criteria",
+        "safe raw surname variant a raghuvanshi",
+        "exact ipl player_key match for a raghuvanshi",
+        "exact scorecard name match a raghuvanshi",
+        "same surname initials pool candidate a raghuvanshi"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.0,
+      "unresolved_collision": true,
+      "reason_if_left_blank": "collision_risk",
+      "evidence_source": "",
+      "matched_files": [
+        "1473505.json",
+        "1473494.json",
+        "1473490.json",
+        "1473485.json",
+        "1473481.json",
+        "1473476.json",
+        "1473468.json",
+        "1473456.json",
+        "1473452.json",
+        "1473449.json",
+        "1473443.json",
+        "1473438.json"
+      ]
+    },
+    "ayush badoni": {
+      "registry_key": "ayush badoni",
+      "canonical_name": "Ayush Badoni",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "a badoni",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate a badoni"
+      ],
+      "alias_additions": [
+        "a badoni"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "matthew breetzke": {
+      "registry_key": "matthew breetzke",
+      "canonical_name": "Matthew Breetzke",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mp breetzke",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate mp breetzke",
+        "left blank top candidate mp breetzke lacked strong evidence",
+        "safe raw surname variant mp breetzke",
+        "exact ipl player_key match for mp breetzke",
+        "exact scorecard name match mp breetzke"
+      ],
+      "alias_additions": [
+        "mp breetzke"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473507.json"
+      ]
+    },
+    "mukul choudhary": {
+      "registry_key": "mukul choudhary",
+      "canonical_name": "Mukul Choudhary",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "same-surname initials pool candidate md choudhary",
+        "left blank: top candidate md choudhary lacked strong evidence"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "himmat singh": {
+      "registry_key": "himmat singh",
+      "canonical_name": "Himmat Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "himmat singh",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for himmat singh",
+        "exact scorecard name match himmat singh",
+        "exact raw match himmat singh"
+      ],
+      "alias_additions": [
+        "himmat singh"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473507.json",
+        "1473502.json",
+        "1473463.json"
+      ]
+    },
+    "josh inglis": {
+      "registry_key": "josh inglis",
+      "canonical_name": "Josh Inglis",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "jp inglis",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate jp inglis"
+      ],
+      "alias_additions": [
+        "jp inglis"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.84,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "aiden markram": {
+      "registry_key": "aiden markram",
+      "canonical_name": "Aiden Markram",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "ak markram",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate ak markram"
+      ],
+      "alias_additions": [
+        "ak markram"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "nicholas pooran": {
+      "registry_key": "nicholas pooran",
+      "canonical_name": "Nicholas Pooran",
+      "old_history_canonical_key": "nicholas pooran",
+      "new_history_canonical_key": "n pooran",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for n pooran",
+        "exact scorecard name match n pooran",
+        "same-surname initials pool candidate n pooran",
+        "same-surname initials pool candidate n pooran"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "wanindu hasaranga": {
+      "registry_key": "wanindu hasaranga",
+      "canonical_name": "Wanindu Hasaranga",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "arshin kulkarni": {
+      "registry_key": "arshin kulkarni",
+      "canonical_name": "Arshin Kulkarni",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "aa kulkarni",
+      "inferred": true,
+      "evidence_summary": [
+        "same surname initials pool candidate aa kulkarni",
+        "left blank top candidate aa kulkarni lacked strong evidence",
+        "safe raw surname variant aa kulkarni",
+        "exact ipl player_key match for aa kulkarni",
+        "exact scorecard name match aa kulkarni"
+      ],
+      "alias_additions": [
+        "aa kulkarni"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.86,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426292.json",
+        "1426286.json"
+      ]
+    },
+    "mitchell marsh": {
+      "registry_key": "mitchell marsh",
+      "canonical_name": "Mitchell Marsh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mr marsh",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate mr marsh"
+      ],
+      "alias_additions": [
+        "mr marsh"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "shahbaz ahmed": {
+      "registry_key": "shahbaz ahmed",
+      "canonical_name": "Shahbaz Ahmed",
+      "old_history_canonical_key": "shahbaz ahmed",
+      "new_history_canonical_key": "shahbaz ahmed",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key shahbaz ahmed"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "akash singh": {
+      "registry_key": "akash singh",
+      "canonical_name": "Akash Singh",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "akash singh",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for akash singh",
+        "exact scorecard name match akash singh",
+        "exact raw match akash singh"
+      ],
+      "alias_additions": [
+        "akash singh"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473507.json",
+        "1473502.json",
+        "1473491.json",
+        "1359515.json",
+        "1359511.json",
+        "1359507.json",
+        "1359503.json",
+        "1359498.json",
+        "1359491.json",
+        "1254089.json"
+      ]
+    },
+    "avesh khan": {
+      "registry_key": "avesh khan",
+      "canonical_name": "Avesh Khan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "avesh khan",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for avesh khan",
+        "exact scorecard name match avesh khan",
+        "exact raw match avesh khan"
+      ],
+      "alias_additions": [
+        "avesh khan"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473507.json",
+        "1473502.json",
+        "1473499.json",
+        "1473491.json",
+        "1473482.json",
+        "1473477.json",
+        "1473473.json",
+        "1473467.json",
+        "1473463.json",
+        "1473456.json",
+        "1473453.json",
+        "1473450.json"
+      ]
+    },
+    "mohammed shami": {
+      "registry_key": "mohammed shami",
+      "canonical_name": "Mohammed Shami",
+      "old_history_canonical_key": "mohammed shami",
+      "new_history_canonical_key": "mohammed shami",
+      "inferred": false,
+      "evidence_summary": [
+        "preserved existing history key mohammed shami"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 1.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "mohsin khan": {
+      "registry_key": "mohsin khan",
+      "canonical_name": "Mohsin Khan",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mohsin khan",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for mohsin khan",
+        "exact scorecard name match mohsin khan",
+        "exact raw match mohsin khan",
+        "safe raw surname variant m shahrukh khan"
+      ],
+      "alias_additions": [
+        "mohsin khan"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426305.json",
+        "1426302.json",
+        "1426292.json",
+        "1426286.json",
+        "1426282.json",
+        "1426277.json",
+        "1426272.json",
+        "1426266.json",
+        "1422129.json",
+        "1422122.json",
+        "1370351.json",
+        "1359542.json",
+        "1473509.json",
+        "1473504.json",
+        "1473502.json",
+        "1473498.json",
+        "1473493.json",
+        "1473488.json",
+        "1473484.json",
+        "1473476.json",
+        "1473472.json",
+        "1473463.json",
+        "1473460.json",
+        "1473457.json"
+      ]
+    },
+    "anrich nortje": {
+      "registry_key": "anrich nortje",
+      "canonical_name": "Anrich Nortje",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "a nortje",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate a nortje"
+      ],
+      "alias_additions": [
+        "a nortje"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "prince yadav": {
+      "registry_key": "prince yadav",
+      "canonical_name": "Prince Yadav",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "prince yadav",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for prince yadav",
+        "exact scorecard name match prince yadav",
+        "exact raw match prince yadav"
+      ],
+      "alias_additions": [
+        "prince yadav"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1473491.json",
+        "1473482.json",
+        "1473477.json",
+        "1473473.json",
+        "1473444.json",
+        "1473441.json"
+      ]
+    },
+    "digvesh rathi": {
+      "registry_key": "digvesh rathi",
+      "canonical_name": "Digvesh Rathi",
+      "old_history_canonical_key": "digvesh rathi",
+      "new_history_canonical_key": "ds rathi",
+      "inferred": true,
+      "evidence_summary": [
+        "exact IPL player_key match for ds rathi",
+        "exact scorecard name match ds rathi",
+        "same-surname initials pool candidate ds rathi",
+        "same-surname initials pool candidate ds rathi"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "manimaran siddharth": {
+      "registry_key": "manimaran siddharth",
+      "canonical_name": "Manimaran Siddharth",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "m siddharth",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate m siddharth"
+      ],
+      "alias_additions": [
+        "m siddharth"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    },
+    "arjun tendulkar": {
+      "registry_key": "arjun tendulkar",
+      "canonical_name": "Arjun Tendulkar",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "arjun tendulkar",
+      "inferred": false,
+      "evidence_summary": [
+        "exact ipl player_key match for arjun tendulkar",
+        "exact scorecard name match arjun tendulkar",
+        "exact raw match arjun tendulkar"
+      ],
+      "alias_additions": [
+        "arjun tendulkar"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.99,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "",
+      "evidence_source": "raw_cricsheet_fallback",
+      "matched_files": [
+        "1426305.json",
+        "1359509.json",
+        "1359505.json",
+        "1359499.json",
+        "1359496.json"
+      ]
+    },
+    "naman tiwari": {
+      "registry_key": "naman tiwari",
+      "canonical_name": "Naman Tiwari",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "",
+      "inferred": false,
+      "evidence_summary": [
+        "no IPL history candidate met safe-link criteria"
+      ],
+      "alias_additions": [],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.0,
+      "unresolved_collision": false,
+      "reason_if_left_blank": "no_safe_raw_match",
+      "raw_search_reason": "no_safe_raw_match",
+      "matched_files": [],
+      "evidence_source": ""
+    },
+    "mayank yadav": {
+      "registry_key": "mayank yadav",
+      "canonical_name": "Mayank Yadav",
+      "old_history_canonical_key": "",
+      "new_history_canonical_key": "mp yadav",
+      "inferred": true,
+      "evidence_summary": [
+        "same-surname initials pool candidate mp yadav"
+      ],
+      "alias_additions": [
+        "mp yadav"
+      ],
+      "team_filled": false,
+      "team_after": "Lucknow Super Giants",
+      "confidence": 0.9,
+      "unresolved_collision": false,
+      "reason_if_left_blank": ""
+    }
+  },
+  "raw_cricsheet_search_summary": {
+    "readme_path": "/Users/arvindravi/ipl-xi-predictor/data/ipl_json/README.txt",
+    "json_dir": "/Users/arvindravi/ipl-xi-predictor/data/ipl_json",
+    "latest_season_year": 2025,
+    "recent_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "rows_indexed": 413,
+    "files_scanned": 413
+  }
+}

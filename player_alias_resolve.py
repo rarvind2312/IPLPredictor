@@ -27,6 +27,7 @@ from typing import Any, FrozenSet, Optional
 
 import config
 import learner
+import player_registry
 
 logger = logging.getLogger(__name__)
 
@@ -69,23 +70,10 @@ def _load_alias_overrides() -> tuple[dict[str, list[str]], dict[str, str]]:
     global _ALIAS_OVERRIDE_ALIAS_TO_CANON
     global _ALIAS_OVERRIDE_MTIME
 
-    raw_path = str(getattr(config, "PLAYER_ALIAS_OVERRIDES_PATH", "") or "").strip()
-    if not raw_path:
-        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
-        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
-        _ALIAS_OVERRIDE_MTIME = 0.0
-        return {}, {}
-
-    p = Path(raw_path)
+    p = Path(str(getattr(config, "PLAYER_REGISTRY_MASTER_PATH", "") or "").strip())
     if not p.is_absolute():
-        p = Path(__file__).resolve().parent / raw_path
-    if not p.is_file():
-        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
-        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
-        _ALIAS_OVERRIDE_MTIME = 0.0
-        return {}, {}
-
-    mtime = float(p.stat().st_mtime)
+        p = Path(__file__).resolve().parent / p
+    mtime = float(p.stat().st_mtime) if p.is_file() else 0.0
     if (
         _ALIAS_OVERRIDE_CANON_TO_ALIASES is not None
         and _ALIAS_OVERRIDE_ALIAS_TO_CANON is not None
@@ -93,54 +81,11 @@ def _load_alias_overrides() -> tuple[dict[str, list[str]], dict[str, str]]:
     ):
         return _ALIAS_OVERRIDE_CANON_TO_ALIASES, _ALIAS_OVERRIDE_ALIAS_TO_CANON
 
-    try:
-        raw = json.loads(p.read_text(encoding="utf-8"))
-    except Exception:
-        logger.warning("alias_overrides: failed reading %s", p)
-        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
-        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
-        _ALIAS_OVERRIDE_MTIME = mtime
-        return {}, {}
-
-    if not isinstance(raw, dict):
-        _ALIAS_OVERRIDE_CANON_TO_ALIASES = {}
-        _ALIAS_OVERRIDE_ALIAS_TO_CANON = {}
-        _ALIAS_OVERRIDE_MTIME = mtime
-        return {}, {}
-
-    canon_to_aliases: dict[str, list[str]] = {}
-    alias_to_canon: dict[str, str] = {}
-    collisions: set[str] = set()
-    for canon_raw, aliases_raw in raw.items():
-        canon = learner.normalize_player_key(str(canon_raw or ""))
-        if not canon:
-            continue
-        aliases: list[str] = []
-        if isinstance(aliases_raw, str):
-            aliases_raw = [aliases_raw]
-        if isinstance(aliases_raw, (list, tuple)):
-            for a in aliases_raw:
-                ak = learner.normalize_player_key(str(a or ""))
-                if ak and ak not in aliases and ak != canon:
-                    aliases.append(ak)
-        if not aliases:
-            continue
-        canon_to_aliases[canon] = aliases
-        for ak in aliases:
-            if ak in alias_to_canon and alias_to_canon.get(ak) != canon:
-                collisions.add(ak)
-            else:
-                alias_to_canon[ak] = canon
-
-    for ak in collisions:
-        alias_to_canon.pop(ak, None)
-    if collisions:
-        logger.warning("alias_overrides: suppressed %d colliding alias key(s)", len(collisions))
-
-    _ALIAS_OVERRIDE_CANON_TO_ALIASES = canon_to_aliases
-    _ALIAS_OVERRIDE_ALIAS_TO_CANON = alias_to_canon
+    canon_to_aliases, alias_to_canon = player_registry.registry_alias_override_maps()
+    _ALIAS_OVERRIDE_CANON_TO_ALIASES = dict(canon_to_aliases)
+    _ALIAS_OVERRIDE_ALIAS_TO_CANON = dict(alias_to_canon)
     _ALIAS_OVERRIDE_MTIME = mtime
-    return canon_to_aliases, alias_to_canon
+    return _ALIAS_OVERRIDE_CANON_TO_ALIASES, _ALIAS_OVERRIDE_ALIAS_TO_CANON
 
 
 def alias_overrides_active() -> bool:

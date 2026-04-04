@@ -208,7 +208,7 @@ def main() -> None:
     _t_side = time.perf_counter()
     with st.sidebar:
         st.caption("**Predict** (this page)")
-        if st.button("Open Admin & maintenance 🛠️", use_container_width=True, key="nav_open_admin"):
+        if st.button("Open Admin & maintenance 🛠️", width="stretch", key="nav_open_admin"):
             st.switch_page("pages/1_Admin_and_maintenance.py")
         st.divider()
         st.subheader("Cricsheet all_json + recent form")

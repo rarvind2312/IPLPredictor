@@ -66,7 +66,7 @@ class TestPlayerAliasResolve(unittest.TestCase):
         r = player_alias_resolve.resolve_player_to_history_key("Virat Kohli", keys)
         self.assertEqual(r.resolution_type, "alias_match")
         self.assertEqual(r.resolved_history_key, "v kohli")
-        self.assertIn(r.resolution_layer_used, ("layer_b", "layer_c", "layer_d"))
+        self.assertIn(r.resolution_layer_used, ("layer_b", "layer_c", "layer_d", "curated_alias_override"))
 
     def test_layer_b_single_hit_quinton_de_kock(self) -> None:
         keys = frozenset({"q de kock", "other player"})
@@ -114,7 +114,7 @@ class TestPlayerAliasResolve(unittest.TestCase):
         self.assertEqual(r.resolved_history_key, "rl chahar")
         self.assertIn(
             r.resolution_layer_used,
-            ("layer_c", "layer_d_relaxed_unique_surname"),
+            ("curated_alias_override", "layer_c", "layer_d_relaxed_unique_surname"),
         )
 
     def test_layer_d3_relaxed_direct_helper(self) -> None:
@@ -145,7 +145,7 @@ class TestPlayerAliasResolve(unittest.TestCase):
         r = player_alias_resolve.resolve_player_to_history_key("Heinrich Klaasen", keys)
         self.assertEqual(r.resolution_type, "alias_match")
         self.assertEqual(r.resolved_history_key, "h klaasen")
-        self.assertIn(r.resolution_layer_used, ("layer_b", "layer_c", "layer_d"))
+        self.assertIn(r.resolution_layer_used, ("layer_b", "layer_c", "layer_d", "curated_alias_override"))
 
     def test_ambiguous_two_prefix_compatible_jaiswal_keys(self) -> None:
         keys = frozenset({"ybk jaiswal", "yb jaiswal"})
@@ -153,6 +153,18 @@ class TestPlayerAliasResolve(unittest.TestCase):
             "Yashasvi Bhupendra Kumar Jaiswal", keys
         )
         self.assertEqual(r.resolution_type, "ambiguous_alias")
+
+    def test_curated_alias_override_rachin_ravindra(self) -> None:
+        keys = frozenset({"r ravindra"})
+        r = player_alias_resolve.resolve_player_to_history_key("Rachin Ravindra", keys)
+        self.assertEqual(r.resolution_type, "alias_match")
+        self.assertEqual(r.resolved_history_key, "r ravindra")
+
+    def test_curated_alias_override_ruturaj_gaikwad(self) -> None:
+        keys = frozenset({"rd gaikwad"})
+        r = player_alias_resolve.resolve_player_to_history_key("Ruturaj Gaikwad", keys)
+        self.assertEqual(r.resolution_type, "alias_match")
+        self.assertEqual(r.resolved_history_key, "rd gaikwad")
 
 
 if __name__ == "__main__":

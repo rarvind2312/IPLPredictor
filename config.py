@@ -23,6 +23,16 @@ PLAYER_METADATA_CRICINFO_PATH = os.environ.get(
 PLAYER_METADATA_CURATED_PATH = os.environ.get(
     "IPL_PLAYER_METADATA_CURATED_PATH", str(DATA_DIR / "player_metadata_curated.json")
 )
+PLAYER_REGISTRY_MASTER_PATH = os.environ.get(
+    "IPL_PLAYER_REGISTRY_MASTER_PATH", str(DATA_DIR / "player_registry_master.json")
+)
+PLAYER_SQUADS_DIR = os.environ.get(
+    "IPL_PLAYER_SQUADS_DIR", str(DATA_DIR / "squads")
+)
+PLAYER_REGISTRY_LINKAGE_AUDIT_PATH = os.environ.get(
+    "IPL_PLAYER_REGISTRY_LINKAGE_AUDIT_PATH",
+    str(DATA_DIR / "player_registry_linkage_enrichment_audit.json"),
+)
 
 # Local Cricsheet IPL bundle (readme index + per-match JSON). Official zip uses
 # ``data/ipl_json/README.txt``; also accept ``data/readme.txt`` if you copy the index.

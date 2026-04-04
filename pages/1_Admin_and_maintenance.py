@@ -17,6 +17,7 @@ import audit_profile
 import config
 import cricinfo_squad_parser
 import cricsheet_ingest
+import cricsheet_recent_api
 import db
 import ipl_teams
 import learner
@@ -107,7 +108,7 @@ def main() -> None:
         )
 
     with st.sidebar:
-        if st.button("Back to Predict 🏏", use_container_width=True, key="nav_back_predict"):
+        if st.button("Back to Predict 🏏", width="stretch", key="nav_back_predict"):
             st.switch_page("app.py")
         st.caption("**Admin & maintenance** (this page)")
         st.divider()
@@ -254,6 +255,91 @@ def main() -> None:
         if s.warnings:
             for w in s.warnings[:40]:
                 st.warning(w)
+
+    if st.button(
+        "Sync Latest Cricsheet Recent Bundle",
+        help="Download Cricsheet recently_added_2_json.zip, upsert matches, and refresh the recent-match catalog.",
+    ):
+        with st.spinner("Syncing latest Cricsheet recent bundle…"):
+            s = cricsheet_recent_api.post_sync_latest()
+        st.success(
+            f"Downloaded files **{s.get('downloaded_files', 0)}** · parsed **{s.get('parsed_matches', 0)}** · "
+            f"inserted **{s.get('inserted_new', 0)}** · updated **{s.get('updated_existing', 0)}** · "
+            f"skipped duplicates **{s.get('skipped_duplicates', 0)}** · failed parses **{s.get('failed_parses', 0)}**."
+        )
+        if s.get("failures"):
+            with st.expander("Recent sync failures"):
+                st.json(s.get("failures"))
+
+    latest_recent_sync = db.fetch_latest_cricsheet_sync_summary()
+    recent_sync_runs = db.fetch_cricsheet_sync_audit_runs(limit=10)
+    recent_synced_ipl = db.fetch_cricsheet_recent_matches(competition="ipl", days=3650, limit=15)
+
+    st.caption("Recent Cricsheet sync health")
+    if latest_recent_sync:
+        c1, c2, c3 = st.columns(3)
+        c1.metric(
+            "Last sync time",
+            time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(float(latest_recent_sync.get("started_at") or 0))),
+        )
+        c2.metric("Last sync inserted", int(latest_recent_sync.get("inserted_new") or 0))
+        c3.metric("Last sync skipped duplicates", int(latest_recent_sync.get("skipped_duplicates") or 0))
+    else:
+        st.caption("No recent-bundle sync runs recorded yet.")
+
+    st.markdown("**Recent sync audit runs**")
+    if recent_sync_runs:
+        audit_df = pd.DataFrame(recent_sync_runs)
+        audit_df["sync_time"] = audit_df["started_at"].apply(
+            lambda x: time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(float(x or 0)))
+        )
+        st.dataframe(
+            audit_df[
+                [
+                    "sync_time",
+                    "downloaded_files",
+                    "parsed_matches",
+                    "inserted_new",
+                    "updated_existing",
+                    "skipped_duplicates",
+                    "failed_parses",
+                ]
+            ].rename(
+                columns={
+                    "downloaded_files": "downloaded",
+                    "parsed_matches": "parsed",
+                    "inserted_new": "inserted",
+                    "updated_existing": "updated",
+                    "skipped_duplicates": "skipped duplicates",
+                    "failed_parses": "failed",
+                }
+            ),
+            width="stretch",
+            hide_index=True,
+        )
+    else:
+        st.caption("No sync audit rows yet.")
+
+    st.markdown("**Recent synced IPL matches**")
+    if recent_synced_ipl:
+        matches_df = pd.DataFrame(recent_synced_ipl)
+        st.dataframe(
+            matches_df[
+                [
+                    "match_date",
+                    "team_a",
+                    "team_b",
+                    "venue",
+                    "winner",
+                    "result_text",
+                    "source_match_key",
+                ]
+            ].rename(columns={"match_date": "date"}),
+            width="stretch",
+            hide_index=True,
+        )
+    else:
+        st.caption("No recent synced IPL matches stored yet.")
 
     st.caption(
         f"**all_json + recent-form cache** — use the **Predict** page sidebar (same controls as the checkpoint)."

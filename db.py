@@ -15,6 +15,7 @@ from typing import Any, Generator, Iterable, Optional
 
 import audit_profile
 import config
+import player_registry
 import utils
 
 logger = logging.getLogger(__name__)
@@ -744,6 +745,81 @@ def _migrate_player_metadata_and_matchup_tables(conn: sqlite3.Connection) -> Non
     )
 
 
+def _migrate_cricsheet_recent_sync_tables(conn: sqlite3.Connection) -> None:
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS cricsheet_matches (
+            source_match_key TEXT PRIMARY KEY,
+            match_id INTEGER,
+            canonical_match_key TEXT,
+            fallback_identity_key TEXT,
+            competition TEXT,
+            match_type TEXT,
+            gender TEXT,
+            series_name TEXT,
+            match_date TEXT,
+            venue TEXT,
+            city TEXT,
+            team_a TEXT,
+            team_b TEXT,
+            toss_winner TEXT,
+            toss_decision TEXT,
+            winner TEXT,
+            result_text TEXT,
+            source_url TEXT,
+            source_kind TEXT,
+            source_file TEXT,
+            raw_json_ref TEXT,
+            inserted_at REAL NOT NULL,
+            updated_at REAL NOT NULL,
+            FOREIGN KEY (match_id) REFERENCES matches(id) ON DELETE CASCADE
+        )
+        """
+    )
+    conn.execute(
+        "CREATE UNIQUE INDEX IF NOT EXISTS idx_cricsheet_matches_match_id "
+        "ON cricsheet_matches(match_id) WHERE match_id IS NOT NULL"
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_cricsheet_matches_comp_date "
+        "ON cricsheet_matches(competition, match_date DESC, updated_at DESC)"
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_cricsheet_matches_team_a_date "
+        "ON cricsheet_matches(team_a, match_date DESC)"
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_cricsheet_matches_team_b_date "
+        "ON cricsheet_matches(team_b, match_date DESC)"
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_cricsheet_matches_fallback_identity "
+        "ON cricsheet_matches(fallback_identity_key)"
+    )
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS cricsheet_match_sync_audit (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            sync_scope TEXT NOT NULL,
+            source_url TEXT,
+            downloaded_files INTEGER NOT NULL DEFAULT 0,
+            parsed_matches INTEGER NOT NULL DEFAULT 0,
+            inserted_new INTEGER NOT NULL DEFAULT 0,
+            updated_existing INTEGER NOT NULL DEFAULT 0,
+            skipped_duplicates INTEGER NOT NULL DEFAULT 0,
+            failed_parses INTEGER NOT NULL DEFAULT 0,
+            started_at REAL NOT NULL,
+            finished_at REAL NOT NULL,
+            notes_json TEXT
+        )
+        """
+    )
+    conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_cricsheet_sync_audit_started_at "
+        "ON cricsheet_match_sync_audit(started_at DESC)"
+    )
+
+
 def ensure_data_dir() -> None:
     Path(config.DATA_DIR).mkdir(parents=True, exist_ok=True)
 
@@ -1136,6 +1212,7 @@ def get_connection() -> sqlite3.Connection:
         _migrate_stage1_canonical_alias_columns(conn)
         _migrate_player_aliases_table(conn)
         _migrate_player_metadata_and_matchup_tables(conn)
+        _migrate_cricsheet_recent_sync_tables(conn)
         conn.execute(
             "CREATE INDEX IF NOT EXISTS idx_tmx_team_player ON team_match_xi(team_key, player_key)"
         )
@@ -1388,19 +1465,9 @@ def _load_curated_player_metadata_file(raw_path: str) -> dict[str, dict[str, Any
 
 def _load_curated_player_metadata_with_priority() -> dict[str, dict[str, Any]]:
     """
-    Merge metadata sources with explicit priority:
-    1) Manual curated
-    2) Cricinfo curated
+    Runtime metadata source of truth: the merged player registry.
     """
-    manual = _load_curated_player_metadata_file(
-        str(getattr(config, "PLAYER_METADATA_CURATED_PATH", "data/player_metadata_curated.json") or "")
-    )
-    cricinfo = _load_curated_player_metadata_file(
-        str(getattr(config, "PLAYER_METADATA_CRICINFO_PATH", "data/player_metadata_cricinfo.json") or "")
-    )
-    merged = dict(cricinfo)
-    merged.update(manual)
-    return merged
+    return player_registry.registry_metadata_lookup_map()
 
 
 def _bowling_bucket_from_style(raw_style: str) -> str:
@@ -1961,7 +2028,7 @@ def rebuild_player_metadata_and_matchup_summaries() -> dict[str, Any]:
     return {"ok": bool(m.get("ok") and s.get("ok")), "metadata": m, "matchups": s}
 def fetch_player_metadata_batch(player_keys: list[str]) -> dict[str, dict[str, Any]]:
     """
-    Batch fetch from ``player_metadata`` keyed by ``player_key``.
+    Batch fetch from the canonical merged player registry keyed by lookup key.
 
     Returns a mapping keyed by normalized (lowercased) player_key.
     """
@@ -1969,49 +2036,11 @@ def fetch_player_metadata_batch(player_keys: list[str]) -> dict[str, dict[str, A
     keys = list(dict.fromkeys(keys))
     if not keys:
         return {}
-    qm = ",".join("?" * len(keys))
-    with connection() as conn:
-        try:
-            rows = conn.execute(
-                f"""
-                SELECT lower(player_key) AS player_key,
-                       display_name,
-                       batting_hand,
-                       bowling_style_raw,
-                       bowling_type_bucket,
-                       primary_role,
-                       secondary_role,
-                       likely_batting_band,
-                       likely_bowling_phases,
-                       source,
-                       confidence,
-                       last_updated
-                FROM player_metadata
-                WHERE lower(player_key) IN ({qm})
-                """,
-                keys,
-            ).fetchall()
-        except sqlite3.OperationalError:
-            return {}
+    registry_map = player_registry.registry_metadata_lookup_map()
     out: dict[str, dict[str, Any]] = {}
-    for r in rows or []:
-        pk = str(r[0] or "").strip().lower()
-        if not pk:
-            continue
-        out[pk] = {
-            "player_key": pk,
-            "display_name": r[1],
-            "batting_hand": r[2],
-            "bowling_style_raw": r[3],
-            "bowling_type_bucket": r[4],
-            "primary_role": r[5],
-            "secondary_role": r[6],
-            "likely_batting_band": r[7],
-            "likely_bowling_phases": r[8],
-            "source": r[9],
-            "confidence": r[10],
-            "last_updated": r[11],
-        }
+    for pk in keys:
+        if pk in registry_map:
+            out[pk] = dict(registry_map[pk])
     return out
 
 
@@ -2066,6 +2095,127 @@ def fetch_player_batting_position_profile_batch(
             "dominant_position": dominant,
             "top12_share": float(round(top12_share, 4)),
             "distribution": dist,
+            "sample_count": len(vals),
+            "history_scope": "franchise",
+        }
+    return out
+
+
+def fetch_player_batting_position_profile_batch_global(
+    player_keys: list[str],
+) -> dict[str, dict[str, Any]]:
+    """
+    Broader IPL batting-position profile across all franchises.
+    """
+    keys = [str(k).strip().lower() for k in (player_keys or []) if str(k).strip()]
+    keys = list(dict.fromkeys(keys))
+    if not keys:
+        return {}
+    qm = ",".join("?" * len(keys))
+    with connection() as conn:
+        try:
+            rows = conn.execute(
+                f"""
+                SELECT lower(player_key) AS player_key, batting_position
+                FROM player_batting_positions
+                WHERE lower(player_key) IN ({qm}) AND batting_position IS NOT NULL
+                """,
+                [*keys],
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return {}
+    positions_by_pk: dict[str, list[float]] = {}
+    for r in rows or []:
+        pk = str(r[0] or "").strip().lower()
+        if not pk:
+            continue
+        try:
+            pos = float(r[1])
+        except (TypeError, ValueError):
+            continue
+        if pos <= 0 or pos > 15:
+            continue
+        positions_by_pk.setdefault(pk, []).append(pos)
+    out: dict[str, dict[str, Any]] = {}
+    for pk, vals in positions_by_pk.items():
+        if not vals:
+            continue
+        s = sorted(vals)
+        dominant = float(round(s[len(s) // 2], 2))
+        top12_share = sum(1 for x in vals if x <= 2.0) / max(1, len(vals))
+        dist: dict[str, int] = {}
+        for x in vals:
+            k = str(int(round(x)))
+            dist[k] = dist.get(k, 0) + 1
+        out[pk] = {
+            "dominant_position": dominant,
+            "top12_share": float(round(top12_share, 4)),
+            "distribution": dist,
+            "sample_count": len(vals),
+            "history_scope": "global_ipl",
+        }
+    return out
+
+
+def fetch_recent_player_batting_positions_batch(
+    franchise_team_key: str,
+    player_keys: list[str],
+    *,
+    max_matches_per_player: int = 5,
+) -> dict[str, dict[str, Any]]:
+    """
+    Recent current-franchise batting positions ordered by match recency.
+    """
+    tk = str(franchise_team_key or "").strip()
+    keys = [str(k).strip().lower() for k in (player_keys or []) if str(k).strip()]
+    keys = list(dict.fromkeys(keys))
+    if not tk or not keys:
+        return {}
+    qm = ",".join("?" * len(keys))
+    with connection() as conn:
+        try:
+            rows = conn.execute(
+                f"""
+                SELECT lower(p.player_key) AS player_key,
+                       p.batting_position AS batting_position,
+                       m.match_date AS match_date,
+                       p.match_id AS match_id
+                FROM player_batting_positions p
+                JOIN matches m ON m.id = p.match_id
+                WHERE p.team_key = ?
+                  AND lower(p.player_key) IN ({qm})
+                  AND p.batting_position IS NOT NULL
+                  AND m.match_date IS NOT NULL
+                  AND trim(m.match_date) != ''
+                ORDER BY lower(p.player_key) ASC, m.match_date DESC, p.match_id DESC
+                """,
+                [tk, *keys],
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return {}
+    by_pk: dict[str, list[float]] = {}
+    for r in rows or []:
+        pk = str(r["player_key"] or "").strip().lower()
+        if not pk:
+            continue
+        cur = by_pk.setdefault(pk, [])
+        if len(cur) >= int(max_matches_per_player):
+            continue
+        try:
+            pos = float(r["batting_position"])
+        except (TypeError, ValueError):
+            continue
+        if pos <= 0 or pos > 15:
+            continue
+        cur.append(pos)
+    out: dict[str, dict[str, Any]] = {}
+    for pk, vals in by_pk.items():
+        if not vals:
+            continue
+        out[pk] = {
+            "recent_positions": [round(v, 2) for v in vals],
+            "recent_position_ema": round(sum(vals) / len(vals), 4),
+            "recent_sample_count": len(vals),
         }
     return out
 
@@ -2121,6 +2271,75 @@ def fetch_bowler_phase_summary_batch(
             "death_share": dt_b / total,
             "powerplay_wickets_per_ball": (float(pp.get("wickets") or 0.0) / pp_b) if pp_b > 0 else 0.0,
             "death_wickets_per_ball": (float(dt.get("wickets") or 0.0) / dt_b) if dt_b > 0 else 0.0,
+        }
+    return out
+
+
+def fetch_recent_player_bowling_usage_batch(
+    franchise_team_key: str,
+    player_keys: list[str],
+    *,
+    max_matches_per_player: int = 5,
+) -> dict[str, dict[str, Any]]:
+    """
+    Recent current-team bowling usage from ``team_match_xi`` ordered by match date desc.
+
+    Returns up to ``max_matches_per_player`` recent overs-bowled values per player.
+    """
+    tk = str(franchise_team_key or "").strip()
+    keys = [str(k).strip().lower() for k in (player_keys or []) if str(k).strip()]
+    keys = list(dict.fromkeys(keys))
+    if not tk or not keys:
+        return {}
+    qm = ",".join("?" * len(keys))
+    with connection() as conn:
+        try:
+            rows = conn.execute(
+                f"""
+                SELECT lower(x.player_key) AS player_key,
+                       m.match_date AS match_date,
+                       x.match_id AS match_id,
+                       x.overs_bowled AS overs_bowled
+                FROM team_match_xi x
+                JOIN matches m ON m.id = x.match_id
+                WHERE x.team_key = ?
+                  AND lower(x.player_key) IN ({qm})
+                  AND m.match_date IS NOT NULL
+                  AND trim(m.match_date) != ''
+                ORDER BY lower(x.player_key) ASC, m.match_date DESC, x.match_id DESC
+                """,
+                [tk, *keys],
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return {}
+    by_pk: dict[str, list[float]] = {}
+    for r in rows or []:
+        pk = str(r["player_key"] or "").strip().lower()
+        if not pk:
+            continue
+        cur = by_pk.setdefault(pk, [])
+        if len(cur) >= int(max_matches_per_player):
+            continue
+        try:
+            ov = float(r["overs_bowled"] or 0.0)
+        except (TypeError, ValueError):
+            ov = 0.0
+        if ov < 0:
+            ov = 0.0
+        cur.append(round(ov, 2))
+    out: dict[str, dict[str, Any]] = {}
+    for pk, vals in by_pk.items():
+        if not vals:
+            continue
+        bowling_matches = [v for v in vals if v >= 0.5]
+        out[pk] = {
+            "recent_overs_bowled": vals,
+            "recent_match_count": len(vals),
+            "recent_bowling_match_count": len(bowling_matches),
+            "recent_avg_overs_all": round(sum(vals) / len(vals), 4),
+            "recent_avg_overs_when_bowled": round(sum(bowling_matches) / len(bowling_matches), 4)
+            if bowling_matches
+            else 0.0,
         }
     return out
 def remove_sqlite_database_files() -> dict[str, Any]:
@@ -2190,6 +2409,177 @@ def existing_cricsheet_match_ids() -> set[str]:
             if mid.isdigit():
                 out.add(mid)
     return out
+
+
+def find_match_id_for_cricsheet_source_key(source_match_key: str) -> Optional[int]:
+    smk = str(source_match_key or "").strip()
+    if not smk:
+        return None
+    with connection() as conn:
+        row = conn.execute(
+            """
+            SELECT match_id
+            FROM cricsheet_matches
+            WHERE source_match_key = ? AND match_id IS NOT NULL
+            LIMIT 1
+            """,
+            (smk,),
+        ).fetchone()
+        if row and row[0] is not None:
+            return int(row[0])
+        row = conn.execute(
+            """
+            SELECT id
+            FROM matches
+            WHERE cricsheet_match_id = ?
+            LIMIT 1
+            """,
+            (smk,),
+        ).fetchone()
+        if row and row[0] is not None:
+            return int(row[0])
+    return None
+
+
+def upsert_cricsheet_match_catalog(row: dict[str, Any]) -> None:
+    now = time.time()
+    source_match_key = str(row.get("source_match_key") or "").strip()
+    if not source_match_key:
+        raise ValueError("source_match_key is required")
+    match_id = row.get("match_id")
+    inserted_at = float(row.get("inserted_at") or now)
+    updated_at = float(row.get("updated_at") or now)
+    with connection() as conn:
+        existing = conn.execute(
+            """
+            SELECT source_match_key, inserted_at
+            FROM cricsheet_matches
+            WHERE source_match_key = ?
+               OR (? IS NOT NULL AND match_id = ?)
+            ORDER BY CASE WHEN source_match_key = ? THEN 0 ELSE 1 END
+            LIMIT 1
+            """,
+            (source_match_key, match_id, match_id, source_match_key),
+        ).fetchone()
+        if existing:
+            if existing["source_match_key"]:
+                source_match_key = str(existing["source_match_key"])
+            if existing["inserted_at"] is not None:
+                inserted_at = float(existing["inserted_at"])
+        conn.execute(
+            """
+            INSERT INTO cricsheet_matches (
+                source_match_key, match_id, canonical_match_key, fallback_identity_key,
+                competition, match_type, gender, series_name, match_date, venue, city,
+                team_a, team_b, toss_winner, toss_decision, winner, result_text,
+                source_url, source_kind, source_file, raw_json_ref, inserted_at, updated_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(source_match_key) DO UPDATE SET
+                match_id = excluded.match_id,
+                canonical_match_key = excluded.canonical_match_key,
+                fallback_identity_key = excluded.fallback_identity_key,
+                competition = excluded.competition,
+                match_type = excluded.match_type,
+                gender = excluded.gender,
+                series_name = excluded.series_name,
+                match_date = excluded.match_date,
+                venue = excluded.venue,
+                city = excluded.city,
+                team_a = excluded.team_a,
+                team_b = excluded.team_b,
+                toss_winner = excluded.toss_winner,
+                toss_decision = excluded.toss_decision,
+                winner = excluded.winner,
+                result_text = excluded.result_text,
+                source_url = excluded.source_url,
+                source_kind = excluded.source_kind,
+                source_file = excluded.source_file,
+                raw_json_ref = excluded.raw_json_ref,
+                updated_at = excluded.updated_at
+            """,
+            (
+                source_match_key,
+                match_id,
+                row.get("canonical_match_key"),
+                row.get("fallback_identity_key"),
+                row.get("competition"),
+                row.get("match_type"),
+                row.get("gender"),
+                row.get("series_name"),
+                row.get("match_date"),
+                row.get("venue"),
+                row.get("city"),
+                row.get("team_a"),
+                row.get("team_b"),
+                row.get("toss_winner"),
+                row.get("toss_decision"),
+                row.get("winner"),
+                row.get("result_text"),
+                row.get("source_url"),
+                row.get("source_kind"),
+                row.get("source_file"),
+                row.get("raw_json_ref"),
+                inserted_at,
+                updated_at,
+            ),
+        )
+
+
+def insert_cricsheet_sync_audit(row: dict[str, Any]) -> int:
+    with connection() as conn:
+        cur = conn.execute(
+            """
+            INSERT INTO cricsheet_match_sync_audit (
+                sync_scope, source_url, downloaded_files, parsed_matches,
+                inserted_new, updated_existing, skipped_duplicates, failed_parses,
+                started_at, finished_at, notes_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                row.get("sync_scope"),
+                row.get("source_url"),
+                int(row.get("downloaded_files") or 0),
+                int(row.get("parsed_matches") or 0),
+                int(row.get("inserted_new") or 0),
+                int(row.get("updated_existing") or 0),
+                int(row.get("skipped_duplicates") or 0),
+                int(row.get("failed_parses") or 0),
+                float(row.get("started_at") or time.time()),
+                float(row.get("finished_at") or time.time()),
+                json.dumps(row.get("notes") or {}, ensure_ascii=False),
+            ),
+        )
+        return int(cur.lastrowid)
+
+
+def fetch_cricsheet_sync_audit_runs(limit: int = 20) -> list[dict[str, Any]]:
+    with connection() as conn:
+        rows = conn.execute(
+            """
+            SELECT
+                id,
+                sync_scope,
+                source_url,
+                downloaded_files,
+                parsed_matches,
+                inserted_new,
+                updated_existing,
+                skipped_duplicates,
+                failed_parses,
+                started_at,
+                finished_at
+            FROM cricsheet_match_sync_audit
+            ORDER BY started_at DESC, id DESC
+            LIMIT ?
+            """,
+            (int(limit),),
+        ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def fetch_latest_cricsheet_sync_summary() -> Optional[dict[str, Any]]:
+    rows = fetch_cricsheet_sync_audit_runs(limit=1)
+    return rows[0] if rows else None
 
 
 def sql_cricsheet_match_result_ids(conn: sqlite3.Connection) -> list[int]:
@@ -3925,6 +4315,89 @@ def fetch_recent_matches(limit: int = 200) -> list[dict[str, Any]]:
             }
         )
     return out
+
+
+def fetch_cricsheet_recent_matches(
+    *,
+    competition: Optional[str] = None,
+    days: int = 7,
+    limit: int = 50,
+    team_name: Optional[str] = None,
+) -> list[dict[str, Any]]:
+    where: list[str] = []
+    params: list[Any] = []
+    if competition:
+        comp = str(competition or "").strip().lower()
+        if comp == "ipl":
+            where.append("(lower(cm.competition) LIKE ? OR lower(cm.competition) LIKE ?)")
+            params.extend(["%ipl%", "%indian premier league%"])
+        else:
+            where.append("lower(cm.competition) = ?")
+            params.append(comp)
+    if days and days > 0:
+        where.append("date(cm.match_date) >= date('now', ?)")
+        params.append(f"-{int(days)} day")
+    if team_name:
+        where.append("(lower(cm.team_a) = ? OR lower(cm.team_b) = ?)")
+        tn = str(team_name).strip().lower()
+        params.extend([tn, tn])
+    where_sql = f"WHERE {' AND '.join(where)}" if where else ""
+    with connection() as conn:
+        rows = conn.execute(
+            f"""
+            SELECT
+                cm.source_match_key,
+                cm.match_id,
+                cm.competition,
+                cm.match_type,
+                cm.gender,
+                cm.series_name,
+                cm.match_date,
+                cm.venue,
+                cm.city,
+                cm.team_a,
+                cm.team_b,
+                cm.toss_winner,
+                cm.toss_decision,
+                cm.winner,
+                cm.result_text,
+                cm.source_url,
+                cm.source_kind,
+                cm.source_file,
+                cm.inserted_at,
+                cm.updated_at,
+                m.scorecard_url
+            FROM cricsheet_matches cm
+            LEFT JOIN matches m ON m.id = cm.match_id
+            {where_sql}
+            ORDER BY date(cm.match_date) DESC, cm.updated_at DESC
+            LIMIT ?
+            """,
+            (*params, int(limit)),
+        ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def fetch_cricsheet_match(source_match_key: str) -> Optional[dict[str, Any]]:
+    smk = str(source_match_key or "").strip()
+    if not smk:
+        return None
+    with connection() as conn:
+        row = conn.execute(
+            """
+            SELECT
+                cm.*,
+                m.scorecard_url,
+                mr.raw_payload
+            FROM cricsheet_matches cm
+            LEFT JOIN matches m ON m.id = cm.match_id
+            LEFT JOIN match_results mr ON mr.id = cm.match_id
+            WHERE cm.source_match_key = ?
+            LIMIT 1
+            """,
+            (smk,),
+        ).fetchone()
+    return dict(row) if row else None
 
 
 def get_learned_players() -> dict[str, sqlite3.Row]:
