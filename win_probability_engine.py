@@ -7,9 +7,9 @@ Designed so factors can be swapped for learned models later without changing the
 
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass, field
 from typing import Any, Iterable, Optional, Protocol
-
 import config
 import db
 import h2h_history
@@ -175,6 +175,42 @@ def toss_role_scores(
             f"Innings roles: {team_a} chase ~{ca:.2f} (n={nc}), {team_b} defend ~{db:.2f} (n={ndb})"
         )
     return _clamp(sa, 12.0, 88.0), _clamp(sb, 12.0, 88.0), notes
+
+
+def team_recent_form_scores(
+    team_a: str,
+    team_b: str,
+    rows: list[dict[str, Any]],
+    xi_a: list[Any],
+    xi_b: list[Any],
+) -> tuple[float, float, list[str]]:
+    """Team-level form from W/L records and XI continuity."""
+    def get_team_form(team: str, xi: list[Any]) -> float:
+        # 1. Win/Loss Form (last 5 matches)
+        team_rows = [r for r in rows if _team_equals(team, r.get("team_a", "")) or _team_equals(team, r.get("team_b", ""))]
+        recent = team_rows[:5]
+        wl_score = 50.0
+        if recent:
+            wins = sum(1 for r in recent if _team_equals(team, r.get("winner", "")))
+            wl_score = 50.0 + (wins / len(recent) - 0.5) * 40.0
+
+        # 2. Continuity Form (predicted XI members who were in last match)
+        cont_n = 0
+        for p in xi:
+            hd = getattr(p, "history_debug", {}) or {}
+            smd = hd.get("selection_model_debug") or {}
+            lmd = smd.get("last_match_detail") or {}
+            if bool(lmd.get("was_in_last_match_xi")):
+                cont_n += 1
+        cont_score = 50.0 + (cont_n / 11.0 - 0.65) * 30.0
+
+        # 3. Strength Proxy (avg skill)
+        perf_score = sum(getattr(p, "bat_skill", 0.5) + getattr(p, "bowl_skill", 0.5) for p in xi) / 22.0 * 100.0
+        return 0.4 * wl_score + 0.3 * cont_score + 0.3 * perf_score
+
+    sa = get_team_form(team_a, xi_a)
+    sb = get_team_form(team_b, xi_b)
+    return sa, sb, [f"Recent team form (W/L, continuity, skills): A={sa:.1f}, B={sb:.1f}"]
 
 
 def chase_environment_scores(
@@ -630,32 +666,54 @@ class ScenarioFactors:
     conditions: tuple[float, float] = (50.0, 50.0)
     toss_role: tuple[float, float] = (50.0, 50.0)
     chase_environment: tuple[float, float] = (50.0, 50.0)
+    recent_form: tuple[float, float] = (50.0, 50.0)
 
 
-def _weighted_totals(f: ScenarioFactors) -> tuple[float, float]:
-    wa = (
-        config.WIN_ENG_WEIGHT_HEAD_TO_HEAD * f.head_to_head[0]
-        + config.WIN_ENG_WEIGHT_VENUE * f.venue[0]
-        + config.WIN_ENG_WEIGHT_XI_STRENGTH * f.xi[0]
-        + config.WIN_ENG_WEIGHT_BATTING_ORDER * f.batting[0]
-        + config.WIN_ENG_WEIGHT_BOWLING_PHASES * f.bowling[0]
-        + config.WIN_ENG_WEIGHT_MATCHUP * f.matchup[0]
-        + config.WIN_ENG_WEIGHT_CONDITIONS * f.conditions[0]
-        + config.WIN_ENG_WEIGHT_TOSS_ROLE * f.toss_role[0]
-        + config.WIN_ENG_WEIGHT_CHASE_ENVIRONMENT * f.chase_environment[0]
-    )
-    wb = (
-        config.WIN_ENG_WEIGHT_HEAD_TO_HEAD * f.head_to_head[1]
-        + config.WIN_ENG_WEIGHT_VENUE * f.venue[1]
-        + config.WIN_ENG_WEIGHT_XI_STRENGTH * f.xi[1]
-        + config.WIN_ENG_WEIGHT_BATTING_ORDER * f.batting[1]
-        + config.WIN_ENG_WEIGHT_BOWLING_PHASES * f.bowling[1]
-        + config.WIN_ENG_WEIGHT_MATCHUP * f.matchup[1]
-        + config.WIN_ENG_WEIGHT_CONDITIONS * f.conditions[1]
-        + config.WIN_ENG_WEIGHT_TOSS_ROLE * f.toss_role[1]
-        + config.WIN_ENG_WEIGHT_CHASE_ENVIRONMENT * f.chase_environment[1]
-    )
-    return wa, wb
+def _weighted_totals(f: ScenarioFactors) -> tuple[float, float, dict[str, Any]]:
+    """Calculate final totals with critical guardrails ensuring XI strength dominance."""
+    # XI Strength Component (avg of base strength, batting, and bowling phase scores)
+    sa = (f.xi[0] + f.batting[0] + f.bowling[0]) / 3.0
+    sb = (f.xi[1] + f.batting[1] + f.bowling[1]) / 3.0
+    xi_diff = config.WIN_ENG_WEIGHT_XI_STRENGTH * (sa - sb)
+
+    # Individual context adjustments
+    venue_adj = config.WIN_ENG_WEIGHT_VENUE * (f.venue[0] - f.venue[1])
+    weather_adj = config.WIN_ENG_WEIGHT_CONDITIONS * (f.conditions[0] - f.conditions[1])
+    recent_adj = config.WIN_ENG_WEIGHT_RECENT_FORM * (f.recent_form[0] - f.recent_form[1])
+    h2h_adj = config.WIN_ENG_WEIGHT_HEAD_TO_HEAD * (f.head_to_head[0] - f.head_to_head[1])
+    toss_adj = config.WIN_ENG_WEIGHT_TOSS_ROLE * (f.toss_role[0] - f.toss_role[1])
+
+    context_sum = venue_adj + weather_adj + recent_adj + h2h_adj + toss_adj
+
+    # CRITICAL GUARDRAIL: Context adjustment cap (max 25% of total impact scale)
+    context_cap_applied = False
+    cap = 25.0
+    if abs(context_sum) > cap:
+        context_sum = math.copysign(cap, context_sum)
+        context_cap_applied = True
+
+    final_diff = xi_diff + context_sum
+
+    # CRITICAL GUARDRAIL: Stronger XI remains favourite
+    if xi_diff > 2.0 and final_diff < 0.0:
+        final_diff = 0.5  # Forced slight edge for stronger XI
+    elif xi_diff < -2.0 and final_diff > 0.0:
+        final_diff = -0.5 # Forced slight edge for stronger XI
+
+    ta = 50.0 + final_diff / 2.0
+    tb = 50.0 - final_diff / 2.0
+
+    debug = {
+        "team_strength_adjustment": round(xi_diff, 4),
+        "venue_pitch_adjustment": round(venue_adj, 4),
+        "weather_adjustment": round(weather_adj, 4),
+        "recent_form_adjustment": round(recent_adj, 4),
+        "head_to_head_adjustment": round(h2h_adj, 4),
+        "toss_adjustment": round(toss_adj, 4),
+        "context_cap_applied": context_cap_applied,
+        "final_strength_diff": round(final_diff, 4),
+    }
+    return ta, tb, debug
 
 
 def _build_scenario(
@@ -714,6 +772,8 @@ def _build_scenario(
         is_night_fixture=is_night_fixture,
     )
 
+    rf_a, rf_b, rf_notes = team_recent_form_scores(team_a, team_b, rows, xi_a, xi_b)
+
     f = ScenarioFactors(
         head_to_head=(h2h[0], h2h[1]),
         venue=(venue_s[0], venue_s[1]),
@@ -724,8 +784,9 @@ def _build_scenario(
         conditions=(ca, cb),
         toss_role=(tr_a, tr_b),
         chase_environment=(ce_a, ce_b),
+        recent_form=(rf_a, rf_b),
     )
-    ta, tb = _weighted_totals(f)
+    ta, tb, dbg_factors = _weighted_totals(f)
     p_a = _prob_from_totals(ta, tb)
     meta_notes = (
         list(h2h[2])
@@ -734,9 +795,10 @@ def _build_scenario(
         + list(matchup[2])
         + list(tr_notes)
         + list(ce_notes)
+        + rf_notes
     )
     meta_notes.append(pitch_note)
-    return p_a, f, meta_notes
+    return p_a, f, meta_notes, dbg_factors
 
 
 def _factor_display_name(key: str) -> str:
@@ -750,6 +812,7 @@ def _factor_display_name(key: str) -> str:
         "conditions": "conditions & weather",
         "toss_role": "toss scenario (chase/defend history)",
         "chase_environment": "venue chase bias & dew/night",
+        "recent_form": "recent team form",
     }.get(key, key)
 
 
@@ -774,6 +837,7 @@ def _explanation_for_scenario(
         "conditions": config.WIN_ENG_WEIGHT_CONDITIONS,
         "toss_role": config.WIN_ENG_WEIGHT_TOSS_ROLE,
         "chase_environment": config.WIN_ENG_WEIGHT_CHASE_ENVIRONMENT,
+        "recent_form": config.WIN_ENG_WEIGHT_RECENT_FORM,
     }
     edges: list[tuple[float, str, str]] = []
     for key, w in weights.items():
@@ -817,6 +881,14 @@ class WinEngineResult:
     team_a_win_pct_neutral_toss: float = 50.0
     team_a_win_pct_selected_toss: float = 50.0
     chase_defend_context: dict[str, Any] = field(default_factory=dict)
+    team_strength_adjustment: float = 0.0
+    venue_pitch_adjustment: float = 0.0
+    weather_adjustment: float = 0.0
+    recent_form_adjustment: float = 0.0
+    head_to_head_adjustment: float = 0.0
+    toss_adjustment: float = 0.0
+    context_cap_applied: bool = False
+    final_strength_diff: float = 0.0
 
     def to_dict(self) -> dict[str, Any]:
         avg_a = (
@@ -843,6 +915,14 @@ class WinEngineResult:
                 "a_bats_first": self.scenario_a_factors,
                 "b_bats_first": self.scenario_b_factors,
             },
+            "team_strength_adjustment": self.team_strength_adjustment,
+            "venue_pitch_adjustment": self.venue_pitch_adjustment,
+            "weather_adjustment": self.weather_adjustment,
+            "recent_form_adjustment": self.recent_form_adjustment,
+            "head_to_head_adjustment": self.head_to_head_adjustment,
+            "toss_adjustment": self.toss_adjustment,
+            "context_cap_applied": self.context_cap_applied,
+            "final_strength_diff": self.final_strength_diff,
         }
 
 
@@ -857,6 +937,7 @@ def _factors_to_dict(f: ScenarioFactors) -> dict[str, Any]:
         "conditions_weather": {"team_a": f.conditions[0], "team_b": f.conditions[1]},
         "toss_scenario_chase_defend": {"team_a": f.toss_role[0], "team_b": f.toss_role[1]},
         "chase_environment": {"team_a": f.chase_environment[0], "team_b": f.chase_environment[1]},
+        "recent_form": {"team_a": f.recent_form[0], "team_b": f.recent_form[1]},
     }
 
 
@@ -906,7 +987,7 @@ def compute_win_probability(
     matchup = matchup_scores(order_a, order_b, xi_a, xi_b, conditions)
     pitch_note = conditions_scores_for_scenario(a_bats_first=True, conditions=conditions)[2]
 
-    p_if_a, f_a, _n1 = _build_scenario(
+    p_if_a, f_a, _n1, dbg_a = _build_scenario(
         team_a=team_a_name,
         team_b=team_b_name,
         xi_a=xi_a,
@@ -926,7 +1007,7 @@ def compute_win_probability(
         venue_chase_n=v_n,
         is_night_fixture=is_night_fixture,
     )
-    p_if_b, f_b, _n2 = _build_scenario(
+    p_if_b, f_b, _n2, dbg_b = _build_scenario(
         team_a=team_a_name,
         team_b=team_b_name,
         xi_a=xi_a,
@@ -950,10 +1031,13 @@ def compute_win_probability(
     neutral = (p_if_a + p_if_b) / 2.0
     if a_bats_first_selected is True:
         selected = p_if_a
+        active_dbg = dbg_a
     elif a_bats_first_selected is False:
         selected = p_if_b
+        active_dbg = dbg_b
     else:
         selected = neutral
+        active_dbg = dbg_a
 
     if neutral > 52.5:
         fav = team_a_name
@@ -1005,4 +1089,12 @@ def compute_win_probability(
         team_a_win_pct_neutral_toss=neutral,
         team_a_win_pct_selected_toss=selected,
         chase_defend_context=cd_ctx,
+        team_strength_adjustment=active_dbg.get("team_strength_adjustment", 0.0),
+        venue_pitch_adjustment=active_dbg.get("venue_pitch_adjustment", 0.0),
+        weather_adjustment=active_dbg.get("weather_adjustment", 0.0),
+        recent_form_adjustment=active_dbg.get("recent_form_adjustment", 0.0),
+        head_to_head_adjustment=active_dbg.get("head_to_head_adjustment", 0.0),
+        toss_adjustment=active_dbg.get("toss_adjustment", 0.0),
+        context_cap_applied=active_dbg.get("context_cap_applied", False),
+        final_strength_diff=active_dbg.get("final_strength_diff", 0.0),
     )

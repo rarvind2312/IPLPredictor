@@ -9,6 +9,10 @@ from player_role_classifier import (
     pace_only_override_from_conditions,
     role_counts,
 )
+from ipl_squad import (
+    BATTER,
+    WK_BATTER,
+)
 from rules_spec import CANONICAL_RULE_SPEC
 
 
@@ -76,6 +80,7 @@ def validate_xi(
     pool = squad if squad is not None else xi
     pool_counts = role_counts(list(pool))
     pool_overseas = sum(1 for p in pool if bool(getattr(p, "is_overseas", False)))
+    counts = role_counts(xi)
 
     xi_size = int(spec.get("xi_size") or 11)
     if len(xi) != xi_size:
@@ -105,7 +110,22 @@ def validate_xi(
     if bool(spec.get("designated_keeper_required", True)) and not designated_keeper:
         violations.append(RuleViolation("designated_keeper", "No designated keeper", actual=None, expected=True))
 
-    counts = role_counts(xi)
+    if counts["wk_role_players"] > 2:
+        violations.append(RuleViolation("wk_max", f"Max 2 wicketkeepers allowed, found {counts['wk_role_players']}", actual=counts["wk_role_players"], expected=2))
+
+    n_top = sum(1 for p in xi if classify_player(p).is_top_order_batter)
+    pool_top = sum(1 for p in pool if classify_player(p).is_top_order_batter)
+    # Target top-order players: min 4, or fewer if squad doesn't have enough.
+    target_top = min(4, pool_top)
+    if n_top < target_top:
+        violations.append(RuleViolation("top_order_min", f"Top-order players {n_top} < {target_top}", actual=n_top, expected=target_top))
+
+    n_t1 = sum(1 for p in xi if str(getattr(p, 'history_debug', {}).get('marquee_tier') or "").lower() == 'tier_1')
+    pool_t1 = sum(1 for p in pool if str(getattr(p, 'history_debug', {}).get('marquee_tier') or "").lower() == 'tier_1')
+    target_t1 = min(3, pool_t1)
+    if n_t1 < target_t1:
+        violations.append(RuleViolation("tier1_min", f"Tier 1 players {n_t1} < {target_t1}", actual=n_t1, expected=target_t1))
+
     bowl_min_spec = int(spec.get("bowling_options_min") or int(getattr(config, "MIN_BOWLING_OPTIONS", 5)))
     bowl_min = min(bowl_min_spec, int(pool_counts.get("bowling_options") or 0))
     if int(pool_counts.get("bowling_options") or 0) < bowl_min_spec:
@@ -169,6 +189,21 @@ def validate_xi(
             )
         )
 
+    # 5. TEAM STRUCTURE CONSTRAINT (LIGHT CONSTRAINT)
+    bat_min_spec = 5
+    n_proper_batters = sum(1 for p in xi if getattr(p, 'role_bucket', '') in (BATTER, WK_BATTER))
+    if n_proper_batters < bat_min_spec:
+        warnings.append(
+            RuleWarning("batters_min", f"Proper batters {n_proper_batters} < {bat_min_spec}", actual=n_proper_batters, expected=bat_min_spec)
+        )
+
+    n_t12 = sum(1 for p in xi if str(getattr(p, 'history_debug', {}).get('marquee_tier') or "").lower() in ('tier_1', 'tier_2'))
+    pool_t12 = sum(1 for p in pool if str(getattr(p, 'history_debug', {}).get('marquee_tier') or "").lower() in ('tier_1', 'tier_2'))
+    if n_t12 < min(5, pool_t12):
+        warnings.append(
+            RuleWarning("tier12_pref", f"Prefer at least 5 T1+T2 players, found {n_t12}")
+        )
+
     wk_cap = int(semi.get("wk_role_players_max") or 2)
     if counts["wk_role_players"] > wk_cap:
         non_marquee_extra = []
@@ -221,4 +256,3 @@ def validate_xi(
         summary=summary,
         pace_only_override_used=bool(pace_only),
     )
-

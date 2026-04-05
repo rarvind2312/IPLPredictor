@@ -43,6 +43,21 @@ from venues import VenueProfile, venue_conditions_summary
 logger = logging.getLogger(__name__)
 _perf_logger = logging.getLogger("ipl_predictor.perf")
 
+STRICT_SCORE_SELECTION = False  # Temporary flag for debug
+
+
+def _tier_val(p: SquadPlayer) -> int:
+    """Numerical tier priority: Tier 1 (3) > Tier 2 (2) > Tier 3 (1) > Other (0)."""
+    hd = getattr(p, "history_debug", None) or {}
+    tier = str(hd.get("marquee_tier") or "").lower()
+    if tier == "tier_1":
+        return 3
+    if tier == "tier_2":
+        return 2
+    if tier == "tier_3":
+        return 1
+    return 0
+
 
 def _load_curated_marquee_overrides() -> dict[str, dict[str, Any]]:
     return player_registry.registry_marquee_lookup_map()
@@ -2398,88 +2413,62 @@ def _marquee_role_identity_boost(p: SquadPlayer, base_role_identity: float) -> f
 
 def _suggested_marquee_score(p: SquadPlayer) -> tuple[float, dict[str, float]]:
     """
-    Transparent marquee suggestion score (not final authority; curated overrides win).
-    Signals: squad truth, continuity, IPL history, role identity, elite sanity, transfer-core boost.
+    Updated impact_score formula:
+    (recent_xi_rate * 0.4) + (ipl_performance * 0.3) + (international_status * 0.2) + (role_importance * 0.1)
     """
     hd = getattr(p, "history_debug", None) or {}
     sm = hd.get("selection_model_debug") if isinstance(hd.get("selection_model_debug"), dict) else {}
     bb = sm.get("base_score_breakdown") if isinstance(sm.get("base_score_breakdown"), dict) else {}
-    continuity = float(bb.get("last_match_continuity_score") or 0.0)
-    ipl_hist = float(bb.get("ipl_history_and_role_score") or 0.0)
-    role_identity = float(bb.get("stable_role_identity_score") or 0.0)
-    # Role identity fallback when derive role stability is missing/zero.
-    derive_snap = hd.get("derive_player_profile") if isinstance(hd.get("derive_player_profile"), dict) else {}
-    role_identity = max(role_identity, float(derive_snap.get("role_stability_score") or 0.0))
-    rb = str(hd.get("role_band") or "")
-    if role_identity <= 1e-6 and rb:
-        if rb in ("opener", "top_order", "wicketkeeper_batter", "death_bowler", "powerplay_bowler", "middle_overs_spinner"):
-            role_identity = 0.42
-        elif rb in ("middle_order", "finisher", "bowling_allrounder"):
-            role_identity = 0.34
-        else:
-            role_identity = 0.26
-    role_identity_pre_boost = max(0.0, min(1.0, role_identity))
-    role_identity = _marquee_role_identity_boost(p, role_identity_pre_boost)
-    elite = float(_elite_player_signal(p))
-    squad_truth = 1.0  # scored players are already in the active current squad.
-    transfer_core = 0.0
-    if bool(hd.get("valid_current_squad_new_to_franchise")):
-        transfer_core = max(
-            float(hd.get("probable_first_choice_prior") or 0.0),
-            float(hd.get("global_selection_frequency") or 0.0),
-        )
+    
+    recent_xi_rate = float(hd.get("recent5_xi_rate") or 0.0)
+    ipl_performance = float(bb.get("ipl_history_and_role_score") or 0.0)
+    
+    # International status proxy: overseas or high global selection frequency
+    gsf = float(hd.get("global_selection_frequency") or 0.0)
+    is_international = 1.0 if (p.is_overseas or gsf >= 0.5) else 0.0
+    
+    # Role importance based on strategic value
+    band = _role_band(p)
+    role_importance = {
+        "opener": 1.0,
+        "death_bowler": 1.0,
+        "top_order": 0.9,
+        "powerplay_bowler": 0.85,
+        "wicketkeeper_batter": 0.8,
+        "middle_overs_spinner": 0.75,
+        "batting_allrounder": 0.7,
+        "balanced_allrounder": 0.65,
+        "bowling_allrounder": 0.65
+    }.get(band, 0.5)
+
     components = {
-        "squad_truth": squad_truth,
-        "last_xi_continuity": continuity,
-        "strong_ipl_history": ipl_hist,
-        "stable_role_identity_pre_boost": role_identity_pre_boost,
-        "stable_role_identity_role_boost": max(0.0, role_identity - role_identity_pre_boost),
-        "stable_role_identity": role_identity,
-        "elite_player_sanity": elite,
-        "transfer_core_boost": transfer_core,
+        "recent_xi_rate_comp": recent_xi_rate,
+        "ipl_performance_comp": ipl_performance,
+        "international_status_comp": is_international,
+        "role_importance_comp": role_importance,
     }
-    score = (
-        0.08 * components["squad_truth"]
-        + 0.24 * components["last_xi_continuity"]
-        + 0.27 * components["strong_ipl_history"]
-        + 0.19 * components["stable_role_identity"]
-        + 0.16 * components["elite_player_sanity"]
-        + 0.06 * components["transfer_core_boost"]
+    
+    impact_score = (
+        0.4 * recent_xi_rate +
+        0.3 * ipl_performance +
+        0.2 * is_international +
+        0.1 * role_importance
     )
-    return max(0.0, min(1.0, score)), components
+    return max(0.0, min(1.0, impact_score)), components
 
 
 def _suggested_marquee_tier(
-    score: float,
+    impact_score: float,
     components: Optional[dict[str, float]] = None,
     *,
     rank_pct: float = 0.0,
 ) -> str:
-    comps = components or {}
-    role_identity = float(comps.get("stable_role_identity") or 0.0)
-    transfer_core = float(comps.get("transfer_core_boost") or 0.0)
-    elite = float(comps.get("elite_player_sanity") or 0.0)
-    ipl_hist = float(comps.get("strong_ipl_history") or 0.0)
-
-    # Tier 1 must remain rare.
-    if score >= 0.78 and rank_pct >= 0.92:
+    """Assign tiers based on impact_score: >= 0.75 (T1), 0.45 to <0.75 (T2), else T3."""
+    if impact_score >= 0.75:
         return "tier_1"
-    # Promote obvious transferred core players when evidence is strong.
-    if score >= 0.72 and transfer_core >= 0.82 and elite >= 0.72 and rank_pct >= 0.85:
-        return "tier_1"
-
-    # Tier 2 should represent strong first-XI core.
-    if score >= 0.58 and rank_pct >= 0.58:
+    if impact_score >= 0.45:
         return "tier_2"
-    if score >= 0.54 and rank_pct >= 0.52 and role_identity >= 0.62 and (elite >= 0.58 or ipl_hist >= 0.60):
-        return "tier_2"
-    if score >= 0.54 and rank_pct >= 0.52 and transfer_core >= 0.72 and (elite >= 0.58 or ipl_hist >= 0.55):
-        return "tier_2"
-
-    # Tier 3 for useful role players; avoid catch-all crowding.
-    if score >= 0.49 and rank_pct >= 0.40:
-        return "tier_3"
-    return ""
+    return "tier_3"
 
 
 def _annotate_marquee_tags(players: list[SquadPlayer]) -> None:
@@ -2521,15 +2510,14 @@ def _annotate_marquee_tags(players: list[SquadPlayer]) -> None:
         elif sug_tier:
             tier = sug_tier
             source = "suggested"
-            reason = (
-                "suggested_from_squad_truth_continuity_ipl_role_elite_transfer "
-                f"(score={round(sug_score, 3)})"
-            )
+            reason = f"Calculated impact_score={round(sug_score, 3)} meets {sug_tier} thresholds."
         else:
-            tier = ""
+            tier = "tier_3"
             source = "suggested"
-            reason = f"below_marquee_threshold(score={round(sug_score, 3)})"
+            reason = f"impact_score={round(sug_score, 3)} falls in Tier 3 range."
+
         hd["marquee_tier"] = tier
+        hd["tier_selection_reason"] = reason
         hd["marquee_source"] = source
         hd["marquee_reason"] = reason
         hd["marquee_suggested_score"] = round(sug_score, 5)
@@ -2570,18 +2558,18 @@ def _base_xi_rank_value(p: SquadPlayer) -> float:
     ipl = float(bb.get("ipl_history_and_role_score") or 0.0)
     role_id = _role_identity_score(p)
     elite = _elite_player_signal(p)
-    base = 0.30 * cont + 0.24 * rf + 0.21 * ipl + 0.13 * role_id + 0.12 * elite
+    base = 0.38 * cont + 0.22 * rf + 0.18 * ipl + 0.11 * role_id + 0.11 * elite
 
     tier = str(hd.get("marquee_tier") or "").strip().lower()
     tier_bonus = 0.0
     if tier == "tier_1":
-        tier_bonus = 0.28
+        tier_bonus = 0.45
     elif tier == "tier_2":
-        tier_bonus = 0.18
+        tier_bonus = 0.25
     elif tier == "tier_3":
-        tier_bonus = 0.07
+        tier_bonus = -0.15
     else:
-        tier_bonus = -0.02
+        tier_bonus = -0.25
 
     return float(max(0.0, min(1.0, base + _core_anchor_strength(p) + tier_bonus)))
 
@@ -2593,12 +2581,12 @@ def _tier_priority_order_bonus(p: SquadPlayer) -> float:
     """
     tier = str(((getattr(p, "history_debug", None) or {}).get("marquee_tier") or "")).strip().lower()
     if tier == "tier_1":
-        return 0.14
+        return 0.50
     if tier == "tier_2":
-        return 0.08
+        return 0.25
     if tier == "tier_3":
-        return 0.025
-    return -0.03
+        return -0.15
+    return -0.25
 
 
 def _allowed_condition_swaps(conditions: dict[str, Any], scenario_branch: Optional[str]) -> int:
@@ -2632,13 +2620,10 @@ def _try_build_xi(
     rs: Callable[[SquadPlayer], float] = rank_fn or (
         lambda x: _scenario_xi_rank_value(x, scenario_branch)
     )
-    xi: list[SquadPlayer] = []
-    used = set()
-    for p in sorted_pool:
-        if len(xi) >= 11:
-            break
-        xi.append(p)
-        used.add(p.name)
+
+    # FORCE FINAL XI SELECTION TO USE selection_score: Initial XI must be the top 11 players
+    xi = list(sorted_pool[:11])
+
     ok, _ = _validate_xi(xi, conditions=conditions)
     if ok:
         return xi
@@ -2648,8 +2633,8 @@ def _try_build_xi(
     order = sorted(
         full_pool,
         key=lambda x: (
-            rs(x) - pen.get(x.name, 0.0),
-            _xi_selection_tier(x),
+            _tier_val(x),
+            rs(x),
             x.composite,
         ),
         reverse=True,
@@ -2684,6 +2669,21 @@ def _try_build_xi(
             nxt = next((q.name for q in order if q.name not in names and not q.is_overseas), None)
             if nxt:
                 names.append(nxt)
+                add_p = pool_by_name[nxt]
+                if _tier_val(add_p) < _tier_val(drop):
+                    r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    r5_d = float(getattr(drop, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "overseas_constraint_required"
+                    if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                    add_p.history_debug["tier_override_reason"] = reason
+                # 4. ADD HARD GUARD CONDITION: log when a higher score is excluded
+                if rs(add_p) < rs(drop):
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Replaced higher-scored {drop.name} ({rs(drop):.4f}) with "
+                        f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Overseas constraint."
+                    )
             continue
         if any("wicketkeeper" in e for e in errs):
             wks = [q for q in order if q.is_wicketkeeper and q.name not in names]
@@ -2694,7 +2694,22 @@ def _try_build_xi(
             if not non_essential:
                 break
             drop = min(non_essential, key=lambda x: rs(x))
-            names = [n for n in names if n != drop.name] + [add]
+            names = [n for n in names if n != drop.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "wicketkeeper_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop.name} ({rs(drop):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Wicketkeeper constraint."
+                )
             continue
         if any("Bowling options" in e for e in errs):
             bow_candidates = [q for q in order if _is_bowling_option(q) and q.name not in names]
@@ -2713,7 +2728,22 @@ def _try_build_xi(
             if not non_bowlers:
                 break
             drop = min(non_bowlers, key=lambda x: rs(x))
-            names = [n for n in names if n != drop.name] + [add]
+            names = [n for n in names if n != drop.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop.name} ({rs(drop):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Bowling options constraint."
+                )
             continue
         if any("Pace options" in e for e in errs):
             adds = [q for q in order if _is_pace_bowler_candidate(q) and q.name not in names]
@@ -2725,8 +2755,23 @@ def _try_build_xi(
                 drops = [p for p in cur if not _is_pace_bowler_candidate(p) and not _must_lock_in_base_xi(p)]
             if not drops:
                 break
-            drop = min(drops, key=lambda x: rs(x)).name
-            names = [n for n in names if n != drop] + [add]
+            drop_p = min(drops, key=lambda x: rs(x))
+            names = [n for n in names if n != drop_p.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop_p):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop_p):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Pace options constraint."
+                )
             continue
         if any("Spinner options" in e for e in errs):
             adds = [q for q in order if _is_spinner_candidate(q) and q.name not in names]
@@ -2738,28 +2783,88 @@ def _try_build_xi(
                 drops = [p for p in cur if not _is_spinner_candidate(p) and not _must_lock_in_base_xi(p)]
             if not drops:
                 break
-            drop = min(drops, key=lambda x: rs(x)).name
-            names = [n for n in names if n != drop] + [add]
+            drop_p = min(drops, key=lambda x: rs(x))
+            names = [n for n in names if n != drop_p.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop_p):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop_p):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Spinner options constraint."
+                )
             continue
         if any("Proper batters" in e for e in errs):
             adds = [q for q in order if _is_proper_batter(q) and q.name not in names]
             drops = [p for p in cur if p.role_bucket == BOWLER and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                names = [n for n in names if n != min(drops, key=lambda x: rs(x)).name] + [adds[0].name]
+                drop_p = min(drops, key=lambda x: rs(x))
+                add_p = adds[0]
+                names = [n for n in names if n != drop_p.name] + [add_p.name]
+                if _tier_val(add_p) < _tier_val(drop_p):
+                    r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                    if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                    add_p.history_debug["tier_override_reason"] = reason
+                if rs(add_p) < rs(drop_p):
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                        f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Proper batters constraint."
+                    )
                 continue
             break
         if any("All-rounders" in e and "<" in e for e in errs):
             adds = [q for q in order if q.role_bucket == ALL_ROUNDER and q.name not in names]
             drops = [p for p in cur if p.role_bucket == BOWLER and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                names = [n for n in names if n != min(drops, key=lambda x: rs(x)).name] + [adds[0].name]
+                drop_p = min(drops, key=lambda x: rs(x))
+                add_p = adds[0]
+                names = [n for n in names if n != drop_p.name] + [add_p.name]
+                if _tier_val(add_p) < _tier_val(drop_p):
+                    r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                    if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                    add_p.history_debug["tier_override_reason"] = reason
+                if rs(add_p) < rs(drop_p):
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                        f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy All-rounders min constraint."
+                    )
                 continue
             break
         if any("All-rounders" in e and ">" in e for e in errs):
             drops = [p for p in cur if p.role_bucket == ALL_ROUNDER and not _must_lock_in_base_xi(p)]
             adds = [q for q in order if q.role_bucket != ALL_ROUNDER and q.name not in names]
             if adds and drops:
-                names = [n for n in names if n != min(drops, key=lambda x: rs(x)).name] + [adds[0].name]
+                drop_p = min(drops, key=lambda x: rs(x))
+                add_p = adds[0]
+                names = [n for n in names if n != drop_p.name] + [add_p.name]
+                if _tier_val(add_p) < _tier_val(drop_p):
+                    r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                    if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                    add_p.history_debug["tier_override_reason"] = reason
+                if rs(add_p) < rs(drop_p):
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                        f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy All-rounders max constraint."
+                    )
                 continue
             break
         if any("Powerplay options" in e for e in errs):
@@ -2783,8 +2888,23 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if not _is_bowling_option(p)]
             if not drop_candidates:
                 drop_candidates = [p for p in cur]
-            drop = min(drop_candidates, key=lambda x: rs(x)).name
-            names = [n for n in names if n != drop] + [add]
+            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            names = [n for n in names if n != drop_p.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop_p):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop_p):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Powerplay options constraint."
+                )
             continue
         if any("Death options" in e for e in errs):
             pool = []
@@ -2807,16 +2927,46 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if not _is_bowling_option(p)]
             if not drop_candidates:
                 drop_candidates = [p for p in cur]
-            drop = min(drop_candidates, key=lambda x: rs(x)).name
-            names = [n for n in names if n != drop] + [add]
+            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            names = [n for n in names if n != drop_p.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop_p):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop_p):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Death options constraint."
+                )
             continue
         if any("Batting depth" in e for e in errs):
             bowlers_in = [p for p in cur if p.role_bucket == BOWLER]
             nb_outside = [q for q in order if q.role_bucket != BOWLER and q.name not in names]
             if bowlers_in and nb_outside:
-                drop = min(bowlers_in, key=lambda x: rs(x)).name
-                add = max(nb_outside, key=lambda x: rs(x)).name
-                names = [n for n in names if n != drop] + [add]
+                drop_p = min(bowlers_in, key=lambda x: rs(x))
+                add_p = max(nb_outside, key=lambda x: rs(x))
+                names = [n for n in names if n != drop_p.name]
+                names.append(add_p.name)
+                if _tier_val(add_p) < _tier_val(drop_p):
+                    r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                    reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                    if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                    add_p.history_debug["tier_override_reason"] = reason
+                if rs(add_p) < rs(drop_p):
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                        f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Batting depth constraint."
+                    )
+                continue
             continue
         if any("Opener candidates" in e for e in errs):
             pool = [q for q in order if q.role_bucket in (BATTER, WK_BATTER) and q.name not in names]
@@ -2828,8 +2978,23 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if p.role_bucket not in (BATTER, WK_BATTER)]
             if not drop_candidates:
                 break
-            drop = min(drop_candidates, key=lambda x: rs(x)).name
-            names = [n for n in names if n != drop] + [add]
+            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            names = [n for n in names if n != drop_p.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop_p):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop_p):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Opener candidates constraint."
+                )
             continue
         if any("Finisher:" in e for e in errs):
             pool = [q for q in order if q.role_bucket == ALL_ROUNDER and q.name not in names]
@@ -2847,8 +3012,51 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if p.role_bucket not in (ALL_ROUNDER, BOWLER)]
             if not drop_candidates:
                 break
-            drop = min(drop_candidates, key=lambda x: rs(x)).name
-            names = [n for n in names if n != drop] + [add]
+            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            names = [n for n in names if n != drop_p.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop_p):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop_p):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Finisher constraint."
+                )
+            continue
+        if any("Top-order players" in e for e in errs):
+            adds = [q for q in order if classify_player(q).is_top_order_batter and q.name not in names]
+            if not adds:
+                break
+            add = adds[0].name
+            drop_candidates = [p for p in cur if not classify_player(p).is_top_order_batter and not _must_lock_in_base_xi(p)]
+            if not drop_candidates:
+                drop_candidates = [p for p in cur if not classify_player(p).is_top_order_batter]
+            if not drop_candidates:
+                break
+            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            names = [n for n in names if n != drop_p.name]
+            names.append(add)
+            add_p = pool_by_name[add]
+            if _tier_val(add_p) < _tier_val(drop_p):
+                r5_a = float(getattr(add_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                r5_d = float(getattr(drop_p, "history_debug", {}).get("recent5_xi_rate") or 0.0)
+                reason = "recent_xi_evidence_much_stronger" if r5_a > r5_d + 0.4 else "role_constraint_required"
+                if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                add_p.history_debug["tier_override_reason"] = reason
+            if rs(add_p) < rs(drop_p):
+                if not isinstance(getattr(add_p, "history_debug", None), dict):
+                    add_p.history_debug = {}
+                add_p.history_debug["lower_score_override_reason"] = (
+                    f"Replaced higher-scored {drop_p.name} ({rs(drop_p):.4f}) with "
+                    f"lower-scored {add_p.name} ({rs(add_p):.4f}) to satisfy Top-order players constraint."
+                )
             continue
         if any("XI size" in e for e in errs):
             if len(names) < 11:
@@ -3028,16 +3236,107 @@ def _precompute_xi_build_penalties(players: list[SquadPlayer]) -> dict[str, floa
     rate = float(getattr(config, "STAGE3_SIMILAR_BOWLER_PENALTY", 0.026))
     by_type: dict[str, list[SquadPlayer]] = defaultdict(list)
     for p in players:
-        if p.role_bucket != BOWLER:
-            continue
-        bt = (p.bowling_type or "pace_like").lower().strip() or "pace_like"
-        by_type[bt].append(p)
+        if p.role_bucket == BOWLER:
+            bt = (p.bowling_type or "pace_like").lower().strip() or "pace_like"
+            by_type[bt].append(p)
+
     pen: dict[str, float] = {}
     for group in by_type.values():
         group.sort(key=lambda x: x.selection_score, reverse=True)
         for i, p in enumerate(group):
             if i >= 4:
                 pen[p.name] = pen.get(p.name, 0.0) + rate * float(i - 3)
+
+    # 3. TIER 3 PENALTY (Push Tier 3 players to the end of selection unless needed)
+    for p in players:
+        hd = getattr(p, "history_debug", None) or {}
+        tier = str(hd.get("marquee_tier") or "").strip().lower()
+        if tier == "tier_3":
+            pen[p.name] = pen.get(p.name, 0.0) + 0.35
+
+    # 4. REFINED WICKETKEEPER SUPPRESSION
+    wks_sorted = sorted([p for p in players if p.role_bucket == ipl_squad.WK_BATTER], key=lambda x: x.selection_score, reverse=True)
+    for i, p in enumerate(wks_sorted):
+        if i == 0: continue
+        # Logic for 2nd+ keepers
+        hd = getattr(p, "history_debug", None) or {}
+        tier = str(hd.get("marquee_tier") or "").strip().lower()
+        band = _normalize_batting_band_label(hd.get("batting_band"))
+        recent_xi = float(hd.get("recent5_xi_rate") or 0.0)
+        
+        eligible_as_batter = (tier in ("tier_1", "tier_2")) and (band != "lower_order")
+        if i >= 2: # 3rd keeper is always heavily penalized
+            pen[p.name] = pen.get(p.name, 0.0) + 0.25
+        elif not eligible_as_batter and recent_xi < 0.65:
+            pen[p.name] = pen.get(p.name, 0.0) + 0.08
+
+    # 5. REDUCE ALLROUNDER INFLUENCE (Penalty for >3)
+    ar_players = [p for p in players if classify_player(p).is_structural_all_rounder]
+    ar_players.sort(key=lambda x: x.selection_score, reverse=True)
+    ar_rate = 0.065
+    for i, p in enumerate(ar_players):
+        if i >= 3:
+            pen[p.name] = pen.get(p.name, 0.0) + ar_rate * float(i - 2)
+
+    # 4. WICKETKEEPER PENALTY REFINEMENT (Soft penalty for additional keepers, neutralized by strength)
+    for p in players:
+        hd = getattr(p, "history_debug", None) or {}
+        if p.role_bucket == ipl_squad.WK_BATTER:
+            is_mi = "mumbai_indians" in p.canonical_team_key.lower()
+            tier = str(hd.get("marquee_tier") or "").lower()
+            lmd = (hd.get("selection_model_debug") or {}).get("last_match_detail") or {}
+            was_in_last_match_xi = bool(lmd.get("was_in_last_match_xi"))
+            prof = hd.get("derive_player_profile") if isinstance(hd.get("derive_player_profile"), dict) else {}
+            opener_likelihood = float(prof.get("opener_likelihood") or 0.0)
+            batting_position_ema = float(prof.get("batting_position_ema") or 0.0)
+            bat_skill = float(getattr(p, "bat_skill", 0.0))
+            role_band = str(hd.get("role_band") or "")
+
+            base_wk_penalty = 0.06  # Default soft penalty for any WK_BATTER
+            neutralized_reasons = []
+
+            # Neutralize if marquee tier is high
+            if tier in ("tier_1", "tier_2"):
+                neutralized_reasons.append("marquee_tier")
+
+            # Neutralize if recent XI continuity is strong
+            if was_in_last_match_xi:
+                neutralized_reasons.append("recent_xi_continuity")
+
+            # Neutralize if batting role is top_order or strong batter
+            is_strong_batter = (bat_skill >= 0.65) or \
+                               (opener_likelihood >= 0.55 and batting_position_ema <= 4.0) or \
+                               (role_band in ("opener", "top_order"))
+            if is_strong_batter:
+                neutralized_reasons.append("strong_batting_value")
+
+            # Franchise template supports 2 keepers (MI specific)
+            if is_mi:
+                is_mi_template_strong_batter = (bat_skill >= 0.58) or \
+                                               (opener_likelihood >= 0.45 and batting_position_ema <= 5.0)
+                if is_mi_template_strong_batter:
+                    neutralized_reasons.append("mi_template_strong_batter")
+
+            # Apply penalty or neutralize it
+            if not neutralized_reasons:
+                pen[p.name] = pen.get(p.name, 0.0) + base_wk_penalty
+                hd["wk_penalty_applied"] = round(base_wk_penalty, 5)
+                hd["wk_penalty_neutralized_reason"] = "None (default penalty applied)"
+                hd["wk_final_penalty"] = round(base_wk_penalty, 5)
+            else:
+                # Penalty is neutralized or significantly reduced
+                residual_penalty = 0.01
+                pen[p.name] = pen.get(p.name, 0.0) + residual_penalty
+                hd["wk_penalty_applied"] = round(base_wk_penalty, 5)
+                hd["wk_penalty_neutralized_reason"] = "; ".join(neutralized_reasons)
+                hd["wk_final_penalty"] = round(residual_penalty, 5)
+
+        elif p.role_bucket == ipl_squad.BOWLER:
+            r5 = float(hd.get("recent5_xi_rate") or 0.0)
+            if r5 >= 0.6:
+                # Small bonus to prefer recent specialists over generic AR balance
+                pen[p.name] = pen.get(p.name, 0.0) - 0.02
+
     return pen
 
 
@@ -3139,11 +3438,11 @@ def _default_slot_signal_for_batting_band(raw_band: str) -> float:
     mapping = {
         "opener": 1.8,
         "top_order": 3.5,
-        "middle_order": 6.0,
-        "lower_middle": 8.0,
-        "lower_order": 9.6,
+        "middle_order": 5.5,
+        "lower_middle": 7.5,
+        "lower_order": 9.5,
     }
-    return float(mapping.get(band, 7.5))
+    return float(mapping.get(band, 5.5))
 
 
 def _batting_slot_range_from_band(raw_band: str) -> tuple[int, int, str]:
@@ -3153,12 +3452,12 @@ def _batting_slot_range_from_band(raw_band: str) -> tuple[int, int, str]:
     if band == "top_order":
         return (1, 4, "top_order")
     if band == "middle_order":
-        return (5, 7, "middle_order")
+        return (4, 7, "middle_order")
     if band == "lower_middle":
-        return (8, 8, "lower_middle")
+        return (7, 8, "lower_middle")
     if band == "lower_order":
-        return (9, 11, "lower_order")
-    return (5, 7, "middle_order")
+        return (8, 11, "lower_order")
+    return (4, 7, "middle_order")
 
 
 def _normalize_batting_slot_list(raw: Any) -> list[int]:
@@ -3305,6 +3604,13 @@ def _batting_slot_eligibility_profile(p: SquadPlayer) -> dict[str, Any]:
             "wicketkeeper_batter",
         )
 
+    # Restricted Narine-style promotion: restrict all-rounder opening without strong recent proof
+    if opener_eligible and (p.role_bucket == ALL_ROUNDER or "kolkata" in p.canonical_team_key.lower()):
+        # Restrict if no strong recent top-order history (recent_ema > 2.5 or using role/band defaults)
+        if not (primary_source == "current_team_recent_history" and slot_signal <= 2.5):
+            opener_eligible = False
+            hd["opener_promotion_restricted"] = "Floating all-rounder opening restricted without strong recent scorecard evidence."
+
     if slot_signal <= 0.0:
         slot_signal = _slot_anchor_from_list(preferred_slots, _default_slot_signal_for_batting_band(band))
         if not primary_source:
@@ -3381,18 +3687,18 @@ def select_playing_xi(
     scenario_branch: Optional[str] = None,
     conditions: Optional[dict[str, Any]] = None,
 ) -> list[SquadPlayer]:
-    pen = _precompute_xi_build_penalties(scored)
-    rs = lambda x: _scenario_xi_rank_value(x, scenario_branch) + _tier_priority_order_bonus(x)
+    # FORCE FINAL XI SELECTION TO USE selection_score
+    rs = lambda x: x.selection_score
     order = sorted(
         scored,
         key=lambda x: (
-            rs(x) - pen.get(x.name, 0.0),
-            _xi_selection_tier(x),
+            _tier_val(x),
+            rs(x),
             x.composite,
         ),
         reverse=True,
     )
-    xi = _try_build_xi(order, scored, pen, scenario_branch=scenario_branch, conditions=conditions)
+    xi = _try_build_xi(order, scored, penalties=None, scenario_branch=scenario_branch, conditions=conditions, rank_fn=rs)
     if xi:
         sk = _squad_player_key_set(scored)
         for p in xi:
@@ -3428,10 +3734,12 @@ def select_base_playing_xi(
 ) -> list[SquadPlayer]:
     """Stage 1: strongest cricket-logical base XI from squad + linked history."""
     pen = _precompute_xi_build_penalties(scored)
+    # 1. FORCE FINAL XI SELECTION TO USE selection_score
     order = sorted(
         scored,
         key=lambda x: (
-            _base_xi_rank_value(x) - pen.get(x.name, 0.0),
+            _tier_val(x),
+            x.selection_score - pen.get(x.name, 0.0),
             _xi_selection_tier(x),
             x.composite,
         ),
@@ -3442,7 +3750,7 @@ def select_base_playing_xi(
         scored,
         pen,
         scenario_branch=None,
-        rank_fn=_base_xi_rank_value,
+        rank_fn=lambda x: x.selection_score,
         conditions=conditions,
     )
     if not xi:
@@ -3452,7 +3760,7 @@ def select_base_playing_xi(
 
     # Hard core lock: include obvious starters (strike bowlers, top-order anchors, captain/WK-significant).
     locked = [p for p in scored if _must_lock_in_base_xi(p)]
-    locked.sort(key=lambda p: _base_xi_rank_value(p), reverse=True)
+    locked.sort(key=lambda p: p.selection_score, reverse=True)
     for lk in locked:
         if lk.name in xi_names:
             continue
@@ -3468,7 +3776,7 @@ def select_base_playing_xi(
         ]
         if not drop_candidates:
             drop_candidates = [x for x in xi if not _must_lock_in_base_xi(x)]
-        drop_candidates.sort(key=lambda p: (_elite_player_signal(p), _base_xi_rank_value(p)))
+        drop_candidates.sort(key=lambda p: (_elite_player_signal(p), p.selection_score))
         for d in drop_candidates:
             trial_names = [n for n in xi_names if n != d.name] + [lk.name]
             xi_trial = [by_name[n] for n in trial_names if n in by_name]
@@ -3491,7 +3799,7 @@ def select_base_playing_xi(
     if _continuity_in_xi(xi) < continuity_floor:
         need = continuity_floor - _continuity_in_xi(xi)
         candidates = [p for p in last_xi_all if p.name not in xi_names]
-        candidates.sort(key=lambda p: _base_xi_rank_value(p), reverse=True)
+        candidates.sort(key=lambda p: p.selection_score, reverse=True)
         for add in candidates:
             if need <= 0:
                 break
@@ -3501,7 +3809,7 @@ def select_base_playing_xi(
                 if not bool(((getattr(x, "history_debug", None) or {}).get("selection_model_debug") or {}).get("last_match_detail", {}).get("was_in_last_match_xi"))
                 and not _must_lock_in_base_xi(x)
             ]
-            drop_candidates.sort(key=lambda p: (_elite_player_signal(p), _base_xi_rank_value(p)))
+            drop_candidates.sort(key=lambda p: (_elite_player_signal(p), p.selection_score))
             for d in drop_candidates:
                 trial_names = [n for n in xi_names if n != d.name] + [add.name]
                 xi_trial = [by_name[n] for n in trial_names if n in by_name]
@@ -3514,7 +3822,7 @@ def select_base_playing_xi(
 
     # Elite sanity guardrail: obvious core players should not drop without strong reason.
     elite_pool = [p for p in scored if _elite_player_signal(p) >= 0.48]
-    elite_pool.sort(key=lambda p: _base_xi_rank_value(p), reverse=True)
+    elite_pool.sort(key=lambda p: p.selection_score, reverse=True)
     for ep in elite_pool:
         if ep.name in xi_names:
             continue
@@ -3536,7 +3844,7 @@ def select_base_playing_xi(
                     str((getattr(x, "history_debug", None) or {}).get("role_band") or "")
                 )
             ] or drop_candidates
-        drop_candidates.sort(key=lambda p: _base_xi_rank_value(p))
+        drop_candidates.sort(key=lambda p: p.selection_score)
         swapped = False
         for d in drop_candidates:
             trial_names = [n for n in xi_names if n != d.name] + [ep.name]
@@ -3557,7 +3865,7 @@ def select_base_playing_xi(
         if str((getattr(p, "history_debug", None) or {}).get("role_band") or "") in ("opener", "top_order")
         and _elite_player_signal(p) >= 0.44
     ]
-    top_core_all.sort(key=lambda p: _base_xi_rank_value(p), reverse=True)
+    top_core_all.sort(key=lambda p: p.selection_score, reverse=True)
     top_cur = [
         p
         for p in xi
@@ -3576,7 +3884,7 @@ def select_base_playing_xi(
             not in ("opener", "top_order", "wicketkeeper_batter")
             and _elite_player_signal(p) < 0.5
         ]
-        drop_candidates.sort(key=lambda p: _base_xi_rank_value(p))
+        drop_candidates.sort(key=lambda p: p.selection_score)
         for d in drop_candidates:
             trial_names = [n for n in xi_names if n != d.name] + [tc.name]
             xi_trial = [by_name[n] for n in trial_names if n in by_name]
@@ -3595,7 +3903,7 @@ def select_base_playing_xi(
         if not isinstance(getattr(p, "history_debug", None), dict):
             p.history_debug = {}
         hd = p.history_debug
-        hd["base_xi_score"] = round(_base_xi_rank_value(p), 5)
+        hd["base_xi_score"] = round(p.selection_score, 5)
         hd["base_xi_selected"] = p.name in xi_names
         hd["core_anchor_strength"] = round(_core_anchor_strength(p), 5)
         hd["elite_core_signal"] = round(_elite_player_signal(p), 5)
@@ -3684,7 +3992,7 @@ def _apply_condition_adjustments_from_base(
     adds_sorted = sorted(
         adds,
         key=lambda p: (
-            (_scenario_xi_rank_value(p, scenario_branch) - _base_xi_rank_value(p)) + _scenario_bonus(p)[0]
+            (_scenario_xi_rank_value(p, scenario_branch) - p.selection_score) + _scenario_bonus(p)[0]
         ),
         reverse=True,
     )
@@ -3698,12 +4006,12 @@ def _apply_condition_adjustments_from_base(
         if not _is_condition_bowling_candidate(add):
             continue
         add_bonus, add_driver = _scenario_bonus(add)
-        add_gain = (_scenario_xi_rank_value(add, scenario_branch) - _base_xi_rank_value(add)) + add_bonus
+        add_gain = (_scenario_xi_rank_value(add, scenario_branch) - add.selection_score) + add_bonus
         drop_pool = [d for d in drops if d.name in final_names and d.name not in used_adds]
         drop_pool = sorted(
             drop_pool,
             key=lambda p: (
-                _scenario_xi_rank_value(p, scenario_branch) - _base_xi_rank_value(p),
+                _scenario_xi_rank_value(p, scenario_branch) - p.selection_score,
                 _core_anchor_strength(p),
                 _scenario_xi_rank_value(p, scenario_branch),
             ),
@@ -3917,9 +4225,40 @@ def _annotate_xi_selection_stage(
         if not isinstance(getattr(p, "history_debug", None), dict):
             p.history_debug = {}
         hd = p.history_debug
+        smd = hd.get("selection_model_debug") if isinstance(hd.get("selection_model_debug"), dict) else {}
+        lmd = smd.get("last_match_detail") if isinstance(smd.get("last_match_detail"), dict) else {}
         factors = _xi_selection_factor_labels(p)
         hd["xi_stage"] = "selected_xi" if p.name in final_names else "bench"
         hd["xi_selection_factors"] = factors
+
+        xi_list = [p for p in scored if p.name in final_names]
+        t3_selected = [p for p in xi_list if _tier_val(p) == 1]
+        unused_higher = [sq.name for sq in scored if sq.name not in final_names and _tier_val(sq) >= 2]
+        t3_count = len(t3_selected)
+        hd["tier3_selected_count"] = t3_count
+        hd["tier_pool_stage"] = "selected" if p.name in final_names else "bench"
+
+        if p.name in final_names and _tier_val(p) == 1 and unused_higher:
+            hd["tier3_selected_over_higher_tier_reason"] = hd.get("tier_override_reason") or "Required for role balance or hard constraint satisfaction."
+            hd["unused_higher_tier_players"] = unused_higher
+            hd["tier_preference_violation"] = "tier_preference_violation"
+
+        
+        tier = str(hd.get("marquee_tier") or "").lower()
+        if p.name in final_names:
+            if tier == "tier_3":
+                # Document Tier 3 fallback
+                has_better_tier = any(str(getattr(sq, "history_debug", {}).get("marquee_tier", "")).lower() in ("tier_1", "tier_2") 
+                                      for sq in scored if sq.name not in final_names)
+                if has_better_tier:
+                    hd["tier3_fallback_reason"] = "Selected Tier 3 player due to specific role/constraint/balance requirement over higher tier bench options."
+        else:
+            # Check if a Tier 3 was picked over this higher tier player
+            has_tier3_selected = any(str(getattr(sq, "history_debug", {}).get("marquee_tier", "")).lower() == "tier_3" 
+                                     for sq in scored if sq.name in final_names)
+            if tier in ("tier_1", "tier_2") and has_tier3_selected:
+                hd["selected_over_higher_tier_reason"] = "Higher tier player excluded to prioritize team balance or hard constraint satisfaction (e.g. 4 overseas or keeper)."
+
         notes: list[str] = []
         if p.name in base_names:
             notes.append("won the Stage-1 base XI rank")
@@ -3935,6 +4274,13 @@ def _annotate_xi_selection_stage(
                 + (summary or "Selected after recent XI history, registry metadata, balance, and constraints were blended.")
             ).strip()
             hd["xi_selection_stage_reason"] = stage_reason[:720]
+
+            # DEBUG REQUIREMENTS
+            hd["xi_selection_reason"] = (
+                f"Included because of {', '.join(factors)}. "
+                f"Rank score: {round(getattr(p, 'selection_score', 0.0), 4)}."
+            )
+
             selected_log.append(
                 {
                     "name": p.name,
@@ -3955,6 +4301,16 @@ def _annotate_xi_selection_stage(
                 + summary
             ).strip()
             hd["xi_selection_stage_reason"] = stage_reason[:720]
+
+            # Added tracking for dropped recent XI players
+            if bool(lmd.get("was_in_last_match_xi")):
+                hd["recent_xi_drop_note"] = "Dropped due to team balance or condition-based tactical swap despite being in previous XI."
+
+            # DEBUG REQUIREMENTS
+            hd["xi_exclusion_reason"] = (
+                f"Excluded. Factors: {', '.join(miss_notes) if miss_notes else 'Lower selection rank'}. "
+                f"Rank score: {round(getattr(p, 'selection_score', 0.0), 4)}."
+            )
     logger.info("xi_selection_stage: team=%s selected=%s", team_name, selected_log)
 
 
@@ -3967,6 +4323,31 @@ def _run_xi_selection_stage(
     overseas_min_required: int,
     overseas_target: int,
 ) -> dict[str, Any]:
+    # 3. ADD DEBUG CHECK (MANDATORY)
+    scored_sorted = sorted(scored, key=lambda x: x.selection_score, reverse=True)
+    top_15_names = [p.name for p in scored_sorted[:15]]
+    logger.info("XI selection stage: Team=%s top 15 by score=%s", team_name, top_15_names)
+
+    # 5. TEMPORARY STRICT MODE
+    if STRICT_SCORE_SELECTION:
+        xi_final = scored_sorted[:11]
+        logger.info("STRICT_SCORE_SELECTION ENABLED: team=%s final XI=%s", team_name, [p.name for p in xi_final])
+
+        # Initialize debug dict for all scored players
+        for p in scored:
+            if not isinstance(getattr(p, "history_debug", None), dict): p.history_debug = {}
+            p.history_debug["xi_stage"] = "selected_xi" if p.name in {x.name for x in xi_final} else "bench"
+
+        return {
+            "base_xi": xi_final,
+            "final_xi": xi_final,
+            "condition_changes": [],
+            "overseas_debug": {"overseas_count_selected": sum(1 for p in xi_final if p.is_overseas)},
+            "repair_applied": False,
+            "repair_swaps": [],
+            "repair_enforce": {"hard_constraints_satisfied": True},
+        }
+
     xi_base = select_base_playing_xi(scored, conditions=conditions)
     xi_after_conditions, condition_changes = _apply_condition_adjustments_from_base(
         scored,
@@ -4002,6 +4383,8 @@ def _run_xi_selection_stage(
         condition_changes=surviving_condition_changes,
         repair_swaps=repair_swaps,
     )
+    logger.info("XI Selection Stage End: Team=%s, Final XI=%s", team_name, [p.name for p in xi_final])
+
     return {
         "base_xi": xi_base,
         "final_xi": xi_final,
@@ -4033,7 +4416,9 @@ def _repair_xi_if_needed(
     applied_rule_labels: list[str] = []
 
     def _q_rank(p: SquadPlayer) -> float:
-        return 0.7 * float(getattr(p, "selection_score", 0.0) or 0.0) + 0.3 * _base_xi_rank_value(p)
+        # Prioritize higher tiers in quality ranking for repair swaps
+        tv = _tier_val(p)
+        return float(p.selection_score) + 2.0 * tv
 
     def _drop_safe(p: SquadPlayer, *, allow_locked: bool = False) -> bool:
         if (not allow_locked) and _must_lock_in_base_xi(p):
@@ -4157,6 +4542,10 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"designated_keeper:{drop_p.name}->{add_p.name}")
+                # 4. ADD HARD GUARD CONDITION: log when a higher score is excluded
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for {add_p.name} ({add_p.selection_score:.4f}) to fix designated_keeper."
                 replaced = True
         if not replaced and "bowling_options_min" in hard_codes:
             adds = [p for p in add_pool if classify_player(p).is_bowling_option]
@@ -4171,6 +4560,13 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"bowling_options:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix bowling_options_min."
+                    )
                 replaced = True
         if not replaced and "pacers_min" in hard_codes:
             adds = [p for p in add_pool if classify_player(p).is_pacer]
@@ -4183,6 +4579,13 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"pacers_min:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix pacers_min."
+                    )
                 replaced = True
         if not replaced and "spinners_min" in hard_codes:
             adds = [p for p in add_pool if classify_player(p).is_spinner]
@@ -4197,6 +4600,13 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"spinners_min:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix spinners_min."
+                    )
                 replaced = True
         if not replaced and ("overseas_min" in hard_codes or "overseas_max" in hard_codes):
             if "overseas_min" in hard_codes:
@@ -4228,6 +4638,13 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"overseas_bounds:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix overseas_bounds."
+                    )
                 replaced = True
         if not replaced and "wk_role_players_cap" in semi_codes:
             designated_keeper_name = rules_xi.assign_designated_keeper_name(repaired)
@@ -4244,6 +4661,13 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"semi_wk_cap:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix wk_role_players_cap."
+                    )
                 replaced = True
         if not replaced and "structural_all_rounders_cap" in semi_codes:
             drops = [p for p in repaired if classify_player(p).is_structural_all_rounder and _drop_safe(p)]
@@ -4252,6 +4676,30 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"semi_ar_cap:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix structural_all_rounders_cap."
+                    )
+                replaced = True
+        if not replaced and "top_order_min" in hard_codes:
+            adds = [p for p in add_pool if classify_player(p).is_top_order_batter]
+            drops = [p for p in repaired if (not classify_player(p).is_top_order_batter) and _drop_safe(p)]
+            if not drops:
+                drops = [p for p in repaired if (not classify_player(p).is_top_order_batter) and _drop_safe(p, allow_locked=True)]
+            pick = _best_swap(repaired, adds, drops, hard_codes, semi_codes, min_gain=min_gain, max_quality_drop=max_quality_drop)
+            if pick is not None:
+                repaired, add_p, drop_p, final_errs, final_semi_errs = pick
+                applied_rule_labels.append(f"top_order_min:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix top_order_min."
+                    )
                 replaced = True
         if not replaced:
             break
@@ -4353,7 +4801,7 @@ def _optimize_overseas_preference(
         return cur_xi, dbg
 
     def _rank(p: SquadPlayer) -> float:
-        return 0.72 * float(getattr(p, "selection_score", 0.0) or 0.0) + 0.28 * _base_xi_rank_value(p)
+        return float(p.selection_score)
 
     # Continuity-aware threshold: if recent usage suggests 3 overseas, require larger gain.
     last_xi_overseas = sum(
@@ -4376,7 +4824,7 @@ def _optimize_overseas_preference(
     def _candidate_lists(xi_now: list[SquadPlayer]) -> tuple[list[SquadPlayer], list[SquadPlayer]]:
         xi_names_now = {p.name for p in xi_now}
         excluded_os = [p for p in scored if p.name not in xi_names_now and p.is_overseas]
-        excluded_os.sort(key=lambda p: (_rank(p), _base_xi_rank_value(p)), reverse=True)
+        excluded_os.sort(key=lambda p: (_rank(p), p.selection_score), reverse=True)
         designated_keeper_name = _assign_designated_keeper(xi_now)
         drops = [
             p
@@ -4403,7 +4851,7 @@ def _optimize_overseas_preference(
                 )
                 and (not (designated_keeper_name and p.name == designated_keeper_name))
             ]
-        drops.sort(key=lambda p: (_rank(p), _base_xi_rank_value(p)))
+        drops.sort(key=lambda p: (_rank(p), p.selection_score))
         return excluded_os, drops
 
     def _try_one_swap(
@@ -4419,7 +4867,7 @@ def _optimize_overseas_preference(
                 {
                     "name": p.name,
                     "selection_score": round(float(getattr(p, "selection_score", 0.0) or 0.0), 5),
-                    "base_rank": round(_base_xi_rank_value(p), 5),
+                    "base_rank": round(p.selection_score, 5),
                     "effective_rank": round(_rank(p), 5),
                 }
                 for p in excluded_os[:5]
@@ -5200,6 +5648,13 @@ def build_batting_order(
         p.history_debug["batting_order_diagnostic_source"] = diag
         ranked = _batting_order_signal_source_ranked(p)
         p.history_debug["batting_order_signal_source_ranked"] = ranked
+
+        # DEBUG REQUIREMENTS
+        p.history_debug["batting_slot_reason"] = (
+            f"Assigned position {i + 1} based on {diag} and band {profile.get('band')}. "
+            f"Signal value: {round(slot_signal, 2)}."
+        )
+
         slot_reason = (
             f"Stage 2 batting slot {i + 1}: "
             f"{primary_source or 'fallback'} set eligibility band {profile.get('band')} "

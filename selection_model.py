@@ -320,6 +320,27 @@ def _tactical_modifiers(
     bowl_s = float(getattr(p, "bowl_skill", 0.5) or 0.5)
 
     pitch_spin = 0.055 * (spin_f - 0.5) * bowl_s if spin_like else 0.0
+
+    # 1. TOP ORDER PRIORITY (Boost)
+    top_order_boost = 0.0
+    pm = hd.get("player_metadata") or {}
+    role_desc = str(pm.get("role_description") or "").lower()
+    if "top_order" in role_desc or "opener" in role_desc:
+        top_order_boost = 0.045
+
+    # 2. CORE PLAYER LOCK (Strong bias)
+    core_bias = 0.0
+    is_cap = bool(pm.get("is_captain")) or bool(hd.get("captain_selected_for_team"))
+    is_wk = bool(pm.get("is_wicketkeeper")) or bool(hd.get("wicketkeeper_selected_for_team"))
+    tier1 = str(hd.get("marquee_tier") or "").lower() == "tier_1"
+    if is_cap or is_wk or tier1:
+        core_bias = 0.08
+
+    # 7. IMPACT WEIGHT adjustment (recent XI presence)
+    recent_xi_boost = 0.0
+    lmd = (hd.get("selection_model_debug") or {}).get("last_match_detail") or {}
+    if bool(lmd.get("was_in_last_match_xi")):
+        recent_xi_boost = 0.0
     pitch_pace = 0.052 * (pace_b - 0.5) * bowl_s * (0.65 + 0.35 * swing_p) if seam_like else 0.0
     pitch_bat = 0.04 * (bf - 0.5) * bat_s if getattr(p, "role_bucket", "") in (BATTER, WK_BATTER, ALL_ROUNDER) else 0.0
 
@@ -351,6 +372,9 @@ def _tactical_modifiers(
         "toss_scenario": round(toss_adj, 5),
         "opponent_matchup": round(opp, 5),
         "squad_need_manual": round(squad, 5),
+        "top_order_priority": round(top_order_boost, 5),
+        "core_player_lock": round(core_bias, 5),
+        "recent_xi_presence": round(recent_xi_boost, 5),
     }
     raw = sum(parts.values())
     cap = float(getattr(config, "SELECTION_TACTICAL_ADJUST_CAP", 0.11))

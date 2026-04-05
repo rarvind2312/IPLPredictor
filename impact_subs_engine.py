@@ -543,6 +543,13 @@ def rank_impact_sub_candidates(
         else:
             scen_reason += " [toss open — blended bat-first and bowl-first impact weights]."
 
+        tier = str(hd.get("marquee_tier") or "").lower()
+        tier_impact = 0.0
+        if tier == "tier_1": tier_impact = 0.45
+        elif tier == "tier_2": tier_impact = 0.22
+        elif tier == "tier_3": tier_impact = -0.25
+        else: tier_impact = -0.35
+
         total = (
             hist_line
             + bowl_line
@@ -556,6 +563,7 @@ def rank_impact_sub_candidates(
             + pp_reserve
             + death_reserve
             + fin_res
+            + tier_impact
             - ar_penalty
         )
 

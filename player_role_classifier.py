@@ -386,6 +386,7 @@ def role_counts(players: list[Any]) -> dict[str, int]:
         "top_order_batters": 0,
         "finishers": 0,
         "specialist_bowlers": 0,
+        "proper_batters": 0,
     }
     for p in players:
         f = classify_player(p)
@@ -398,4 +399,5 @@ def role_counts(players: list[Any]) -> dict[str, int]:
         out["top_order_batters"] += int(f.is_top_order_batter)
         out["finishers"] += int(f.is_finisher)
         out["specialist_bowlers"] += int(f.is_specialist_bowler)
+        out["proper_batters"] += int(getattr(p, 'role_bucket', '') in (BATTER, WK_BATTER))
     return out
