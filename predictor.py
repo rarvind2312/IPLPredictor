@@ -17,6 +17,7 @@ import audit_profile
 import canonical_keys
 import config
 import db
+import full_pipeline_audit as fp_audit
 import history_rules
 import history_sync
 import history_xi
@@ -2621,6 +2622,9 @@ def _try_build_xi(
         lambda x: _scenario_xi_rank_value(x, scenario_branch)
     )
 
+    def _xi_marquee_rs_key(p: SquadPlayer) -> tuple[int, float]:
+        return (_tier_val(p), rs(p))
+
     # FORCE FINAL XI SELECTION TO USE selection_score: Initial XI must be the top 11 players
     xi = list(sorted_pool[:11])
 
@@ -2664,7 +2668,7 @@ def _try_build_xi(
             os_players = [p for p in cur if p.is_overseas]
             if not os_players:
                 break
-            drop = min(os_players, key=lambda x: rs(x))
+            drop = min(os_players, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop.name]
             nxt = next((q.name for q in order if q.name not in names and not q.is_overseas), None)
             if nxt:
@@ -2693,7 +2697,7 @@ def _try_build_xi(
             non_essential = [p for p in cur if not p.is_wicketkeeper]
             if not non_essential:
                 break
-            drop = min(non_essential, key=lambda x: rs(x))
+            drop = min(non_essential, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -2727,7 +2731,7 @@ def _try_build_xi(
                 non_bowlers = [p for p in cur if not _is_bowling_option(p)]
             if not non_bowlers:
                 break
-            drop = min(non_bowlers, key=lambda x: rs(x))
+            drop = min(non_bowlers, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -2755,7 +2759,7 @@ def _try_build_xi(
                 drops = [p for p in cur if not _is_pace_bowler_candidate(p) and not _must_lock_in_base_xi(p)]
             if not drops:
                 break
-            drop_p = min(drops, key=lambda x: rs(x))
+            drop_p = min(drops, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop_p.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -2783,7 +2787,7 @@ def _try_build_xi(
                 drops = [p for p in cur if not _is_spinner_candidate(p) and not _must_lock_in_base_xi(p)]
             if not drops:
                 break
-            drop_p = min(drops, key=lambda x: rs(x))
+            drop_p = min(drops, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop_p.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -2805,7 +2809,7 @@ def _try_build_xi(
             adds = [q for q in order if _is_proper_batter(q) and q.name not in names]
             drops = [p for p in cur if p.role_bucket == BOWLER and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                drop_p = min(drops, key=lambda x: rs(x))
+                drop_p = min(drops, key=_xi_marquee_rs_key)
                 add_p = adds[0]
                 names = [n for n in names if n != drop_p.name] + [add_p.name]
                 if _tier_val(add_p) < _tier_val(drop_p):
@@ -2827,7 +2831,7 @@ def _try_build_xi(
             adds = [q for q in order if q.role_bucket == ALL_ROUNDER and q.name not in names]
             drops = [p for p in cur if p.role_bucket == BOWLER and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                drop_p = min(drops, key=lambda x: rs(x))
+                drop_p = min(drops, key=_xi_marquee_rs_key)
                 add_p = adds[0]
                 names = [n for n in names if n != drop_p.name] + [add_p.name]
                 if _tier_val(add_p) < _tier_val(drop_p):
@@ -2849,7 +2853,7 @@ def _try_build_xi(
             drops = [p for p in cur if p.role_bucket == ALL_ROUNDER and not _must_lock_in_base_xi(p)]
             adds = [q for q in order if q.role_bucket != ALL_ROUNDER and q.name not in names]
             if adds and drops:
-                drop_p = min(drops, key=lambda x: rs(x))
+                drop_p = min(drops, key=_xi_marquee_rs_key)
                 add_p = adds[0]
                 names = [n for n in names if n != drop_p.name] + [add_p.name]
                 if _tier_val(add_p) < _tier_val(drop_p):
@@ -2888,7 +2892,7 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if not _is_bowling_option(p)]
             if not drop_candidates:
                 drop_candidates = [p for p in cur]
-            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            drop_p = min(drop_candidates, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop_p.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -2927,7 +2931,7 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if not _is_bowling_option(p)]
             if not drop_candidates:
                 drop_candidates = [p for p in cur]
-            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            drop_p = min(drop_candidates, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop_p.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -2949,8 +2953,8 @@ def _try_build_xi(
             bowlers_in = [p for p in cur if p.role_bucket == BOWLER]
             nb_outside = [q for q in order if q.role_bucket != BOWLER and q.name not in names]
             if bowlers_in and nb_outside:
-                drop_p = min(bowlers_in, key=lambda x: rs(x))
-                add_p = max(nb_outside, key=lambda x: rs(x))
+                drop_p = min(bowlers_in, key=_xi_marquee_rs_key)
+                add_p = max(nb_outside, key=_xi_marquee_rs_key)
                 names = [n for n in names if n != drop_p.name]
                 names.append(add_p.name)
                 if _tier_val(add_p) < _tier_val(drop_p):
@@ -2978,7 +2982,7 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if p.role_bucket not in (BATTER, WK_BATTER)]
             if not drop_candidates:
                 break
-            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            drop_p = min(drop_candidates, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop_p.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -3012,7 +3016,7 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if p.role_bucket not in (ALL_ROUNDER, BOWLER)]
             if not drop_candidates:
                 break
-            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            drop_p = min(drop_candidates, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop_p.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -3040,7 +3044,7 @@ def _try_build_xi(
                 drop_candidates = [p for p in cur if not classify_player(p).is_top_order_batter]
             if not drop_candidates:
                 break
-            drop_p = min(drop_candidates, key=lambda x: rs(x))
+            drop_p = min(drop_candidates, key=_xi_marquee_rs_key)
             names = [n for n in names if n != drop_p.name]
             names.append(add)
             add_p = pool_by_name[add]
@@ -3083,7 +3087,15 @@ def _build_xi_with_hard_role_quotas(
     """Deterministic hard-constraint XI constructor when greedy repair cannot find a valid XI."""
     if len(full_pool) < 11:
         return None
-    order = sorted(full_pool, key=lambda p: (rank_fn(p), _xi_selection_tier(p), p.composite), reverse=True)
+
+    def _hq_marquee_rank_key(p: SquadPlayer) -> tuple[int, float]:
+        return (_tier_val(p), rank_fn(p))
+
+    order = sorted(
+        full_pool,
+        key=lambda p: (_tier_val(p), rank_fn(p), _xi_selection_tier(p), p.composite),
+        reverse=True,
+    )
     by_name = {p.name: p for p in order}
     chosen: list[str] = []
 
@@ -3126,69 +3138,69 @@ def _build_xi_with_hard_role_quotas(
             adds = [p for p in add_pool if _is_powerplay_bowler_candidate(p)]
             drops = [p for p in xi if not _is_powerplay_bowler_candidate(p) and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("Pace options" in e for e in errs):
             adds = [p for p in add_pool if _is_pace_bowler_candidate(p)]
             drops = [p for p in xi if (not _is_pace_bowler_candidate(p)) and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("Spinner options" in e for e in errs):
             adds = [p for p in add_pool if _is_spinner_candidate(p)]
             drops = [p for p in xi if (not _is_spinner_candidate(p)) and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("Death options" in e for e in errs):
             adds = [p for p in add_pool if _is_death_bowler_candidate(p)]
             drops = [p for p in xi if not _is_death_bowler_candidate(p) and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("Proper batters" in e for e in errs):
             adds = [p for p in add_pool if _is_proper_batter(p)]
             drops = [p for p in xi if p.role_bucket == BOWLER and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("All-rounders" in e and "<" in e for e in errs):
             adds = [p for p in add_pool if p.role_bucket == ALL_ROUNDER]
             drops = [p for p in xi if p.role_bucket == BOWLER and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("All-rounders" in e and ">" in e for e in errs):
             adds = [p for p in add_pool if p.role_bucket != ALL_ROUNDER]
             drops = [p for p in xi if p.role_bucket == ALL_ROUNDER and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("Opener candidates" in e for e in errs):
             adds = [p for p in add_pool if _is_opener_candidate_strict(p)]
             drops = [p for p in xi if not _is_opener_candidate_strict(p) and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("Wicketkeepers" in e for e in errs):
             drops = [p for p in xi if p.is_wicketkeeper and _elite_player_signal(p) < 0.5]
             if drops:
-                xi.remove(min(drops, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced and any("No wicketkeeper" in e for e in errs):
             adds = [p for p in add_pool if p.is_wicketkeeper]
             drops = [p for p in xi if (not p.is_wicketkeeper) and not _must_lock_in_base_xi(p)]
             if adds and drops:
-                xi.remove(min(drops, key=rank_fn))
-                xi.append(max(adds, key=rank_fn))
+                xi.remove(min(drops, key=_hq_marquee_rank_key))
+                xi.append(max(adds, key=_hq_marquee_rank_key))
                 replaced = True
         if not replaced:
             break
@@ -3715,7 +3727,7 @@ def select_playing_xi(
         )
         return xi
     if len(scored) < 11:
-        fb = sorted(scored, key=lambda x: (rs(x), x.composite), reverse=True)
+        fb = sorted(scored, key=lambda x: (_tier_val(x), rs(x), x.composite), reverse=True)
         logger.warning("select_playing_xi: short squad len=%d", len(scored))
         return fb
     fb = _build_xi_with_hard_role_quotas(scored, rs, conditions=conditions)
@@ -3977,6 +3989,7 @@ def _apply_condition_adjustments_from_base(
     max_swaps = max(0, _allowed_condition_swaps(conditions, scenario_branch))
     if max_swaps == 0:
         return base_xi, []
+
     base_names = {p.name for p in base_xi}
     adds = [p for p in scored if p.name not in base_names]
     drops = [p for p in base_xi]
@@ -3984,6 +3997,34 @@ def _apply_condition_adjustments_from_base(
         return base_xi, []
 
     by_name = {p.name: p for p in scored}
+
+    def _avoidable_marquee_tier_downgrade(
+        add: SquadPlayer,
+        drop: SquadPlayer,
+        final_names_list: list[str],
+    ) -> bool:
+        """
+        True if this swap would lower marquee tier vs drop but some bench
+        condition-bowling candidate at same-or-better tier can replace drop instead.
+        """
+        if _tier_val(add) >= _tier_val(drop):
+            return False
+        need = _tier_val(drop)
+        if need <= 0:
+            return False
+        for alt in scored:
+            if alt.name in final_names_list or alt.name == add.name:
+                continue
+            if not _is_condition_bowling_candidate(alt):
+                continue
+            if _tier_val(alt) < need:
+                continue
+            trial = [n for n in final_names_list if n != drop.name] + [alt.name]
+            xi_trial = [by_name[n] for n in trial if n in by_name]
+            ok_trial, _ = _validate_xi(xi_trial)
+            if ok_trial and len(xi_trial) == 11:
+                return True
+        return False
     final_names = list(base_names)
     extreme_ctx = max_swaps >= int(getattr(config, "XI_MAX_CONDITION_SWAPS_EXTREME", 2))
     min_gain = float(getattr(config, "XI_CONDITION_SWAP_MIN_GAIN", 0.012))
@@ -4035,6 +4076,8 @@ def _apply_condition_adjustments_from_base(
             )
             if scen_gain < min_gain:
                 continue
+            if _avoidable_marquee_tier_downgrade(add, d, final_names):
+                continue
             trial = [n for n in final_names if n != d.name] + [add.name]
             xi_trial = [by_name[n] for n in trial if n in by_name]
             ok, _errs = _validate_xi(xi_trial)
@@ -4079,6 +4122,8 @@ def _apply_condition_adjustments_from_base(
                     - _scenario_xi_rank_value(drop, scenario_branch)
                 )
                 if raw_gain < min_forced_gain:
+                    continue
+                if _avoidable_marquee_tier_downgrade(add, drop, final_names):
                     continue
                 trial = [n for n in final_names if n != drop.name] + [add.name]
                 xi_trial = [by_name[n] for n in trial if n in by_name]
@@ -4338,6 +4383,18 @@ def _run_xi_selection_stage(
             if not isinstance(getattr(p, "history_debug", None), dict): p.history_debug = {}
             p.history_debug["xi_stage"] = "selected_xi" if p.name in {x.name for x in xi_final} else "bench"
 
+        if fp_audit.enabled():
+            fp_audit.emit_xi_stages(
+                team_name,
+                scored,
+                xi_final,
+                xi_final,
+                [],
+                xi_final,
+                {},
+                xi_final,
+                [],
+            )
         return {
             "base_xi": xi_final,
             "final_xi": xi_final,
@@ -4384,6 +4441,19 @@ def _run_xi_selection_stage(
         repair_swaps=repair_swaps,
     )
     logger.info("XI Selection Stage End: Team=%s, Final XI=%s", team_name, [p.name for p in xi_final])
+
+    if fp_audit.enabled():
+        fp_audit.emit_xi_stages(
+            team_name,
+            scored,
+            xi_base,
+            xi_after_conditions,
+            condition_changes,
+            xi_after_overseas,
+            overseas_debug,
+            xi_final,
+            repair_swaps,
+        )
 
     return {
         "base_xi": xi_base,
@@ -5084,7 +5154,19 @@ def build_batting_order(
     Output names are strictly a permutation of the selected XI (no non-squad / historical-only names).
     """
     if len(xi) != 11:
-        return _batting_order_for_short_xi(xi, team_name=team_name, out_warnings=out_warnings)
+        order_short = _batting_order_for_short_xi(xi, team_name=team_name, out_warnings=out_warnings)
+        if fp_audit.enabled():
+            fp_audit.emit(
+                team_name,
+                "batting_order_final",
+                {
+                    "order": list(order_short),
+                    "final_illegal_slots_count": 0,
+                    "illegal_discrete_allowed_slots": [],
+                    "note": "short_xi_batting_path",
+                },
+            )
+        return order_short
 
     eligibility_by_name: dict[str, dict[str, Any]] = {}
     for p in xi:
@@ -5103,6 +5185,13 @@ def build_batting_order(
         p.history_debug["opener_eligible"] = bool(profile.get("opener_eligible"))
         p.history_debug["finisher_eligible"] = bool(profile.get("finisher_eligible"))
         p.history_debug["floater_eligible"] = bool(profile.get("floater_eligible"))
+
+    if fp_audit.enabled():
+        fp_audit.emit(
+            team_name,
+            "batting_order_inputs",
+            {"players": fp_audit.batting_order_inputs_rows(xi, eligibility_by_name)},
+        )
 
     band_rank = {
         "opener": 0,
@@ -5135,6 +5224,16 @@ def build_batting_order(
         slots = [int(v) for v in profile.get("allowed_slots") or [] if 1 <= int(v) <= 11]
         return slots
 
+    def _discrete_slot_legal(nm: str, pos: int) -> bool:
+        prof = eligibility_by_name.get(nm) or {}
+        al = [int(v) for v in (prof.get("allowed_slots") or []) if 1 <= int(v) <= 11]
+        if not al:
+            return True
+        return pos in al
+
+    def _order_discrete_legal(order: list[str]) -> bool:
+        return all(_discrete_slot_legal(order[i], i + 1) for i in range(len(order)))
+
     def _preferred_slot_anchor(p: SquadPlayer) -> float:
         prefs = _preferred_slots(p)
         return _slot_anchor_from_list(prefs, _placement_slot_signal(p))
@@ -5163,6 +5262,18 @@ def build_batting_order(
     def _allowed_max_slot(p: SquadPlayer) -> int:
         profile = eligibility_by_name.get(p.name) or {}
         return int(profile.get("allowed_max") or 7)
+
+    def _fp_bo_assignment_source(nm: str, slot: int) -> str:
+        prof = eligibility_by_name.get(nm) or {}
+        al = [int(v) for v in (prof.get("allowed_slots") or []) if 1 <= int(v) <= 11]
+        prs = [int(v) for v in (prof.get("preferred_slots") or []) if 1 <= int(v) <= 11]
+        if prs and slot in prs:
+            return "preferred"
+        if al and slot in al:
+            return "allowed"
+        if not al:
+            return "fallback"
+        return "forced_fill"
 
     def _eligible_for_top_four(p: SquadPlayer) -> bool:
         profile = eligibility_by_name.get(p.name) or {}
@@ -5220,6 +5331,25 @@ def build_batting_order(
     strict_names, bo_w = _batting_order_strict_names_for_xi(xi, candidate)
     if out_warnings is not None:
         out_warnings.extend(bo_w)
+
+    bo_initial_snapshot = list(strict_names)
+    if fp_audit.enabled():
+        fp_audit.emit(
+            team_name,
+            "batting_order_initial_order",
+            {
+                "order": bo_initial_snapshot,
+                "heuristic_pre_strict_candidate": list(candidate),
+                "per_slot": [
+                    {
+                        "name": nm,
+                        "slot": i + 1,
+                        "assignment_source": _fp_bo_assignment_source(nm, i + 1),
+                    }
+                    for i, nm in enumerate(bo_initial_snapshot)
+                ],
+            },
+        )
 
     # Elite top-order sanity: keep clear top-order cores inside top 4 when selected.
     by_name = {p.name: p for p in xi}
@@ -5378,6 +5508,37 @@ def build_batting_order(
             grp_bat.append(p)
     strict_names = [p.name for p in (grp_bat + grp_balanced_ar + grp_bowling_ar + grp_special)]
 
+    bo_after_fallback_snapshot = list(strict_names)
+    if fp_audit.enabled():
+        ch_fb = [
+            {
+                "slot": i + 1,
+                "old_player": bo_initial_snapshot[i],
+                "new_player": bo_after_fallback_snapshot[i],
+                "reason": "position_change_after_elite_top_core_band_guardrail_adjacent_swap_role_regroup",
+            }
+            for i in range(11)
+            if bo_initial_snapshot[i] != bo_after_fallback_snapshot[i]
+        ]
+        fp_audit.emit(
+            team_name,
+            "batting_order_post_fallback",
+            {
+                "order": bo_after_fallback_snapshot,
+                "slot_changes": ch_fb,
+                "reason": "elite_top_core + generic_band_guardrail + adjacent_strength_swap + role_bucket_regroup",
+            },
+        )
+        if bo_initial_snapshot != bo_after_fallback_snapshot:
+            fp_audit.emit_override(
+                team_name,
+                "batting_order",
+                "batting_order_post_heuristic_pipeline",
+                bo_initial_snapshot,
+                bo_after_fallback_snapshot,
+                "mutations after strict XI permutation: top-core / guardrails / regroup",
+            )
+
     # Enforce specialist-bowler tail (8–11) deterministically via swaps.
     def _enforce_specialist_bowler_tail(order: list[str]) -> list[str]:
         if len(order) != 11:
@@ -5398,6 +5559,8 @@ def build_batting_order(
                     continue
                 # Do not move the tail player into an illegal spot.
                 if _violates_band(q, i + 1):
+                    continue
+                if not _discrete_slot_legal(p.name, j + 1) or not _discrete_slot_legal(q.name, i + 1):
                     continue
                 swap_j = j
                 break
@@ -5541,7 +5704,11 @@ def build_batting_order(
         )
         top_cut = max(0, 11 - len(lower_sorted))
         new_order = non_lower[:top_cut] + lower_sorted
-        return new_order if len(new_order) == len(out) else out
+        if len(new_order) != len(out):
+            return out
+        if not _order_discrete_legal(new_order):
+            return out
+        return new_order
 
     def _optimize_slot_constraints(order: list[str]) -> list[str]:
         if len(order) != 11:
@@ -5555,7 +5722,10 @@ def build_batting_order(
             profile = eligibility_by_name.get(p.name) or {}
             allowed = _allowed_slots(p)
             prefs = _preferred_slots(p)
-            legal = pos in allowed if allowed else True
+            if allowed:
+                legal = pos in allowed
+            else:
+                legal = not (classify_player(p).is_specialist_bowler and pos <= 7)
             if not allow_illegal and not legal:
                 return float("inf")
             penalty = 0.0
@@ -5610,19 +5780,61 @@ def build_batting_order(
         legal = _solve_assignment(False)
         if legal is not None:
             return legal
-        fallback = _solve_assignment(True)
-        if fallback is None:
-            return order
         logger.warning(
-            "batting_order: slot_constraint_fallback_used team=%s order=%s",
+            "batting_order: slot_constraint_legal_assignment_unavailable team=%s keeping_prior_order=%s",
             team_name,
             ordered_names,
         )
-        return fallback
+        return order
 
+    bo_pre_tail_optimize = list(strict_names)
     strict_names = _enforce_specialist_bowler_tail(strict_names)
     strict_names = _enforce_lower_order_overflow(strict_names)
     strict_names = _optimize_slot_constraints(strict_names)
+    if not _order_discrete_legal(strict_names):
+        logger.warning(
+            "batting_order: discrete_slots_violation_after_tail_overflow_optimize team=%s reverting_to_pre_tail_order",
+            team_name,
+        )
+        strict_names = list(bo_pre_tail_optimize)
+        if not _order_discrete_legal(strict_names):
+            strict_names = list(bo_after_fallback_snapshot)
+        if not _order_discrete_legal(strict_names):
+            logger.error(
+                "batting_order: discrete_slots_still_illegal_after_revert team=%s order=%s",
+                team_name,
+                strict_names,
+            )
+    bo_after_repair_snapshot = list(strict_names)
+    if fp_audit.enabled():
+        ch_rp = [
+            {
+                "slot": i + 1,
+                "old_player": bo_pre_tail_optimize[i],
+                "new_player": bo_after_repair_snapshot[i],
+                "reason": "specialist_bowler_tail_or_lower_overflow_or_slot_dp_optimize",
+            }
+            for i in range(11)
+            if bo_pre_tail_optimize[i] != bo_after_repair_snapshot[i]
+        ]
+        fp_audit.emit(
+            team_name,
+            "batting_order_post_repair",
+            {
+                "order": bo_after_repair_snapshot,
+                "slot_changes": ch_rp,
+                "reason": "specialist_bowler_tail + lower_order_overflow + slot_constraint_assignment",
+            },
+        )
+        if bo_pre_tail_optimize != bo_after_repair_snapshot:
+            fp_audit.emit_override(
+                team_name,
+                "batting_order",
+                "batting_order_tail_overflow_slot_optimize",
+                bo_pre_tail_optimize,
+                bo_after_repair_snapshot,
+                "tail enforcement / overflow reshuffle / discrete slot optimization (DP)",
+            )
 
     n_role_fb = 0
     for i, name in enumerate(strict_names):
@@ -5724,6 +5936,18 @@ def build_batting_order(
         if out_warnings is not None:
             out_warnings.append(msg)
         logger.warning("batting_order: %s", msg)
+    if fp_audit.enabled():
+        n_illegal, illegal_rows = fp_audit.batting_discrete_violations(strict_names, eligibility_by_name)
+        fp_audit.emit(
+            team_name,
+            "batting_order_final",
+            {
+                "order": list(strict_names),
+                "final_illegal_slots_count": n_illegal,
+                "illegal_discrete_allowed_slots": illegal_rows,
+                "band_min_max_conflicts": band_conflicts,
+            },
+        )
     return strict_names
 
 
@@ -5843,6 +6067,22 @@ def impact_subs(
         dbg_rows_out[0]["total_impact_subs_selected"] = len(picked)
         dbg_rows_out[0]["candidate_pool_size"] = candidate_pool_size
         dbg_rows_out[0]["fallback_used"] = fallback_used
+
+    if fp_audit.enabled():
+        eng5: list[str] = []
+        for i in range(min(5, len(dbg_all))):
+            row = dbg_all[i]
+            if isinstance(row, dict):
+                eng5.append(str(row.get("name") or ""))
+        fp_audit.emit_impact_stages(
+            team_display_name or canonical_team_key or "team",
+            squad,
+            xi,
+            picked,
+            dbg_all,
+            fallback_used=fallback_used,
+            engine_top5_names=eng5,
+        )
 
     return picked, dbg_rows_out, dbg_all_out
 
@@ -6471,6 +6711,17 @@ def _run_prediction_inner(
         fixture_ctx_b["xi_scenario_branch_for_tactical"] = (
             "if_team_bats_first" if not a_bats_first else "if_team_bowls_first"
         )
+    if fp_audit.enabled():
+        fp_audit.emit(
+            team_a_name,
+            "xi_candidates_pre_scoring",
+            {"players": [fp_audit.player_row_pre_scoring(p) for p in scored_a]},
+        )
+        fp_audit.emit(
+            team_b_name,
+            "xi_candidates_pre_scoring",
+            {"players": [fp_audit.player_row_pre_scoring(p) for p in scored_b]},
+        )
     history_xi.compute_selection_scores(
         scored_a,
         conditions=conditions,
@@ -6487,6 +6738,21 @@ def _run_prediction_inner(
     for sp in scored_a:
         _set_player_ipl_flags(sp)
     _annotate_marquee_tags(scored_a)
+    if fp_audit.enabled():
+        ranked_a = sorted(
+            scored_a,
+            key=lambda x: (_tier_val(x), x.selection_score, x.composite),
+            reverse=True,
+        )
+        fp_audit.emit(
+            team_a_name,
+            "xi_candidates_post_scoring",
+            {
+                "players": [
+                    fp_audit.player_row_post_scoring(p, i + 1) for i, p in enumerate(ranked_a)
+                ]
+            },
+        )
     history_xi.attach_primary_history_to_squad(
         scored_b,
         team_b_name,
@@ -6519,6 +6785,21 @@ def _run_prediction_inner(
     for sp in scored_b:
         _set_player_ipl_flags(sp)
     _annotate_marquee_tags(scored_b)
+    if fp_audit.enabled():
+        ranked_b = sorted(
+            scored_b,
+            key=lambda x: (_tier_val(x), x.selection_score, x.composite),
+            reverse=True,
+        )
+        fp_audit.emit(
+            team_b_name,
+            "xi_candidates_post_scoring",
+            {
+                "players": [
+                    fp_audit.player_row_post_scoring(p, i + 1) for i, p in enumerate(ranked_b)
+                ]
+            },
+        )
     _ap_phase("history_xi_attach_selection_scores_merge_pms_both_teams_ms", _t_hist)
     if getattr(config, "PREDICTION_TIMING_LOG", False):
         prediction_timing_ms["history_xi_and_selection_both_teams_ms"] = round(

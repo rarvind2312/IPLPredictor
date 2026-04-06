@@ -16,6 +16,19 @@ import db
 import history_xi
 
 
+def _marquee_tier_val(p: Any) -> int:
+    """Align with predictor._tier_val: tier_1 > tier_2 > tier_3 > other (bench impact ordering)."""
+    hd = getattr(p, "history_debug", None) or {}
+    tier = str(hd.get("marquee_tier") or "").lower()
+    if tier == "tier_1":
+        return 3
+    if tier == "tier_2":
+        return 2
+    if tier == "tier_3":
+        return 1
+    return 0
+
+
 def _safe_json_obj(raw: Any) -> dict[str, Any]:
     if raw is None:
         return {}
@@ -646,7 +659,12 @@ def rank_impact_sub_candidates(
         scored.append((total, dbg, p))
 
     scored.sort(
-        key=lambda x: (x[0], getattr(x[2], "composite", 0), getattr(x[2], "name", "")),
+        key=lambda x: (
+            _marquee_tier_val(x[2]),
+            x[0],
+            getattr(x[2], "composite", 0),
+            getattr(x[2], "name", ""),
+        ),
         reverse=True,
     )
     dbg_all: list[dict[str, Any]] = []
