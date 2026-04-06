@@ -42,14 +42,175 @@ def _coach_state(r: dict[str, Any]) -> dict[str, Any]:
     key = "coach_tools_state"
     cur = st.session_state.get(key)
     if isinstance(cur, dict) and cur.get("signature") == sig:
+        _coach_merge_defaults(cur, r)
         return cur
-    state = {
+
+    def _px(side: str) -> list[str]:
+        return [str(x.get("name") or "") for x in (r.get(side, {}).get("xi") or []) if x.get("name")]
+
+    def _pi(side: str) -> list[str]:
+        return [
+            str(x.get("name") or "")
+            for x in (r.get(side, {}).get("impact_subs") or [])
+            if x.get("name")
+        ][:5]
+
+    def _pbo(side: str) -> list[str]:
+        return list(r.get(side, {}).get("batting_order") or [])
+
+    state: dict[str, Any] = {
         "signature": sig,
-        "team_a_final_xi": [str(x.get("name") or "") for x in (r.get("team_a", {}).get("xi") or []) if x.get("name")],
-        "team_b_final_xi": [str(x.get("name") or "") for x in (r.get("team_b", {}).get("xi") or []) if x.get("name")],
+        "team_a_predicted_xi": list(_px("team_a")),
+        "team_b_predicted_xi": list(_px("team_b")),
+        "team_a_final_xi": list(_px("team_a")),
+        "team_b_final_xi": list(_px("team_b")),
+        "team_a_impact_names": list(_pi("team_a")),
+        "team_b_impact_names": list(_pi("team_b")),
+        "team_a_batting_order": list(_pbo("team_a")),
+        "team_b_batting_order": list(_pbo("team_b")),
+        "team_a_finalised": False,
+        "team_b_finalised": False,
+        "team_a_finalised_xi": None,
+        "team_a_finalised_batting_order": None,
+        "team_a_finalised_impact_names": None,
+        "team_b_finalised_xi": None,
+        "team_b_finalised_batting_order": None,
+        "team_b_finalised_impact_names": None,
     }
     st.session_state[key] = state
     return state
+
+
+def _coach_merge_defaults(state: dict[str, Any], r: dict[str, Any]) -> None:
+    for side in ("team_a", "team_b"):
+        pred = [str(x.get("name") or "") for x in (r.get(side, {}).get("xi") or []) if x.get("name")]
+        if f"{side}_predicted_xi" not in state:
+            state[f"{side}_predicted_xi"] = list(pred)
+        if f"{side}_final_xi" not in state:
+            state[f"{side}_final_xi"] = list(pred)
+        if f"{side}_impact_names" not in state:
+            impact = [
+                str(x.get("name") or "")
+                for x in (r.get(side, {}).get("impact_subs") or [])
+                if x.get("name")
+            ]
+            state[f"{side}_impact_names"] = impact[:5]
+        if f"{side}_batting_order" not in state:
+            state[f"{side}_batting_order"] = list(r.get(side, {}).get("batting_order") or [])
+        for k, default in (
+            (f"{side}_finalised", False),
+            (f"{side}_finalised_xi", None),
+            (f"{side}_finalised_batting_order", None),
+            (f"{side}_finalised_impact_names", None),
+        ):
+            if k not in state:
+                state[k] = default
+
+
+def _effective_xi_names(state: dict[str, Any], side_key: str) -> list[str]:
+    if state.get(f"{side_key}_finalised"):
+        fx = state.get(f"{side_key}_finalised_xi")
+        if isinstance(fx, list) and len(fx) == 11:
+            return list(fx)
+    return list(state.get(f"{side_key}_final_xi") or [])
+
+
+def _effective_impact_names(state: dict[str, Any], side_key: str) -> list[str]:
+    if state.get(f"{side_key}_finalised"):
+        im = state.get(f"{side_key}_finalised_impact_names")
+        if isinstance(im, list):
+            return list(im)
+    return list(state.get(f"{side_key}_impact_names") or [])
+
+
+def _effective_batting_order(state: dict[str, Any], side_key: str) -> list[str]:
+    if state.get(f"{side_key}_finalised"):
+        bo = state.get(f"{side_key}_finalised_batting_order")
+        if isinstance(bo, list) and bo:
+            return list(bo)
+    return list(state.get(f"{side_key}_batting_order") or [])
+
+
+def _rebuild_batting_order_state(
+    state: dict[str, Any],
+    *,
+    side_key: str,
+    team_name: str,
+    squad_map: dict[str, dict[str, Any]],
+    conditions: dict[str, Any],
+    venue_keys: list[str],
+) -> None:
+    if state.get(f"{side_key}_finalised"):
+        return
+    names = list(state.get(f"{side_key}_final_xi") or [])
+    if len(names) != 11:
+        return
+    xi, errs = _validate_manual_xi(team_name, squad_map, names, conditions)
+    if errs or len(xi) != 11:
+        return
+    try:
+        order = predictor.build_batting_order(
+            xi,
+            conditions,
+            team_name=team_name,
+            venue_keys=venue_keys or [],
+            out_warnings=[],
+        )
+        if len(order) == 11:
+            state[f"{side_key}_batting_order"] = list(order)
+    except Exception:
+        pass
+
+
+def _resolve_batting_order_for_display(
+    state: dict[str, Any],
+    side_key: str,
+) -> list[str]:
+    xi_names = list(_effective_xi_names(state, side_key))
+    xi_set = set(xi_names)
+    bo = _effective_batting_order(state, side_key)
+    if len(bo) == 11 and set(bo) == xi_set:
+        return list(bo)
+    return xi_names
+
+
+def _xi_rows_for_display(batting_order: list[str], squad_map: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for i, nm in enumerate(batting_order):
+        base = squad_map.get(nm)
+        if not base:
+            continue
+        row = dict(base)
+        row["name"] = nm
+        row["bat_order"] = i + 1
+        row["final_position"] = i + 1
+        rows.append(row)
+    return rows
+
+
+def _impact_rows_for_display(
+    names: list[str],
+    squad_map: dict[str, dict[str, Any]],
+    impact_template: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    by_orig = {str(x.get("name") or ""): dict(x) for x in impact_template if x.get("name")}
+    out: list[dict[str, Any]] = []
+    for nm in names:
+        row = dict(squad_map.get(nm) or {"name": nm})
+        row["name"] = nm
+        for k, v in (by_orig.get(nm) or {}).items():
+            row.setdefault(k, v)
+        out.append(row)
+    return out
+
+
+def _bench_rows_exclusive(
+    xi_names: list[str],
+    impact_names: list[str],
+    full_rows: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    blocked = set(xi_names) | set(impact_names)
+    return [row for row in full_rows if str(row.get("name") or "") not in blocked]
 
 
 def _team_slug_from_name(name: str) -> str:
@@ -621,6 +782,11 @@ def render_stored_prediction_results(
             else:
                 st.caption("XI validation metrics missing — click **Run prediction** again to refresh payload.")
 
+    venue_keys_bo = list(((r.get("learning_context") or {}).get("venue_keys_tried") or []))
+    team_a_rows, squad_map_a = _build_squad_row_maps(r, "team_a")
+    team_b_rows, squad_map_b = _build_squad_row_maps(r, "team_b")
+    state = _coach_state(r)
+
     st.subheader("Predicted line-ups & impact subs")
     tc1, tc2 = st.columns(2)
     for col, side_key, tname in (
@@ -647,7 +813,16 @@ def render_stored_prediction_results(
                     f"Could not satisfy XI rules (11 players, overseas cap, WK, bowling depth, "
                     f"batting balance, opener/finisher pool). {detail}"
                 )
-            xi_df = pd.DataFrame(r[side_key]["xi"])
+            squad_map_side = squad_map_a if side_key == "team_a" else squad_map_b
+            bo_disp = _resolve_batting_order_for_display(state, side_key)
+            xi_rows_live = _xi_rows_for_display(bo_disp, squad_map_side)
+            xi_df = pd.DataFrame(xi_rows_live)
+            if state.get(f"{side_key}_finalised"):
+                st.success("**Finalise XI** — this side is frozen for the session.")
+            pred_xi = list(state.get(f"{side_key}_predicted_xi") or [])
+            eff_xi = _effective_xi_names(state, side_key)
+            if pred_xi and eff_xi and pred_xi != eff_xi:
+                st.caption("Session XI differs from model prediction (predicted list preserved in session).")
             if not xi_df.empty:
                 display_cols = [
                     c
@@ -671,40 +846,22 @@ def render_stored_prediction_results(
                 ]
                 xi_display_df = xi_df[display_cols] if display_cols else xi_df
                 st.dataframe(xi_display_df, width="stretch", hide_index=True)
-            hist_cols = [
-                c
-                for c in (
-                    "name",
-                    "bat_order",
-                    "selection_score",
-                    "history_xi_score",
-                    "history_batting_ema",
-                    "batting_order_source",
-                    "batting_order_final",
-                    "used_current_season_history",
-                    "used_prior_season_fallback",
-                    "used_venue_history",
-                    "fallback_heuristics_only",
-                    "recent5_xi_rate",
-                    "venue_xi_rate",
-                    "prior_season_xi_rate",
-                    "xi_selection_tier",
-                    "xi_used_prior_season_rows",
-                )
-                if c in xi_df.columns
-            ]
-            st.markdown("**Impact subs (5)**")
+            else:
+                st.caption("No XI rows to display — complete the squad and re-run prediction.")
+            st.markdown("**Impact subs**")
+            imp_rows = _impact_rows_for_display(
+                _effective_impact_names(state, side_key),
+                squad_map_side,
+                list(r[side_key].get("impact_subs") or []),
+            )
             st.dataframe(
-                pd.DataFrame(r[side_key]["impact_subs"]),
+                pd.DataFrame(imp_rows) if imp_rows else pd.DataFrame(),
                 width="stretch",
                 hide_index=True,
             )
 
-    state = _coach_state(r)
-    team_a_rows, squad_map_a = _build_squad_row_maps(r, "team_a")
-    team_b_rows, squad_map_b = _build_squad_row_maps(r, "team_b")
-    final_names_a = list(state.get("team_a_final_xi") or [])
-    final_names_b = list(state.get("team_b_final_xi") or [])
+    final_names_a = _effective_xi_names(state, "team_a")
+    final_names_b = _effective_xi_names(state, "team_b")
 
     def _final_rows(side_key: str, final_names: list[str], squad_map: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
         rows: list[dict[str, Any]] = []
@@ -713,10 +870,6 @@ def render_stored_prediction_results(
             if row:
                 rows.append(row)
         return rows
-
-    def _bench_rows(final_names: list[str], full_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-        picked = set(final_names)
-        return [row for row in full_rows if str(row.get("name") or "") not in picked]
 
     def _direct_matchup_card(
         left_row: dict[str, Any],
@@ -1054,72 +1207,189 @@ def render_stored_prediction_results(
         squad_map: dict[str, dict[str, Any]],
     ) -> None:
         final_key = f"{side_key}_final_xi"
+        impact_key = f"{side_key}_impact_names"
+        bo_key = f"{side_key}_batting_order"
+        finalised = bool(state.get(f"{side_key}_finalised"))
         current_final_names = list(state.get(final_key) or [])
+        impact_names = list(state.get(impact_key) or [])
         current_rows = _final_rows(side_key, current_final_names, squad_map)
-        bench = _bench_rows(current_final_names, all_rows)
+        bench = _bench_rows_exclusive(current_final_names, impact_names, all_rows)
         logo_html = _logo_html_for_team_name(team_name, width=22)
         st.markdown(f"{logo_html}<span style='font-size:20px;font-weight:700;'>{team_name}</span>", unsafe_allow_html=True)
         current_tags = sorted({label for row in current_rows for label, _ in _role_tag_row(row)})
         bench_tags = sorted({label for row in bench for label, _ in _role_tag_row(row)})
         st.caption(
-            f"Current XI: {len(current_rows)} players · {', '.join(current_final_names) if current_final_names else '—'}"
+            f"Editable XI: {len(current_rows)} players · Impact: {len(impact_names)} · Bench pool: {len(bench)}"
         )
-        if bench:
-            st.caption(
-                f"Bench: {len(bench)} players · {', '.join(str(row.get('name') or '') for row in bench[:6])}"
-                + (" ..." if len(bench) > 6 else "")
-            )
+        if current_final_names:
+            st.caption(", ".join(current_final_names[:11]) + (" …" if len(current_final_names) > 11 else ""))
         if current_tags or bench_tags:
             st.caption(
                 f"Current tags: {', '.join(current_tags[:8]) or '—'} · Bench tags: {', '.join(bench_tags[:8]) or '—'}"
             )
 
-        action = st.radio(
-            "Action",
-            ("Swap", "Add", "Remove"),
-            horizontal=True,
-            key=f"{side_key}_finalise_action",
-        )
-        xi_names = [str(row.get("name") or "") for row in current_rows]
-        bench_names = [str(row.get("name") or "") for row in bench]
-        col1, col2, col3 = st.columns([1, 1, 0.8])
-        xi_choice = None
-        bench_choice = None
-        with col1:
-            if action in ("Swap", "Remove"):
-                xi_choice = st.selectbox(
-                    "Current XI player",
-                    xi_names,
-                    key=f"{side_key}_xi_choice",
-                )
-        with col2:
-            if action in ("Swap", "Add"):
-                bench_choice = st.selectbox(
-                    "Bench player",
-                    bench_names,
-                    key=f"{side_key}_bench_choice",
-                )
-        with col3:
-            if st.button(f"{action} player", key=f"{side_key}_apply_{action.lower()}"):
-                next_names = list(current_final_names)
-                if action == "Swap" and xi_choice and bench_choice:
-                    next_names = [bench_choice if name == xi_choice else name for name in next_names]
-                elif action == "Add" and bench_choice and bench_choice not in next_names:
-                    if len(next_names) < 11:
-                        next_names.append(bench_choice)
-                elif action == "Remove" and xi_choice:
-                    next_names = [name for name in next_names if name != xi_choice]
-                state[final_key] = next_names
-                st.session_state["coach_tools_state"] = state
-                st.rerun()
-            if st.button("Reset to Suggested XI", key=f"{side_key}_reset_final_xi"):
-                state[final_key] = [
+        if finalised:
+            st.info("**Finalise XI** — edits frozen for this session. Use **Reset to Suggested XI** to unlock.")
+            if st.button("Reset to Suggested XI", key=f"{side_key}_reset_final_xi_finalised"):
+                px = [str(x.get("name") or "") for x in (r.get(side_key, {}).get("xi") or []) if x.get("name")]
+                pi = [
                     str(x.get("name") or "")
-                    for x in (r.get(side_key, {}).get("xi") or [])
+                    for x in (r.get(side_key, {}).get("impact_subs") or [])
                     if x.get("name")
-                ]
+                ][:5]
+                pbo = list(r.get(side_key, {}).get("batting_order") or [])
+                state[final_key] = list(px)
+                state[impact_key] = list(pi)
+                state[bo_key] = list(pbo)
+                state[f"{side_key}_finalised"] = False
+                state[f"{side_key}_finalised_xi"] = None
+                state[f"{side_key}_finalised_batting_order"] = None
+                state[f"{side_key}_finalised_impact_names"] = None
                 st.session_state["coach_tools_state"] = state
                 st.rerun()
+            _, errs = _validate_manual_xi(team_name, squad_map, _effective_xi_names(state, side_key), cond)
+            if errs:
+                for err in errs:
+                    st.error(err)
+            else:
+                st.success("Final XI is valid.")
+            return
+
+        swap_mode = st.radio(
+            "Swap type",
+            ("XI ↔ bench", "XI ↔ impact", "Impact ↔ bench"),
+            horizontal=True,
+            key=f"{side_key}_swap_mode",
+        )
+        xi_list = list(current_final_names)
+        bench_names = [str(row.get("name") or "") for row in bench]
+        imp_list = [n for n in impact_names if n]
+
+        xi_pick: Optional[str] = None
+        bench_pick: Optional[str] = None
+        impact_pick: Optional[str] = None
+
+        if swap_mode == "XI ↔ bench":
+            c1, c2 = st.columns(2)
+            with c1:
+                xi_pick = st.selectbox("XI player", xi_list or [""], key=f"{side_key}_swap_xi_b_xi")
+            with c2:
+                bench_pick = st.selectbox("Bench player", bench_names or [""], key=f"{side_key}_swap_xi_b_bench")
+        elif swap_mode == "XI ↔ impact":
+            c1, c2 = st.columns(2)
+            with c1:
+                xi_pick = st.selectbox("XI player", xi_list or [""], key=f"{side_key}_swap_xi_i_xi")
+            with c2:
+                impact_pick = st.selectbox("Impact player", imp_list or [""], key=f"{side_key}_swap_xi_i_imp")
+        else:
+            c1, c2 = st.columns(2)
+            with c1:
+                impact_pick = st.selectbox("Impact player", imp_list or [""], key=f"{side_key}_swap_i_b_imp")
+            with c2:
+                bench_pick = st.selectbox("Bench player", bench_names or [""], key=f"{side_key}_swap_i_b_bench")
+
+        apply_col, reset_col, fin_col = st.columns([1, 1, 1])
+        with apply_col:
+            if st.button("Apply swap", key=f"{side_key}_apply_swap"):
+                ok = True
+                if swap_mode == "XI ↔ bench":
+                    if not xi_pick or not bench_pick or xi_pick not in xi_list or bench_pick not in bench_names:
+                        ok = False
+                    else:
+                        state[final_key] = [bench_pick if n == xi_pick else n for n in xi_list]
+                        state[impact_key] = [n for n in state.get(impact_key) or [] if n != bench_pick]
+                elif swap_mode == "XI ↔ impact":
+                    if not xi_pick or not impact_pick or xi_pick not in xi_list or impact_pick not in imp_list:
+                        ok = False
+                    else:
+                        im = list(state.get(impact_key) or [])
+                        try:
+                            j = im.index(impact_pick)
+                        except ValueError:
+                            ok = False
+                        else:
+                            im[j] = xi_pick
+                            state[impact_key] = im
+                            state[final_key] = [impact_pick if n == xi_pick else n for n in xi_list]
+                else:
+                    if not impact_pick or not bench_pick or impact_pick not in imp_list or bench_pick not in bench_names:
+                        ok = False
+                    else:
+                        im = list(state.get(impact_key) or [])
+                        try:
+                            j = im.index(impact_pick)
+                        except ValueError:
+                            ok = False
+                        else:
+                            im[j] = bench_pick
+                            state[impact_key] = im
+
+                if ok:
+                    xi_after = list(state.get(final_key) or [])
+                    imp_after = list(state.get(impact_key) or [])
+                    state[impact_key] = [n for n in imp_after if n and n not in set(xi_after)]
+                    if swap_mode in ("XI ↔ bench", "XI ↔ impact"):
+                        _rebuild_batting_order_state(
+                            state,
+                            side_key=side_key,
+                            team_name=team_name,
+                            squad_map=squad_map,
+                            conditions=cond,
+                            venue_keys=venue_keys_bo,
+                        )
+                    st.session_state["coach_tools_state"] = state
+                    st.rerun()
+                else:
+                    st.warning("Pick two valid players for this swap type.")
+
+        with reset_col:
+            if st.button("Reset to Suggested XI", key=f"{side_key}_reset_final_xi"):
+                px = [str(x.get("name") or "") for x in (r.get(side_key, {}).get("xi") or []) if x.get("name")]
+                pi = [
+                    str(x.get("name") or "")
+                    for x in (r.get(side_key, {}).get("impact_subs") or [])
+                    if x.get("name")
+                ][:5]
+                pbo = list(r.get(side_key, {}).get("batting_order") or [])
+                state[final_key] = list(px)
+                state[impact_key] = list(pi)
+                state[bo_key] = list(pbo)
+                state[f"{side_key}_finalised"] = False
+                state[f"{side_key}_finalised_xi"] = None
+                state[f"{side_key}_finalised_batting_order"] = None
+                state[f"{side_key}_finalised_impact_names"] = None
+                st.session_state["coach_tools_state"] = state
+                st.rerun()
+
+        with fin_col:
+            if st.button("Finalise XI", key=f"{side_key}_finalise_xi_btn"):
+                names = list(state.get(final_key) or [])
+                _, errs = _validate_manual_xi(team_name, squad_map, names, cond)
+                if len(names) != 11 or errs:
+                    for err in errs or ["XI must be valid (11 players, squad + rules)."]:
+                        st.warning(err)
+                else:
+                    xi_set = set(names)
+                    _rebuild_batting_order_state(
+                        state,
+                        side_key=side_key,
+                        team_name=team_name,
+                        squad_map=squad_map,
+                        conditions=cond,
+                        venue_keys=venue_keys_bo,
+                    )
+                    bo = list(state.get(bo_key) or [])
+                    if len(bo) != 11 or set(bo) != xi_set:
+                        st.warning("Batting order could not be aligned to this XI — adjust the XI or reset, then try again.")
+                    else:
+                        imp_fin = [n for n in (state.get(impact_key) or []) if n and n not in xi_set]
+                        state[impact_key] = imp_fin
+                        state[f"{side_key}_finalised"] = True
+                        state[f"{side_key}_finalised_xi"] = list(names)
+                        state[f"{side_key}_finalised_batting_order"] = list(bo)
+                        state[f"{side_key}_finalised_impact_names"] = list(imp_fin)
+                        st.session_state["coach_tools_state"] = state
+                        st.rerun()
 
         _, errs = _validate_manual_xi(team_name, squad_map, current_final_names, cond)
         if errs:
@@ -1157,8 +1427,8 @@ def render_stored_prediction_results(
         r,
         squad_map_a,
         squad_map_b,
-        list(state.get("team_a_final_xi") or []),
-        list(state.get("team_b_final_xi") or []),
+        _effective_xi_names(state, "team_a"),
+        _effective_xi_names(state, "team_b"),
     )
     if (
         not isinstance(recalc_result, tuple)
