@@ -11,7 +11,7 @@ import time
 from contextlib import contextmanager
 from functools import lru_cache
 from pathlib import Path
-from typing import Any, Generator, Iterable, Optional
+from typing import Any, Generator, Iterable, Optional, Sequence
 
 import audit_profile
 import config
@@ -4593,7 +4593,7 @@ def _fetch_match_results_meta_cached(
     with connection() as conn:
         rows = conn.execute(
             """
-            SELECT winner, team_a, team_b, venue, batting_first, created_at, match_id AS id, match_date
+            SELECT *
             FROM prediction_summary_match_meta
             ORDER BY match_date DESC NULLS LAST, match_id DESC
             LIMIT ?
@@ -4602,19 +4602,66 @@ def _fetch_match_results_meta_cached(
         ).fetchall()
     out: list[dict[str, Any]] = []
     for r in rows:
-        out.append(
-            {
-                "winner": str(r["winner"] or ""),
-                "team_a": str(r["team_a"] or ""),
-                "team_b": str(r["team_b"] or ""),
-                "venue": str(r["venue"] or ""),
-                "batting_first": str(r["batting_first"] or ""),
-                "created_at": r["created_at"],
-                "id": r["id"],
-                "match_date": r["match_date"],
-            }
-        )
+        d = {str(k): r[k] for k in r.keys()}
+        mid = d.get("match_id")
+        if d.get("id") is None and mid is not None:
+            d["id"] = mid
+        for key in ("winner", "team_a", "team_b", "venue", "batting_first", "match_date"):
+            if key in d and d[key] is not None:
+                d[key] = str(d[key] or "")
+        out.append(d)
     return tuple(out)
+
+
+# Player matchup DB helpers: summary rebuild scans all match_ball_by_ball; fetches do not filter competition.
+PLAYER_MATCHUP_DB_COMPETITION_SCOPE = "mixed"
+PLAYER_MATCHUP_DB_COMPETITION_SCOPE_DETAIL = (
+    "batter_bowler_matchup_summary and batter_vs_bowling_type_summary are rebuilt from all "
+    "match_ball_by_ball rows (no competition filter). fetch_batter_bowler_direct_matchup_candidates and "
+    "fetch_batter_vs_bowling_type_first_hit query those tables only. "
+    "fetch_bowler_vs_batter_archetype_aggregate_multi joins matches with IPL min-year only, not competition."
+)
+
+
+def fetch_match_result_display_enrichment_by_ids(ids: Sequence[int]) -> dict[int, dict[str, str]]:
+    """
+    Richer result fields from ``match_results`` (+ ``matches``) keyed by ``match_id``.
+
+    ``prediction_summary_match_meta`` omits margin and may have an empty winner while the
+    underlying ``match_results`` / ``matches`` row is complete.
+    """
+    clean = sorted({int(i) for i in ids if i is not None and int(i) > 0})
+    if not clean:
+        return {}
+    qm = ",".join("?" * len(clean))
+    with connection() as conn:
+        rows = conn.execute(
+            f"""
+            SELECT mr.id AS match_id,
+                   mr.winner AS winner_mr,
+                   mr.margin AS margin_mr,
+                   m.winner AS winner_m,
+                   m.result_text AS result_text_m,
+                   m.result AS result_m
+            FROM match_results mr
+            LEFT JOIN matches m ON m.id = mr.id
+            WHERE mr.id IN ({qm})
+            """,
+            clean,
+        ).fetchall()
+    out: dict[int, dict[str, str]] = {}
+    for r in rows:
+        mid = int(r["match_id"] or 0)
+        if not mid:
+            continue
+        out[mid] = {
+            "winner_mr": str(r["winner_mr"] or "").strip(),
+            "margin_mr": str(r["margin_mr"] or "").strip(),
+            "winner_m": str(r["winner_m"] or "").strip(),
+            "result_text_m": str(r["result_text_m"] or "").strip(),
+            "result_m": str(r["result_m"] or "").strip(),
+        }
+    return out
 
 
 def h2h_fixtures_between_franchises(
@@ -4681,6 +4728,561 @@ def h2h_match_ids_between_franchises(
     limit: int = 100,
 ) -> list[int]:
     return [int(x["match_id"]) for x in h2h_fixtures_between_franchises(label_a, label_b, limit=limit)]
+
+
+def _ipl_history_min_year() -> int:
+    cur_y = int(getattr(config, "IPL_CURRENT_SEASON_YEAR", 2026))
+    span = int(getattr(config, "CRICSHEET_HISTORY_SEASON_COUNT", 5))
+    return cur_y - span + 1
+
+
+def _pms_team_run_totals_for_matches(conn: sqlite3.Connection, match_ids: list[int]) -> dict[int, dict[str, int]]:
+    """Per match_id, map normalized team_key -> sum(runs) from player_match_stats."""
+    if not match_ids:
+        return {}
+    qm = ",".join("?" * len(match_ids))
+    rows = conn.execute(
+        f"""
+        SELECT match_id, team_key, SUM(COALESCE(runs, 0)) AS team_runs
+        FROM player_match_stats
+        WHERE match_id IN ({qm})
+        GROUP BY match_id, team_key
+        """,
+        match_ids,
+    ).fetchall()
+    out: dict[int, dict[str, int]] = {}
+    for r in rows:
+        mid = int(r["match_id"])
+        tk = str(r["team_key"] or "").strip().lower()
+        if not tk:
+            continue
+        out.setdefault(mid, {})[tk] = int(r["team_runs"] or 0)
+    return out
+
+
+def h2h_meetings_between_franchises(
+    label_a: str,
+    label_b: str,
+    *,
+    venue_keys: Optional[list[str]] = None,
+    venue_relaxed_tokens: Optional[list[str]] = None,
+    limit: int = 10,
+) -> list[dict[str, Any]]:
+    """
+    Enriched head-to-head rows (newest first), optionally filtered by venue.
+
+    ``venue_relaxed_tokens`` (if non-empty) uses substring / alias-aware matching; otherwise
+    ``venue_keys`` uses the legacy normalized key overlap rule.
+    """
+    import h2h_history
+    import ipl_teams
+
+    la = ipl_teams.canonical_franchise_label(label_a) or (label_a or "").strip()
+    lb = ipl_teams.canonical_franchise_label(label_b) or (label_b or "").strip()
+    min_year = _ipl_history_min_year()
+    vkeys = [str(v).strip() for v in (venue_keys or []) if str(v).strip()]
+    relaxed = [str(v).strip() for v in (venue_relaxed_tokens or []) if str(v).strip()]
+
+    with connection() as conn:
+        rows = conn.execute(
+            """
+            SELECT m.id AS match_id, m.match_date, m.venue, m.team_a, m.team_b,
+                   m.batting_first AS m_batting_first, m.winner AS m_winner,
+                   m.result_text, m.result AS m_result,
+                   mr.margin, mr.winner AS mr_winner, mr.batting_first AS mr_batting_first,
+                   mr.created_at
+            FROM matches m
+            JOIN match_results mr ON mr.id = m.id
+            ORDER BY m.match_date DESC NULLS LAST, m.id DESC
+            LIMIT 900
+            """
+        ).fetchall()
+
+    picked: list[sqlite3.Row] = []
+    for r in rows:
+        ta = str(r["team_a"] or "")
+        tb = str(r["team_b"] or "")
+        if not h2h_history.rows_are_h2h(la, lb, ta, tb):
+            continue
+        y = h2h_history.year_from_match_row(
+            {
+                "match_date": r["match_date"],
+                "created_at": r["created_at"],
+            }
+        )
+        if y is not None and y < min_year:
+            continue
+        if relaxed:
+            if not h2h_history.venue_row_matches_relaxed(str(r["venue"] or ""), relaxed):
+                continue
+        elif vkeys and not h2h_history.venue_matches_keys(str(r["venue"] or ""), vkeys):
+            continue
+        picked.append(r)
+        if len(picked) >= int(limit):
+            break
+
+    if not picked:
+        return []
+
+    mids = [int(r["match_id"]) for r in picked]
+    with connection() as conn:
+        totals_map = _pms_team_run_totals_for_matches(conn, mids)
+
+    def _team_key_for_row_team(team_name: str) -> str:
+        lab = ipl_teams.franchise_label_for_storage(team_name)
+        return str(ipl_teams.canonical_team_key_for_franchise(lab) or "").strip().lower()
+
+    def _winner_side(
+        winner_raw: str,
+        row_ta: str,
+        row_tb: str,
+    ) -> str:
+        w = (winner_raw or "").strip()
+        low = w.lower()
+        if not w or "tie" in low or "no result" in low or "abandon" in low:
+            return "none"
+
+        if h2h_history.team_equals_label(w, row_ta):
+            if h2h_history.team_equals_label(la, row_ta):
+                return "a"
+            if h2h_history.team_equals_label(lb, row_ta):
+                return "b"
+        if h2h_history.team_equals_label(w, row_tb):
+            if h2h_history.team_equals_label(la, row_tb):
+                return "a"
+            if h2h_history.team_equals_label(lb, row_tb):
+                return "b"
+        if h2h_history.team_equals_label(w, la):
+            return "a"
+        if h2h_history.team_equals_label(w, lb):
+            return "b"
+        return "unknown"
+
+    out: list[dict[str, Any]] = []
+
+    for r in picked:
+        mid = int(r["match_id"])
+        ta = str(r["team_a"] or "")
+        tb = str(r["team_b"] or "")
+        tmap = totals_map.get(mid, {})
+        ka = _team_key_for_row_team(ta)
+        kb = _team_key_for_row_team(tb)
+        ra = tmap.get(ka) if ka else None
+        rb = tmap.get(kb) if kb else None
+
+        bf = str(r["m_batting_first"] or r["mr_batting_first"] or "").strip()
+        first_runs: Optional[int] = None
+        second_runs: Optional[int] = None
+        if bf:
+            if h2h_history.team_equals_label(bf, ta):
+                first_runs, second_runs = ra, rb
+            elif h2h_history.team_equals_label(bf, tb):
+                first_runs, second_runs = rb, ra
+
+        win_raw = str(r["m_winner"] or r["mr_winner"] or "").strip()
+        side = _winner_side(win_raw, ta, tb)
+        winner_label = ""
+        if side == "a":
+            winner_label = la
+        elif side == "b":
+            winner_label = lb
+        margin = str(r["margin"] or "").strip()
+        rt = str(r["result_text"] or "").strip()
+        score_bits = []
+        if ra is not None:
+            score_bits.append(f"{ta} {ra}")
+        if rb is not None:
+            score_bits.append(f"{tb} {rb}")
+        score_summary = " · ".join(score_bits) if score_bits else (rt or str(r["m_result"] or "").strip())
+
+        chase_team_won: Optional[bool] = None
+        if first_runs is not None and second_runs is not None and side in ("a", "b"):
+            if h2h_history.team_equals_label(bf, ta):
+                chased_label_side = "b"
+            elif h2h_history.team_equals_label(bf, tb):
+                chased_label_side = "a"
+            else:
+                chased_label_side = ""
+            if chased_label_side:
+                chase_team_won = (side == chased_label_side)
+
+        my = h2h_history.year_from_match_row(
+            {"match_date": r["match_date"], "created_at": r["created_at"]}
+        )
+
+        out.append(
+            {
+                "match_id": mid,
+                "match_date": r["match_date"],
+                "venue": str(r["venue"] or ""),
+                "team_a": ta,
+                "team_b": tb,
+                "winner_raw": win_raw,
+                "winner_label": winner_label,
+                "winner_side": side,
+                "margin": margin,
+                "result_text": rt,
+                "batting_first": bf,
+                "team_a_runs": ra,
+                "team_b_runs": rb,
+                "first_innings_runs": first_runs,
+                "second_innings_runs": second_runs,
+                "score_summary": score_summary,
+                "chase_team_won": chase_team_won,
+                "match_year": my,
+            }
+        )
+    return out
+
+
+def summarize_h2h_meetings(
+    meetings: list[dict[str, Any]],
+    label_a: str,
+    label_b: str,
+    *,
+    current_season_year: Optional[int] = None,
+) -> dict[str, Any]:
+    """Aggregate win split, first-innings average (recency-weighted), last-3 trend, chase/defend counts."""
+    import h2h_history
+    import ipl_teams
+
+    la = ipl_teams.canonical_franchise_label(label_a) or (label_a or "").strip()
+    lb = ipl_teams.canonical_franchise_label(label_b) or (label_b or "").strip()
+    cur_y = int(current_season_year or getattr(config, "IPL_CURRENT_SEASON_YEAR", 2026))
+
+    wins_a = wins_b = ties = 0
+    fi_vals: list[tuple[float, float]] = []  # (weight, first_innings_runs)
+    defend_w = chase_w = 0
+    chase_n = defend_n = 0
+
+    for m in meetings:
+        side = str(m.get("winner_side") or "")
+        if side == "a":
+            wins_a += 1
+        elif side == "b":
+            wins_b += 1
+        elif side == "none":
+            ties += 1
+
+        y = m.get("match_year")
+        wgt = h2h_history.recency_weight(y if isinstance(y, int) else None, cur_y)
+        fir = m.get("first_innings_runs")
+        if fir is not None:
+            try:
+                fi_vals.append((float(wgt), float(fir)))
+            except (TypeError, ValueError):
+                pass
+
+        ctw = m.get("chase_team_won")
+        if ctw is True:
+            chase_w += 1
+            chase_n += 1
+        elif ctw is False:
+            defend_w += 1
+            defend_n += 1
+
+    wsum = sum(w for w, _ in fi_vals)
+    avg_fi = (sum(w * v for w, v in fi_vals) / wsum) if wsum > 0 else None
+
+    last3 = meetings[:3]
+    la3 = lb3 = 0
+    for m in last3:
+        s = str(m.get("winner_side") or "")
+        if s == "a":
+            la3 += 1
+        elif s == "b":
+            lb3 += 1
+
+    return {
+        "label_a": la,
+        "label_b": lb,
+        "wins_a": wins_a,
+        "wins_b": wins_b,
+        "ties_nr": ties,
+        "decided": wins_a + wins_b,
+        "avg_first_innings_runs": avg_fi,
+        "first_innings_samples": len(fi_vals),
+        "last3_wins_a": la3,
+        "last3_wins_b": lb3,
+        "last3_games": len(last3),
+        "chase_wins": chase_w,
+        "defend_wins": defend_w,
+        "chase_decided": chase_n + defend_n,
+    }
+
+
+def fetch_bowler_vs_batter_archetype_aggregate(
+    bowler_key: str,
+    *,
+    batting_hand: str = "",
+    likely_batting_band: str = "",
+) -> Optional[dict[str, Any]]:
+    """
+    Live aggregate: selected bowler vs batters matching metadata hand and/or batting band.
+
+    Restricted to recent IPL seasons on disk (same window as other history helpers).
+    """
+    bk = (bowler_key or "").strip().lower()[:80]
+    if not bk:
+        return None
+    bh = (batting_hand or "").strip().lower()
+    if bh not in ("right", "left"):
+        bh = ""
+    band = (likely_batting_band or "").strip().lower()
+    band_aliases = {"anchor": "middle_order", "aggressor": "middle_order"}
+    band = band_aliases.get(band, band)
+    if band in ("", "unknown", "tail"):
+        band = ""
+    if not bh and not band:
+        return None
+
+    min_year = _ipl_history_min_year()
+    conds = [
+        "bb.bowler_key = ?",
+        "bb.is_legal_ball = 1",
+        "m.match_date IS NOT NULL",
+        "LENGTH(m.match_date) >= 4",
+        "CAST(substr(m.match_date, 1, 4) AS INTEGER) >= ?",
+    ]
+    params: list[Any] = [bk, min_year]
+    join_meta = "JOIN player_metadata pm ON pm.player_key = bb.batter_key"
+    if band:
+        conds.append("pm.likely_batting_band = ?")
+        params.append(band)
+    if bh:
+        conds.append("pm.batting_hand = ?")
+        params.append(bh)
+
+    where_sql = " AND ".join(conds)
+    with connection() as conn:
+        row = conn.execute(
+            f"""
+            SELECT COUNT(*) AS balls,
+                   SUM(bb.runs_total) AS runs,
+                   SUM(bb.is_dismissal) AS dismissals,
+                   SUM(bb.is_dot_ball) AS dots,
+                   SUM(bb.is_boundary) AS bounds
+            FROM match_ball_by_ball bb
+            JOIN matches m ON m.id = bb.match_id
+            {join_meta}
+            WHERE {where_sql}
+            """,
+            params,
+        ).fetchone()
+
+    if not row or int(row["balls"] or 0) <= 0:
+        return None
+    balls = int(row["balls"] or 0)
+    runs = int(row["runs"] or 0)
+    dismissals = int(row["dismissals"] or 0)
+    dots = int(row["dots"] or 0)
+    bounds = int(row["bounds"] or 0)
+    econ = (6.0 * runs / balls) if balls > 0 else 0.0
+    sra = (100.0 * runs / balls) if balls > 0 else 0.0
+    dot_pct = (float(dots) / balls) if balls > 0 else 0.0
+    bnd_pct = (float(bounds) / balls) if balls > 0 else 0.0
+    conf = _confidence_from_samples(float(balls), full=100.0)
+    return {
+        "balls": balls,
+        "runs": runs,
+        "dismissals": dismissals,
+        "economy": round(econ, 2),
+        "strike_rate_against": round(sra, 1),
+        "dot_ball_pct": round(dot_pct, 4),
+        "boundary_pct": round(bnd_pct, 4),
+        "sample_size_confidence": conf,
+        "batting_hand_filter": bh or None,
+        "likely_batting_band_filter": band or None,
+    }
+
+
+def fetch_batter_bowler_direct_matchup_candidates(
+    batter_keys: Sequence[str],
+    bowler_keys: Sequence[str],
+) -> tuple[Optional[dict[str, Any]], Optional[tuple[str, str]]]:
+    """
+    First non-empty ``batter_bowler_matchup_summary`` row across candidate keys (cartesian try order).
+
+    Competition scope: see ``PLAYER_MATCHUP_DB_COMPETITION_SCOPE`` (summary table is mixed-competition).
+    """
+    bats = list(
+        dict.fromkeys(
+            str(b).strip().lower()[:80] for b in batter_keys if str(b).strip()
+        )
+    )
+    bowls = list(
+        dict.fromkeys(
+            str(b).strip().lower()[:80] for b in bowler_keys if str(b).strip()
+        )
+    )
+    if not bats or not bowls:
+        return None, None
+    with connection() as conn:
+        for bat in bats:
+            for bow in bowls:
+                row = conn.execute(
+                    """
+                    SELECT balls, runs, dismissals, strike_rate, dot_ball_pct, boundary_pct,
+                           innings_count, match_count, last_match_date, sample_size_confidence
+                    FROM batter_bowler_matchup_summary
+                    WHERE batter_key = ? AND bowler_key = ?
+                    """,
+                    (bat, bow),
+                ).fetchone()
+                if row and int(row["balls"] or 0) > 0:
+                    return dict(row), (bat, bow)
+    return None, None
+
+
+def fetch_batter_vs_bowling_type_first_hit(
+    batter_keys: Sequence[str],
+    bowling_type_bucket: str,
+) -> Optional[dict[str, Any]]:
+    """
+    Competition scope: see ``PLAYER_MATCHUP_DB_COMPETITION_SCOPE`` (summary table is mixed-competition).
+    """
+    bucket = (bowling_type_bucket or "").strip().lower()
+    if not bucket or bucket == "unknown":
+        return None
+    bats = list(
+        dict.fromkeys(
+            str(b).strip().lower()[:80] for b in batter_keys if str(b).strip()
+        )
+    )
+    if not bats:
+        return None
+    with connection() as conn:
+        for bat in bats:
+            row = conn.execute(
+                """
+                SELECT balls, runs, dismissals, strike_rate, dot_ball_pct, boundary_pct,
+                       sample_size_confidence
+                FROM batter_vs_bowling_type_summary
+                WHERE batter_key = ? AND bowling_type_bucket = ?
+                """,
+                (bat, bucket),
+            ).fetchone()
+            if row and int(row["balls"] or 0) > 0:
+                return dict(row)
+    return None
+
+
+def fetch_bowler_vs_batting_hand_first_hit(
+    bowler_keys: Sequence[str],
+    batting_hand: str,
+) -> Optional[dict[str, Any]]:
+    hand = (batting_hand or "").strip().lower()
+    if hand not in ("right", "left"):
+        return None
+    bowls = list(
+        dict.fromkeys(
+            str(b).strip().lower()[:80] for b in bowler_keys if str(b).strip()
+        )
+    )
+    if not bowls:
+        return None
+    with connection() as conn:
+        for bow in bowls:
+            row = conn.execute(
+                """
+                SELECT balls, runs, dismissals, economy, strike_rate_against, dot_ball_pct,
+                       sample_size_confidence
+                FROM bowler_vs_batting_hand_summary
+                WHERE bowler_key = ? AND batting_hand = ?
+                """,
+                (bow, hand),
+            ).fetchone()
+            if row and int(row["balls"] or 0) > 0:
+                return dict(row)
+    return None
+
+
+def fetch_bowler_vs_batter_archetype_aggregate_multi(
+    bowler_keys: Sequence[str],
+    *,
+    batting_hand: str = "",
+    likely_batting_band: str = "",
+) -> Optional[dict[str, Any]]:
+    """
+    Same as single-key aggregate but ORs multiple ``bowler_key`` values.
+
+    Competition scope: see ``PLAYER_MATCHUP_DB_COMPETITION_SCOPE`` (IPL min-year on ``matches``, not competition code).
+    """
+    bk_list = list(
+        dict.fromkeys(str(b).strip().lower()[:80] for b in bowler_keys if str(b).strip())
+    )
+    if not bk_list:
+        return None
+    bh = (batting_hand or "").strip().lower()
+    if bh not in ("right", "left"):
+        bh = ""
+    band = (likely_batting_band or "").strip().lower()
+    band_aliases = {"anchor": "middle_order", "aggressor": "middle_order"}
+    band = band_aliases.get(band, band)
+    if band in ("", "unknown", "tail"):
+        band = ""
+    if not bh and not band:
+        return None
+
+    min_year = _ipl_history_min_year()
+    qm = ",".join("?" * len(bk_list))
+    conds = [
+        f"bb.bowler_key IN ({qm})",
+        "bb.is_legal_ball = 1",
+        "m.match_date IS NOT NULL",
+        "LENGTH(m.match_date) >= 4",
+        "CAST(substr(m.match_date, 1, 4) AS INTEGER) >= ?",
+    ]
+    params: list[Any] = [*bk_list, min_year]
+    join_meta = "JOIN player_metadata pm ON pm.player_key = bb.batter_key"
+    if band:
+        conds.append("pm.likely_batting_band = ?")
+        params.append(band)
+    if bh:
+        conds.append("pm.batting_hand = ?")
+        params.append(bh)
+
+    where_sql = " AND ".join(conds)
+    with connection() as conn:
+        row = conn.execute(
+            f"""
+            SELECT COUNT(*) AS balls,
+                   SUM(bb.runs_total) AS runs,
+                   SUM(bb.is_dismissal) AS dismissals,
+                   SUM(bb.is_dot_ball) AS dots,
+                   SUM(bb.is_boundary) AS bounds
+            FROM match_ball_by_ball bb
+            JOIN matches m ON m.id = bb.match_id
+            {join_meta}
+            WHERE {where_sql}
+            """,
+            params,
+        ).fetchone()
+
+    if not row or int(row["balls"] or 0) <= 0:
+        return None
+    balls = int(row["balls"] or 0)
+    runs = int(row["runs"] or 0)
+    dismissals = int(row["dismissals"] or 0)
+    dots = int(row["dots"] or 0)
+    bounds = int(row["bounds"] or 0)
+    econ = (6.0 * runs / balls) if balls > 0 else 0.0
+    sra = (100.0 * runs / balls) if balls > 0 else 0.0
+    dot_pct = (float(dots) / balls) if balls > 0 else 0.0
+    bnd_pct = (float(bounds) / balls) if balls > 0 else 0.0
+    conf = _confidence_from_samples(float(balls), full=100.0)
+    return {
+        "balls": balls,
+        "runs": runs,
+        "dismissals": dismissals,
+        "economy": round(econ, 2),
+        "strike_rate_against": round(sra, 1),
+        "dot_ball_pct": round(dot_pct, 4),
+        "boundary_pct": round(bnd_pct, 4),
+        "sample_size_confidence": conf,
+        "batting_hand_filter": bh or None,
+        "likely_batting_band_filter": band or None,
+    }
 
 
 def batch_team_match_xi_counts(player_keys: list[str], franchise_team_key: str) -> dict[str, int]:

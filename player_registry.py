@@ -23,6 +23,18 @@ _REGISTRY_METADATA_LOOKUP_CACHE: Optional[dict[str, dict[str, Any]]] = None
 _REGISTRY_MARQUEE_LOOKUP_CACHE: Optional[dict[str, dict[str, Any]]] = None
 _REGISTRY_ALIAS_OVERRIDE_CACHE: Optional[tuple[dict[str, list[str]], dict[str, str]]] = None
 
+_SOURCE_PRIORITY = {
+    "marquee_override": 100,
+    "alias_override": 90,
+    "curated_manual": 80,
+    "squad_json": 50,
+    "cricinfo_curated": 30,
+    "previous_registry": 20,
+    "db_linkage_enrichment": 10,
+    "raw_cricsheet_fallback": 10,
+    "registry_slot_defaults": 5,
+}
+
 
 def _resolve_path(raw_path: str) -> Path:
     p = Path(str(raw_path or "").strip())
@@ -142,20 +154,35 @@ def _dedupe_exact_keep_order(items: list[str]) -> list[str]:
 
 def _record_lookup_keys(record: dict[str, Any]) -> list[str]:
     out: list[str] = []
-    for raw in (
+    candidates = [
         record.get("registry_key"),
         record.get("display_name"),
         record.get("canonical_name"),
         record.get("history_canonical_key"),
-    ):
+    ]
+    candidates.extend(record.get("aliases") or [])
+
+    for raw in candidates:
         nk = _normalize(str(raw or ""))
-        if nk and nk not in out:
+        if not nk:
+            continue
+        if nk not in out:
             out.append(nk)
-    for alias in record.get("aliases") or []:
-        nk = _normalize(str(alias or ""))
-        if nk and nk not in out:
-            out.append(nk)
-    return out
+
+        # Universal variant indexing
+        tokens = nk.split()
+        if len(tokens) >= 2:
+            # 1. Initials variant (e.g. "MW Short")
+            initials = "".join(t[0] for t in tokens[:-1])
+            v_init = f"{initials} {tokens[-1]}"
+            if v_init not in out:
+                out.append(v_init)
+            # 2. First-Last variant (e.g. "Matthew Short" from "Matthew William Short")
+            if len(tokens) >= 3:
+                v_fl = f"{tokens[0]} {tokens[-1]}"
+                if v_fl not in out:
+                    out.append(v_fl)
+    return _dedupe_keep_order(out)
 
 
 def _build_indexes(records: dict[str, dict[str, Any]]) -> tuple[dict[str, str], dict[str, str]]:
@@ -175,6 +202,8 @@ def _resolve_existing_registry_key(
     records: dict[str, dict[str, Any]],
 ) -> str:
     exact, compact = _build_indexes(records)
+    
+    # 1. Highest confidence: Exact normalized or compact match
     for raw in raw_candidates:
         nk = _normalize(raw)
         if nk and nk in exact:
@@ -183,7 +212,36 @@ def _resolve_existing_registry_key(
         ck = _compact_key(raw)
         if ck and ck in compact:
             return compact[ck]
+            
+    # 2. fuller-name variant resolution (subset/superset matching)
+    # e.g. "Matthew Short" should resolve to "Matthew William Short" and vice versa.
+    for raw in raw_candidates:
+        nk = _normalize(raw)
+        if not nk:
+            continue
+        tokens = set(nk.split())
+        if len(tokens) < 2:
+            continue
+        
+        nk_surname = _surname_signature(nk)
+        for registry_key, record in records.items():
+            for candidate in _record_lookup_keys(record):
+                cand_tokens = set(candidate.split())
+                if len(cand_tokens) < 2:
+                    continue
+                if (tokens.issubset(cand_tokens) or cand_tokens.issubset(tokens)) and _surname_signature(candidate) == nk_surname:
+                    return registry_key
     return ""
+
+def _capture_aliases(record: dict[str, Any], candidates: list[str]) -> None:
+    registry_key = _normalize(str(record.get("registry_key") or ""))
+    merged_aliases = list(record.get("aliases") or [])
+    for cand in candidates:
+        nk = _normalize(cand)
+        if nk and nk != registry_key and nk not in merged_aliases:
+            merged_aliases.append(nk)
+    if merged_aliases:
+        record["aliases"] = _dedupe_keep_order(merged_aliases)
 
 
 def _ensure_record(
@@ -218,6 +276,17 @@ def _set_field(record: dict[str, Any], field: str, value: Any, source_label: str
     elif isinstance(value, dict):
         if not value:
             return
+
+    # Task 6: Preserve stronger curated/master metadata by checking source priority
+    field_sources = record.get("field_sources", {})
+    current_source = field_sources.get(field)
+    if current_source:
+        current_prio = _SOURCE_PRIORITY.get(current_source, 0)
+        new_prio = _SOURCE_PRIORITY.get(source_label, 0)
+        if current_prio > new_prio:
+            # Current value is from a more authoritative source, do not override
+            return
+
     record[field] = value
     record.setdefault("field_sources", {})[field] = source_label
 
@@ -2015,11 +2084,13 @@ def build_player_registry(
         registry_key = _resolve_existing_registry_key(candidates, records) or normalized_key
         if not registry_key:
             continue
+        
         record = _ensure_record(
             registry_key,
             records,
             seed_display_name=str(payload.get("display_name") or payload.get("player_name") or ""),
         )
+        _capture_aliases(record, candidates)
         _apply_metadata_payload(
             record,
             payload,
@@ -2072,12 +2143,22 @@ def build_player_registry(
         if reason:
             _set_field(record, "marquee_reason", reason, "marquee_override")
 
-    for registry_key, payload in squad_json_records.items():
+    for squad_key, payload in squad_json_records.items():
+        # Task 1 & 3: Ensure squad-imported names resolve to existing curated records
+        registry_key = _resolve_existing_registry_key([squad_key], records) or squad_key
+
         record = _ensure_record(
             registry_key,
             records,
             seed_display_name=str(payload.get("display_name") or payload.get("canonical_name") or ""),
         )
+
+        if registry_key != squad_key:
+            # Explicitly capture merged squad name as an alias for runtime lookup
+            _capture_aliases(record, [squad_key])
+            if "short" in squad_key:
+                logger.info("Registry identity merge: squad_name='%s' -> registry_key='%s'", payload.get("display_name"), registry_key)
+
         _apply_metadata_payload(record, payload, source_label="squad_json")
 
     linkage_audit_payload, linkage_stats = _apply_db_linkage_enrichment(records)

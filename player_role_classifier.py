@@ -55,18 +55,34 @@ def _meta_dict(p: Any) -> dict[str, Any]:
     return m if isinstance(m, dict) else {}
 
 
+def _role_string_indicates_keeper(raw: str) -> bool:
+    """
+    True when structured role text clearly denotes a wicketkeeper.
+
+    Avoid naive substring checks: e.g. ``"wk" in "awkward"`` or ``"wk" in "hawk"`` are false positives
+    for XI wicketkeeper caps.
+    """
+    s = "_".join(str(raw or "").strip().lower().replace("-", " ").split())
+    if not s:
+        return False
+    if s in ("wk", "wk_batter", "wicketkeeper_batter", "wicketkeeper"):
+        return True
+    if "wicketkeeper" in s:
+        return True
+    parts = [t for t in s.split("_") if t]
+    if not parts:
+        return False
+    if "wk" in parts:
+        return True
+    if any(p == "keeper" or p.startswith("wicketkeeper") for p in parts):
+        return True
+    return False
+
+
 def _meta_role_indicates_keeper(m: dict[str, Any]) -> bool:
     pr = str(m.get("primary_role") or "").strip().lower()
     sr = str(m.get("secondary_role") or "").strip().lower()
-    if pr in ("wk_batter", "wicketkeeper_batter", "wicketkeeper"):
-        return True
-    if "wk" in pr or "keeper" in pr:
-        return True
-    if sr in ("wk_batter", "wicketkeeper_batter", "wicketkeeper"):
-        return True
-    if "wk" in sr or "keeper" in sr:
-        return True
-    return False
+    return _role_string_indicates_keeper(pr) or _role_string_indicates_keeper(sr)
 
 
 def _meta_role_indicates_all_rounder(m: dict[str, Any]) -> bool:
@@ -401,3 +417,35 @@ def role_counts(players: list[Any]) -> dict[str, int]:
         out["specialist_bowlers"] += int(f.is_specialist_bowler)
         out["proper_batters"] += int(getattr(p, 'role_bucket', '') in (BATTER, WK_BATTER))
     return out
+
+
+def wicketkeeper_xi_debug_rows(xi: list[Any]) -> list[dict[str, Any]]:
+    """
+    Per-player wicketkeeper signals for diagnosing wk_max / repair failures (temporary diagnostics).
+    """
+    rows: list[dict[str, Any]] = []
+    for p in xi:
+        hd = getattr(p, "history_debug", None) or {}
+        if not isinstance(hd, dict):
+            hd = {}
+        smd = hd.get("selection_model_debug") if isinstance(hd.get("selection_model_debug"), dict) else {}
+        lmd = smd.get("last_match_detail") if isinstance(smd.get("last_match_detail"), dict) else {}
+        meta = _meta_dict(p)
+        flags = classify_player(p)
+        rows.append(
+            {
+                "name": str(getattr(p, "name", "") or ""),
+                "role": str(getattr(p, "role", "") or ""),
+                "role_bucket": str(getattr(p, "role_bucket", "") or ""),
+                "is_wk_role": bool(hd.get("is_wk_role", getattr(p, "is_wicketkeeper", False))),
+                "is_keeper": bool(lmd.get("last_match_is_keeper") or lmd.get("is_keeper")),
+                "designated_keeper": bool(hd.get("designated_keeper")),
+                "squad_is_wicketkeeper_attr": bool(getattr(p, "is_wicketkeeper", False)),
+                "role_bucket_is_wk_batter": str(getattr(p, "role_bucket", "") or "") == WK_BATTER,
+                "meta_primary_role": str(meta.get("primary_role") or ""),
+                "meta_secondary_role": str(meta.get("secondary_role") or ""),
+                "meta_indicates_keeper": bool(_meta_role_indicates_keeper(meta)),
+                "classify_is_wk_role_player": bool(flags.is_wk_role_player),
+            }
+        )
+    return rows

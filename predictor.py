@@ -37,7 +37,7 @@ from ipl_squad import (
     WK_BATTER,
     role_bucket_to_predictor_role,
 )
-from player_role_classifier import classify_player, role_counts
+from player_role_classifier import classify_player, role_counts, wicketkeeper_xi_debug_rows
 import rules_xi
 from venues import VenueProfile, venue_conditions_summary
 
@@ -1346,6 +1346,7 @@ def _annotate_player_metadata(players: list[SquadPlayer]) -> None:
 
     key_cands_by_name = {p.name: _lookup_candidates(p) for p in players}
     pks: list[str] = []
+    full_registry_map = None # Lazy load only on miss
     for cands in key_cands_by_name.values():
         for c in cands:
             if c not in pks:
@@ -1357,6 +1358,32 @@ def _annotate_player_metadata(players: list[SquadPlayer]) -> None:
         hd = p.history_debug
         m = None
         chosen_pk = ""
+        mode = "registry"
+
+        # Task 5: Backup identity resolution for lookup misses
+        if not any(cand in meta for cand in key_cands_by_name.get(p.name, [])):
+            if full_registry_map is None:
+                full_registry_map = player_registry.registry_metadata_lookup_map()
+            
+            name_norm = learner.normalize_player_key(p.name)
+            p_tokens = name_norm.split()
+            if len(p_tokens) >= 2:
+                # Perform token-set comparison across entire registry
+                for reg_key, reg_meta in full_registry_map.items():
+                    r_tokens = reg_key.split()
+                    if len(r_tokens) < 2: continue
+                    
+                    # Match if one name is a subset of the other and they share the same surname
+                    if (set(p_tokens).issubset(set(r_tokens)) or set(r_tokens).issubset(set(p_tokens))) and p_tokens[-1] == r_tokens[-1]:
+                        m = dict(reg_meta)
+                        chosen_pk = reg_key
+                        mode = "merged-variant"
+                        logger.info("Metadata identity resolution: name='%s' resolved_key='%s' mode='%s' tier=%s slots=%s", 
+                                    p.name, chosen_pk, mode, m.get("marquee_tier"), m.get("allowed_batting_slots"))
+                        # Inject into meta so downstream logic sees it as a hit
+                        meta[name_norm] = m
+                        break
+
         options: list[tuple[str, dict[str, Any], str]] = []
         for cand in key_cands_by_name.get(p.name, []):
             if cand in meta:
@@ -4617,6 +4644,40 @@ def _repair_xi_if_needed(
                     if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
                     add_p.history_debug["lower_score_override_reason"] = f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for {add_p.name} ({add_p.selection_score:.4f}) to fix designated_keeper."
                 replaced = True
+        if not replaced and "wk_max" in hard_codes:
+            designated_keeper_name = rules_xi.assign_designated_keeper_name(repaired) or ""
+            drops = [
+                p
+                for p in repaired
+                if classify_player(p).is_wk_role_player and p.name != designated_keeper_name and _drop_safe(p)
+            ]
+            if not drops:
+                drops = [
+                    p
+                    for p in repaired
+                    if classify_player(p).is_wk_role_player
+                    and p.name != designated_keeper_name
+                    and _drop_safe(p, allow_locked=True)
+                ]
+            if not drops:
+                drops = [
+                    p
+                    for p in repaired
+                    if classify_player(p).is_wk_role_player and p.name != designated_keeper_name
+                ]
+            adds = [p for p in add_pool if not classify_player(p).is_wk_role_player]
+            pick = _best_swap(repaired, adds, drops, hard_codes, semi_codes, min_gain=min_gain, max_quality_drop=max_quality_drop)
+            if pick is not None:
+                repaired, add_p, drop_p, final_errs, final_semi_errs = pick
+                applied_rule_labels.append(f"wk_max:{drop_p.name}->{add_p.name}")
+                if add_p.selection_score < drop_p.selection_score:
+                    if not isinstance(getattr(add_p, "history_debug", None), dict):
+                        add_p.history_debug = {}
+                    add_p.history_debug["lower_score_override_reason"] = (
+                        f"Lower score override: {drop_p.name} ({drop_p.selection_score:.4f}) dropped for "
+                        f"{add_p.name} ({add_p.selection_score:.4f}) to fix wk_max."
+                    )
+                replaced = True
         if not replaced and "bowling_options_min" in hard_codes:
             adds = [p for p in add_pool if classify_player(p).is_bowling_option]
             drops = [p for p in repaired if (not classify_player(p).is_bowling_option) and _drop_safe(p)]
@@ -6959,6 +7020,12 @@ def _run_prediction_inner(
     v_ok_a, v_err_a = _validate_xi(xi_a, conditions=conditions, squad=scored_a)
     v_ok_b, v_err_b = _validate_xi(xi_b, conditions=conditions, squad=scored_b)
     if not bool(xi_a_repair_enforce.get("hard_constraints_satisfied")):
+        failed_a = xi_a_repair_enforce.get("failed_constraints") or []
+        if any("wicketkeeper" in str(msg).lower() for msg in failed_a):
+            logger.error(
+                "team_a wk_constraint_debug players=%s",
+                json.dumps(wicketkeeper_xi_debug_rows(xi_a), default=str),
+            )
         logger.error(
             "team_a hard constraints unsatisfied after repair failed=%s reason=%s",
             xi_a_repair_enforce.get("failed_constraints"),
@@ -6970,6 +7037,12 @@ def _run_prediction_inner(
             f"reason={xi_a_repair_enforce.get('repair_failure_reason')}"
         )
     if not bool(xi_b_repair_enforce.get("hard_constraints_satisfied")):
+        failed_b = xi_b_repair_enforce.get("failed_constraints") or []
+        if any("wicketkeeper" in str(msg).lower() for msg in failed_b):
+            logger.error(
+                "team_b wk_constraint_debug players=%s",
+                json.dumps(wicketkeeper_xi_debug_rows(xi_b), default=str),
+            )
         logger.error(
             "team_b hard constraints unsatisfied after repair failed=%s reason=%s",
             xi_b_repair_enforce.get("failed_constraints"),
