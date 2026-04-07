@@ -5,7 +5,7 @@ from __future__ import annotations
 import base64
 import logging
 import time
-from datetime import date, datetime, time as dt_time
+from datetime import date, time as dt_time
 from pathlib import Path
 
 _APP_IMPORT_T0 = time.perf_counter()

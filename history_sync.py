@@ -55,11 +55,6 @@ def raw_stage1_tables_near_empty(block: dict[str, Any]) -> bool:
     return dm < thr_m or xi < thr_x
 
 
-def normalize_scorecard_url(url: str) -> str:
-    """Backward-compatible alias for ``utils.normalize_scorecard_url``."""
-    return utils.normalize_scorecard_url(url)
-
-
 def build_squad_vs_history_report(
     canonical_label: str,
     squad_player_names: list[str],

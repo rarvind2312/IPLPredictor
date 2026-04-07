@@ -13,8 +13,8 @@ Outputs:
   - /tmp/ipl_2026_alias_audit_full.csv
   - /tmp/ipl_2026_alias_audit_problems.csv
 
-Run:
-  PYTHONDONTWRITEBYTECODE=1 ./.venv/bin/python alias_integrity_audit_ipl_2026.py
+Run (from repo root):
+  PYTHONDONTWRITEBYTECODE=1 ./.venv/bin/python tools/alias_integrity_audit_ipl_2026.py
 """
 
 from __future__ import annotations
@@ -27,6 +27,10 @@ from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
+
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
 import config
 import history_linkage

@@ -4,8 +4,8 @@ DEPRECATED: Automatic IPL match URL discovery and pre-prediction scorecard scrap
 That pipeline (IPL yearly results pages, team schedule crawling, Cricbuzz/Cricinfo series pages)
 has been **removed**. Historical data is loaded in the **ingest** stage into SQLite (not during prediction).
 
-This module is kept as a placeholder so imports from ``providers`` do not break; add new
-provider code here only when needed for non-scraping workflows.
+This module is kept as a placeholder under ``archive/providers/`` (nothing in the app imports it).
+Add new provider code only when needed for non-scraping workflows.
 """
 
 from __future__ import annotations

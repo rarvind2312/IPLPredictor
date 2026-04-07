@@ -8,9 +8,14 @@ Does not alter scoring rules; orchestrates modules and reports PASS / FAIL / WAR
 
 from __future__ import annotations
 
+import sys
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Optional
+
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
 import config
 import cricsheet_convert
