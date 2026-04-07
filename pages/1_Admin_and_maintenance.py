@@ -9,6 +9,7 @@ from __future__ import annotations
 import logging
 import time
 from dataclasses import asdict
+from functools import partial
 
 import pandas as pd
 import streamlit as st
@@ -23,12 +24,18 @@ import ipl_teams
 import learner
 import predict_ui_render
 import predictor
+import selection_debug_ui
 import stage_derive
 import stage1_audit
 import streamlit_db_init
 from parsers.router import parse_scorecard
 
 _perf_logger = logging.getLogger("ipl_predictor.perf")
+
+_SELECTION_DEBUG_TOP15_ADMIN = partial(
+    selection_debug_ui.selection_debug_top15_dataframe_for_side,
+    include_reason_columns=False,
+)
 
 
 def _session_squads_and_labels() -> tuple[str, str, str, str]:
@@ -46,51 +53,6 @@ def _session_squads_and_labels() -> tuple[str, str, str, str]:
     except Exception:  # noqa: BLE001
         team_b_name = "Team B"
     return squad_a, squad_b, team_a_name, team_b_name
-
-
-def _selection_debug_top15_for_side_admin(r: dict, side: str) -> tuple["pd.DataFrame", dict]:
-    pld = r.get("prediction_layer_debug") or {}
-    team = r.get(side) or {}
-    block = pld.get(side) or {}
-    raw = list(block.get("scoring_breakdown_per_player") or [])
-    raw.sort(key=lambda x: float(x.get("final_selection_score") or 0), reverse=True)
-    raw = raw[:15]
-    xi_rows = team.get("xi") or []
-    xi_names = {str(row.get("name") or "").strip() for row in xi_rows if row.get("name")}
-    impact_names = {
-        str(row.get("name") or "").strip()
-        for row in (team.get("impact_subs") or [])
-        if row.get("name")
-    }
-    rows_out: list[dict] = []
-    for row in raw:
-        name = str(row.get("squad_display_name") or row.get("player_name") or "").strip()
-        smb = row.get("selection_model_base")
-        if not isinstance(smb, dict):
-            smb = {}
-        tact = row.get("tactical_adjustment_total")
-        if tact is None and isinstance(row.get("selection_model_tactical"), dict):
-            tact = sum(
-                float(v)
-                for v in row["selection_model_tactical"].values()
-                if isinstance(v, (int, float))
-            )
-        rows_out.append(
-            {
-                "player": name,
-                "in_playing_xi": "yes" if name in xi_names else "no",
-                "impact_candidate": "yes" if name in impact_names else "no",
-                "recent_form_score": smb.get("recent_form_score"),
-                "ipl_history_and_role_score": smb.get("ipl_history_and_role_score"),
-                "team_balance_fit_score": smb.get("team_balance_fit_score"),
-                "venue_experience_score": smb.get("venue_experience_score"),
-                "tactical_adjustment_total": tact,
-                "final_selection_score": row.get("final_selection_score"),
-            }
-        )
-    sel_dbg = (r.get("selection_debug") or {}).get(side) or {}
-    xi_val = sel_dbg.get("xi_validation") if isinstance(sel_dbg.get("xi_validation"), dict) else {}
-    return pd.DataFrame(rows_out), xi_val
 
 
 def main() -> None:
@@ -188,7 +150,7 @@ def main() -> None:
         if show_advanced_prediction_debug:
             predict_ui_render.render_prediction_admin_debug(
                 last_prediction,
-                selection_debug_top15_for_side=_selection_debug_top15_for_side_admin,
+                selection_debug_top15_for_side=_SELECTION_DEBUG_TOP15_ADMIN,
             )
 
     st.divider()

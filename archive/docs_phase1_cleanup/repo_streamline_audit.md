@@ -55,14 +55,14 @@ Only after confirming no Streamlit/docs/scripts reference paths. **Not moved in 
 
 | File / area | Why “later” |
 |-------------|-------------|
-| ~~`providers/`~~ → **`archive/providers/`** (batch 2) | Confirmed zero Python importers before archival; README updated. |
+| ~~`providers/`~~ → **`archive/source_deprecated/providers/`** (batch 2 root archive, batch 4 re-home) | Confirmed zero Python importers before archival; README updated. |
 | Duplicate audit entrypoints | If `pipeline_audit.py` and overlapping reports in admin converge, one path could retire after merge. |
 
 ---
 
 ## D. Duplicate logic paths to merge later
 
-1. **Selection debug table** — `_selection_debug_top15_for_side` in `app.py` and `_selection_debug_top15_for_side_admin` in `pages/1_Admin_and_maintenance.py` are nearly the same (diverged copies).
+1. **Selection debug table** — ~~duplicated in app vs admin~~ **deduped (batch 3):** shared `selection_debug_ui.selection_debug_top15_dataframe_for_side` with `include_reason_columns` (Admin keeps the slimmer column set).
 2. **History linkage / alias resolution** — `history_linkage.link_current_squad_to_history`, `player_alias_resolve` (including collision loser flags), `history_key_collision.apply_intrasquad_effective_key_collisions`, and strings like `history_key_collision_loser` span multiple layers; single “resolution record” shape would reduce drift.
 3. **Marquee tier** — `history_debug["marquee_tier"]`, `player_registry.registry_marquee_lookup_map()`, JSON overrides (`data/player_marquee_overrides.json`), and `full_pipeline_audit.marquee_tier_str` read the same conceptual field at different times.
 4. **Player metadata** — Curated JSON (`db._load_curated_player_metadata_*`), DB table `player_metadata`, Cricinfo JSON, and `predictor._annotate_player_metadata` / `history_xi` attachment; multiple load/merge paths.
@@ -182,7 +182,7 @@ Summary: the four CLI/audit scripts listed below were moved under `tools/` with 
 
 | Module | Note |
 |--------|------|
-| `archive/providers/ipl_provider.py` | Archived placeholder; still unused by runtime. |
+| `archive/source_deprecated/providers/ipl_provider.py` | Archived placeholder; still unused by runtime. |
 
 ---
 

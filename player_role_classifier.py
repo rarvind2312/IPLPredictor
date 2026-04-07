@@ -85,6 +85,88 @@ def _meta_role_indicates_keeper(m: dict[str, Any]) -> bool:
     return _role_string_indicates_keeper(pr) or _role_string_indicates_keeper(sr)
 
 
+def _primary_role_indicates_keeper(m: dict[str, Any]) -> bool:
+    pr = str(m.get("primary_role") or "").strip().lower()
+    return _role_string_indicates_keeper(pr)
+
+
+def _secondary_only_keeper_meta(meta: dict[str, Any]) -> bool:
+    """
+    Primary role is non-keeper (e.g. batter) but secondary lists wicketkeeper — IPL squad flex.
+    These players should remain eligible as designated-keeper *candidates* but must not each
+    consume a ``wk_max`` slot.
+    """
+    pr = str(meta.get("primary_role") or "").strip().lower()
+    sr = str(meta.get("secondary_role") or "").strip().lower()
+    if not pr:
+        return False
+    if _role_string_indicates_keeper(pr):
+        return False
+    return _role_string_indicates_keeper(sr)
+
+
+def _wk_backup_wk_batter_excluded_from_wk_cap(p: Any, meta: dict[str, Any], hd: dict[str, Any]) -> bool:
+    """
+    Tier-2/3 WK-Batter listings without recent keeper usage: treat as squad backup / depth,
+    not an additional hard-cap wicketkeeper slot.
+    """
+    role_bucket = str(getattr(p, "role_bucket", "") or "")
+    if role_bucket != WK_BATTER:
+        return False
+    tier = str(hd.get("marquee_tier") or "").strip().lower()
+    if tier not in ("tier_2", "tier_3"):
+        return False
+    smd = hd.get("selection_model_debug") if isinstance(hd.get("selection_model_debug"), dict) else {}
+    lmd = smd.get("last_match_detail") if isinstance(smd.get("last_match_detail"), dict) else {}
+    if bool(lmd.get("last_match_is_keeper") or lmd.get("is_keeper")):
+        return False
+    return True
+
+
+def _broad_designated_keeper_candidate(p: Any, meta: dict[str, Any], role_bucket: str) -> bool:
+    return (
+        bool(getattr(p, "is_wicketkeeper", False))
+        or role_bucket == WK_BATTER
+        or _meta_role_indicates_keeper(meta)
+    )
+
+
+def _counts_toward_wk_max_cap(p: Any, meta: dict[str, Any], hd: dict[str, Any], role_bucket: str) -> bool:
+    if not _broad_designated_keeper_candidate(p, meta, role_bucket):
+        return False
+    if _secondary_only_keeper_meta(meta):
+        return False
+    if _wk_backup_wk_batter_excluded_from_wk_cap(p, meta, hd):
+        return False
+    if role_bucket == BATTER and bool(getattr(p, "is_wicketkeeper", False)):
+        pr = str(meta.get("primary_role") or "").strip()
+        if pr and not _primary_role_indicates_keeper(meta):
+            return False
+    return True
+
+
+def wk_cap_exclusion_reason(p: Any) -> str:
+    """Non-empty when broad keeper signals exist but the player is excluded from ``wk_max`` counting."""
+    role_bucket = str(getattr(p, "role_bucket", "") or "")
+    hd = getattr(p, "history_debug", None) or {}
+    if not isinstance(hd, dict):
+        hd = {}
+    meta = _meta_dict(p)
+    if not _broad_designated_keeper_candidate(p, meta, role_bucket):
+        return ""
+    if _counts_toward_wk_max_cap(p, meta, hd, role_bucket):
+        return ""
+    if _secondary_only_keeper_meta(meta):
+        return "wk_cap_excluded_secondary_only_keeper_in_meta"
+    if role_bucket == WK_BATTER and _wk_backup_wk_batter_excluded_from_wk_cap(p, meta, hd):
+        return "wk_cap_excluded_tier_2_3_wk_batter_no_recent_keeper_signal"
+    if role_bucket == BATTER and bool(getattr(p, "is_wicketkeeper", False)):
+        pr = str(meta.get("primary_role") or "").strip()
+        if pr and not _primary_role_indicates_keeper(meta):
+            return "wk_cap_excluded_batter_bucket_without_primary_keeper_meta"
+    return "wk_cap_excluded"
+
+
 def _meta_role_indicates_all_rounder(m: dict[str, Any]) -> bool:
     pr = str(m.get("primary_role") or "").strip().lower()
     sr = str(m.get("secondary_role") or "").strip().lower()
@@ -328,12 +410,9 @@ def classify_player(p: Any) -> PlayerRoleFlags:
     # Note: upstream uses canonical role_bucket labels from ipl_squad.py (e.g. "All-Rounder", "WK-Batter").
     meta = _meta_dict(p)
     effective_all_rounder = bool(role_bucket == ALL_ROUNDER or _meta_role_indicates_all_rounder(meta))
-    is_wk_role_player = (
-        bool(getattr(p, "is_wicketkeeper", False))
-        or role_bucket == WK_BATTER
-        or _meta_role_indicates_keeper(meta)
-    )
-    is_designated_keeper_candidate = is_wk_role_player
+    # Broad: who may be chosen as designated keeper. Narrow: who consumes a wk_max hard-cap slot.
+    is_designated_keeper_candidate = _broad_designated_keeper_candidate(p, meta, role_bucket)
+    is_wk_role_player = _counts_toward_wk_max_cap(p, meta, hd, role_bucket)
 
     # Spin/pace type remains metadata/history-driven enrichment, but XI structure counts
     # only use it when the player also qualifies as a real bowling option.
@@ -437,6 +516,7 @@ def wicketkeeper_xi_debug_rows(xi: list[Any]) -> list[dict[str, Any]]:
                 "name": str(getattr(p, "name", "") or ""),
                 "role": str(getattr(p, "role", "") or ""),
                 "role_bucket": str(getattr(p, "role_bucket", "") or ""),
+                "marquee_tier": str(hd.get("marquee_tier") or ""),
                 "is_wk_role": bool(hd.get("is_wk_role", getattr(p, "is_wicketkeeper", False))),
                 "is_keeper": bool(lmd.get("last_match_is_keeper") or lmd.get("is_keeper")),
                 "designated_keeper": bool(hd.get("designated_keeper")),
@@ -445,7 +525,11 @@ def wicketkeeper_xi_debug_rows(xi: list[Any]) -> list[dict[str, Any]]:
                 "meta_primary_role": str(meta.get("primary_role") or ""),
                 "meta_secondary_role": str(meta.get("secondary_role") or ""),
                 "meta_indicates_keeper": bool(_meta_role_indicates_keeper(meta)),
+                "classify_is_designated_keeper_candidate": bool(flags.is_designated_keeper_candidate),
+                "classify_counts_toward_wk_max_cap": bool(flags.is_wk_role_player),
+                # Back-compat: ``is_wk_role_player`` on flags now means wk_max cap slot only.
                 "classify_is_wk_role_player": bool(flags.is_wk_role_player),
+                "wk_cap_exclusion_reason": wk_cap_exclusion_reason(p),
             }
         )
     return rows

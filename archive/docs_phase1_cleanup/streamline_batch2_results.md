@@ -32,9 +32,9 @@ Low-risk cleanup only: dead imports, one dead wrapper, archival of a zero-refere
 
 | Action | Detail |
 |--------|--------|
-| `git mv providers archive/providers` | Entire package moved (empty `__init__.py` + deprecated `ipl_provider.py` placeholder). |
+| `git mv providers archive/providers` | Entire package moved (empty `__init__.py` + deprecated `ipl_provider.py` placeholder). **Batch 4:** re-homed to `archive/source_deprecated/providers/` (still unused). |
 
-**README.md:** Architecture table row updated to describe `archive/providers/` instead of `providers/ipl_provider.py`.
+**README.md:** Architecture table row updated (see **cleanup batch 4** for current path `archive/source_deprecated/providers/`).
 
 ## Files modified (summary)
 
@@ -43,8 +43,8 @@ Low-risk cleanup only: dead imports, one dead wrapper, archival of a zero-refere
 - `README.md`
 - `docs/repo_streamline_audit.md` (kept in sync with batch 2 facts)
 - `docs/streamline_batch2_results.md` (this file)
-- `archive/providers/__init__.py` (moved)
-- `archive/providers/ipl_provider.py` (moved)
+- `archive/source_deprecated/providers/__init__.py` (moved; batch 4 path)
+- `archive/source_deprecated/providers/ipl_provider.py` (moved; batch 4 path)
 
 ## Functions removed
 
@@ -71,5 +71,5 @@ Low-risk cleanup only: dead imports, one dead wrapper, archival of a zero-refere
 
 ## Revert notes
 
-- Restore `providers` at repo root: `git mv archive/providers providers`
+- Restore `providers` at repo root: `git mv archive/source_deprecated/providers providers` (current path after batch 4)
 - Restore `history_sync.normalize_scorecard_url` from history if an external script depended on it (none found in-repo).

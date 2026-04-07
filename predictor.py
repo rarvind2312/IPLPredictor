@@ -28,6 +28,7 @@ import learner
 import player_alias_resolve
 import player_registry
 import time_utils
+import utils
 import win_probability_engine
 from history_context import HistoryContext, build_history_context, venue_lookup_keys
 from ipl_squad import (
@@ -96,9 +97,8 @@ def _metadata_dependency_report(
             p = Path(__file__).resolve().parent / rp
         if not p.is_file():
             return {"active": False, "exists": bool(p.exists()), "path": str(p), "keys": 0}
-        try:
-            raw = json.loads(p.read_text(encoding="utf-8"))
-        except Exception:
+        raw = utils.read_json_utf8(p)
+        if raw is None:
             return {"active": False, "exists": True, "path": str(p), "keys": 0}
         if isinstance(raw, dict):
             keys = len(raw.get("players") or {}) if isinstance(raw.get("players"), dict) else len(raw)
@@ -2439,6 +2439,146 @@ def _marquee_role_identity_boost(p: SquadPlayer, base_role_identity: float) -> f
     return max(0.0, min(1.0, base_role_identity + boost))
 
 
+def _apply_low_history_continuity_nudge(
+    players: list[SquadPlayer],
+    *,
+    team_label: str,
+) -> list[dict[str, Any]]:
+    """
+    After Stage-3 selection_model scoring: lift selection_score slightly for squad players whose
+    franchise SQLite history is classified thin, but who show plausible continuity (recent XI rate,
+    derive usage / XI frequency, or new-to-franchise first-choice prior). Narrow fix for under-ranked
+    youngsters / churn-era picks without changing selection_model formulas.
+    """
+    out: list[dict[str, Any]] = []
+    if not players or not bool(getattr(config, "LOW_HISTORY_CONTINUITY_NUDGE_ENABLE", True)):
+        return out
+
+    max_bump = float(getattr(config, "LOW_HISTORY_CONTINUITY_NUDGE_MAX", 0.042))
+    r5_min = float(getattr(config, "LOW_HISTORY_CONTINUITY_RECENT5_MIN", 0.34))
+    ru_min = float(getattr(config, "LOW_HISTORY_CONTINUITY_RECENT_USAGE_MIN", 0.52))
+    xf_min = float(getattr(config, "LOW_HISTORY_CONTINUITY_XI_FREQ_MIN", 0.44))
+    score_cap = float(getattr(config, "LOW_HISTORY_NUDGE_ONLY_BELOW_SCORE", 0.72))
+    nf_prior_min = float(getattr(config, "LOW_HISTORY_NUDGE_NEW_FRANCHISE_PRIOR_MIN", 0.22))
+
+    rank_before = {
+        p.name: i + 1
+        for i, p in enumerate(
+            sorted(players, key=lambda x: float(getattr(x, "selection_score", 0.0)), reverse=True)
+        )
+    }
+
+    for p in players:
+        if not isinstance(getattr(p, "history_debug", None), dict):
+            p.history_debug = {}
+        hd = p.history_debug
+        comps = hd.get("selection_score_components") if isinstance(hd.get("selection_score_components"), dict) else {}
+        has_hist = bool(comps.get("has_usable_sqlite_or_cricsheet_history"))
+        if has_hist:
+            continue
+
+        sel0 = float(getattr(p, "selection_score", 0.0))
+        if sel0 >= score_cap:
+            continue
+
+        ds = hd.get("derive_player_profile") if isinstance(hd.get("derive_player_profile"), dict) else {}
+        r5 = float(hd.get("recent5_xi_rate") or 0.0)
+        ru = float(ds.get("recent_usage_score") or 0.0)
+        xf = float(ds.get("xi_selection_frequency") or 0.0)
+        prior_fc = float(hd.get("probable_first_choice_prior") or 0.0)
+        new_fr = bool(hd.get("valid_current_squad_new_to_franchise"))
+
+        strong_r5 = r5 >= 0.52
+        mid_r5 = r5 >= r5_min
+        strong_ru = ru >= max(ru_min, 0.58)
+        mid_ru = ru >= ru_min
+        strong_xf = xf >= max(xf_min, 0.52)
+        mid_xf = xf >= xf_min
+        new_fr_prior = new_fr and prior_fc >= nf_prior_min
+
+        if strong_r5:
+            bump = max_bump
+            tier = "strong_recent5"
+        elif strong_ru or strong_xf:
+            bump = max_bump * 0.78
+            tier = "strong_derive_usage"
+        elif mid_r5 or mid_ru or mid_xf:
+            bump = max_bump * 0.68
+            tier = "continuity_derive_or_recent5"
+        elif new_fr_prior:
+            bump = max_bump * 0.55
+            tier = "new_franchise_first_choice_prior"
+        else:
+            continue
+
+        bump = max(0.0, min(max_bump, float(bump)))
+        sel1 = max(0.0, min(1.0, sel0 + bump))
+        if sel1 <= sel0 + 1e-9:
+            continue
+
+        p.selection_score = float(sel1)
+        detail = {
+            "applied": True,
+            "bump": round(bump, 5),
+            "tier": tier,
+            "selection_score_before": round(sel0, 5),
+            "selection_score_after": round(sel1, 5),
+            "signals": {
+                "recent5_xi_rate": round(r5, 4),
+                "derive_recent_usage_score": round(ru, 4),
+                "derive_xi_selection_frequency": round(xf, 4),
+                "probable_first_choice_prior": round(prior_fc, 4),
+                "valid_current_squad_new_to_franchise": new_fr,
+            },
+        }
+        hd["low_history_continuity_nudge"] = detail
+
+        sm = hd.get("selection_model_debug")
+        if isinstance(sm, dict):
+            sm = dict(sm)
+            sm["final_selection_score"] = round(sel1, 5)
+            sm["low_history_continuity_nudge"] = dict(detail)
+            hd["selection_model_debug"] = sm
+
+        comps2 = dict(comps) if isinstance(comps, dict) else {}
+        comps2["selection_score"] = round(sel1, 5)
+        comps2["low_history_continuity_nudge_bump"] = round(bump, 5)
+        hd["selection_score_components"] = comps2
+
+        sb = hd.get("scoring_breakdown")
+        if isinstance(sb, dict):
+            sb = dict(sb)
+            sb["final_selection_score"] = round(sel1, 5)
+            sb["low_history_continuity_nudge_bump"] = round(bump, 5)
+            hd["scoring_breakdown"] = sb
+
+    rank_after = {
+        p.name: i + 1
+        for i, p in enumerate(
+            sorted(players, key=lambda x: float(getattr(x, "selection_score", 0.0)), reverse=True)
+        )
+    }
+    for p in players:
+        hd = p.history_debug
+        d = hd.get("low_history_continuity_nudge") if isinstance(hd.get("low_history_continuity_nudge"), dict) else None
+        if not d or not d.get("applied"):
+            continue
+        out.append(
+            {
+                "team": team_label,
+                "name": p.name,
+                "bump": d.get("bump"),
+                "tier": d.get("tier"),
+                "rank_before": rank_before.get(p.name),
+                "rank_after": rank_after.get(p.name),
+                "selection_score_before": d.get("selection_score_before"),
+                "selection_score_after": d.get("selection_score_after"),
+                "signals": d.get("signals"),
+            }
+        )
+    return out
+
+
 def _suggested_marquee_score(p: SquadPlayer) -> tuple[float, dict[str, float]]:
     """
     Updated impact_score formula:
@@ -4429,7 +4569,15 @@ def _run_xi_selection_stage(
             "overseas_debug": {"overseas_count_selected": sum(1 for p in xi_final if p.is_overseas)},
             "repair_applied": False,
             "repair_swaps": [],
-            "repair_enforce": {"hard_constraints_satisfied": True},
+            "repair_enforce": {
+                "hard_constraints_satisfied": True,
+                "repair_diagnostics": {
+                    "repair_skipped": True,
+                    "strict_score_selection_short_circuit": True,
+                    "swap_count": 0,
+                    "used_select_playing_xi_fallback": False,
+                },
+            },
         }
 
     xi_base = select_base_playing_xi(scored, conditions=conditions)
@@ -4506,11 +4654,23 @@ def _repair_xi_if_needed(
             "failed_constraints": [],
             "repair_failure_reason": "",
             "semi_hard_failed": [],
+            "repair_diagnostics": {
+                "repair_skipped": True,
+                "repair_outcome": "no_violations",
+                "swap_count": 0,
+                "initial_hard_violation_codes": [],
+                "initial_semi_warning_codes": [],
+                "rules_applied_in_order": [],
+                "swaps_detail": [],
+                "used_select_playing_xi_fallback": False,
+            },
         }
     repaired = list(xi)
     final_errs = [v.message for v in res0.violations]
     final_semi_errs = [w.message for w in res0.warnings]
     applied_rule_labels: list[str] = []
+    initial_hard_codes_set = {v.code for v in res0.violations}
+    initial_semi_codes_set = {w.code for w in res0.warnings}
 
     def _q_rank(p: SquadPlayer) -> float:
         # Prioritize higher tiers in quality ranking for repair swaps
@@ -4529,6 +4689,23 @@ def _repair_xi_if_needed(
             return False
         return True
 
+    # Higher index = lower original XI quality rank (prefer dropping these in tie-breaks).
+    orig_xi_drop_rank = {
+        p.name: i for i, p in enumerate(sorted(xi, key=lambda p: (-_q_rank(p), str(p.name or ""))))
+    }
+    swap_records: list[dict[str, Any]] = []
+    used_fallback_reselect = False
+
+    def _record_swap(add_p: SquadPlayer, drop_p: SquadPlayer) -> None:
+        swap_records.append(
+            {
+                "out": drop_p.name,
+                "in": add_p.name,
+                "constraint_rule": applied_rule_labels[-1] if applied_rule_labels else "",
+                "quality_gain_approx": float(_q_rank(add_p) - _q_rank(drop_p)),
+            }
+        )
+
     def _best_swap(
         cur_xi: list[SquadPlayer],
         adds: list[SquadPlayer],
@@ -4538,11 +4715,14 @@ def _repair_xi_if_needed(
         *,
         min_gain: float,
         max_quality_drop: float,
-    ) -> Optional[tuple[list[SquadPlayer], SquadPlayer, SquadPlayer, list[str], list[str]]]:
+    ) -> Optional[
+        tuple[list[SquadPlayer], SquadPlayer, SquadPlayer, list[str], list[str]]
+    ]:
         if not adds or not drops:
             return None
         best: Optional[
             tuple[
+                float,
                 float,
                 float,
                 float,
@@ -4584,20 +4764,23 @@ def _repair_xi_if_needed(
                 if hard_before and hard_improve <= 0:
                     continue
 
+                drop_tr = float(orig_xi_drop_rank.get(drop.name, -1))
                 rank_key = (
                     float(hard_improve),
                     float(semi_improve),
                     float(gain),
+                    drop_tr,
                     str(add.name),
                     str(drop.name),
                 )
-                if best is None or rank_key > (best[0], best[1], best[2], best[3], best[4]):
+                if best is None or rank_key > (best[0], best[1], best[2], best[3], best[4], best[5]):
                     best = (
                         rank_key[0],
                         rank_key[1],
                         rank_key[2],
                         rank_key[3],
                         rank_key[4],
+                        rank_key[5],
                         trial,
                         add,
                         drop,
@@ -4610,7 +4793,7 @@ def _repair_xi_if_needed(
                 break
         if best is None:
             return None
-        return (best[5], best[6], best[7], best[8], best[9])
+        return (best[6], best[7], best[8], best[9], best[10])
     # Local repair first: preserve core/locked players and swap fringe players only.
     for iter_idx in range(120):
         res_i = rules_xi.validate_xi(repaired, conditions=conditions, squad=scored)
@@ -4622,9 +4805,10 @@ def _repair_xi_if_needed(
             break
         rep_names = {p.name for p in repaired}
         add_pool = [p for p in scored if p.name not in rep_names]
-        strict_phase = iter_idx < 80
-        min_gain = -0.015 if strict_phase else -0.12
-        max_quality_drop = 0.05 if strict_phase else 0.2
+        # Longer strict phase + tighter late bounds reduce "anything goes" swaps (repair overreach).
+        strict_phase = iter_idx < 100
+        min_gain = -0.015 if strict_phase else -0.06
+        max_quality_drop = 0.05 if strict_phase else 0.10
         replaced = False
         if "designated_keeper" in hard_codes:
             adds = [p for p in add_pool if classify_player(p).is_wk_role_player]
@@ -4639,6 +4823,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"designated_keeper:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 # 4. ADD HARD GUARD CONDITION: log when a higher score is excluded
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict): add_p.history_debug = {}
@@ -4670,6 +4855,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"wk_max:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4691,6 +4877,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"bowling_options:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4710,6 +4897,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"pacers_min:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4731,6 +4919,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"spinners_min:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4769,6 +4958,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"overseas_bounds:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4792,6 +4982,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"semi_wk_cap:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4807,6 +4998,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"semi_ar_cap:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4824,6 +5016,7 @@ def _repair_xi_if_needed(
             if pick is not None:
                 repaired, add_p, drop_p, final_errs, final_semi_errs = pick
                 applied_rule_labels.append(f"top_order_min:{drop_p.name}->{add_p.name}")
+                _record_swap(add_p, drop_p)
                 if add_p.selection_score < drop_p.selection_score:
                     if not isinstance(getattr(add_p, "history_debug", None), dict):
                         add_p.history_debug = {}
@@ -4858,12 +5051,43 @@ def _repair_xi_if_needed(
         if len(fallback_res.violations) < len(res2.violations):
             repaired = fallback
             res2 = fallback_res
+            used_fallback_reselect = True
+
+    def _repair_diagnostics_payload(*, outcome: str) -> dict[str, Any]:
+        orig_names = {p.name for p in xi}
+        rep_names = {p.name for p in repaired}
+        return {
+            "repair_outcome": outcome,
+            "initial_hard_violation_codes": sorted(initial_hard_codes_set),
+            "initial_semi_warning_codes": sorted(initial_semi_codes_set),
+            "rules_applied_in_order": list(applied_rule_labels),
+            "swap_count": len(swap_records),
+            "swaps_detail": list(swap_records),
+            "players_out_vs_original_xi": sorted(orig_names - rep_names),
+            "players_in_vs_original_xi": sorted(rep_names - orig_names),
+            "used_select_playing_xi_fallback": bool(used_fallback_reselect),
+            "tie_break_policy": (
+                "Among equal hard/semi improvement and quality gain, prefer dropping the player "
+                "with lower pre-repair XI quality rank (higher orig_xi_drop_rank index)."
+            ),
+            "repair_phase_policy": (
+                "iter_idx<100: min_gain=-0.015 max_quality_drop=0.05; "
+                "else min_gain=-0.06 max_quality_drop=0.10."
+            ),
+            "all_swaps_non_negative_quality_gain": (
+                all(float(r.get("quality_gain_approx", -1.0)) >= 0.0 for r in swap_records)
+                if swap_records
+                else True
+            ),
+        }
+
     if len(repaired) != 11:
         return repaired, False, [], {
             "hard_constraints_satisfied": False,
             "failed_constraints": ["XI size != 11"],
             "repair_failure_reason": "repair_exhausted_with_incomplete_xi",
             "semi_hard_failed": [w.code for w in res2.warnings],
+            "repair_diagnostics": _repair_diagnostics_payload(outcome="incomplete_xi"),
         }
     res3 = rules_xi.validate_xi(repaired, conditions=conditions, squad=scored)
     if not res3.hard_ok:
@@ -4872,6 +5096,7 @@ def _repair_xi_if_needed(
             "failed_constraints": [v.message for v in res3.violations],
             "repair_failure_reason": "repair_exhausted_no_constraint_safe_swaps_remaining",
             "semi_hard_failed": [w.code for w in res3.warnings],
+            "repair_diagnostics": _repair_diagnostics_payload(outcome="hard_invalid_after_repair"),
         }
     before = {p.name for p in xi}
     after = {p.name for p in repaired}
@@ -4884,16 +5109,20 @@ def _repair_xi_if_needed(
                 "out": outs[i] if i < len(outs) else None,
                 "in": ins[i] if i < len(ins) else None,
                 "reason": (
-                    "Post-selection structure repair (quality-first, minimal swaps). "
+                    "Post-selection structure repair (least-disruptive tie-break on original XI rank; "
+                    "tighter late phase). "
                     f"rules={'; '.join(applied_rule_labels[:6])}"
                 ),
             }
         )
+    rd_ok = _repair_diagnostics_payload(outcome="success")
+    rd_ok["semi_hard_remaining_after_repair"] = [w.code for w in res3.warnings]
     return repaired, True, swaps, {
         "hard_constraints_satisfied": True,
         "failed_constraints": [],
         "repair_failure_reason": "",
         "semi_hard_failed": [w.code for w in res3.warnings],
+        "repair_diagnostics": rd_ok,
     }
 
 
@@ -5771,6 +6000,14 @@ def build_batting_order(
             return out
         return new_order
 
+    slot_optimization_debug: dict[str, Any] = {
+        "team": team_name,
+        "legal_dp_succeeded": False,
+        "soft_dp_fallback_used": False,
+        "dp_input_order": [],
+        "dp_output_order": [],
+    }
+
     def _optimize_slot_constraints(order: list[str]) -> list[str]:
         if len(order) != 11:
             return order
@@ -5798,7 +6035,8 @@ def build_batting_order(
             penalty += 5.0 * float(pref_penalty)
             penalty += 1.25 * abs(float(pos) - _placement_slot_signal(p))
             penalty += 0.55 * abs(float(pos) - pref_anchor)
-            penalty += 0.35 * abs(float(pos) - float(index_by_name.get(p.name, pos - 1) + 1))
+            prior_w = 0.72 if allow_illegal else 0.35
+            penalty += prior_w * abs(float(pos) - float(index_by_name.get(p.name, pos - 1) + 1))
             if classify_player(p).is_specialist_bowler and pos < 8:
                 penalty += 18.0 + 3.0 * float(8 - pos)
             subtype_now = str((getattr(p, "history_debug", None) or {}).get("allrounder_subtype") or "")
@@ -5808,8 +6046,6 @@ def build_batting_order(
             if bool(profile.get("finisher_eligible")) and not (5 <= pos <= 8):
                 penalty += 4.0
             return penalty
-
-        ordered_names = [p.name for p in ordered_players]
 
         def _solve_assignment(allow_illegal: bool) -> Optional[list[str]]:
             from functools import lru_cache
@@ -5828,9 +6064,12 @@ def build_batting_order(
                         continue
                     rem_cost, rem_tail = _solve(pos + 1, used_mask | (1 << idx))
                     total = cost + rem_cost
-                    if total < best_cost:
+                    cand_tail = (p.name,) + rem_tail
+                    if total < best_cost or (
+                        abs(total - best_cost) < 1e-9 and cand_tail < best_tail
+                    ):
                         best_cost = total
-                        best_tail = (p.name,) + rem_tail
+                        best_tail = cand_tail
                 return best_cost, best_tail
 
             total_cost, tail = _solve(1, 0)
@@ -5838,34 +6077,81 @@ def build_batting_order(
                 return None
             return list(tail)
 
+        ordered_names = [p.name for p in ordered_players]
+        slot_optimization_debug["dp_input_order"] = list(ordered_names)
+
         legal = _solve_assignment(False)
         if legal is not None:
+            slot_optimization_debug["legal_dp_succeeded"] = True
+            slot_optimization_debug["dp_output_order"] = list(legal)
             return legal
         logger.warning(
             "batting_order: slot_constraint_legal_assignment_unavailable team=%s keeping_prior_order=%s",
             team_name,
             ordered_names,
         )
+        soft = _solve_assignment(True)
+        if soft is not None:
+            slot_optimization_debug["soft_dp_fallback_used"] = True
+            slot_optimization_debug["dp_output_order"] = list(soft)
+            logger.info(
+                "batting_order: slot_constraint_soft_dp_fallback_applied team=%s order=%s",
+                team_name,
+                soft,
+            )
+            return soft
+        slot_optimization_debug["dp_output_order"] = list(order)
         return order
 
     bo_pre_tail_optimize = list(strict_names)
     strict_names = _enforce_specialist_bowler_tail(strict_names)
     strict_names = _enforce_lower_order_overflow(strict_names)
+    after_tail_before_slot_opt = list(strict_names)
+
+    def _discrete_violation_count(ord_nm: list[str]) -> int:
+        return sum(1 for i, nm in enumerate(ord_nm) if not _discrete_slot_legal(nm, i + 1))
+
     strict_names = _optimize_slot_constraints(strict_names)
+    slot_optimization_debug["discrete_fully_legal_after_dp"] = bool(_order_discrete_legal(strict_names))
+    slot_optimization_debug["discrete_violation_count_after_dp"] = int(_discrete_violation_count(strict_names))
+    slot_optimization_debug["revert_steps"] = []
+
     if not _order_discrete_legal(strict_names):
-        logger.warning(
-            "batting_order: discrete_slots_violation_after_tail_overflow_optimize team=%s reverting_to_pre_tail_order",
-            team_name,
-        )
-        strict_names = list(bo_pre_tail_optimize)
-        if not _order_discrete_legal(strict_names):
-            strict_names = list(bo_after_fallback_snapshot)
-        if not _order_discrete_legal(strict_names):
-            logger.error(
-                "batting_order: discrete_slots_still_illegal_after_revert team=%s order=%s",
-                team_name,
-                strict_names,
+        v_after = _discrete_violation_count(strict_names)
+        v_post_tail = _discrete_violation_count(after_tail_before_slot_opt)
+        # Prefer keeping tail/overflow + DP (especially soft-DP) when it is no worse than post-tail on discrete violations.
+        if v_after <= v_post_tail:
+            slot_optimization_debug["revert_steps"].append(
+                "kept_slot_optimize_despite_some_discrete_violations_because_no_worse_than_post_tail"
             )
+            logger.info(
+                "batting_order: keeping_slot_optimize_with_residual_discrete_violations team=%s violations=%d post_tail_violations=%d",
+                team_name,
+                v_after,
+                v_post_tail,
+            )
+        else:
+            logger.warning(
+                "batting_order: discrete_slots_violation_after_tail_overflow_optimize team=%s reverting_to_post_tail_pre_slot_order",
+                team_name,
+            )
+            slot_optimization_debug["revert_steps"].append("revert_to_after_tail_before_slot_opt")
+            strict_names = list(after_tail_before_slot_opt)
+            if not _order_discrete_legal(strict_names):
+                logger.warning(
+                    "batting_order: discrete_slots_still_illegal_after_post_tail_revert team=%s reverting_to_pre_tail_order",
+                    team_name,
+                )
+                slot_optimization_debug["revert_steps"].append("revert_to_bo_pre_tail_optimize")
+                strict_names = list(bo_pre_tail_optimize)
+                if not _order_discrete_legal(strict_names):
+                    strict_names = list(bo_after_fallback_snapshot)
+                if not _order_discrete_legal(strict_names):
+                    logger.error(
+                        "batting_order: discrete_slots_still_illegal_after_revert team=%s order=%s",
+                        team_name,
+                        strict_names,
+                    )
     bo_after_repair_snapshot = list(strict_names)
     if fp_audit.enabled():
         ch_rp = [
@@ -5980,6 +6266,27 @@ def build_batting_order(
             band_conflicts[:8],
             strict_names,
         )
+
+    _moves_post_tail_to_final = [
+        {
+            "slot": i + 1,
+            "player_after_tail_overflow": after_tail_before_slot_opt[i],
+            "player_final": strict_names[i],
+        }
+        for i in range(11)
+        if after_tail_before_slot_opt[i] != strict_names[i]
+    ]
+    _pipeline_team_dbg = {
+        **slot_optimization_debug,
+        "after_tail_before_slot_order": list(after_tail_before_slot_opt),
+        "final_order": list(strict_names),
+        "moves_post_tail_to_final": _moves_post_tail_to_final,
+        "band_guardrail_conflicts_remaining": list(band_conflicts),
+    }
+    for p in xi:
+        if not isinstance(getattr(p, "history_debug", None), dict):
+            p.history_debug = {}
+        p.history_debug["batting_order_slot_pipeline_debug"] = _pipeline_team_dbg
 
     logger.info(
         "batting_order: team=%s venue_keys=%s strict_order=%s role_fallback_xi_players=%d",
@@ -6747,6 +7054,8 @@ def _run_prediction_inner(
 
     h2h_layer: dict[str, Any] = {}
     _t_hist = time.perf_counter()
+    low_hist_nudge_rows_a: list[dict[str, Any]] = []
+    low_hist_nudge_rows_b: list[dict[str, Any]] = []
     history_xi.attach_primary_history_to_squad(
         scored_a,
         team_a_name,
@@ -6799,6 +7108,7 @@ def _run_prediction_inner(
     for sp in scored_a:
         _set_player_ipl_flags(sp)
     _annotate_marquee_tags(scored_a)
+    low_hist_nudge_rows_a = _apply_low_history_continuity_nudge(scored_a, team_label=team_a_name)
     if fp_audit.enabled():
         ranked_a = sorted(
             scored_a,
@@ -6846,6 +7156,7 @@ def _run_prediction_inner(
     for sp in scored_b:
         _set_player_ipl_flags(sp)
     _annotate_marquee_tags(scored_b)
+    low_hist_nudge_rows_b = _apply_low_history_continuity_nudge(scored_b, team_label=team_b_name)
     if fp_audit.enabled():
         ranked_b = sorted(
             scored_b,
@@ -6868,6 +7179,17 @@ def _run_prediction_inner(
         )
     h2h_layer.pop("_h2h_layer_meta_done", None)
     history_sync_debug["h2h_layer"] = h2h_layer
+    history_sync_debug["low_history_continuity_nudge"] = {
+        "players_helped_team_a": low_hist_nudge_rows_a,
+        "players_helped_team_b": low_hist_nudge_rows_b,
+        "players_helped_count": len(low_hist_nudge_rows_a) + len(low_hist_nudge_rows_b),
+        "note": (
+            "Post-selection_model selection_score bump when franchise SQLite history is thin "
+            "(has_usable_sqlite_or_cricsheet_history false) but recent5_xi_rate / derive usage / "
+            "XI frequency / new-franchise prior indicate plausible continuity. See per-player "
+            "history_debug.low_history_continuity_nudge."
+        ),
+    }
 
     _t_xi_pick = time.perf_counter()
     br_a = franchise_xi_scenario_branch(True, a_bats_first)
@@ -7716,6 +8038,7 @@ def _run_prediction_inner(
                     "hard_constraints_satisfied": bool(xi_a_repair_enforce.get("hard_constraints_satisfied")),
                     "repair_failure_reason": xi_a_repair_enforce.get("repair_failure_reason") or "",
                     "semi_hard_failed": xi_a_repair_enforce.get("semi_hard_failed") or [],
+                    "repair_diagnostics": xi_a_repair_enforce.get("repair_diagnostics") or {},
                 },
                 "base_xi_names": [p.name for p in xi_a_base],
                 "condition_change_count": len(xi_a_condition_changes),
@@ -7748,6 +8071,7 @@ def _run_prediction_inner(
                     "hard_constraints_satisfied": bool(xi_b_repair_enforce.get("hard_constraints_satisfied")),
                     "repair_failure_reason": xi_b_repair_enforce.get("repair_failure_reason") or "",
                     "semi_hard_failed": xi_b_repair_enforce.get("semi_hard_failed") or [],
+                    "repair_diagnostics": xi_b_repair_enforce.get("repair_diagnostics") or {},
                 },
                 "base_xi_names": [p.name for p in xi_b_base],
                 "condition_change_count": len(xi_b_condition_changes),

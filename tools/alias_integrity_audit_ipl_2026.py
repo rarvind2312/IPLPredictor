@@ -20,7 +20,6 @@ Run (from repo root):
 from __future__ import annotations
 
 import csv
-import json
 import sys
 import time
 from dataclasses import asdict
@@ -40,6 +39,7 @@ import ipl_teams
 import learner
 import predictor
 import squad_fetch
+import utils
 import venues
 
 
@@ -64,12 +64,7 @@ def _load_alias_override_map() -> dict[str, list[str]]:
     p = Path(raw_path)
     if not p.is_absolute():
         p = Path(__file__).resolve().parent / raw_path
-    if not p.is_file():
-        return {}
-    try:
-        payload = json.loads(p.read_text(encoding="utf-8"))
-    except Exception:
-        return {}
+    payload = utils.read_json_utf8(p)
     if not isinstance(payload, dict):
         return {}
     out: dict[str, list[str]] = {}

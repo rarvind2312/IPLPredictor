@@ -47,7 +47,7 @@ def assign_designated_keeper_name(xi: list[Any]) -> Optional[str]:
 
     Note: this function does not mutate player objects; it only returns a name.
     """
-    wk = [p for p in xi if classify_player(p).is_wk_role_player]
+    wk = [p for p in xi if classify_player(p).is_designated_keeper_candidate]
     if not wk:
         return None
 

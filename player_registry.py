@@ -2391,6 +2391,47 @@ def registry_alias_override_maps() -> tuple[dict[str, list[str]], dict[str, str]
     return _REGISTRY_ALIAS_OVERRIDE_CACHE
 
 
+def audit_player_identity_key(raw_name: str) -> tuple[str, str]:
+    """
+    Read-only stable key for prediction-vs-actual audits (does not affect XI selection).
+
+    Resolves display strings through the merged registry (aliases, history_canonical_key,
+    initials-style keys from ``_record_lookup_keys``), then compact / fuzzy resolution,
+    then falls back to ``learner.normalize_player_key``.
+
+    Returns ``(match_key, resolution)`` where ``match_key`` is the normalized
+    ``registry_key`` when known, else the normalized literal fallback.
+    ``resolution`` is one of: ``registry``, ``registry_compact``, ``registry_fuzzy``,
+    ``normalized_fallback``, ``empty``.
+    """
+    raw = str(raw_name or "").strip()
+    if not raw:
+        return "", "empty"
+    nk = _normalize(raw)
+    if not nk:
+        return "", "empty"
+
+    meta_map = registry_metadata_lookup_map()
+    meta_hit = meta_map.get(nk)
+    if meta_hit:
+        rk = _normalize(str(meta_hit.get("registry_key") or ""))
+        return (rk or nk, "registry")
+
+    records = registry_players()
+    exact, compact = _build_indexes(records)
+    if nk in exact:
+        return (_normalize(exact[nk]), "registry")
+    ck = _compact_key(raw)
+    if ck and ck in compact:
+        return (_normalize(compact[ck]), "registry_compact")
+
+    resolved_rk = _resolve_existing_registry_key([raw], records)
+    if resolved_rk:
+        return (_normalize(resolved_rk), "registry_fuzzy")
+
+    return (nk, "normalized_fallback")
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(description="Build the canonical merged player registry.")
     parser.add_argument("--output", default=str(_registry_path()), help="Output JSON path")

@@ -2,13 +2,31 @@
 
 from __future__ import annotations
 
+import json
 import re
-from typing import Optional
+from pathlib import Path
+from typing import Any, Optional
 
 import canonical_keys
 
 # Must match ``learner._PLAYER_KEY_MAX_LEN`` (cannot import learner: db → utils → learner → db).
 _PLAYER_KEY_MAX_LEN = 80
+
+
+def read_json_utf8(path: Path) -> Optional[Any]:
+    """
+    Read ``path`` as UTF-8 JSON. Returns ``None`` if the path is not a file, is unreadable,
+    or does not contain valid JSON.
+
+    Callers that need logging or type checks should handle ``None`` the same way they
+    previously handled ``json.loads`` failures.
+    """
+    if not path.is_file():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001 — mirror prior broad json.loads guards
+        return None
 
 
 def _norm_player_key(name: str) -> str:

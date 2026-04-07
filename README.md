@@ -69,7 +69,7 @@ Re-pasting the same URL is rejected (deduped by URL). The same **fixture** from 
 | `app.py` | Streamlit UI |
 | `predictor.py` | Scoring, XI selection, batting order, subs, win model |
 | `history_sync.py` | Local SQLite history snapshot for prediction; optional `fetch_and_store_scorecard`; `get_cached_match_count` |
-| `archive/providers/` | Legacy placeholder package (unused by app; automatic URL discovery removed) |
+| `archive/source_deprecated/providers/` | Legacy placeholder package (unused by app; automatic URL discovery removed) |
 | `utils.py` | Scorecard URL + canonical match identity helpers |
 | `history_xi.py` | IPL: history-first XI scores + batting EMA from `team_match_xi` |
 | `learner.py` | Read/write learned signals from stored matches |

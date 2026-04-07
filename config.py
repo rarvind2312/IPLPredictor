@@ -309,6 +309,18 @@ SELECTION_RECENT_FORM_LAST_N_MATCHES = 5
 SELECTION_RECENT_FORM_MONTHS = 5
 # Cap total tactical adjustment (sum of pitch/weather/toss/opponent/squad_need) on [0,1] score axis.
 SELECTION_TACTICAL_ADJUST_CAP = 0.11
+# Thin franchise SQLite history but derive / recent-XI signals show continuity: small selection_score nudge (predictor).
+LOW_HISTORY_CONTINUITY_NUDGE_ENABLE = os.environ.get("IPL_LOW_HISTORY_NUDGE", "1").strip().lower() not in (
+    "0",
+    "false",
+    "no",
+)
+LOW_HISTORY_CONTINUITY_NUDGE_MAX = float(os.environ.get("IPL_LOW_HISTORY_NUDGE_MAX", "0.042"))
+LOW_HISTORY_CONTINUITY_RECENT5_MIN = float(os.environ.get("IPL_LOW_HISTORY_NUDGE_R5", "0.34"))
+LOW_HISTORY_CONTINUITY_RECENT_USAGE_MIN = float(os.environ.get("IPL_LOW_HISTORY_NUDGE_RU", "0.52"))
+LOW_HISTORY_CONTINUITY_XI_FREQ_MIN = float(os.environ.get("IPL_LOW_HISTORY_NUDGE_XF", "0.44"))
+LOW_HISTORY_NUDGE_ONLY_BELOW_SCORE = float(os.environ.get("IPL_LOW_HISTORY_NUDGE_SCORE_CAP", "0.72"))
+LOW_HISTORY_NUDGE_NEW_FRANCHISE_PRIOR_MIN = float(os.environ.get("IPL_LOW_HISTORY_NUDGE_NF_PRIOR", "0.22"))
 # Prediction payload: full per-bench impact + history_usage tables (large). Default off for faster UI/JSON.
 PREDICTION_FULL_DEBUG_PAYLOAD = os.environ.get("IPL_PREDICTION_FULL_DEBUG", "").strip().lower() in (
     "1",

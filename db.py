@@ -1449,8 +1449,11 @@ def _load_curated_player_metadata_file(raw_path: str) -> dict[str, dict[str, Any
     try:
         if not p.is_file():
             return {}
-        obj = json.loads(p.read_text(encoding="utf-8"))
-    except Exception:  # noqa: BLE001
+    except OSError:
+        logger.warning("player metadata curated file unreadable: %s", p)
+        return {}
+    obj = utils.read_json_utf8(p)
+    if obj is None:
         logger.warning("player metadata curated file unreadable: %s", p)
         return {}
     if not isinstance(obj, dict):
